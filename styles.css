@@ -30,6 +30,7 @@ input,
 select,
 textarea {
   font: inherit;
+  font-family: var(--font-ui);
 }
 
 button,
@@ -307,6 +308,7 @@ a {
   background: transparent;
   color: var(--muted);
   font: inherit;
+  font-family: var(--font-ui);
   font-size: 13px;
   font-weight: 900;
 }
@@ -383,6 +385,7 @@ a {
   background: rgba(238, 245, 241, 0.05);
   color: var(--text);
   font: inherit;
+  font-family: var(--font-ui);
   font-size: 12px;
   font-weight: 900;
   text-decoration: none;
