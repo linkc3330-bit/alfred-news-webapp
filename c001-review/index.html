@@ -1,0 +1,707 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>C001 Owner Review</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f3ed;
+      --surface: rgba(255, 255, 255, 0.78);
+      --surface-strong: #ffffff;
+      --ink: #20252a;
+      --muted: #70787d;
+      --line: rgba(32, 37, 42, 0.10);
+      --dark: #20242b;
+      --mint: #41c7a1;
+      --mint-ink: #05251f;
+      --amber: #d4942e;
+      --danger: #d75545;
+      --shadow: 0 18px 42px rgba(21, 25, 31, 0.16);
+      --soft-shadow: 0 10px 24px rgba(21, 25, 31, 0.10);
+      --radius-lg: 26px;
+      --radius-md: 18px;
+      --radius-sm: 12px;
+      font-family: "Microsoft JhengHei UI", "PingFang TC", "Noto Sans TC", "Segoe UI", sans-serif;
+    }
+
+    [data-theme="dark"] {
+      --bg: #171a20;
+      --surface: rgba(42, 46, 55, 0.92);
+      --surface-strong: #252a32;
+      --ink: #f5f1ea;
+      --muted: #a2abb1;
+      --line: rgba(246, 243, 237, 0.12);
+      --shadow: 0 18px 42px rgba(0, 0, 0, 0.34);
+      --soft-shadow: 0 10px 24px rgba(0, 0, 0, 0.24);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 12% 0%, rgba(65, 199, 161, 0.22), transparent 32%),
+        radial-gradient(circle at 96% 16%, rgba(212, 148, 46, 0.15), transparent 28%),
+        var(--bg);
+      color: var(--ink);
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .app {
+      min-height: 100vh;
+      padding: calc(14px + env(safe-area-inset-top, 0px)) 14px calc(104px + env(safe-area-inset-bottom, 0px));
+      max-width: 560px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      border-radius: var(--radius-lg);
+      padding: 18px;
+      background:
+        linear-gradient(135deg, rgba(65, 199, 161, 0.18), rgba(255, 255, 255, 0.64) 42%, rgba(212, 148, 46, 0.17)),
+        var(--surface);
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(255, 255, 255, 0.72);
+      margin-bottom: 14px;
+    }
+
+    [data-theme="dark"] .hero {
+      background:
+        linear-gradient(135deg, rgba(65, 199, 161, 0.18), rgba(37, 42, 50, 0.92) 46%, rgba(212, 148, 46, 0.14)),
+        var(--surface);
+      border-color: rgba(246, 243, 237, 0.10);
+    }
+
+    .hero-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 14px;
+    }
+
+    .mode {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 26px;
+      line-height: 1.16;
+      letter-spacing: 0;
+    }
+
+    .theme-toggle {
+      height: 34px;
+      min-width: 72px;
+      border: 0;
+      border-radius: 999px;
+      padding: 4px;
+      background: var(--dark);
+      color: #f6f3ed;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .toggle-dot {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: var(--mint);
+      box-shadow: 0 0 0 2px rgba(255,255,255,0.10) inset;
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 9px;
+      margin-top: 16px;
+    }
+
+    .metric {
+      border-radius: 15px;
+      padding: 11px;
+      background: rgba(255, 255, 255, 0.64);
+      border: 1px solid var(--line);
+    }
+
+    [data-theme="dark"] .metric {
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .metric b {
+      display: block;
+      font-size: 19px;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+
+    .metric span {
+      display: block;
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.2;
+    }
+
+    .tabs {
+      position: sticky;
+      top: 0;
+      z-index: 4;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      padding: 8px 0 12px;
+      background: linear-gradient(180deg, var(--bg) 72%, rgba(246, 243, 237, 0));
+    }
+
+    [data-theme="dark"] .tabs {
+      background: linear-gradient(180deg, var(--bg) 72%, rgba(23, 26, 32, 0));
+    }
+
+    .tab {
+      height: 40px;
+      border: 0;
+      border-radius: 14px;
+      color: var(--ink);
+      background: rgba(32, 37, 42, 0.07);
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .tab.active {
+      background: var(--dark);
+      color: #f6f3ed;
+      box-shadow: var(--soft-shadow);
+    }
+
+    .panel {
+      display: none;
+    }
+
+    .panel.active {
+      display: grid;
+      gap: 12px;
+    }
+
+    .category {
+      display: grid;
+      gap: 10px;
+    }
+
+    .category-title {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 900;
+      padding: 0 4px;
+    }
+
+    .card {
+      border-radius: var(--radius-md);
+      padding: 14px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      box-shadow: var(--soft-shadow);
+    }
+
+    .candidate-head {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 11px;
+      align-items: flex-start;
+    }
+
+    .code {
+      width: 46px;
+      height: 36px;
+      display: grid;
+      place-items: center;
+      border-radius: var(--radius-sm);
+      color: #f6f3ed;
+      background: var(--dark);
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .title {
+      margin: 0 0 5px;
+      font-size: 17px;
+      line-height: 1.26;
+      letter-spacing: 0;
+    }
+
+    .reason {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .score {
+      border-radius: 999px;
+      padding: 7px 9px;
+      background: rgba(65, 199, 161, 0.14);
+      color: #137a61;
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    [data-theme="dark"] .score {
+      color: #75e0c5;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 13px;
+    }
+
+    .chip {
+      min-height: 34px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 8px 11px;
+      color: var(--ink);
+      background: rgba(255, 255, 255, 0.60);
+      font-size: 12px;
+      font-weight: 900;
+      text-decoration: none;
+    }
+
+    [data-theme="dark"] .chip {
+      background: rgba(255, 255, 255, 0.07);
+    }
+
+    .chip.primary {
+      border-color: transparent;
+      background: var(--mint);
+      color: var(--mint-ink);
+    }
+
+    .chip.selected {
+      border-color: transparent;
+      background: var(--amber);
+      color: #251806;
+    }
+
+    .chip.danger {
+      color: #8e2c21;
+      background: rgba(215, 85, 69, 0.11);
+    }
+
+    [data-theme="dark"] .chip.danger {
+      color: #ffb5ac;
+    }
+
+    .email-card {
+      border-radius: 22px;
+      padding: 15px;
+      background: var(--dark);
+      color: #f6f3ed;
+      box-shadow: var(--shadow);
+    }
+
+    .email-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 12px;
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    .pill {
+      border-radius: 999px;
+      padding: 5px 8px;
+      background: rgba(65, 199, 161, 0.16);
+      color: #75e0c5;
+      font-size: 11px;
+    }
+
+    .email-body {
+      border-radius: 15px;
+      padding: 12px;
+      background: rgba(255, 255, 255, 0.07);
+      color: rgba(246, 243, 237, 0.76);
+      font-size: 12px;
+      line-height: 1.55;
+      margin-bottom: 12px;
+    }
+
+    .actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 9px;
+    }
+
+    .action {
+      height: 44px;
+      border: 0;
+      border-radius: 15px;
+      font-weight: 900;
+      font-size: 13px;
+    }
+
+    .action.send {
+      background: var(--mint);
+      color: var(--mint-ink);
+    }
+
+    .action.cancel {
+      background: rgba(255, 255, 255, 0.10);
+      color: #f6f3ed;
+    }
+
+    .feedback-grid {
+      display: grid;
+      gap: 10px;
+    }
+
+    .feedback-row {
+      display: grid;
+      grid-template-columns: 1fr auto auto auto;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .feedback-row b {
+      font-size: 13px;
+    }
+
+    .feedback-row span {
+      display: block;
+      color: var(--muted);
+      font-size: 11px;
+      margin-top: 3px;
+    }
+
+    .icon-button {
+      width: 38px;
+      height: 38px;
+      border: 0;
+      border-radius: 13px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .icon-button.good { background: #1f9a78; }
+    .icon-button.bad { background: #c84f43; }
+    .icon-button.suppress { background: #8d6a21; }
+
+    .dock {
+      position: fixed;
+      left: 14px;
+      right: 14px;
+      bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+      max-width: 532px;
+      margin: 0 auto;
+      border-radius: 22px;
+      padding: 12px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.88);
+      color: var(--ink);
+      border: 1px solid var(--line);
+      box-shadow: 0 -10px 30px rgba(21, 25, 31, 0.16);
+      backdrop-filter: blur(18px);
+    }
+
+    [data-theme="dark"] .dock {
+      background: rgba(37, 42, 50, 0.88);
+    }
+
+    .dock b {
+      display: block;
+      font-size: 13px;
+      margin-bottom: 4px;
+    }
+
+    .dock span {
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .dock-button {
+      border: 0;
+      height: 46px;
+      border-radius: 15px;
+      padding: 0 14px;
+      background: var(--mint);
+      color: var(--mint-ink);
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .empty {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+      padding: 10px 4px;
+    }
+
+    .action-log {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.45;
+    }
+  </style>
+</head>
+<body>
+  <script id="c001-review-data" type="application/json">{"app":"c001_telegram_owner_review","version":"webapp_card_v1","run_date":"2026-06-23","mode":"owner_review_only","delivery_status":"closed_pending_future_gate","email_status":"preview_before_confirm","feedback_status":"local_memory_only","automatic_learning":false,"total_candidates":9,"selected_candidate_ids":[],"categories":[{"choice":"1","label":"其他待看","candidates":[{"id":"H08","title":"【2026年】浴室鏡水垢去除用品推薦排行9選：海綿、清潔劑等類型比較","source_name":"360LiFE","source_url":"https://360life.shinyusha.co.jp/articles/-/9888","confidence_band":"L1","primary_category":"home_daily_life","topic_family":"浴室清潔與水垢去除用品","short_reason":"日本評測已比較浴室鏡水垢去除用品，痛點明確且有具體品類與商品名，可檢查台灣是否已有相同或近似產品。","why_worth_attention":"浴室鏡水垢是日常清潔中的明確痛點，來源摘要顯示日本媒體以實測方式比較多款專用海綿、墊片與清潔劑，並提到 SEVEN SAILS「ピカスティック おふろ鏡のウロコ取り」及リンレイ相關水垢清潔劑等候選商品。這類商品體積小、使用情境直觀，若台灣通路尚未充分吸收日本評測中的具體款式，可作為家用清潔小物的選品觀察題。","status":"ready_to_send","selected":false},{"id":"H09","title":"【2026年】LDK 比較評測推薦枕頭噴霧：睡前使用的人氣商品排名","source_name":"360LiFE","source_url":"https://360life.shinyusha.co.jp/articles/-/41906","confidence_band":"L1","primary_category":"home_daily_life","topic_family":"臥室香氛與睡前生活雜貨","short_reason":"日本 LDK 近期比較枕頭噴霧，具體指出睡前噴在枕頭上的香氛用品與推薦商品，適合檢查台灣是否已有同類生活香氛需求與供給。","why_worth_attention":"這不是單純的生活風格文章，而是針對「睡前枕頭噴霧」這個可購買品類做比較評測。輸入中提到的第 1 名 Neal's Yard Remedies「Goodnight Pillow Mist」主打清爽薰衣草香，且噴後約 5 分鐘香味變淡，對不喜歡濃烈香氣的人較容易接受。它同時連到睡眠儀式、臥室香氛、自用犒賞與禮品情境，對台灣選品端有明確下一步：確認在地販售、價格帶、香味接受度與是否適合做成睡前生活提案。","status":"ready_to_send","selected":false}]},{"choice":"2","label":"旅行 / 外出","candidates":[{"id":"F01","title":"【2026年】路易波士茶推薦排行8選：LDK 比較超市可買人氣商品","source_name":"360LiFE","source_url":"https://360life.shinyusha.co.jp/articles/-/40086","confidence_band":"L1","primary_category":"food_drink","topic_family":"無咖啡因茶飲與花草茶","short_reason":"日本媒體已用試飲排行方式整理市售路易波士茶，且有具體品牌與購買型態，適合檢查台灣是否有尚未被充分吸收的無咖啡因茶飲機會。","why_worth_attention":"這不是單一新品露出，而是日本生活評測媒體把超市、便利商店可買的路易波士茶做成排行榜，並比較瓶裝、粉末、茶包等日常飲用形式。對台灣選品來說，可從無咖啡因、佐餐與點心搭配、女性族群偏好、常溫即飲或家庭沖泡等角度拆解；尤其片段中提到的三得利「GREEN DA・KA・RA やさしいルイボス」有紅路易波士與綠路易波士調和的口味描述，便於後續核對商品定位與通路差異。","status":"ready_to_send","selected":false}]},{"choice":"3","label":"美妝個護","candidates":[{"id":"B02","title":"【2026年】卸妝膏推薦排行榜13選：人氣商品清潔力與使用感比較","source_name":"360LiFE","source_url":"https://360life.shinyusha.co.jp/articles/-/8152","confidence_band":"L1","primary_category":"beauty_personal_care","topic_family":"beauty_makeup_remover","short_reason":"日本已有最新比較評測與具名推薦商品，適合檢查台灣是否已有同款或相近卸妝膏需求缺口。","why_worth_attention":"卸妝膏是明確可購買的美妝日用品，文章不只是介紹概念，而是以多款人氣商品做清潔力與使用感比較，並指出具體高評價商品。對台灣選品而言，價值在於可直接追蹤unlabel該款卸妝膏的商品身分、容量、價格帶、通路與成分標示，同時觀察日本評測中強調的「卸妝力」與「洗後不緊繃」是否能轉化為台灣消費者容易理解的選品賣點。","status":"ready_to_send","selected":false},{"id":"B03","title":"【2026年】清涼感沐浴乳推薦排名：比較藥妝店可買的人氣產品","source_name":"360LiFE","source_url":"https://360life.shinyusha.co.jp/articles/-/42526","confidence_band":"L1","primary_category":"beauty_personal_care","topic_family":"夏季個人清潔與清涼身體護理","short_reason":"日本媒體已針對夏季清涼沐浴乳做實測比較，MARO Super Cool 是可追查的候選，適合列為台灣夏季個人清潔品觀察題。","why_worth_attention":"這不是單純的保養品話題，而是有明確季節需求的夏季身體清潔品：清涼感、洗淨力、除臭力與使用感都被文章拿來比較。台灣夏季炎熱潮濕，清涼型沐浴乳有可理解的使用場景；但是否已被台灣消費者吸收、價格與通路狀況仍需查核，因此適合作為日本到台灣時間差的人工複核候選。","status":"ready_to_send","selected":false}]},{"choice":"4","label":"家電工具","candidates":[{"id":"G01","title":"可隨身攜帶的冰袋「Gorilla冷棒」非常冰涼！","source_name":"Kaden Watch","source_url":"https://kaden.watch.impress.co.jp/docs/news/2116835.html","confidence_band":"L1","primary_category":"gadget_appliance_tool","topic_family":"夏季隨身降溫與酷暑對策用品","short_reason":"新上市的隨身酷暑對策小工具，商品身分、價格與使用情境都清楚，值得檢查台灣是否尚未普及。","why_worth_attention":"「Gorilla冷棒」是ドウシシャ推出的「Gorilla的一夏企劃」系列商品，主打可隨身攜帶的冰袋或降溫用途，價格為 2,728 日圓。它不是單純話題或活動，而是具體可購買的夏季實用工具；日本媒體已用新品資訊方式介紹，對台灣端可進一步檢查是否有同類商品、是否適合炎熱季節的生活用品選題，以及其冷卻方式、尺寸與攜帶性是否足以形成商品賣點。","status":"ready_to_send","selected":false},{"id":"G02","title":"Thanko 推出 USB 供電水冷式涼感睡眠墊，可用於車中泊","source_name":"Kaden Watch","source_url":"https://kaden.watch.impress.co.jp/docs/news/2118446.html","confidence_band":"L1","primary_category":"gadget_appliance_tool","topic_family":"夏季睡眠降溫小家電","short_reason":"日本剛推出的 USB 水冷睡眠涼墊，兼具夏季睡眠降溫與車中泊情境，商品資訊具體，值得列入台灣端可得性與規格確認。","why_worth_attention":"這不是單純寢具，而是把冷水循環、睡眠墊與 USB 供電結合的功能型小家電／工具型商品。Kaden Watch 已提供新商品資訊、價格與使用情境，顯示日本端已有可解釋的產品內容；對台灣端來說，夏季高溫、租屋或車中泊等情境都容易理解，但是否已有同類商品、規格是否適合台灣使用、實際涼感是否足以支撐賣點，仍需要人工查核。","status":"ready_to_send","selected":false},{"id":"G03","title":"Elecom 推出採用鈉離子電池的手持風扇，標榜壽命約 10 倍","source_name":"Kaden Watch","source_url":"https://kaden.watch.impress.co.jp/docs/news/2118645.html","confidence_band":"L1","primary_category":"gadget_appliance_tool","topic_family":"夏季隨身降溫小家電","short_reason":"Elecom 的手持風扇新品以鈉離子電池作為差異點，並分為冷卻板款與輕巧款，夏季隨身降溫用途明確。","why_worth_attention":"這則 Kaden Watch 報導提供的是具體新品線索：Elecom 推出採用鈉離子電池的手持風扇，包含冷卻プレート付き的 FAN-U264 系列與コンパクトな FAN-U265 系列，直販價格皆為 3,980 日圓。它把常見的夏季隨身風扇轉成可檢查的規格型商品，後續可比較電池壽命標榜、冷卻板有無、重量尺寸、續航與價格。對台灣選品觀察而言，值得注意的是日本家電媒體已將其作為新品資訊報導，但仍需確認台灣可取得性、同級品是否已普遍存在，以及鈉離子電池的規格說明是否足以支撐商品差異。","status":"ready_to_send","selected":false},{"id":"G04","title":"免接線充電、1 秒拆裝的自行車燈 Craft Cadence Light Buds","source_name":"Kaden Watch","source_url":"https://kaden.watch.impress.co.jp/docs/news/2118956.html","confidence_band":"L2","primary_category":"gadget_appliance_tool","topic_family":"自行車安全與行動照明配件","short_reason":"自行車燈搭配充電／收納／攜帶一體化外盒，主打免接線充電與快速拆裝，具備清楚的通勤與騎乘安全使用情境。","why_worth_attention":"這款商品把自行車燈常見的充電線、收納與攜帶問題整合到一個ケース中，對日常通勤、夜騎或停車後需快速拆下防盜的使用者有明確痛點。Kaden Watch 已以新品資訊報導，且有 6 月 19 日起在 Makuake 先行販售與價格資訊，形成可由人工進一步檢查的日本新品時間點。適合作為台灣端觀察自行車周邊、行動照明與小型充電配件題材。","status":"needs_check","selected":false}]}]}</script>
+  <main class="app" id="app"></main>
+
+  <script>
+    const payload = JSON.parse(document.getElementById("c001-review-data").textContent);
+    const tg = window.Telegram && window.Telegram.WebApp ? window.Telegram.WebApp : null;
+    const state = {
+      tab: "candidates",
+      theme: tg && tg.colorScheme === "dark" ? "dark" : "light",
+      selected: new Set(payload.selected_candidate_ids || []),
+      lastAction: "ready"
+    };
+
+    if (tg) {
+      tg.ready();
+      tg.expand();
+      if (tg.MainButton) {
+        tg.MainButton.setText("產生 Email 草稿");
+        tg.MainButton.onClick(() => sendAction("email_request"));
+      }
+    }
+
+    function sendAction(action, extra = {}) {
+      const data = {
+        source: "c001_review_webapp",
+        action,
+        run_date: payload.run_date,
+        candidate_ids: Array.from(state.selected),
+        ...extra
+      };
+      state.lastAction = `${action}: ${data.candidate_ids.join(",") || extra.candidate_id || "none"}`;
+      if (tg && typeof tg.sendData === "function") {
+        tg.sendData(JSON.stringify(data));
+      }
+      render();
+    }
+
+    function setTab(tab) {
+      state.tab = tab;
+      render();
+    }
+
+    function toggleTheme() {
+      state.theme = state.theme === "dark" ? "light" : "dark";
+      render();
+    }
+
+    function toggleCandidate(id) {
+      if (state.selected.has(id)) {
+        state.selected.delete(id);
+      } else {
+        state.selected.add(id);
+      }
+      sendAction("select_candidate", { candidate_ids: [id] });
+    }
+
+    function feedback(candidateId, feedbackType) {
+      sendAction("feedback", {
+        candidate_id: candidateId,
+        feedback_type: feedbackType
+      });
+    }
+
+    function candidateCard(candidate) {
+      const selected = state.selected.has(candidate.id);
+      const sourceLink = candidate.source_url
+        ? `<a class="chip" href="${escapeAttr(candidate.source_url)}" target="_blank" rel="noopener">看來源</a>`
+        : "";
+      return `
+        <article class="card">
+          <div class="candidate-head">
+            <div class="code">${escapeHtml(candidate.id)}</div>
+            <div>
+              <h2 class="title">${escapeHtml(candidate.title)}</h2>
+              <p class="reason">${escapeHtml(candidate.why_worth_attention || candidate.short_reason || "需要 owner review。")}</p>
+            </div>
+            <div class="score">${escapeHtml(candidate.confidence_band || "review")}</div>
+          </div>
+          <div class="chips">
+            <button class="chip ${selected ? "selected" : "primary"}" type="button" data-select="${escapeAttr(candidate.id)}">${selected ? "已加入 Email" : "加入 Email"}</button>
+            ${sourceLink}
+            <button class="chip" type="button" data-feedback="${escapeAttr(candidate.id)}" data-feedback-type="good">有用</button>
+            <button class="chip danger" type="button" data-feedback="${escapeAttr(candidate.id)}" data-feedback-type="bad">不相關</button>
+            <button class="chip danger" type="button" data-feedback="${escapeAttr(candidate.id)}" data-feedback-type="suppress">壓掉同類</button>
+          </div>
+        </article>
+      `;
+    }
+
+    function candidatesPanel() {
+      const groups = payload.categories.map(category => {
+        const cards = category.candidates.map(candidateCard).join("");
+        return `<section class="category"><div class="category-title">${escapeHtml(category.label)} (${category.candidates.length})</div>${cards}</section>`;
+      }).join("");
+      return groups || `<p class="empty">目前沒有可進 owner-review 的候選。</p>`;
+    }
+
+    function emailPanel() {
+      const ids = Array.from(state.selected);
+      const selectedCandidates = findCandidates(ids);
+      const body = selectedCandidates.length
+        ? selectedCandidates.map((candidate, index) => `${index + 1}. ${candidate.id} ${candidate.title}<br>${candidate.source_name} / ${candidate.why_worth_attention || candidate.short_reason || "review_required"}`).join("<br><br>")
+        : "尚未選商品。回到候選頁，點「加入 Email」後再確認。";
+      return `
+        <section class="email-card">
+          <div class="email-head">
+            <span>Email 草稿</span>
+            <span class="pill">preview only</span>
+          </div>
+          <div class="email-body">
+            To: local config [redacted]<br>
+            Subject: [C001] 今日日本選物候選 - ${ids.length} 件<br><br>
+            ${body}
+          </div>
+          <div class="actions">
+            <button class="action send" type="button" data-email-action="confirm">確認寄出</button>
+            <button class="action cancel" type="button" data-email-action="cancel">取消</button>
+          </div>
+          <div class="action-log">Delivery gate: ${escapeHtml(payload.delivery_status)}. Gmail send still requires bot-side explicit enablement.</div>
+        </section>
+      `;
+    }
+
+    function feedbackPanel() {
+      const rows = allCandidates().map(candidate => `
+        <div class="card feedback-row">
+          <div><b>${escapeHtml(candidate.id)} ${escapeHtml(candidate.title)}</b><span>${escapeHtml(candidate.source_name)} / local memory only</span></div>
+          <button class="icon-button good" type="button" data-feedback="${escapeAttr(candidate.id)}" data-feedback-type="good">+</button>
+          <button class="icon-button bad" type="button" data-feedback="${escapeAttr(candidate.id)}" data-feedback-type="bad">-</button>
+          <button class="icon-button suppress" type="button" data-feedback="${escapeAttr(candidate.id)}" data-feedback-type="suppress">S</button>
+        </div>
+      `).join("");
+      return `<section class="feedback-grid">${rows || `<p class="empty">目前沒有可回饋候選。</p>`}</section>`;
+    }
+
+    function render() {
+      document.documentElement.dataset.theme = state.theme;
+      const selectedCount = state.selected.size;
+      const app = document.getElementById("app");
+      app.innerHTML = `
+        <section class="hero">
+          <div class="hero-top">
+            <div>
+              <p class="mode">Owner review only</p>
+              <h1>今日日本選物候選</h1>
+            </div>
+            <button class="theme-toggle" type="button" data-theme-toggle>
+              <span>${state.theme === "dark" ? "Dark" : "Light"}</span>
+              <span class="toggle-dot"></span>
+            </button>
+          </div>
+          <div class="metrics">
+            <div class="metric"><b>${payload.total_candidates}</b><span>待看商品</span></div>
+            <div class="metric"><b>${payload.categories.length}</b><span>分類</span></div>
+            <div class="metric"><b>${selectedCount}</b><span>Email 已選</span></div>
+          </div>
+        </section>
+
+        <nav class="tabs" aria-label="C001 review tabs">
+          <button class="tab ${state.tab === "candidates" ? "active" : ""}" type="button" data-tab="candidates">候選</button>
+          <button class="tab ${state.tab === "email" ? "active" : ""}" type="button" data-tab="email">Email</button>
+          <button class="tab ${state.tab === "feedback" ? "active" : ""}" type="button" data-tab="feedback">回饋</button>
+        </nav>
+
+        <section class="panel ${state.tab === "candidates" ? "active" : ""}">${candidatesPanel()}</section>
+        <section class="panel ${state.tab === "email" ? "active" : ""}">${emailPanel()}</section>
+        <section class="panel ${state.tab === "feedback" ? "active" : ""}">${feedbackPanel()}</section>
+
+        <aside class="dock">
+          <div><b>${selectedCount ? `已選 ${selectedCount} 件` : "快速回饋"}</b><span>${escapeHtml(state.lastAction)} / automatic_learning=false</span></div>
+          <button class="dock-button" type="button" data-open-email>產生 Email</button>
+        </aside>
+      `;
+      bind();
+      if (tg && tg.MainButton) {
+        if (selectedCount) {
+          tg.MainButton.show();
+        } else {
+          tg.MainButton.hide();
+        }
+      }
+    }
+
+    function bind() {
+      document.querySelector("[data-theme-toggle]")?.addEventListener("click", toggleTheme);
+      document.querySelectorAll("[data-tab]").forEach(button => {
+        button.addEventListener("click", () => setTab(button.dataset.tab));
+      });
+      document.querySelectorAll("[data-select]").forEach(button => {
+        button.addEventListener("click", () => toggleCandidate(button.dataset.select));
+      });
+      document.querySelectorAll("[data-feedback]").forEach(button => {
+        button.addEventListener("click", () => feedback(button.dataset.feedback, button.dataset.feedbackType));
+      });
+      document.querySelector("[data-open-email]")?.addEventListener("click", () => {
+        setTab("email");
+        sendAction("email_request");
+      });
+      document.querySelectorAll("[data-email-action]").forEach(button => {
+        button.addEventListener("click", () => {
+          if (button.dataset.emailAction === "confirm") {
+            sendAction("confirm_email");
+          } else {
+            state.selected.clear();
+            sendAction("cancel_email");
+          }
+        });
+      });
+    }
+
+    function allCandidates() {
+      return payload.categories.flatMap(category => category.candidates || []);
+    }
+
+    function findCandidates(ids) {
+      const index = new Map(allCandidates().map(candidate => [candidate.id, candidate]));
+      return ids.map(id => index.get(id)).filter(Boolean);
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, char => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;"
+      }[char]));
+    }
+
+    function escapeAttr(value) {
+      return escapeHtml(value).replace(/`/g, "&#96;");
+    }
+
+    render();
+  </script>
+</body>
+</html>
