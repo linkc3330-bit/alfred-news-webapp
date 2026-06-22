@@ -69,11 +69,22 @@ function persistSaved() {
   selectedCountEl.textContent = `Open selected news (${state.saved.size})`;
 }
 
-function saveCode(code, shouldNotify = true) {
-  state.saved.add(code);
+function sendPreferenceAction(action, code) {
+  if (tg?.sendData) {
+    tg.sendData(JSON.stringify({ action, code }));
+  }
+}
+
+function toggleSavedCode(code, shouldNotify = true) {
+  const wasSaved = state.saved.has(code);
+  if (wasSaved) {
+    state.saved.delete(code);
+  } else {
+    state.saved.add(code);
+  }
   persistSaved();
-  if (shouldNotify && tg?.sendData) {
-    tg.sendData(JSON.stringify({ action: "save_interest", code }));
+  if (shouldNotify) {
+    sendPreferenceAction(wasSaved ? "unsave_interest" : "save_interest", code);
   }
   render();
 }
@@ -111,7 +122,7 @@ function render() {
   }
 
   document.querySelectorAll("[data-code]").forEach((button) => {
-    button.addEventListener("click", () => saveCode(button.dataset.code));
+    button.addEventListener("click", () => toggleSavedCode(button.dataset.code));
   });
 }
 
