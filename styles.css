@@ -9,7 +9,8 @@
   --glass-deep: rgba(5, 12, 12, 0.76);
   --saved: #dfeee6;
   --shadow: 0 24px 80px rgba(0, 0, 0, 0.46);
-  font-family: Meiryo, "Yu Gothic UI", "Microsoft JhengHei", system-ui, sans-serif;
+  --font-ui: Meiryo, "Yu Gothic UI", "Microsoft JhengHei", system-ui, sans-serif;
+  font-family: var(--font-ui);
 }
 
 * {
@@ -21,6 +22,14 @@ body {
   min-height: 100vh;
   color: var(--text);
   background: #07100e;
+  font-family: var(--font-ui);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
 }
 
 button,
