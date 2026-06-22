@@ -239,22 +239,20 @@ a {
 }
 
 .avatar-mark {
-  width: 86px;
-  height: 66px;
-  margin: 0 auto 8px;
-  border: 1px solid var(--line);
-  border-radius: 0;
+  width: 76px;
+  height: 54px;
+  margin: 0 auto 10px;
   display: grid;
   place-items: center;
-  background: rgba(238, 245, 241, 0.08);
-  backdrop-filter: blur(16px);
+  background: transparent;
 }
 
 .avatar-mark img {
-  width: 68px;
+  width: 72px;
   height: auto;
   display: block;
-  opacity: 0.9;
+  opacity: 0.82;
+  filter: drop-shadow(0 1px 8px rgba(230, 238, 234, 0.18));
 }
 
 .identity h1 {
