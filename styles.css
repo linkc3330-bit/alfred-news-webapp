@@ -370,27 +370,6 @@ h1 {
   line-height: 1.6;
 }
 
-.desktop-dock {
-  position: fixed;
-  z-index: 3;
-  left: 50%;
-  bottom: calc(env(safe-area-inset-bottom) + 12px);
-  transform: translateX(-50%);
-  display: flex;
-  gap: 12px;
-  padding: 9px 13px;
-  border: 1px solid var(--border-soft);
-  background: rgba(4, 9, 9, 0.54);
-  backdrop-filter: blur(18px);
-}
-
-.desktop-dock span {
-  width: 22px;
-  height: 22px;
-  border: 1px solid rgba(238, 245, 241, 0.32);
-  background: rgba(238, 245, 241, 0.18);
-}
-
 @media (min-width: 720px) {
   .app-shell {
     padding-left: 24px;
