@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Alfred_news</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  </head>
+  <body>
+    <div class="desktop-icons left-icons" aria-hidden="true">
+      <div class="desktop-icon">
+        <span>A</span>
+        <small>Alfred</small>
+      </div>
+      <div class="desktop-icon">
+        <span>N</span>
+        <small>News</small>
+      </div>
+    </div>
+
+    <section class="clock-widget" aria-label="日期時間">
+      <span class="moon"></span>
+      <p>GOOD<br />MORNING</p>
+      <h2 id="weekdayText">TUE</h2>
+      <time id="clockText">01:20 AM</time>
+    </section>
+
+    <main class="app-shell">
+      <header class="topbar">
+        <div class="brand-mark" aria-hidden="true">A</div>
+        <div>
+          <h1>Alfred_news</h1>
+          <p id="updatedAt">載入中</p>
+        </div>
+        <button class="icon-button" id="refreshButton" type="button" aria-label="重新整理">↻</button>
+      </header>
+
+      <nav class="tabs" aria-label="新聞分類">
+        <button class="tab is-active" type="button" data-tab="business_tech">商業科技</button>
+        <button class="tab" type="button" data-tab="breaking">突發重點</button>
+        <button class="tab" type="button" data-tab="saved">已記錄</button>
+      </nav>
+
+      <section class="summary-row" aria-live="polite">
+        <span id="storyCount">0 則</span>
+        <span>最新優先</span>
+      </section>
+
+      <section class="cards" id="cards" aria-label="新聞列表"></section>
+      <section class="empty-state" id="emptyState" hidden>
+        <h2>沒有可顯示的新聞</h2>
+        <p>請稍後重新整理，或等待下一次每日摘要。</p>
+      </section>
+    </main>
+
+    <div class="desktop-dock" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
