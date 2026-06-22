@@ -8,49 +8,72 @@
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
   </head>
   <body>
-    <div class="desktop-icons left-icons" aria-hidden="true">
-      <div class="desktop-icon">
-        <span>A</span>
-        <small>Alfred</small>
-      </div>
-      <div class="desktop-icon">
-        <span>N</span>
-        <small>News</small>
-      </div>
-    </div>
+    <main class="phone-shell">
+      <section class="screen">
+        <header class="status-bar" aria-label="Device status">
+          <time id="statusTime">09:41</time>
+          <div class="status-icons" aria-hidden="true">
+            <span class="bars"></span>
+            <span class="wifi"></span>
+            <span class="battery"></span>
+          </div>
+        </header>
 
-    <section class="clock-widget" aria-label="日期時間">
-      <span class="moon"></span>
-      <p>GOOD<br />MORNING</p>
-      <h2 id="weekdayText">TUE</h2>
-      <time id="clockText">01:20 AM</time>
-    </section>
+        <nav class="utility-row" aria-label="Quick controls">
+          <button class="square-button" type="button" aria-label="Menu">
+            <span></span><span></span><span></span>
+          </button>
+          <button class="square-button settings" id="refreshButton" type="button" aria-label="Refresh">⚙</button>
+        </nav>
 
-    <main class="app-shell">
-      <header class="topbar">
-        <div class="brand-mark" aria-hidden="true">A</div>
-        <div>
+        <section class="time-widget" aria-label="Current time">
+          <div class="time-frame left"></div>
+          <div class="time-frame right"></div>
+          <h2 id="heroTime">09:41</h2>
+          <p id="heroDate">2026 / 06 / 23</p>
+          <p id="heroNote">LIVE NEWS CLOCK</p>
+        </section>
+
+        <section class="identity" aria-label="Alfred identity">
+          <div class="avatar-mark" aria-hidden="true">
+            <svg viewBox="0 0 120 72" role="img">
+              <path d="M8 39c13-24 31-34 52-34s39 10 52 34c-8 20-25 29-52 29S16 59 8 39Z" />
+              <path class="cut" d="M25 40c8-14 20-20 35-20s27 6 35 20c-4 8-11 14-21 17l-6-13-8 14-8-14-6 13c-10-3-17-9-21-17Z" />
+              <path class="cut" d="M53 19c0 9 3 14 7 14s7-5 7-14l-7-4-7 4Z" />
+            </svg>
+          </div>
           <h1>Alfred_news</h1>
-          <p id="updatedAt">載入中</p>
-        </div>
-        <button class="icon-button" id="refreshButton" type="button" aria-label="重新整理">↻</button>
-      </header>
+          <p>Personal News Assistant</p>
+        </section>
 
-      <nav class="tabs" aria-label="新聞分類">
-        <button class="tab is-active" type="button" data-tab="business_tech">商業科技</button>
-        <button class="tab" type="button" data-tab="breaking">突發重點</button>
-        <button class="tab" type="button" data-tab="saved">已記錄</button>
-      </nav>
+        <section class="news-panel" aria-label="News dashboard">
+          <div class="tabs" role="tablist" aria-label="News sections">
+            <button class="tab is-active" type="button" data-tab="business_tech">Business</button>
+            <button class="tab" type="button" data-tab="breaking">Breaking</button>
+            <button class="tab" type="button" data-tab="saved">Saved</button>
+          </div>
 
-      <section class="summary-row" aria-live="polite">
-        <span id="storyCount">0 則</span>
-        <span>最新優先</span>
-      </section>
+          <div class="panel-meta">
+            <span id="storyCount">0 stories</span>
+            <span>Latest first</span>
+          </div>
 
-      <section class="cards" id="cards" aria-label="新聞列表"></section>
-      <section class="empty-state" id="emptyState" hidden>
-        <h2>沒有可顯示的新聞</h2>
-        <p>請稍後重新整理，或等待下一次每日摘要。</p>
+          <section class="cards" id="cards" aria-label="News list"></section>
+          <section class="empty-state" id="emptyState" hidden>
+            <h2>No stories here</h2>
+            <p>Refresh after the next digest or save articles from the list.</p>
+          </section>
+        </section>
+
+        <section class="bottom-reader" aria-label="Selected articles">
+          <div>
+            <strong id="selectedCount">Open selected news (0)</strong>
+            <span>Read inside Telegram</span>
+          </div>
+          <button id="sendSelectedButton" type="button" aria-label="Send selected news">➤</button>
+        </section>
+
+        <div class="home-indicator" aria-hidden="true"></div>
       </section>
     </main>
 

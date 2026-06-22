@@ -9,15 +9,17 @@ const state = {
 const cardsEl = document.querySelector("#cards");
 const emptyEl = document.querySelector("#emptyState");
 const countEl = document.querySelector("#storyCount");
-const updatedEl = document.querySelector("#updatedAt");
-const weekdayEl = document.querySelector("#weekdayText");
-const clockEl = document.querySelector("#clockText");
+const selectedCountEl = document.querySelector("#selectedCount");
+const statusTimeEl = document.querySelector("#statusTime");
+const heroTimeEl = document.querySelector("#heroTime");
+const heroDateEl = document.querySelector("#heroDate");
+const heroNoteEl = document.querySelector("#heroNote");
 
-function formatTime(value) {
+function formatDateTime(value) {
   if (!value) return "";
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return value.slice(0, 16).replace("T", " ");
-  return new Intl.DateTimeFormat("zh-TW", {
+  return new Intl.DateTimeFormat("en-CA", {
     year: "numeric",
     month: "2-digit",
     day: "2-digit",
@@ -27,34 +29,50 @@ function formatTime(value) {
   }).format(date);
 }
 
-function updateClock() {
-  const now = new Date();
-  weekdayEl.textContent = new Intl.DateTimeFormat("en-US", { weekday: "short" })
-    .format(now)
-    .toUpperCase();
-  clockEl.textContent = new Intl.DateTimeFormat("en-US", {
-    hour: "2-digit",
-    minute: "2-digit",
-    hour12: true,
-  }).format(now);
+function displayTitle(item) {
+  return item.title_zh_hant || item.title || "Untitled story";
 }
 
-function displayTitle(item) {
-  return item.title_zh_hant || item.title || "未命名新聞";
+function updateClock() {
+  const now = new Date();
+  const time24 = new Intl.DateTimeFormat("en-GB", {
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).format(now);
+  statusTimeEl.textContent = time24;
+  heroTimeEl.textContent = time24;
+  heroDateEl.textContent = new Intl.DateTimeFormat("en-CA", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(now).replaceAll("-", " / ");
+  heroNoteEl.textContent = new Intl.DateTimeFormat("en-US", { weekday: "short" })
+    .format(now)
+    .toUpperCase();
+}
+
+function orderedItems() {
+  return state.digest.items || [];
 }
 
 function filteredItems() {
-  const items = state.digest.items || [];
+  const items = orderedItems();
   if (state.activeTab === "saved") {
     return items.filter((item) => state.saved.has(item.code));
   }
   return items.filter((item) => item.category_key === state.activeTab);
 }
 
-function saveCode(code) {
-  state.saved.add(code);
+function persistSaved() {
   localStorage.setItem("alfred_saved_codes", JSON.stringify([...state.saved]));
-  if (tg?.sendData) {
+  selectedCountEl.textContent = `Open selected news (${state.saved.size})`;
+}
+
+function saveCode(code, shouldNotify = true) {
+  state.saved.add(code);
+  persistSaved();
+  if (shouldNotify && tg?.sendData) {
     tg.sendData(JSON.stringify({ action: "save_interest", code }));
   }
   render();
@@ -63,27 +81,29 @@ function saveCode(code) {
 function render() {
   const items = filteredItems();
   cardsEl.innerHTML = "";
-  countEl.textContent = `${items.length} 則`;
+  countEl.textContent = `${items.length} ${items.length === 1 ? "story" : "stories"}`;
   emptyEl.hidden = items.length !== 0;
+  persistSaved();
 
   for (const item of items) {
     const saved = state.saved.has(item.code);
     const card = document.createElement("article");
     card.className = "card";
     card.innerHTML = `
-      <div class="card-head">
-        <span class="code">${item.code}</span>
-        <span class="source">${item.source || ""}</span>
+      <div class="card-copy">
+        <div class="card-meta">
+          <span>${item.source || "Unknown source"}</span>
+          <span>${formatDateTime(item.published_at)}</span>
+        </div>
+        <h2 class="title">
+          <a href="${item.link || "#"}" target="_blank" rel="noopener">${displayTitle(item)}</a>
+        </h2>
+        <p class="summary">${item.summary || "Open the article for the full report."}</p>
       </div>
-      <h2 class="title">
-        <a href="${item.link || "#"}" target="_blank" rel="noopener">${displayTitle(item)}</a>
-      </h2>
-      <p class="meta">${formatTime(item.published_at)}</p>
-      <p class="summary">${item.summary || "點閱讀原文查看完整報導。"}</p>
       <div class="actions">
-        <a class="action" href="${item.link || "#"}" target="_blank" rel="noopener">閱讀原文</a>
+        <a class="action" href="${item.link || "#"}" target="_blank" rel="noopener">Open article</a>
         <button class="action primary ${saved ? "is-saved" : ""}" type="button" data-code="${item.code}">
-          ${saved ? "已記錄" : "記錄偏好"}
+          ${saved ? "Saved" : "Save"}
         </button>
       </div>
     `;
@@ -99,7 +119,6 @@ async function loadDigest() {
   const response = await fetch(`./latest_digest.json?ts=${Date.now()}`, { cache: "no-store" });
   if (!response.ok) throw new Error(`Failed to load digest: ${response.status}`);
   state.digest = await response.json();
-  updatedEl.textContent = `${formatTime(state.digest.generated_at)} 更新`;
   render();
 }
 
@@ -114,8 +133,15 @@ document.querySelectorAll(".tab").forEach((tab) => {
 
 document.querySelector("#refreshButton").addEventListener("click", () => {
   loadDigest().catch(() => {
-    updatedEl.textContent = "重新整理失敗";
+    countEl.textContent = "Refresh failed";
   });
+});
+
+document.querySelector("#sendSelectedButton").addEventListener("click", () => {
+  if (!tg?.sendData) return;
+  for (const code of state.saved) {
+    tg.sendData(JSON.stringify({ action: "save_interest", code }));
+  }
 });
 
 tg?.ready?.();
@@ -125,6 +151,6 @@ updateClock();
 setInterval(updateClock, 30000);
 
 loadDigest().catch(() => {
-  updatedEl.textContent = "資料尚未產生";
+  countEl.textContent = "Data not ready";
   render();
 });
