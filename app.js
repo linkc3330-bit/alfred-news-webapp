@@ -11,9 +11,23 @@ const emptyEl = document.querySelector("#emptyState");
 const countEl = document.querySelector("#storyCount");
 const selectedCountEl = document.querySelector("#selectedCount");
 const statusTimeEl = document.querySelector("#statusTime");
+const heroGreetingEl = document.querySelector("#heroGreeting");
+const heroWeekdayEl = document.querySelector("#heroWeekday");
 const heroTimeEl = document.querySelector("#heroTime");
 const heroDateEl = document.querySelector("#heroDate");
-const heroNoteEl = document.querySelector("#heroNote");
+
+function applyTelegramPlatformLayout() {
+  const platform = String(tg?.platform || "browser").toLowerCase();
+  const isDesktopPlatform = ["tdesktop", "macos", "weba", "webk", "web"].includes(platform);
+  const isWideViewport = window.matchMedia("(min-width: 900px)").matches;
+  const layout = isDesktopPlatform || isWideViewport ? "desktop" : "mobile";
+  const stableHeight = Math.round(tg?.viewportStableHeight || window.innerHeight || 0);
+
+  document.body.dataset.platform = platform;
+  document.body.classList.toggle("tg-desktop", layout === "desktop");
+  document.body.classList.toggle("tg-mobile", layout === "mobile");
+  document.documentElement.style.setProperty("--tg-stable-height", `${stableHeight}px`);
+}
 
 function formatDateTime(value) {
   if (!value) return "";
@@ -34,22 +48,12 @@ function displayTitle(item) {
 }
 
 function updateClock() {
-  const now = new Date();
-  const time24 = new Intl.DateTimeFormat("en-GB", {
-    hour: "2-digit",
-    minute: "2-digit",
-    hour12: false,
-  }).format(now);
-  statusTimeEl.textContent = time24;
-  heroTimeEl.textContent = time24;
-  heroDateEl.textContent = new Intl.DateTimeFormat("en-CA", {
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).format(now).replaceAll("-", " / ");
-  heroNoteEl.textContent = new Intl.DateTimeFormat("en-US", { weekday: "short" })
-    .format(now)
-    .toUpperCase();
+  const clock = window.AlfredTime.formatHeroClock(new Date());
+  statusTimeEl.textContent = clock.statusTime;
+  heroGreetingEl.textContent = clock.greeting;
+  heroWeekdayEl.textContent = clock.weekday;
+  heroDateEl.textContent = clock.date;
+  heroTimeEl.textContent = clock.time;
 }
 
 function orderedItems() {
@@ -157,6 +161,10 @@ document.querySelector("#sendSelectedButton").addEventListener("click", () => {
 
 tg?.ready?.();
 tg?.expand?.();
+
+applyTelegramPlatformLayout();
+tg?.onEvent?.("viewportChanged", applyTelegramPlatformLayout);
+window.addEventListener("resize", applyTelegramPlatformLayout);
 
 updateClock();
 setInterval(updateClock, 30000);
