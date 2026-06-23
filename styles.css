@@ -176,6 +176,11 @@ a {
   font-size: 23px;
 }
 
+.tg-mobile .status-bar,
+.tg-mobile .utility-row {
+  display: none;
+}
+
 .time-widget {
   width: min(100%, 340px);
   margin: 4px auto 22px;
