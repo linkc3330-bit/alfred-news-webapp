@@ -108,6 +108,14 @@
       letter-spacing: 0;
     }
 
+    .run-date {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 900;
+      line-height: 1.2;
+    }
+
     .theme-toggle {
       height: 34px;
       min-width: 72px;
@@ -718,6 +726,7 @@
             <div>
               <p class="mode">Owner review only</p>
               <h1>今日日本選物候選</h1>
+              <p class="run-date">更新日期：${escapeHtml(payload.run_date)}</p>
             </div>
             <button class="theme-toggle" type="button" data-theme-toggle>
               <span>${state.theme === "dark" ? "Dark" : "Light"}</span>
