@@ -50,8 +50,9 @@ a {
   width: min(100vw, 430px);
   min-height: 100vh;
   min-height: max(100vh, var(--tg-stable-height, 100vh));
-  overflow: hidden;
-  padding: 14px 12px calc(30px + env(safe-area-inset-bottom));
+  overflow-x: hidden;
+  overflow-y: visible;
+  padding: 14px 12px calc(104px + env(safe-area-inset-bottom));
   background:
     linear-gradient(180deg, rgba(3, 8, 8, 0.04), rgba(3, 8, 8, 0.56)),
     url("./assets/misty-forest.png") center / cover fixed,
@@ -303,10 +304,9 @@ a {
 }
 
 .tg-mobile .news-panel {
-  max-height: min(58vh, 620px);
-  overflow: auto;
-  overscroll-behavior: contain;
-  padding-bottom: 92px;
+  max-height: none;
+  overflow: visible;
+  padding-bottom: 18px;
 }
 
 .tabs {
@@ -446,10 +446,12 @@ a {
 }
 
 .tg-mobile .bottom-reader {
-  position: sticky;
+  position: fixed;
   bottom: calc(10px + env(safe-area-inset-bottom));
   z-index: 3;
-  margin-inline: 2px;
+  left: max(14px, calc((100vw - 430px) / 2 + 14px));
+  right: max(14px, calc((100vw - 430px) / 2 + 14px));
+  margin: 0;
 }
 
 .bottom-reader strong,
@@ -501,6 +503,7 @@ a {
   .screen {
     width: 100%;
     min-height: max(100vh, var(--tg-stable-height, 100vh));
+    overflow: hidden;
     display: grid;
     grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
     grid-template-rows: auto auto 1fr auto;
