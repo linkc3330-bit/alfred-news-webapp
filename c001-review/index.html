@@ -585,7 +585,10 @@
       const hasTouch = "ontouchstart" in window || navigator.maxTouchPoints > 0;
       const hover = window.matchMedia && window.matchMedia("(hover: hover)").matches;
       const desktopPlatforms = new Set(["tdesktop", "macos", "windows", "linux"]);
-      if (desktopPlatforms.has(tgPlatform)) {
+      if (width < 760) {
+        return "mobile";
+      }
+      if (desktopPlatforms.has(tgPlatform) && width >= 900) {
         return "desktop";
       }
       if (width >= 820 && hover && !hasTouch) {
