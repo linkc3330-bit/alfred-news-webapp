@@ -15,6 +15,7 @@ const heroGreetingEl = document.querySelector("#heroGreeting");
 const heroWeekdayEl = document.querySelector("#heroWeekday");
 const heroTimeEl = document.querySelector("#heroTime");
 const heroDateEl = document.querySelector("#heroDate");
+const identityEl = document.querySelector(".identity");
 
 function applyTelegramPlatformLayout() {
   const platform = String(tg?.platform || "browser").toLowerCase();
@@ -27,6 +28,19 @@ function applyTelegramPlatformLayout() {
   document.body.classList.toggle("tg-desktop", layout === "desktop");
   document.body.classList.toggle("tg-mobile", layout === "mobile");
   document.documentElement.style.setProperty("--tg-stable-height", `${stableHeight}px`);
+  applyCompactHeaderState();
+}
+
+function applyCompactHeaderState() {
+  if (!document.body.classList.contains("tg-mobile")) {
+    document.body.classList.remove("is-compact-header");
+    return;
+  }
+
+  const threshold = identityEl
+    ? Math.max(72, identityEl.offsetTop + identityEl.offsetHeight - 62)
+    : 120;
+  document.body.classList.toggle("is-compact-header", window.scrollY > threshold);
 }
 
 function formatDateTime(value) {
@@ -165,6 +179,7 @@ tg?.expand?.();
 applyTelegramPlatformLayout();
 tg?.onEvent?.("viewportChanged", applyTelegramPlatformLayout);
 window.addEventListener("resize", applyTelegramPlatformLayout);
+window.addEventListener("scroll", applyCompactHeaderState, { passive: true });
 
 updateClock();
 setInterval(updateClock, 30000);

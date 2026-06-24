@@ -50,7 +50,7 @@ a {
   width: min(100vw, 430px);
   min-height: 100vh;
   min-height: max(100vh, var(--tg-stable-height, 100vh));
-  overflow-x: hidden;
+  overflow-x: clip;
   overflow-y: visible;
   padding: 14px 12px calc(104px + env(safe-area-inset-bottom));
   background:
@@ -71,6 +71,7 @@ a {
 
 .status-bar,
 .utility-row,
+.compact-identity,
 .time-widget,
 .identity,
 .news-panel,
@@ -180,6 +181,67 @@ a {
 .tg-mobile .status-bar,
 .tg-mobile .utility-row {
   display: none;
+}
+
+.compact-identity {
+  display: none;
+}
+
+.tg-mobile .compact-identity {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  width: calc(100% - 20px);
+  min-height: 52px;
+  margin: 0 auto -52px;
+  padding: 7px 12px;
+  border: 1px solid var(--line-soft);
+  background: rgba(5, 12, 12, 0.64);
+  color: var(--text);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-14px);
+  transition: opacity 160ms ease, transform 160ms ease;
+  backdrop-filter: blur(18px) saturate(1.05);
+}
+
+.tg-mobile.is-compact-header .compact-identity {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.compact-identity img {
+  width: 40px;
+  height: auto;
+  display: block;
+  opacity: 0.86;
+  filter: drop-shadow(0 1px 8px rgba(230, 238, 234, 0.18));
+}
+
+.compact-identity strong,
+.compact-identity span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.compact-identity strong {
+  font-size: 15px;
+  line-height: 1.05;
+  font-weight: 900;
+}
+
+.compact-identity span {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 800;
 }
 
 .time-widget {
