@@ -68,6 +68,11 @@
       padding: calc(18px + env(safe-area-inset-top, 0px)) 28px 28px;
     }
 
+    [data-layout="telegram-desktop"] .app {
+      max-width: 430px;
+      padding: 14px 14px 18px;
+    }
+
     .hero {
       border-radius: var(--radius-lg);
       padding: 18px;
@@ -209,6 +214,35 @@
     }
 
     [data-layout="desktop"] .hero { display: none; }
+
+    [data-layout="telegram-desktop"] .desktop-board {
+      display: none;
+    }
+
+    [data-layout="telegram-desktop"] .hero {
+      border-radius: 24px;
+      padding: 16px;
+      margin-bottom: 10px;
+    }
+
+    [data-layout="telegram-desktop"] h1 {
+      font-size: 24px;
+    }
+
+    [data-layout="telegram-desktop"] .tabs {
+      position: sticky;
+      top: 0;
+      padding-top: 6px;
+    }
+
+    [data-layout="telegram-desktop"] .card {
+      border-radius: 16px;
+      padding: 12px;
+    }
+
+    [data-layout="telegram-desktop"] .title {
+      font-size: 16px;
+    }
 
     [data-layout="desktop"] .desktop-board {
       display: grid;
@@ -569,6 +603,16 @@
 
     [data-theme="dark"] .dock { background: rgba(37, 42, 50, 0.88); }
 
+    [data-layout="telegram-desktop"] .dock {
+      position: sticky;
+      left: auto;
+      right: auto;
+      bottom: 0;
+      max-width: none;
+      margin: 12px 0 0;
+      border-radius: 18px;
+    }
+
     .dock b {
       display: block;
       font-size: 13px;
@@ -698,12 +742,12 @@
       const width = window.innerWidth || document.documentElement.clientWidth || 0;
       const hasTouch = "ontouchstart" in window || navigator.maxTouchPoints > 0;
       const hover = window.matchMedia && window.matchMedia("(hover: hover)").matches;
-      const desktopPlatforms = new Set(["tdesktop", "macos", "windows", "linux"]);
+      const telegramDesktopPlatforms = new Set(["tdesktop", "macos", "windows", "linux"]);
+      if (telegramDesktopPlatforms.has(tgPlatform)) {
+        return "telegram-desktop";
+      }
       if (width < 760) {
         return "mobile";
-      }
-      if (desktopPlatforms.has(tgPlatform) && width >= 900) {
-        return "desktop";
       }
       if (width >= 820 && hover && !hasTouch) {
         return "desktop";
