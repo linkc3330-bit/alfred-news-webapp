@@ -481,6 +481,12 @@
       color: #251806;
     }
 
+    .chip.feedback-active {
+      border-color: rgba(31, 154, 120, 0.24);
+      background: rgba(31, 154, 120, 0.14);
+      color: #14614e;
+    }
+
     .chip.danger {
       color: #8e2c21;
       background: rgba(201, 75, 63, 0.11);
@@ -558,6 +564,10 @@
       align-items: center;
     }
 
+    .feedback-row.recorded {
+      box-shadow: inset 0 0 0 1px rgba(31, 154, 120, 0.22), var(--shadow);
+    }
+
     .feedback-row b { font-size: 13px; }
 
     .feedback-row span {
@@ -565,6 +575,25 @@
       color: var(--muted);
       font-size: 11px;
       margin-top: 3px;
+    }
+
+    .feedback-status {
+      width: fit-content;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: rgba(31, 154, 120, 0.12);
+      color: #14614e !important;
+      font-weight: 900;
+    }
+
+    .feedback-status.bad {
+      background: rgba(200, 79, 67, 0.12);
+      color: #8f3028 !important;
+    }
+
+    .feedback-status.suppress {
+      background: rgba(141, 106, 33, 0.14);
+      color: #735416 !important;
     }
 
     .icon-button {
@@ -580,6 +609,11 @@
     .icon-button.good { background: #1f9a78; }
     .icon-button.bad { background: #c84f43; }
     .icon-button.suppress { background: #8d6a21; }
+
+    .icon-button.active {
+      outline: 3px solid rgba(31, 42, 55, 0.16);
+      transform: translateY(-1px);
+    }
 
     .dock {
       position: fixed;
@@ -701,6 +735,7 @@
       theme: tg && tg.colorScheme === "dark" ? "dark" : "light",
       layout: detectLayout(),
       selected: new Set(payload.selected_candidate_ids || []),
+      feedback: {},
       lastAction: "ready"
     };
 
@@ -785,14 +820,24 @@
     }
 
     function feedback(candidateId, feedbackType) {
+      state.feedback[candidateId] = feedbackType;
       sendAction("feedback", {
         candidate_id: candidateId,
         feedback_type: feedbackType
       });
     }
 
+    function feedbackLabel(feedbackType) {
+      return {
+        good: "已記錄：有用",
+        bad: "已記錄：不相關",
+        suppress: "已記錄：壓掉同類"
+      }[feedbackType] || "";
+    }
+
     function candidateCard(candidate) {
       const selected = state.selected.has(candidate.id);
+      const feedbackType = state.feedback[candidate.id];
       const sourceLink = candidate.source_url
         ? `<a class="chip" href="${escapeAttr(candidate.source_url)}" target="_blank" rel="noopener">看來源</a>`
         : "";
@@ -809,9 +854,9 @@
           <div class="chips">
             <button class="chip ${selected ? "selected" : "primary"}" type="button" data-select="${escapeAttr(candidate.id)}">${selected ? "已加入 Email" : "加入 Email"}</button>
             ${sourceLink}
-            <button class="chip" type="button" data-feedback="${escapeAttr(candidate.id)}" data-feedback-type="good">有用</button>
-            <button class="chip danger" type="button" data-feedback="${escapeAttr(candidate.id)}" data-feedback-type="bad">不相關</button>
-            <button class="chip danger" type="button" data-feedback="${escapeAttr(candidate.id)}" data-feedback-type="suppress">壓掉同類</button>
+            <button class="chip ${feedbackType === "good" ? "feedback-active" : ""}" type="button" data-feedback="${escapeAttr(candidate.id)}" data-feedback-type="good">有用</button>
+            <button class="chip danger ${feedbackType === "bad" ? "feedback-active" : ""}" type="button" data-feedback="${escapeAttr(candidate.id)}" data-feedback-type="bad">不相關</button>
+            <button class="chip danger ${feedbackType === "suppress" ? "feedback-active" : ""}" type="button" data-feedback="${escapeAttr(candidate.id)}" data-feedback-type="suppress">壓掉同類</button>
           </div>
         </article>
       `;
@@ -883,14 +928,20 @@
     }
 
     function feedbackPanel() {
-      const rows = allCandidates().map(candidate => `
-        <div class="card feedback-row">
-          <div><b>${escapeHtml(candidate.id)} ${escapeHtml(candidate.title)}</b><span>${escapeHtml(candidate.source_name)} / local memory only</span></div>
-          <button class="icon-button good" type="button" data-feedback="${escapeAttr(candidate.id)}" data-feedback-type="good">+</button>
-          <button class="icon-button bad" type="button" data-feedback="${escapeAttr(candidate.id)}" data-feedback-type="bad">-</button>
-          <button class="icon-button suppress" type="button" data-feedback="${escapeAttr(candidate.id)}" data-feedback-type="suppress">S</button>
+      const rows = allCandidates().map(candidate => {
+        const feedbackType = state.feedback[candidate.id];
+        const status = feedbackType
+          ? `<span class="feedback-status ${escapeAttr(feedbackType)}">${escapeHtml(feedbackLabel(feedbackType))}</span>`
+          : `<span>${escapeHtml(candidate.source_name)} / local memory only</span>`;
+        return `
+        <div class="card feedback-row ${feedbackType ? "recorded" : ""}">
+          <div><b>${escapeHtml(candidate.id)} ${escapeHtml(candidate.title)}</b>${status}</div>
+          <button class="icon-button good ${feedbackType === "good" ? "active" : ""}" type="button" data-feedback="${escapeAttr(candidate.id)}" data-feedback-type="good">+</button>
+          <button class="icon-button bad ${feedbackType === "bad" ? "active" : ""}" type="button" data-feedback="${escapeAttr(candidate.id)}" data-feedback-type="bad">-</button>
+          <button class="icon-button suppress ${feedbackType === "suppress" ? "active" : ""}" type="button" data-feedback="${escapeAttr(candidate.id)}" data-feedback-type="suppress">S</button>
         </div>
-      `).join("");
+      `;
+      }).join("");
       return `<section class="feedback-grid">${rows || `<p class="empty">目前沒有可回饋候選。</p>`}</section>`;
     }
 
