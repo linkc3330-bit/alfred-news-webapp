@@ -159,7 +159,7 @@ function formatHistoryDate(date) {
 function renderHistoryDates() {
   if (!historyDatesEl) return;
   historyDatesEl.innerHTML = "";
-  const dates = state.historyDates.slice(0, 14);
+  const dates = state.historyDates.slice(0, 90);
   for (const date of dates) {
     const button = document.createElement("button");
     button.type = "button";
