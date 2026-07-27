@@ -3,6 +3,8 @@ const tg = window.Telegram?.WebApp;
 const state = {
   activeTab: "business_tech",
   digest: { items: [] },
+  historyDates: [],
+  selectedDate: null,
   saved: new Set(JSON.parse(localStorage.getItem("alfred_saved_codes") || "[]")),
 };
 
@@ -16,6 +18,8 @@ const heroWeekdayEl = document.querySelector("#heroWeekday");
 const heroTimeEl = document.querySelector("#heroTime");
 const heroDateEl = document.querySelector("#heroDate");
 const identityEl = document.querySelector(".identity");
+const historyDatesEl = document.querySelector("#historyDates");
+const historyStatusEl = document.querySelector("#historyStatus");
 
 function applyTelegramPlatformLayout() {
   const platform = String(tg?.platform || "browser").toLowerCase();
@@ -144,11 +148,63 @@ function render() {
   });
 }
 
-async function loadDigest() {
-  const response = await fetch(`./latest_digest.json?ts=${Date.now()}`, { cache: "no-store" });
+function formatHistoryDate(date) {
+  const parsed = new Date(`${date}T00:00:00`);
+  if (Number.isNaN(parsed.getTime())) return date;
+  return new Intl.DateTimeFormat("en-CA", { month: "short", day: "numeric" })
+    .format(parsed)
+    .toUpperCase();
+}
+
+function renderHistoryDates() {
+  if (!historyDatesEl) return;
+  historyDatesEl.innerHTML = "";
+  const dates = state.historyDates.slice(0, 14);
+  for (const date of dates) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = `history-date${state.selectedDate === date ? " is-active" : ""}`;
+    button.textContent = formatHistoryDate(date);
+    button.setAttribute("aria-pressed", String(state.selectedDate === date));
+    button.addEventListener("click", () => {
+      loadDigestForDate(date).catch(() => {});
+    });
+    historyDatesEl.appendChild(button);
+  }
+}
+
+async function fetchDigest(path) {
+  const response = await fetch(`${path}?ts=${Date.now()}`, { cache: "no-store" });
   if (!response.ok) throw new Error(`Failed to load digest: ${response.status}`);
-  state.digest = await response.json();
-  render();
+  return response.json();
+}
+
+async function loadHistoryIndex() {
+  try {
+    const index = await fetchDigest("./history/index.json");
+    state.historyDates = Array.isArray(index.dates) ? index.dates : [];
+  } catch {
+    state.historyDates = [];
+  }
+  renderHistoryDates();
+}
+
+async function loadDigestForDate(date = null) {
+  const path = date ? `./history/${date}.json` : "./latest_digest.json";
+  try {
+    const digest = await fetchDigest(path);
+    state.digest = digest;
+    state.selectedDate = date;
+    historyStatusEl.textContent = date ? `Snapshot ${date}` : "Latest first";
+    renderHistoryDates();
+    render();
+  } catch (error) {
+    if (date) {
+      historyStatusEl.textContent = `Snapshot ${date} unavailable`;
+      renderHistoryDates();
+    }
+    throw error;
+  }
 }
 
 document.querySelectorAll(".tab").forEach((tab) => {
@@ -161,7 +217,7 @@ document.querySelectorAll(".tab").forEach((tab) => {
 });
 
 document.querySelector("#refreshButton").addEventListener("click", () => {
-  loadDigest().catch(() => {
+  loadDigestForDate(null).catch(() => {
     countEl.textContent = "Refresh failed";
   });
 });
@@ -184,7 +240,8 @@ window.addEventListener("scroll", applyCompactHeaderState, { passive: true });
 updateClock();
 setInterval(updateClock, 30000);
 
-loadDigest().catch(() => {
+Promise.all([loadHistoryIndex(), loadDigestForDate(null)]).catch(() => {
+  historyStatusEl.textContent = "Current dashboard unavailable";
   countEl.textContent = "Data not ready";
   render();
 });
