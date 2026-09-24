@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T01:15:02.290312+08:00",
+  "generated_at": "2026-09-25T02:00:02.199882+08:00",
   "date": "2026-09-25",
   "categories": [
     {
@@ -15,7 +15,7 @@
     {
       "key": "ai_intelligence",
       "label": "AI Intelligence",
-      "count": 20
+      "count": 25
     },
     {
       "key": "markets",
@@ -26,47 +26,8 @@
   "items": [
     {
       "code": "/n01",
-      "title": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
-      "title_zh_hant": "OpenAI 失控代理程式「滲透」澳洲政府網站，全球首例",
-      "link": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-09-24T23:42:07+08:00",
-      "summary": "Australia criticised OpenAI for taking \"too long\" to tell them about the breach which happened in June.",
-      "importance_score": 95,
-      "importance_reasons": [
-        "source:bbc+16",
-        "fresh:<=2h+25",
-        "category:business_tech+6",
-        "AI / frontier model+18",
-        "policy / regulation+16",
-        "security / cyber risk+14"
-      ]
-    },
-    {
-      "code": "/n02",
-      "title": "Global bond rout rolls on, pushing US 30-year yield to highest since 2004 - Reuters",
-      "title_zh_hant": "全球債券拋售潮持續，推升美國 30 年期殖利率至 2004 年以來新高 - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOG41MExjN21pM3Z3V2JFMGkydXNYQW5YSEFfbTd2N2pOenR6R3pKQ0ZVWnVQZElXXzdBSXNLdTl4Q0ZPMzItVkIzR3hWNjZrMUNRZzJsa2xYQVNvQ1h2REJuNW1HTGpCb2lsdjdyWkZacjV6NnI1aHA4Y2JFN0sxYm5TYlBTSkhGWkd6b2dWaWNpbTVHYkhWb0lnNFo1al9scmVqT0tXZkh5ZFU?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-09-24T23:22:53+08:00",
-      "summary": "Global bond rout rolls on, pushing US 30-year yield to highest since 2004 Reuters",
-      "importance_score": 91,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=2h+25",
-        "category:markets+8",
-        "rates / central banks+20",
-        "market move+16"
-      ]
-    },
-    {
-      "code": "/n03",
       "title": "Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
-      "title_zh_hant": "OpenAI 系統為何駭入澳洲醫療體系？未來能阻止嗎？",
+      "title_zh_hant": "OpenAI 系統為何駭入澳洲衛生系統——未來能阻止嗎？",
       "link": "https://www.bbc.co.uk/news/articles/cw24jm9rryy3o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Top News",
       "category_key": "breaking",
@@ -84,29 +45,29 @@
       ]
     },
     {
-      "code": "/n04",
-      "title": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
-      "title_zh_hant": "波蘭稱 Starlink 站點火警為破壞行動，丹麥警告俄羅斯威脅升高",
-      "link": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Top News",
-      "category_key": "breaking",
-      "category_label": "突發重點",
-      "published_at": "2026-09-25T00:00:29+08:00",
-      "summary": "The satellite station is used in part to provide internet coverage to neighbouring Ukraine, the government says.",
-      "importance_score": 89,
+      "code": "/n02",
+      "title": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
+      "title_zh_hant": "失控 OpenAI 代理全球首例「滲透」澳洲政府網站",
+      "link": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-09-24T23:42:07+08:00",
+      "summary": "Australia criticised OpenAI for taking \"too long\" to tell them about the breach which happened in June.",
+      "importance_score": 88,
       "importance_reasons": [
         "source:bbc+16",
-        "fresh:<=2h+25",
-        "category:breaking+8",
+        "fresh:<=6h+18",
+        "category:business_tech+6",
+        "AI / frontier model+18",
         "policy / regulation+16",
-        "geopolitical risk+14",
-        "fatalities / disaster scale+10"
+        "security / cyber risk+14"
       ]
     },
     {
-      "code": "/n05",
+      "code": "/n03",
       "title": "OpenAI says agent hacked Australian government website without being told to do so",
-      "title_zh_hant": "OpenAI 稱代理程式未經指示即駭入澳洲政府網站",
+      "title_zh_hant": "OpenAI 稱代理未受指示即駭入澳洲政府網站",
       "link": "https://www.cnbc.com/2026/09/24/openai-agent-hacked-australian-government-website-.html",
       "source": "CNBC Top News",
       "category_key": "breaking",
@@ -124,9 +85,47 @@
       ]
     },
     {
+      "code": "/n04",
+      "title": "Google’s Gemini 4 Enters Post-Training — and the Three-Way Frontier Race Just Compressed - Yahoo Finance",
+      "title_zh_hant": "Google Gemini 4 進入後訓練階段——三方前沿模型競賽差距驟縮",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM1NQMVN1VWItY2U1SXRodU52UFFhNUJIZk9YT21mOEowX0ItN0dVSGFMcVUyRHh0OExKSVZOQldMOXE0bTdWTmRvaXVYR0hTUWNnT3lBUHQzbDkwNUdlaW5SOUJ6cU9CNnZTenB2elZrQXFYRFQ2MkFxT29hbm1kU0JJQUlRbXhZbnFpUEE1b2RWWHVRa1E?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-24T20:24:54+08:00",
+      "summary": "Google’s Gemini 4 Enters Post-Training — and the Three-Way Frontier Race Just Compressed Yahoo Finance",
+      "importance_score": 85,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=6h+18",
+        "category:ai_intelligence+10",
+        "frontier model / release+25",
+        "research / paper+16"
+      ]
+    },
+    {
+      "code": "/n05",
+      "title": "Global bond rout rolls on, pushing US 30-year yield to highest since 2004 - Reuters",
+      "title_zh_hant": "全球債市賣壓持續 推升美國 30 年期殖利率至 2004 年以來最高",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOG41MExjN21pM3Z3V2JFMGkydXNYQW5YSEFfbTd2N2pOenR6R3pKQ0ZVWnVQZElXXzdBSXNLdTl4Q0ZPMzItVkIzR3hWNjZrMUNRZzJsa2xYQVNvQ1h2REJuNW1HTGpCb2lsdjdyWkZacjV6NnI1aHA4Y2JFN0sxYm5TYlBTSkhGWkd6b2dWaWNpbTVHYkhWb0lnNFo1al9scmVqT0tXZkh5ZFU?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-09-24T23:22:53+08:00",
+      "summary": "Global bond rout rolls on, pushing US 30-year yield to highest since 2004 Reuters",
+      "importance_score": 84,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=6h+18",
+        "category:markets+8",
+        "rates / central banks+20",
+        "market move+16"
+      ]
+    },
+    {
       "code": "/n06",
       "title": "Australia to investigate if OpenAI hack of government health website broke the law",
-      "title_zh_hant": "澳洲將調查 OpenAI 駭入政府健康網站是否違法",
+      "title_zh_hant": "澳洲將調查 OpenAI 駭入政府衛生網站是否違法",
       "link": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
       "source": "TechCrunch",
       "category_key": "business_tech",
@@ -145,28 +144,28 @@
     },
     {
       "code": "/n07",
-      "title": "What you need to know about the OpenAI Australian government hack",
-      "title_zh_hant": "OpenAI 澳洲政府遭駭事件必知重點",
-      "link": "https://www.bbc.co.uk/news/videos/cwe8ekyzdjvlo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-09-24T13:18:26+08:00",
-      "summary": "The BBC’s North America technology correspondent Lily Jamali explains how the Medicare breach happened, and why it matters.",
-      "importance_score": 80,
+      "title": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
+      "title_zh_hant": "波蘭稱星鏈站點火災為蓄意破壞 丹麥警告俄羅斯威脅升高",
+      "link": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Top News",
+      "category_key": "breaking",
+      "category_label": "突發重點",
+      "published_at": "2026-09-25T00:00:29+08:00",
+      "summary": "The satellite station is used in part to provide internet coverage to neighbouring Ukraine, the government says.",
+      "importance_score": 82,
       "importance_reasons": [
         "source:bbc+16",
-        "fresh:<=12h+10",
-        "category:business_tech+6",
-        "AI / frontier model+18",
+        "fresh:<=6h+18",
+        "category:breaking+8",
         "policy / regulation+16",
-        "security / cyber risk+14"
+        "geopolitical risk+14",
+        "fatalities / disaster scale+10"
       ]
     },
     {
       "code": "/n08",
       "title": "Trump, Xi to talk Taiwan, AI, trade and Iran as DC summit kicks off",
-      "title_zh_hant": "川習會談台灣、AI、貿易與伊朗，華府峰會揭幕",
+      "title_zh_hant": "川普與習近平將談台灣、AI、貿易和伊朗 華府峰會登場",
       "link": "https://www.cnbc.com/2026/09/24/trump-xi-meeting-china-washington.html",
       "source": "CNBC Top News",
       "category_key": "breaking",
@@ -185,7 +184,7 @@
     {
       "code": "/n09",
       "title": "Fed again hoping for a pain-free landing from current inflation spike - Reuters",
-      "title_zh_hant": "Fed 再度寄望當前通膨飆升能無痛軟著陸 - Reuters",
+      "title_zh_hant": "聯準會再度寄望當前通膨飆升能無痛軟著陸",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQai1uWS0xUEd6VnlJN1ppcHAxNDdCa2dsTmtFTWJxRGticDVkQmJCM0FIVi04VUkxOU5jQVM4d18xVjNDWlJ1djZfa0ZSZkxSXzB1SkJqUVJxanVZci1jTEt3eVMwZWNBSnFpUWNXdHlGeWdITVVILXZwdlZxdnM3SFU3WFNZZzNmMU0yemM4VlNGcUxBajBfQ2tnU1M5UWlxejFfZTZ3?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -203,8 +202,62 @@
     },
     {
       "code": "/n10",
+      "title": "White House asks OpenAI, Anthropic to hold models from British testers, Politico reports - Reuters",
+      "title_zh_hant": "白宮要求 OpenAI、Anthropic 不向英國測試人員提供模型",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTGtLMFdBNFUtNmZrdmFoakY5SE1CNUFBRWt3TXVhTlZ1c0lLTGRQU3N1SzYzQ090dU9sNXBxVTZ5MUp0X21rY2tjd01xOGpRLWRDbmxSQ08weElDcG5ERU9yQ0ZJZXVWd2MzNGVHMi1xLThIWkhnWkdSc09XNEk5ZG05aG84U1ZuTTVsMnY3N2NLSTlYX3V0cm05UFAxZ2JUazV5c0tobk1kZnExSVRBMnZTdHhVMmd5WDRkTw?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-25T01:51:43+08:00",
+      "summary": "White House asks OpenAI, Anthropic to hold models from British testers, Politico reports Reuters",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n11",
+      "title": "Google Gemini Now Supports Live Avatars for Enterprise Agents - Thurrott.com",
+      "title_zh_hant": "Google Gemini 現支援企業代理的即時虛擬化身",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMnVUU2ZON1Brbzk0NV9GZk54cDE4Z21WQUNYajBXbl9Qa2NaVXd2UFZZR1I1WXgweE5ZN0dnVHFlclcxTG5wOHJRb0FfR2VkSEw4VmYtVml4eUk3Z3hWS09mZjRtVkJQdkdZcDhwVTNkcGtsYTl6WUs1cUlfc29YNkNESUdkbGNmdXRQcTdfZ2RLUWJyTThpXzRXNGJhczUxeFE?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-25T01:51:22+08:00",
+      "summary": "Google Gemini Now Supports Live Avatars for Enterprise Agents Thurrott.com",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n12",
+      "title": "'Unacceptable': Rogue OpenAI Agent Hacks Australian Government System - USA Today",
+      "title_zh_hant": "「無法接受」：失控 OpenAI 代理駭入澳洲政府系統",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMUx2cVUxaTRhZ0c1azR3Sm9mbXk5eHk2b2l1bENoVDF5STlRN2JIU1RKSldDbW5GWThTVUExTW1tR2FNcmNBaVlGZlNkSW9OUktMNnBveTE5SjIwWThJNDcyZWgtTHdLZ3VSWXpRbm92UmcyZkNUSVhpcjI3Z0U2MFVXaHA0ZzBsa1pGb0FNZzY4ZHFXaVk1ajhPT2UyR3NmQnc?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-25T01:46:00+08:00",
+      "summary": "'Unacceptable': Rogue OpenAI Agent Hacks Australian Government System USA Today",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n13",
       "title": "In a New Anthropic Lab, A.I. Turns to Biology - The New York Times",
-      "title_zh_hant": "Anthropic 新實驗室：AI 轉向生物學 - The New York Times",
+      "title_zh_hant": "Anthropic 新實驗室：AI 轉向生物學",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNFZzajNZQW1MeHplVTRLYWd5NUlpUjhTSVU1YU9sODRIQTRvZU5TXzBvR2xETVVPYmEzRVJNNVJkRk83Y2pPZlVFbnB5RHZULU85MEdTa09wZUVBM3ZiLUJIdWs3U2NieXZVNTJUNER0WG1qSGF1TkdEZGs4TjNLdVFB?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
@@ -220,9 +273,9 @@
       ]
     },
     {
-      "code": "/n11",
+      "code": "/n14",
       "title": "OpenAI Agents Tried to Hack Four More Websites While Seeking Data - WSJ",
-      "title_zh_hant": "OpenAI 代理程式為取得資料，試圖駭入另外四個網站 - WSJ",
+      "title_zh_hant": "OpenAI 代理在尋求資料時試圖駭入另外四個網站",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQVpPNHRtM1ZGSWJUMTRRa1ZtbFZ0RWd3Z3d2NURjNnNaLXJpNzk0SERJMTNkS1FXNlNkdjdPZ3UwNlhyMkVEeVRuZGlDeVFtSUlpbnVzM2hHOURGVUxhUW5rN1U5THhvdHBVRURXSllRb2swcW5Xc1VxejFWRS1iWDdoRUVoX2tKbU5wSUZDaVltLVRUWHN1MWhqS0lLN1NMUzJBaA?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
@@ -238,9 +291,9 @@
       ]
     },
     {
-      "code": "/n12",
+      "code": "/n15",
       "title": "How a Rogue OpenAI Agent Hacked Australia's Medicare System - Cyber Magazine",
-      "title_zh_hant": "失控 OpenAI 代理程式如何駭入澳洲 Medicare 系統 - Cyber Magazine",
+      "title_zh_hant": "失控 OpenAI 代理如何駭入澳洲 Medicare 系統",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQV1p6YU0yTFNrenZOSWxOb3lyQkNDdW5SaTFFWl91cndNOHBfZUJkeEVMSURJQzFWVzhmdHFmdEQzWHlreTlZY2pZSlBNZDdzVzZDakx1YzFXLWdjU2FPZEZ5Qm05QVNic1RieG1qYnEzNEVpNHh6Rm1QbDNjSjA5WXA0dGo0emJNa0VQelpvSQ?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
@@ -256,15 +309,15 @@
       ]
     },
     {
-      "code": "/n13",
-      "title": "White House asks OpenAI and Anthropic to hold new models from UK testers until US review - Politico",
-      "title_zh_hant": "白宮要求 OpenAI 與 Anthropic 在美國審查前，不讓英國測試者取得新模型 - Politico",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeUlVRnFEdlRXN1Fta2xlNTFZc2p6UzAyYjU3N1hSTkdfZWpNMVlxdXN5M0syUVFMZ2NtNGY3bmtNa2ZZVDFaSGxXaGFENEZfTk9Ia1RtOFMzM25xY1JaemFiY2tsdTVob3YyQ0hXRUNfSjh2U19hZmdPbVp1amR3WUZoWDI3UVRXQWZvUGZXQUY5WmtHcU11eDBsQjFzV1NYRFpGT0dUX1YyMWpoSmhkcVJoOEhhLWU0UVJXYjF6VUlxeEFyTk9rNy1KVFN6cE1NS0pXNjhR?oc=5",
+      "code": "/n16",
+      "title": "OpenAI’s A.I. Tried Breaching Four Other Targets, With No Prompting - The New York Times",
+      "title_zh_hant": "OpenAI 的 AI 在未受提示下試圖入侵另外四個目標",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZmdNdEU4T2dVMHUwV05rNkZjM0hrcWZRWUlLOTBoOU9BLVl1VTVCR3c5MkQ5QTRkSHFTb0dFUU1lUW56S2R5X3ZRaUR3UFViaGJuTm5FRk5LTmJXanFoUWVEbklfdVI3azB6dEMzbXdwUnhNZUd0UFJDWjFVS21wOXdzRQ?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-09-25T00:43:00+08:00",
-      "summary": "White House asks OpenAI and Anthropic to hold new models from UK testers until US review Politico",
+      "published_at": "2026-09-25T00:49:00+08:00",
+      "summary": "OpenAI’s A.I. Tried Breaching Four Other Targets, With No Prompting The New York Times",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -274,9 +327,27 @@
       ]
     },
     {
-      "code": "/n14",
+      "code": "/n17",
+      "title": "Google brings Gemini into AI agent race with business-calling feature (GOOG:NASDAQ) - Seeking Alpha",
+      "title_zh_hant": "Google 推商家通話功能 讓 Gemini 加入 AI 代理戰局",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVUtaUFRQUnc3MlliNlZYcjFyRVRaeUZleUZwdG9ZTHZQSWs1ckhkdFNnVmcyaHNyQkpfRGJjMXYyNUs5Mm4wQWt0aWtpMFd5N09rdk9NckRBQkFnZTlRR2VZV2hjd3dkbWY2cTRQNXJrUFo4Zk5rWF96b2R6RVQ0cS1Ib1BfTXZhTVJxT3ZkTWQzYjBicU5mVFZXaXBDWi1CZF9aenFJcFQ0QkU?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-25T00:42:59+08:00",
+      "summary": "Google brings Gemini into AI agent race with business-calling feature (GOOG:NASDAQ) Seeking Alpha",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n18",
       "title": "Australia Says an OpenAI Agent Hacked Into a Goverment Health Site - cnet.com",
-      "title_zh_hant": "澳洲稱 OpenAI 代理程式駭入政府健康網站 - cnet.com",
+      "title_zh_hant": "澳洲稱 OpenAI 代理駭入政府衛生網站",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWU1QeFpkb3ZpQnJ4aFZTSC1xOHA1eXpDMF95bTNhdDJnS3FWU3hPYUVkWkpOZm52T0s3ZmVfbnRYWjE0S0RKZjVxNmZEeWNwWUh0ekI0NG84ZXVQcE55MlhxSU5zcjlBS0M2NlZrNDBBdVhJQTlFWnVvT3ZIejZma2NTTzgtLTBmemVzODlxanFMQ2pqSDEyZXdtTklMMUx5Zm1GUVNsTlllS2JrQmVkMUpiQ0ZGUQ?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
@@ -292,9 +363,9 @@
       ]
     },
     {
-      "code": "/n15",
+      "code": "/n19",
       "title": "OpenAI AI agents attempted unauthorized website hacks - The Jerusalem Post",
-      "title_zh_hant": "OpenAI AI 代理程式試圖未經授權駭入網站 - The Jerusalem Post",
+      "title_zh_hant": "OpenAI AI 代理試圖未經授權駭入網站",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTHU5V1hvNUkwcFhTbHh0MU5kb3QwQ2hBRlJLT1gxbGRtdDEzcWxfLTh6UFAtcDkwdXJXYWVkUm0xY0hEMDNSOUxlU01VdlI2TGpRVjAtT3k2NVg2dHVsTmlCaWNlWnVPVlRqcmpNUVBJT2owN1V5UXIwN3JPb1I3dVBWV1dDQQ?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
@@ -310,9 +381,27 @@
       ]
     },
     {
-      "code": "/n16",
+      "code": "/n20",
+      "title": "Anthropic Launches Claude Opus 5.5 with Expanded Biology Capabilities - HLTH",
+      "title_zh_hant": "Anthropic 推出 Claude Opus 5.5 擴展生物學能力",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQmRnb1pzemlhbXpNbDVudzJEQVJURXdLMmFrWFVqa25ndXFiaTdJdWZpcDZQZ2kyUDNJaXo5cjRzOWlhLURaSlpTMjZidGluTDJnLUNCd3k5UVg3c1Flbk13ZXJPdjNCMy0xVUItMTBPdnJzcUItc1RRZVlLcGs1R05LMlJ2MC1EaUNVV25ES0hiRnU3OVNWZ1M0VmtnTDZ4amc?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-25T00:19:19+08:00",
+      "summary": "Anthropic Launches Claude Opus 5.5 with Expanded Biology Capabilities HLTH",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n21",
       "title": "TMZ’s Michael Babcock discusses OpenAI going rogue again - FOX 32 Chicago",
-      "title_zh_hant": "TMZ 的 Michael Babcock 談 OpenAI 再度失控 - FOX 32 Chicago",
+      "title_zh_hant": "TMZ 的 Michael Babcock 談 OpenAI 再度失控",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE13Tk1nNW95YTJ3dFI3ZWNxUGVPMEdyWXlJZTNQVmxBSW1sVmNpczBXMkhJWkdaRlBkSUNZdzhjSTliVnljQk5SOTZzZEs0Q1dnbGcyaDhNemRJclRvejFOVkZOZkwyd9IBa0FVX3lxTFBqTnk3MWZCS2JpQ0RleFJpUXR4eXVmaTAxWjFscnYwRjRUb2kwUVRSSTF4dmJHRnA4TnVqbVdGTlotMU92eXpsWFgydUlsd3ZwUDhlVzMzMGZQdHVCM0stRWgtSlVHd2ViQWhF?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
@@ -328,15 +417,15 @@
       ]
     },
     {
-      "code": "/n17",
-      "title": "Tapestry to sell via Google’s Gemini app, AI Mode - Retail Dive",
-      "title_zh_hant": "Tapestry 將透過 Google Gemini 應用程式與 AI 模式銷售 - Retail Dive",
+      "code": "/n22",
+      "title": "Tapestry to sell via Google’s Gemini app, AI Mode - retaildive.com",
+      "title_zh_hant": "Tapestry 將透過 Google Gemini App 與 AI 模式銷售",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWXREbE9hSE1abF85QjVfeUNIamNRWXdqX0VrOWE0Yy1ERGxhazY0Qmx1eG12NnB3QWV3NURDbnFLYXFiUXI3a1hxVkFkMGh4YzhnMVlCMjdpbzFxUUU2MkpWZUNEQ1lmYkFYSWlzb0pfNDNlOUNFellzRjg4S2NrbDI3cXlTYkQzT24w?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
       "published_at": "2026-09-25T00:17:17+08:00",
-      "summary": "Tapestry to sell via Google’s Gemini app, AI Mode Retail Dive",
+      "summary": "Tapestry to sell via Google’s Gemini app, AI Mode retaildive.com",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -346,9 +435,9 @@
       ]
     },
     {
-      "code": "/n18",
+      "code": "/n23",
       "title": "Google unveils new Gemini 3.8 Live with Live Avatar model (GOOG:NASDAQ) - Seeking Alpha",
-      "title_zh_hant": "Google 發表全新 Gemini 3.8 Live，配備 Live Avatar 模型 (GOOG:NASDAQ) - Seeking Alpha",
+      "title_zh_hant": "Google 推出全新 Gemini 3.8 Live 與即時虛擬化身模型",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeGJKYUxfbTFJSWpWR0ZCaTE0ZEZ2YmlGV0RKaS1abkFMNzJ6TmZtUVpCTkVQbHFNanQ0MkRjcUNrWnlwbm5ReklCSDk4VjZJVFZKd2JkVGN5ODdFRE56UlZvVl9ueVpZQV9vYmplVTFJLXRMU1d5S3o1V0xUNkhSbmNNSUpxRW1FRllQYXNpdFZZSkRMcUVBajNfRQ?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
@@ -364,9 +453,63 @@
       ]
     },
     {
-      "code": "/n19",
+      "code": "/n24",
+      "title": "OpenAI Bot Raises Alarms by Hacking Government Website for First Time While Trying to Answer Prompts - People.com",
+      "title_zh_hant": "OpenAI 機器人首度在嘗試回答提示時駭入政府網站 引發警報",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdkFmTmx0WkhNS2ZpTEc5cEZQS3RINkczQ0VRM0dhM04zQTZkcnVuMk4yZ05iT3Y0Z1lTTUdhdUJLMlg2d1l0Qmh1WVlUdTBnTUdMS1hGN0VzaXhzMm1pTVRINHpWY2Y4TGNWWFRaSVpJaTdwZDZFNS1XT0pxUU8zYVdma3ljZXktYU5UcEdnYnplYlB5?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-25T00:11:26+08:00",
+      "summary": "OpenAI Bot Raises Alarms by Hacking Government Website for First Time While Trying to Answer Prompts People.com",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n25",
+      "title": "Anthropic Uses 950 Claude AI Agents to Discover Uncharacterized Enzyme System - TechRepublic",
+      "title_zh_hant": "Anthropic 動用 950 個 Claude AI 代理發現未知酵素系統",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSlRNdjZrYVVTOXR3TFRqM1h4cV9QelVmUm1mV0hmeGV3MGR5WUhyZ2hRUExpNjZQWXhBQS1hbTdWaDRCUDJpSGVaR0F6b0tMd3dMdHRrV0VUMmtEYlNwMWN0aGVGeHZIeUdUT05ETlBOdk1PT1VGLXdJUzlCTTZYc2tmczRTcmoxbmhRb0MwYw?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-25T00:09:07+08:00",
+      "summary": "Anthropic Uses 950 Claude AI Agents to Discover Uncharacterized Enzyme System TechRepublic",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n26",
+      "title": "OpenAI hacks Australian government website: Here’s what you need to know - CNBC",
+      "title_zh_hant": "OpenAI 駭入澳洲政府網站：你該知道的事",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS2RNWjlINHlmSmd3U3l4MHcxZ2pwWnBLNjlrRlljcnN6NVhWclFReHlGNDVueG1YM3BIcE1DaDFGa0ZjQ3dEdmRfM205MkMxTEUwbGRBaXNwRnJ2eV83NG5nOTlKdm9pNEphaC1xUVljY1VGNVRuV2FoRmFzd0gzeTV1RW5PSmpHb3g2UnN3?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-25T00:05:12+08:00",
+      "summary": "OpenAI hacks Australian government website: Here’s what you need to know CNBC",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n27",
       "title": "Gemini can now call businesses for you so you don’t have to wait on hold - The Verge",
-      "title_zh_hant": "Gemini 現在能替你致電商家，免去等候接通 - The Verge",
+      "title_zh_hant": "Gemini 現在能替你致電商家 免去等候接通",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRTNwMXQ4a0NQYXc4aUlDaW5OUkF4UGVnQ25Uc1NOTU5BeVN2ZUMzTi1XSHR6a0oxQ3hMYm03dnFoaHZXT09jNFdfcFMyWjlfRmRZUmN3d1dvb2ZrbFJXSDA3dndlNXJyRU5OOG05cHAxVFVzeUJYTmNsbVNxdmRYeUpnSFZTa3J4OXRpb1dqeEQ5QTVvRHpUdW53?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
@@ -382,9 +525,9 @@
       ]
     },
     {
-      "code": "/n20",
+      "code": "/n28",
       "title": "Pixel 11 Gets “Call for Me” Feature to Let Gemini Make Calls For You - Droid Life",
-      "title_zh_hant": "Pixel 11 新增「Call for Me」功能，讓 Gemini 替你打電話 - Droid Life",
+      "title_zh_hant": "Pixel 11 新增「Call for Me」功能 讓 Gemini 替你打電話",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOT01Dd20zUzVnZTQxZm9lbkFWS0IwX1VYNzUybC1pbkQ3M25DUjZqMmJOWUJJdURMdTFoanlQbWtYZUJ1akZMRUp4NVFxY3ZEaGRMUHMwTl9KVEJqeHhvRE1qLVZfc200WUhqY3lzRlVyYVFzOTJLTHhQSG5iNXFpYjFsb292Zw?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
@@ -400,9 +543,9 @@
       ]
     },
     {
-      "code": "/n21",
+      "code": "/n29",
       "title": "OpenAI agent “didn’t accept no for an answer” in Australian government breach - Ars Technica",
-      "title_zh_hant": "OpenAI 代理程式在澳洲政府入侵事件中「不接受拒絕」 - Ars Technica",
+      "title_zh_hant": "OpenAI 代理在澳洲政府入侵事件中「不願接受拒絕」",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTmNhdTZjaVN0TERwOEpYdEJncWVEUkhfcXB2d1cwSHdFTFJSUkNFZlo4UXlab3hndVhyWnl0czFlQ2RVQnV1eXdOUjhXZi1MSjNQWlRQOTBmNnlQTk51UGRrdm5rS3puUXVJbGZsWjFCV2IycnZReW9QRjE1RGt3ckVrZWxraUIxWUtTeVYzdWN1X0J6aFpBcTBKRVVkOXEwVFlPQmkzNnpGbDZSblV3?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
@@ -418,99 +561,9 @@
       ]
     },
     {
-      "code": "/n22",
-      "title": "Palo Alto Networks delivers Anthropic's Mythos and OpenAI's GPT-5.6 with Unit 42 Continuous Frontier AI Defense - Fierce Network",
-      "title_zh_hant": "Palo Alto Networks 推出 Unit 42 持續前沿 AI 防禦，整合 Anthropic Mythos 與 OpenAI GPT-5.6 - Fierce Network",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSlhDcTN3TzlCQkc0MmZjZU9BYVdXZXBpdG1CcFJpdkVpQ3F0SC1YUHRvSS12OXpFU094bEpyZ3BGQVp2dlIxYV9RLWNYMUk5eUFLMVRFV1RFaC01UzdhSWw1dXdvaGhvM1hnWDlnZ0I1eGV4OW9zaWJqc1c3dFJJQ2NWdnhxQVlsRXNybXlMQnZEalBWS1NxN19uUm5GSG15U1FPZU1VRzJwU1NCQUpCdlBMeHJMSWdKbG00U3lBR1M?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-25T00:00:08+08:00",
-      "summary": "Palo Alto Networks delivers Anthropic's Mythos and OpenAI's GPT-5.6 with Unit 42 Continuous Frontier AI Defense Fierce Network",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n23",
-      "title": "Google tests letting Gemini call businesses for you - TechCrunch",
-      "title_zh_hant": "Google 測試讓 Gemini 替你致電商家 - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNV2c2bmJTM0dCeEZDVXBmQV9rWU1NX2dFOHFkaEF6VlNXVTVZUVpaVk1GZVd0NEhOTW9ydGtTU0MwcGNxZUdUaDJVVFJ0WG5VRkdVcGxTOS1aNnJiZFp6NjNJXzJScDVDVWwtajg2VW9WUHlITHJXNi1uR0VHRVpPXzU1RVpkX0Vic1JQLTlqY1BuUHJ2STFvWWNHRlAzZTgtOEpSUTItZ0E2Y3I3WGc?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-25T00:00:00+08:00",
-      "summary": "Google tests letting Gemini call businesses for you TechCrunch",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n24",
-      "title": "Google’s Gemini Can Now Make Calls for You on Pixel Phones - WIRED",
-      "title_zh_hant": "Google Gemini 現在可在 Pixel 手機上替你打電話 - WIRED",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQT2p2UUJISWJMUGxUeFdBTFNDRVZEYmhha0VmcFkxcGNoTlZQeU9ZNF8wWWM1djRCRlRLOFlnZ3hGa0lGcXZPYi04X0RvZExMazlIMHY4MHk3RmVab1ZNems3R3ZIM0RlZFMwNGlweXdwNXRoeFNKLXpfalBRc1BJdVdaZXZfYWVIQjlTeG1wWQ?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-25T00:00:00+08:00",
-      "summary": "Google’s Gemini Can Now Make Calls for You on Pixel Phones WIRED",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n25",
-      "title": "Pixel 11 starts testing ‘Call for Me’ to have Gemini phone on your behalf - 9to5Google",
-      "title_zh_hant": "Pixel 11 開始測試「Call for Me」，讓 Gemini 代你致電 - 9to5Google",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBWN0tkcGozd3JvU0JvUWUzUTQtM2F4THRKbEhpcTVsVnFaQjFSVmlkcHRrT2tyM2hLdGpLX2lOUWQ4M1ljb1ZZUzdQRUdfa0FyVmlrOG1SSnM1b01tdl9oNWtYWVozZw?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-25T00:00:00+08:00",
-      "summary": "Pixel 11 starts testing ‘Call for Me’ to have Gemini phone on your behalf 9to5Google",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n26",
-      "title": "OpenAI Agent in First Known AI Government Hack - The National CIO Review",
-      "title_zh_hant": "OpenAI 代理程式涉首起已知 AI 政府駭侵事件 - The National CIO Review",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb0JxLXRTZnpsRlA1eGVPdTZnVkVoSFpRRWxzZjk1QW1vWHlYbnU0TmZxcks0aHFTb0RiMU00YzREQmVYajNITUdBb09LMjVoNk5VX3BIV29aQkhxbXNEUmNSUTdJNEJ6Ulh0TXdhMzI3LW1XR2dla2MzM1luSDEzUmdzN0Rsc3VYVW5Zdk9XcldQUXFlcGliWWJ0b2JCcVk2UmQyU1kxcmlOVUE?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-24T23:24:55+08:00",
-      "summary": "OpenAI Agent in First Known AI Government Hack The National CIO Review",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n27",
+      "code": "/n30",
       "title": "StudentBench: AI and human tutoring yield equivalent GRE learning gains",
-      "title_zh_hant": "StudentBench：AI 與人類家教在 GRE 學習成效相當",
+      "title_zh_hant": "StudentBench：AI 與人類家教帶來同等 GRE 學習成效",
       "link": "https://arxiv.org/abs/2609.28470",
       "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
@@ -527,9 +580,9 @@
       ]
     },
     {
-      "code": "/n28",
+      "code": "/n31",
       "title": "What Makes a Terminal-Bench Task Hard? Separating Genuine Hardness from Fake-Hardness on an Adjudicated Agentic Corpus",
-      "title_zh_hant": "Terminal-Bench 任務為何困難？在經裁定的代理語料中區分真正難度與假性難度",
+      "title_zh_hant": "Terminal-Bench 任務為何困難？在經裁定的代理語料庫中區分真正難度與假性難度",
       "link": "https://arxiv.org/abs/2609.26826",
       "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
@@ -546,9 +599,9 @@
       ]
     },
     {
-      "code": "/n29",
+      "code": "/n32",
       "title": "A rubric-based controlled comparison of frontier language models on expert-authored clinical reasoning tasks",
-      "title_zh_hant": "以評分規準為基礎，對前沿語言模型在專家撰寫臨床推理任務進行受控比較",
+      "title_zh_hant": "以評分規準為基礎，對前沿語言模型在專家撰寫臨床推理任務上進行受控比較",
       "link": "https://arxiv.org/abs/2607.02175",
       "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
@@ -565,9 +618,9 @@
       ]
     },
     {
-      "code": "/n30",
+      "code": "/n33",
       "title": "Russia starts exports from Arctic Vostok Oil project in boost to long-term production - Reuters",
-      "title_zh_hant": "俄羅斯開始從北極 Vostok 石油項目出口，有助長期產量 - Reuters",
+      "title_zh_hant": "俄羅斯啟動北極 Vostok 石油項目出口，提振長期產量 - 路透",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWXA0X3pNQTJnQUo0Ti1PQnlsbW9tNy1BY19Qek1XS0JmQ2tjT0hpYXE0UmlKYy1sN1FXdm5VTGYwQzh5WF8yOFY5OE1fMUlBT1llVlRGc1pEOThuT3pLRFhTNmVYa3IzLV9oMDcwYm42UjZWVXpOZGFsN3pUNGVTeGZwb2c1ZHktNG9tNXA2aExoazFLXy1wZl9fZnVsSTVtWXVwU2U0dWl3TjNEbC1iT0ZlSTF0YzRWa205ZnBTX2g0UU5P?oc=5",
       "source": "Reuters Business via Google News",
       "category_key": "business_tech",
@@ -584,9 +637,9 @@
       ]
     },
     {
-      "code": "/n31",
+      "code": "/n34",
       "title": "Palo Alto CEO says slowing down AI is ‘unrealistic’, extinction threat ‘extremely small’",
-      "title_zh_hant": "Palo Alto執行長：放慢AI發展「不切實際」，滅絕威脅「極小」",
+      "title_zh_hant": "Palo Alto 執行長：放慢 AI 不切實際，滅絕威脅極小",
       "link": "https://www.cnbc.com/2026/09/24/palo-alto-networks-nikesh-arora-ai-slowdown.html",
       "source": "CNBC Technology",
       "category_key": "business_tech",
@@ -603,27 +656,9 @@
       ]
     },
     {
-      "code": "/n32",
-      "title": "SoftBank's growing bets on AI and semiconductor assets - Reuters",
-      "title_zh_hant": "軟銀加大對AI與半導體資產的押注",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQmlyVEJYazh1M1Z2NnUzQlA5VWVobHFDb1pRMkZQbUx6WDhBTk5razVad1RvQkdrTmNYeFV1VzZsU1ZCT1NBSGFYRGZWUVJEX0dMUUQ1MmpQVmlxVzM5U3R6VEZTRHBvUVl1X3lFNlgyeU9Ga0lPNzRGU2ZpdkFXai1MWXV5ZGpmQ3JBYzZZaFNZd2ZKTzBEQ3JFUUNKbXZMRTFfSg?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-09-24T23:19:45+08:00",
-      "summary": "SoftBank's growing bets on AI and semiconductor assets Reuters",
-      "importance_score": 73,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=2h+25",
-        "category:markets+8",
-        "Taiwan supply chain+18"
-      ]
-    },
-    {
-      "code": "/n33",
+      "code": "/n35",
       "title": "Inflation pressures raise prospect of Fed rate hike on eve of elections - Reuters",
-      "title_zh_hant": "通膨壓力升高，美國選舉前夕聯準會升息可能性增",
+      "title_zh_hant": "通膨壓力升高，選舉前夕聯準會升息可能性增 - 路透",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU0ZXSlEta0N4WGxzcHJBNUM1cUI0d0U4TGFwa2NMbDM4U0Q3MWt0YXY5TGpQQ2xxdmJWNm0yeGl0ckJNanVPOU5HOUd5R0hNc19pZXcyd3FwWkFkY1hyUEpOdTZyMVZoN3R0eHZLdkxUYzRXV1hoRDctTXhUa3pvckNvLUktNDBmWm1OV3lhOTluQVRDQzUyQTN3Q0V0YmN2Q1E?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -640,9 +675,27 @@
       ]
     },
     {
-      "code": "/n34",
+      "code": "/n36",
+      "title": "Wall St slips as Middle East escalations lifts oil; Trump-Xi talks in focus - Reuters",
+      "title_zh_hant": "中東局勢升溫推升油價，華爾街走低；川習會談受矚目 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkxPUUdXbDkwcTdtbC1yM0NWMldPb2lpeExQRVh2SVFWQUl4Q3haSlp4U04yU1BoanNVeWF5bTIwbWJRQXVEQkIwMm0taFZ4eDJ3dUVjOTVuSWhEMVRZNV9vdUNab01CS1o4aUpoQVE5TmFqV1BMTFVaZVJzVEFES3Y4S1BLZFQ1TDFtR2dLZklJRkdFN3hTaENjVDhSc05sT1BVZ09idlU1ZGkwdTZLRi1n?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-09-25T00:53:54+08:00",
+      "summary": "Wall St slips as Middle East escalations lifts oil; Trump-Xi talks in focus Reuters",
+      "importance_score": 71,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=2h+25",
+        "category:markets+8",
+        "market move+16"
+      ]
+    },
+    {
+      "code": "/n37",
       "title": "UK stocks fall as lack of progress in US-Iran talks lifts oil prices - Reuters",
-      "title_zh_hant": "美伊會談無進展推升油價，英國股市下跌",
+      "title_zh_hant": "美伊談判無進展推升油價，英國股市下跌 - 路透",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORHdHT0VLakV1eGx5V2lEejBTV2hZdC02WXdYM3ctdVNtNXA1SURvX25YZjFQeUJfUFVocEFQZ1dUc3RjVnJnX1pTaUxPcEpHdUFkYVYxU01zTGp3bG5yRlRZNmxmcnI3V3JwSUE1VFBWTThOQzVqZHlhWE54bXhhZU85R1FaTkhJNEdTV3ExN1I1YjJqVzZlN0Y3V3dSczVWdE42a1hPVQ?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -658,27 +711,9 @@
       ]
     },
     {
-      "code": "/n35",
-      "title": "CNN, MS NOW and Politico denied access to White House despite judge's order - Reuters",
-      "title_zh_hant": "儘管法官下令，CNN、MS NOW與Politico仍遭白宮拒於門外",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSGZDelJBRHdvcFBwNGNlTGwxdVNHNnk1UmhJeDZUZWd2Y3o4ZGw4QTVaM2VrT21MQWt2eUUyR2c5cnR3ckdadDZNS0RSdUpLX1FVMHpqU1B3aWVyeGs3aGp0RE44R2JoRG55QlhiUWRQOWRhUGtoZ1ZoMlhydDJOQlRPU2JkbldsaDB4UUc3TVJxU2xwMFVvbHlMNG1UOHNPWUUzSmVaVHFCR1Y0SmJvRmFSNFVDU3JyNHdhTkp0a1RuQmEzWjNrcw?oc=5",
-      "source": "Reuters Top via Google News",
-      "category_key": "breaking",
-      "category_label": "突發重點",
-      "published_at": "2026-09-24T23:21:49+08:00",
-      "summary": "CNN, MS NOW and Politico denied access to White House despite judge's order Reuters",
-      "importance_score": 71,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=2h+25",
-        "category:breaking+8",
-        "policy / regulation+16"
-      ]
-    },
-    {
-      "code": "/n36",
+      "code": "/n38",
       "title": "Fed rate hike cycles have a history of denting US stock prices - Reuters",
-      "title_zh_hant": "聯準會升息週期向來會打壓美國股價",
+      "title_zh_hant": "聯準會升息週期向來打壓美股價格 - 路透",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRmR3cTBOOVhRdHBUaGJ0Z0lBY09RNlFCRm9nSkl3bVpTM3lzN3pMTTlZVVJvdnFyT3FzQXZUZ0NLWXUzbGtLQnRFaFlWNmVNUHJnbHcwbjEwbDBvTG1sQkIzdUN4a3d4RW5VcjlKeVhRSUh4TTJXdW92NkE2eDNVTGJOdlBnZHEyQVpVWnIyMk9EQnBEd1l5SjNnREtobGw5bkRGVw?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -695,9 +730,9 @@
       ]
     },
     {
-      "code": "/n37",
+      "code": "/n39",
       "title": "Rupee declines to one-week low as oil rally fans global rate hike worries - Reuters",
-      "title_zh_hant": "印度盧比跌至一週低點，油價大漲加劇全球升息憂慮",
+      "title_zh_hant": "油價漲勢助長全球升息憂慮，印度盧比跌至一週低點 - 路透",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYWxRcGJGem9jUEZ0dXY2NDVGblVTZElHakV4bmVHQXl5SHpyemdjME1vZFlOMldrWk5uWm5ncFI3dHNpdUJpS2FPUHFxTGc3bVFFQjF3bmR2ckdpaU1NUXl6OUNudzlYLWE4ZEVHelRFNk5GdzRRQzV2ZFRlNmJUSGtZSFhTWEFmMmdIdlRTVjlucjVhTEE3STJtdGppemZpM2Vka0RsTE1qbjZJZHlZ?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -714,9 +749,9 @@
       ]
     },
     {
-      "code": "/n38",
+      "code": "/n40",
       "title": "Gold at one week-low as higher oil, hawkish Fed weigh - Reuters",
-      "title_zh_hant": "油價上漲、聯準會轉鷹，金價跌至一週低點",
+      "title_zh_hant": "油價走高與聯準會鷹派立場壓抑金價，黃金跌至一週低點 - 路透",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPenM1U09oVWJmVW8zbUtuN1ZLcWU1dGRKa1Rqdk1FU0k5QmVDSGRwcG9hR1NVVFVYOGhkSWpMdVF0aWFZMWx6TlNSWHZiajl5UWdzbWFZNmpGUW53MEhhbGgteHgtOGZGTzdlVGdWVjhWR2pMSzdJSWdCSmVTRHA4RVlCWS1tNU1NQU9QanFEQTRnNjhSSlhFQ052dEE?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -733,9 +768,9 @@
       ]
     },
     {
-      "code": "/n39",
+      "code": "/n41",
       "title": "SoftBank raises $11.1 billion in world's biggest high-yield corporate bond sale - Reuters",
-      "title_zh_hant": "軟銀募得111億美元，創全球最大高收益公司債發行",
+      "title_zh_hant": "SoftBank 發行 111 億美元高收益公司債，創全球最大規模 - 路透",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeldGcjFrNndNWHBkZ3ppV1hNSklkU3BNWGw5ZWFZQ1VyMWptRmJTN2pEMVBfUVFoLU0xOUhaUVN4VVR3RTNKeXNySkFGZ2tsRWVLRkY0SnhTdDUwcTZwWS1PYVBPdklXN0NLd1phMEt6Uzc3blZleGxGYUh0ZmhLY1RVREJxcE5VNFBsenVhcXpnV0R2WGVXWk9uUGdvT3BRSVRDVFFZSk1aZl92ZGxwSG1sbWg?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -752,28 +787,63 @@
       ]
     },
     {
-      "code": "/n40",
-      "title": "Gold loses shine as rate hike bets foster a stronger dollar - Reuters",
-      "title_zh_hant": "升息押注推升美元，金價失色",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVGROaTNUbzBNRWdvU1J1SVRKaURrN0FDVHMteG50VExEUUhKN3UyQ0pMZ3F0ZUtXRHoyc2c2aDgzRkFrTFhHR01OdVROSVBWVnRLWmhqSjNDdW5FVjdHeEptYW5fUFg1VFVnX0xXZURtemZqOVNqNmRqc19yVjdYX3BwM1I1T0M4VUIwdDNqdmxFcnlXX2pKS3VCNllNbEJTQkZxZTJkd1NpNDZwOGpBSw?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-09-24T01:53:49+08:00",
-      "summary": "Gold loses shine as rate hike bets foster a stronger dollar Reuters",
-      "importance_score": 70,
+      "code": "/n42",
+      "title": "CNN, MS NOW and Politico back at the White House after judge ordered Trump to lift ban - AP News",
+      "title_zh_hant": "法官命令川普解除禁令後，CNN、MS NOW 與 Politico 重返白宮 - 美聯社",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNFNUM3VIUEdwTndqbnFYUjk4OUYzUHNvQ0syOVNEQmNNSUxvd1FzNWdDYnpZcjJyV0xKU1BWUzc0eFVqeFRka3VNU05MeGRIT1ppWDJnbE1xMjZDbVVIc0hZT0pfUDBfNGZLUzhIOVRfU1h2N0I3SjJTajNuYUFrSFVONEVxYlpLa0F1TjcyT3diOU9nNWhhVU1zQW1XeTNSNWw1ekdMdXdQeEk?oc=5",
+      "source": "AP Top via Google News",
+      "category_key": "breaking",
+      "category_label": "突發重點",
+      "published_at": "2026-09-25T01:50:00+08:00",
+      "summary": "CNN, MS NOW and Politico back at the White House after judge ordered Trump to lift ban AP News",
+      "importance_score": 69,
       "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=24h+4",
-        "category:markets+8",
-        "rates / central banks+20",
-        "market move+16"
+        "source:ap+20",
+        "fresh:<=2h+25",
+        "category:breaking+8",
+        "policy / regulation+16"
       ]
     },
     {
-      "code": "/n41",
+      "code": "/n43",
+      "title": "MS NOW and CNN says they have been granted access to White House - Reuters",
+      "title_zh_hant": "MS NOW 與 CNN 表示已獲准進入白宮 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQalFGTFRpbncxTmxyaFA0M1FwbF9CNHJEbTNLNzlfOFVYN1h2MXB3ZnA2ZEpCSGFtS3RVVlduWGl4dk9kVTI4RFJLRFFaeC15TXcyc3dXQ0xQUmRDOE5peUtwS3hpYWtzV2Nwcl85T2ZHS1lYREs5ekh4UlFhcHNwVmdIcnVOVXNHRHB3MDZPR2gyU0ZGdEI4QkhHQUx0dTB1blFfOUN5ZUh5SXBSTi0zaWdJRmRwbVU?oc=5",
+      "source": "Reuters Business via Google News",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-09-25T00:14:51+08:00",
+      "summary": "MS NOW and CNN says they have been granted access to White House Reuters",
+      "importance_score": 69,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=2h+25",
+        "category:business_tech+6",
+        "policy / regulation+16"
+      ]
+    },
+    {
+      "code": "/n44",
+      "title": "Pixel 11's new Gemini phone call feature sounds amazing until you realize the limitation - MakeUseOf",
+      "title_zh_hant": "Pixel 11 新的 Gemini 通話功能聽起來很棒，直到你發現其限制 - MakeUseOf",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHUUIwT0gzWndoZlY5RlgyaERjNWZCNXFxLTNZR1owRmZzeVR0QmEzVENfRi0zb0hkVWpGaWI4TnpYbUJrMGZ6dVpIUzFabzN4M2FUV3JOUXd3eVF0aTJNcnNjM1piZmZaVFB6VG9DUFJIUm12VTZ2ZEN5aTM?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-25T00:00:14+08:00",
+      "summary": "Pixel 11's new Gemini phone call feature sounds amazing until you realize the limitation MakeUseOf",
+      "importance_score": 69,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=6h+18",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n45",
       "title": "Morning Bid: License to yield - Reuters",
-      "title_zh_hant": "Morning Bid：殖利率的許可證",
+      "title_zh_hant": "晨間觀點：殖利率的通行證 - 路透",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqUE9ycG1WX3dRaElQb3pQOUhISXA1RW9Pck9jVHgxRzlWX0FrY29IOVNBbmItOUp2dmNBd3ctb0RNMG5URkdxaTlDaDhiM1FlbWE5Mm1USnVmODEzZV9Oak5vWXoydw?oc=5",
       "source": "Reuters Taiwan Supply Chain via Google News",
       "category_key": "markets",
@@ -789,9 +859,9 @@
       ]
     },
     {
-      "code": "/n42",
+      "code": "/n46",
       "title": "Fed's Williams says it is reasonable to see another US rate hike this year - Reuters",
-      "title_zh_hant": "聯準會威廉斯：今年再次升息是合理的",
+      "title_zh_hant": "聯準會威廉斯：今年再升息一次是合理的 - 路透",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYkdqZ3lLWVItQUduVDZkZW45dEhCcmIwUEM4QlZFSVoxN0QxVEl0NTk4MmtqYVktY3JjNGFGOGZSaVRNMDJFX1QzTXRjYnVkWm0yQUFlU1hWRTNsbXRlY0pIa3RGWEtkamtjdUhERE1qLVlsQTgyNjBGSzA0ZXFLS29pQXM3QTBOTHZuYXRZT2paWlBPWk90eFM3NzFBRnBTZFZaVGF3cFA0V3lCY1I5T09FQWVhdw?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -807,15 +877,51 @@
       ]
     },
     {
-      "code": "/n43",
-      "title": "Wall St slips as Middle East uncertainty lifts oil; Trump-Xi talks in focus - Reuters",
-      "title_zh_hant": "中東不確定性推升油價，華爾街走低；川習會談受矚目",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkxPUUdXbDkwcTdtbC1yM0NWMldPb2lpeExQRVh2SVFWQUl4Q3haSlp4U04yU1BoanNVeWF5bTIwbWJRQXVEQkIwMm0taFZ4eDJ3dUVjOTVuSWhEMVRZNV9vdUNab01CS1o4aUpoQVE5TmFqV1BMTFVaZVJzVEFES3Y4S1BLZFQ1TDFtR2dLZklJRkdFN3hTaENjVDhSc05sT1BVZ09idlU1ZGkwdTZLRi1n?oc=5",
+      "code": "/n47",
+      "title": "SoftBank's growing bets on AI and semiconductor assets - Reuters",
+      "title_zh_hant": "SoftBank 加碼押注 AI 與半導體資產 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQmlyVEJYazh1M1Z2NnUzQlA5VWVobHFDb1pRMkZQbUx6WDhBTk5razVad1RvQkdrTmNYeFV1VzZsU1ZCT1NBSGFYRGZWUVJEX0dMUUQ1MmpQVmlxVzM5U3R6VEZTRHBvUVl1X3lFNlgyeU9Ga0lPNzRGU2ZpdkFXai1MWXV5ZGpmQ3JBYzZZaFNZd2ZKTzBEQ3JFUUNKbXZMRTFfSg?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-09-24T22:21:39+08:00",
-      "summary": "Wall St slips as Middle East uncertainty lifts oil; Trump-Xi talks in focus Reuters",
+      "published_at": "2026-09-24T23:19:45+08:00",
+      "summary": "SoftBank's growing bets on AI and semiconductor assets Reuters",
+      "importance_score": 66,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=6h+18",
+        "category:markets+8",
+        "Taiwan supply chain+18"
+      ]
+    },
+    {
+      "code": "/n48",
+      "title": "Google plans first test of AI chips in space under Project Suncatcher - Reuters",
+      "title_zh_hant": "Google 擬透過 Project Suncatcher 在太空首測 AI 晶片 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZmNaNWFQQUxEalIzZUJfLUMwcTFVUmw3c0hGMDJ5NllYa0RuZ0VyeFhiV0JWOTVvMk54ZmVXLWNjcFhhby1DM0g0U3gzc0VFRlJzTG13WmN3U2VZMTdDU3BhMkk2MDJGWHExQk5nQ1Z3YjJNdXRkcktQb1A2QXduMDJQcDZ1ZFhlT2VySzBrMEpDQVFJTE9GY0l5VHNVemoySU83Tm5Ma3pfNG5vNlY0MjBzUUFEaFoxaVJDWmRTbw?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-09-24T22:11:34+08:00",
+      "summary": "Google plans first test of AI chips in space under Project Suncatcher Reuters",
+      "importance_score": 66,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=6h+18",
+        "category:markets+8",
+        "Taiwan supply chain+18"
+      ]
+    },
+    {
+      "code": "/n49",
+      "title": "Bond market sell-off rumbles on ahead of Trump and XI talks - Reuters",
+      "title_zh_hant": "川習會談前債市拋售持續震盪 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWEltUDlJNE9jWHA5VlhOV21YTl9vZnZzMjQ1ZldQTmNSOHQ4NDMyZzlVbHVXZ1NqN01WR0d1aWxKVTQ1LURRTGhKQjlYbzUydHBYRVVuUkt3dFhRWDB1VDdWQTZhVy1Fb0pIM1hRa0UtTWZGQ1ZIa0MzSm1SUEdPR2pjNA?oc=5",
+      "source": "Reuters Taiwan Supply Chain via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-09-24T21:50:15+08:00",
+      "summary": "Bond market sell-off rumbles on ahead of Trump and XI talks Reuters",
       "importance_score": 64,
       "importance_reasons": [
         "source:reuters+22",
@@ -825,27 +931,9 @@
       ]
     },
     {
-      "code": "/n44",
-      "title": "Google plans first test of AI chips in space under Project Suncatcher - Reuters",
-      "title_zh_hant": "Google計劃透過Suncatcher計畫首度在太空測試AI晶片",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZmNaNWFQQUxEalIzZUJfLUMwcTFVUmw3c0hGMDJ5NllYa0RuZ0VyeFhiV0JWOTVvMk54ZmVXLWNjcFhhby1DM0g0U3gzc0VFRlJzTG13WmN3U2VZMTdDU3BhMkk2MDJGWHExQk5nQ1Z3YjJNdXRkcktQb1A2QXduMDJQcDZ1ZFhlT2VySzBrMEpDQVFJTE9GY0l5VHNVemoySU83Tm5Ma3pfNG5vNlY0MjBzUUFEaFoxaVJDWmRTbw?oc=5",
-      "source": "Reuters Business via Google News",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-09-24T22:11:34+08:00",
-      "summary": "Google plans first test of AI chips in space under Project Suncatcher Reuters",
-      "importance_score": 64,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=6h+18",
-        "category:business_tech+6",
-        "semiconductors / Taiwan supply chain+18"
-      ]
-    },
-    {
-      "code": "/n45",
+      "code": "/n50",
       "title": "Darden Restaurants stock falls as Olive Garden reports slower growth",
-      "title_zh_hant": "Olive Garden成長放緩，Darden Restaurants股價下跌",
+      "title_zh_hant": "Darden Restaurants 股價下跌，因 Olive Garden 成長放緩",
       "link": "https://www.cnbc.com/2026/09/24/darden-restaurants-dri-q1-2027-earnings.html",
       "source": "CNBC Markets",
       "category_key": "markets",
@@ -861,27 +949,28 @@
       ]
     },
     {
-      "code": "/n46",
-      "title": "Greek-operated air defence system shoots down ballistic missile, drone over Saudi - Reuters",
-      "title_zh_hant": "希臘操作防空系統在沙烏地擊落彈道飛彈與無人機",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOY2N6YzZlY3BwZ21GRi1FMVVZZGsxUkExb3g5eS1GRi1JTEx0SlI1bFp5VU1YcS1OWWRvOEJiRFY0ZG5rNGtERGI5MnNIdVRXNnVBaEVEcF92Zk1pSm5QOXg2YXZ4RFhjUkFIdXZyVU4xazR5U1ltSVd2VE1oRDdPWjVvUFIyaFRjNVhkUlN0T2dRbkZON05WRDJTa2hoU0pmejl2eEZFUzAzNEpqeWgwOHJHUzFNOXltYTh3bXliRm5lM0t1UWFubnpiUkVicWxGeFpNenJPb2Z5eGM?oc=5",
+      "code": "/n51",
+      "title": "Oil settles up around 4% as Iran's president vows to never surrender - Reuters",
+      "title_zh_hant": "伊朗總統誓言絕不投降，油價收漲約 4% - 路透",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeFhpNFFXWGZ2azRGVllBNXpwLXZQeTFySkY3Vi12SmpTNmMyY09oU3RMa3Rqb21pNUl0ZGhSbVBWQnZBOXdOb19xSlU3TnNra0F6OWowVHp5RHlSblJGTVhXandWeEFJaDBOTi1VcjdrSjVNeGVJZnVjeUJXM3NVYUgxZ28yQkVuWXNhc1pxd093NVVBTHZnWm40c01OS00zZHAwRWVR?oc=5",
       "source": "Reuters Business via Google News",
       "category_key": "business_tech",
       "category_label": "商業科技",
-      "published_at": "2026-09-24T19:58:36+08:00",
-      "summary": "Greek-operated air defence system shoots down ballistic missile, drone over Saudi Reuters",
+      "published_at": "2026-09-24T02:48:44+08:00",
+      "summary": "Oil settles up around 4% as Iran's president vows to never surrender Reuters",
       "importance_score": 60,
       "importance_reasons": [
         "source:reuters+22",
-        "fresh:<=6h+18",
+        "fresh:<=24h+4",
         "category:business_tech+6",
+        "markets / macro+14",
         "geopolitical risk+14"
       ]
     },
     {
-      "code": "/n47",
+      "code": "/n52",
       "title": "Thailand eyes $80 billion in semiconductor investment by 2050 under new strategy - Reuters",
-      "title_zh_hant": "泰國新戰略鎖定2050年前800億美元半導體投資",
+      "title_zh_hant": "泰國新戰略目標：2050 年前吸引 800 億美元半導體投資 - 路透",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbnM0U3pScnQwZG1aRnRYODlpM1VwUldaVlFCTEZkQ3JpSEVXTDJqckdLOGttbjFaUnJGN01kRjg3b2MydXo5S0liaVhWdlpGRUg3Q0VUZFhBR2tXZHgzZF9iYUlDUEpGQ2xZYVJtQmVUbTlCUTR3d3pLN3E5ZnA5M3ZFa3NzYlM4Q2owZVdLQnJLa3dCU0tZYnZUeElRcUVKbjBoSklDSDR4Y1dDWndEZU1SVEY4OUdPYmdYY1lpQVlNcGZOQTNnWnpBVQ?oc=5",
       "source": "Reuters Taiwan Supply Chain via Google News",
       "category_key": "markets",
@@ -897,9 +986,9 @@
       ]
     },
     {
-      "code": "/n48",
+      "code": "/n53",
       "title": "Trump and Xi's four Ts: Trade, Technology, Tehran and Taiwan - Reuters",
-      "title_zh_hant": "川普與習近平的4個T：貿易、科技、德黑蘭與台灣",
+      "title_zh_hant": "川習會談的四大 T：貿易、科技、德黑蘭與台灣 - 路透",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9XTE1aRGpwSnRncVk2cWtWQ0NKMWNNeURNLTVoZlB2TnNZMEVmNHFqajZaOFIySy0zcmhGbDJ6eFRMMkJpbkI2b2tZSVdVMGx1aUFmWkJBQXotenQ3?oc=5",
       "source": "Reuters Taiwan Supply Chain via Google News",
       "category_key": "markets",
@@ -915,9 +1004,27 @@
       ]
     },
     {
-      "code": "/n49",
+      "code": "/n54",
+      "title": "Qualcomm secures extension to global patent licensing pact with Apple - Reuters",
+      "title_zh_hant": "Qualcomm 與 Apple 延長全球專利授權協議 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORUFWMEMwcmhuYVJuR005cG5sLU05RFd6bFFyY0p3Tk01NnZBMVhDZW85LVJFQ0k1R2RCZGU4d29PWHdJZjZaUTFKclM1eHZlU3F6aHJ4Szc4NkFqM2NIdFNhdzNVQjV3QUJael9ZQVNrSnA5cVc4Vk5FSkdrSndEYUVWUW11Ti15cXUwQ0ZyNHU5bXRqaF9ZQ2VR?oc=5",
+      "source": "Reuters Business via Google News",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-09-24T20:55:11+08:00",
+      "summary": "Qualcomm secures extension to global patent licensing pact with Apple Reuters",
+      "importance_score": 56,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=6h+18",
+        "category:business_tech+6",
+        "major company decision+10"
+      ]
+    },
+    {
+      "code": "/n55",
       "title": "Sterling hits near 3-month low against the dollar - Reuters",
-      "title_zh_hant": "英鎊兌美元跌至近三個月低點",
+      "title_zh_hant": "英鎊兌美元跌至近三個月低點 - 路透",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSjJuSGVFaXl5dWRCWEVYRGwxTTZYZVpTYkk1NWdHd20tSTI3WFRTSUItWnN1eDhITGJlWHVsam1qdUZMVlNrTDdUSkdyc242QnFZeWl2MVhmbHlLTlcya09jdmkyOGZDbHIwSDZUMFBRTmMyV0ZNX2dNSmtGZ1dVV0Z0ekhvcXpmX2NocXlOc0RBYXlh?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -933,9 +1040,9 @@
       ]
     },
     {
-      "code": "/n50",
+      "code": "/n56",
       "title": "Serbia's Russian-owned NIS oil firm seeks new US sanctions waiver - Reuters",
-      "title_zh_hant": "塞爾維亞俄資NIS石油公司尋求美國新制裁豁免",
+      "title_zh_hant": "塞爾維亞俄資 NIS 石油公司尋求美國新制裁豁免 - 路透",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNlllVVlKRlVNVVB3eWZlWnkySGxQOWxidXRPRVVMM2xtZEhQd0Z0R1Rpak1RLXltQmFoVGRVU3hqaUJnSjhzbFVmWHZoRzBrMnpnNVBHWFUwaml0MTdCNjM1SDcxdHNyTWI4Z2RjbmpaZFFpWTFINEx3Q3g3NGpENzd4RER2eHpnaXJDamlXZFRMWmpTcGs1U2xLQ3FPQmNVTXNTdmdnUzVmT3BGcTNLN0JQZ0E3VjQ?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -951,9 +1058,9 @@
       ]
     },
     {
-      "code": "/n51",
+      "code": "/n57",
       "title": "HSBC plans India equity broking return after 13 years amid IPO boom, sources say - Reuters",
-      "title_zh_hant": "消息人士：滙豐擬重返印度股票經紀業務，睽違13年搭IPO熱潮",
+      "title_zh_hant": "消息人士：HSBC 擬在 IPO 熱潮下重返印度股票經紀業務，時隔 13 年 - 路透",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNndJWFQyTDNfdUQ5R1dEWWVaenhhWC0xU2NXOV9BVVZqWVFyV1dudUFLWmREQ2ZZR3BYSFBZS05MelpfeDU0TmdmUzYwV0ZSQ29qWjhZOGxYckQ3bS1xNlJRb080WFhXaElWbTc5TW55Vk04SkhIby1QWWpSM1VaU2w1ZXNZcWJUVnZURHJ5SjJmd0VKUmdQWHRjS1JfYnBpc18yMVNlT1U3enZPU1ZQQzRsXzc1S0tCczJNZUVyUVVRRUtzUlBHdDNIc2Y?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -966,23 +1073,6 @@
         "fresh:<=12h+10",
         "category:markets+8",
         "market move+16"
-      ]
-    },
-    {
-      "code": "/n52",
-      "title": "Protesters rally against China's Xi state visit in DC - Reuters",
-      "title_zh_hant": "抗議者齊聚華府，反對中國習近平國是訪問",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zdk42ckxCTmo1WmpLM2Z2a0d0VVVQNnRmVV9UTEtRdy1xSXkxc09LWE04eDBLS3Vibm0yTmdUaHoxZ0N0NWpDdTAxS01wY3pua3RPWjU5eW5JYW9CZDlDNlBnVEZKRlk?oc=5",
-      "source": "Reuters Taiwan Supply Chain via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-09-25T00:52:30+08:00",
-      "summary": "Protesters rally against China's Xi state visit in DC Reuters",
-      "importance_score": 55,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=2h+25",
-        "category:markets+8"
       ]
     }
   ]
