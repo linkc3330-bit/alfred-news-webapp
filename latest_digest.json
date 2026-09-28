@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:00:02.509941+08:00",
+  "generated_at": "2026-09-29T07:00:02.273815+08:00",
   "date": "2026-09-29",
   "categories": [
     {
@@ -15,7 +15,7 @@
     {
       "key": "ai_intelligence",
       "label": "AI Intelligence",
-      "count": 36
+      "count": 29
     },
     {
       "key": "markets",
@@ -26,9 +26,28 @@
   "items": [
     {
       "code": "/n01",
+      "title": "Claude Sonnet 5.5",
+      "title_zh_hant": "Claude Sonnet 5.5",
+      "link": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+      "source": "Simon Willison",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-29T06:07:38+08:00",
+      "summary": "Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be...",
+      "importance_score": 96,
+      "importance_reasons": [
+        "source:simon willison+18",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25",
+        "benchmark / evaluation+18"
+      ]
+    },
+    {
+      "code": "/n02",
       "title": "Inflation, rising debt could force more Fed rate hikes, says advisor - Reuters",
-      "title_zh_hant": "顧問：通膨與債務攀升 恐迫使聯準會進一步升息",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE16OXN6eW5qZU1oNmVYTHF6dW9xckNMZlBRLTZqZmJkYkhUQVhGdG9OVFF3cF8wY1RGVjJQdl9JZWZLRU9jb19rSVdvT2hGSUZWRG9UbFlrdXVyMDVRR0ttZUdwUlNrQU0?oc=5",
+      "title_zh_hant": "顧問：通膨與債務攀升恐迫使聯準會進一步升息 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11NHM3Rkx0ZkNDTTI2MXVRUm5hVDdsMjJockpTVndQTUdQYjVEQm9WYzhUZ2thNFh4eDNPbVp3TzdKV1NubFFVNXoySzBPV2NZdUx2d1ZaWFA2ZDl2TlpoaUNrb2Z0Qno0VzBKYmNlNjFTYW5QSUhGaGxn?oc=5",
       "source": "Reuters Taiwan Supply Chain via Google News",
       "category_key": "markets",
       "category_label": "Markets",
@@ -44,9 +63,9 @@
       ]
     },
     {
-      "code": "/n02",
+      "code": "/n03",
       "title": "OpenAI Halts Model Training as Rogue Agents Target US Government Sites - Yahoo",
-      "title_zh_hant": "OpenAI 暫停模型訓練 因失控代理鎖定美國政府網站",
+      "title_zh_hant": "OpenAI 暫停模型訓練，失控代理鎖定美國政府網站 - 雅虎",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTTE1UVNIMDNnZWdlWU85UkhMMDRvU2FuaWlMNmZIY3ZPckt2SDRiMnF5VXJVOThrY3lCMkR2NnhEUlVIU3hBYWxNMl9BOFlZNGI5N2Z0S3UzbXVjeHZRWkRpak1hQTRKX1owQ28yQlNmMXVhYkowLXc1VVB0Q1k2czFKVVV3UFVUejhSeGFUakswMHFaVjRKQg?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
@@ -63,9 +82,9 @@
       ]
     },
     {
-      "code": "/n03",
+      "code": "/n04",
       "title": "The Shrinking Lifespan of LLMs in Science",
-      "title_zh_hant": "科學領域 LLM 壽命日益縮短",
+      "title_zh_hant": "科學界大型語言模型的壽命日益縮短",
       "link": "https://arxiv.org/abs/2604.07530",
       "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
@@ -83,34 +102,15 @@
       ]
     },
     {
-      "code": "/n04",
-      "title": "OpenAI Pauses Models Training After Agents Access US Government - Mexico Business News",
-      "title_zh_hant": "OpenAI 暫停模型訓練 因代理程式存取美國政府系統",
+      "code": "/n05",
+      "title": "OpenAI Pauses Models Training After Agents Access US Government - mexicobusiness.news",
+      "title_zh_hant": "OpenAI 在代理存取美國政府後暫停模型訓練 - mexicobusiness.news",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRUJJOHlXY3RDOE8zR2FkX2IxSG9mNk5TdURhZm1ONllMSUVabjZsVzBwa3JBSWxUdjN1cFIzMUhmTy1OUmM0Q1p5dXlCSGNGVjBDUHY0Q25EQ0Q4ZFVxV296bGhvZ2VjMnBNX3J5clFwSFllay1kV0lDX19HcWhuRjFSWWxjT0tfYnJpZm9HOTNPaElKY1lyZzlfRkRhZGppQmVYR3lncFI1M0YwUE9j?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
       "published_at": "2026-09-29T03:51:04+08:00",
-      "summary": "OpenAI Pauses Models Training After Agents Access US Government Mexico Business News",
-      "importance_score": 85,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=6h+18",
-        "category:ai_intelligence+10",
-        "frontier model / release+25",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n05",
-      "title": "OpenAI is pausing training of its most powerful AI models after rogue agents hit government sites - qz.com",
-      "title_zh_hant": "OpenAI 暫停訓練最強大 AI 模型 因失控代理攻擊政府網站",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSU1HLURfWkV6cEVXY1I4UDF3RzZmdGJ4eGZQNzJnLW5zb1YwSkE3dnhVZ0JfMExDUndQWGcxX1JGUDBWTzk0cFhPSVY4LVdYaEdqNVlxOGtIeFlVZU80ellfOW1zbTVjWXhHdEhxQXpQNFNzMjdic1ZsLWZKVU9ha24wbWd1V3hXR21Z?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T01:57:48+08:00",
-      "summary": "OpenAI is pausing training of its most powerful AI models after rogue agents hit government sites qz.com",
+      "summary": "OpenAI Pauses Models Training After Agents Access US Government mexicobusiness.news",
       "importance_score": 85,
       "importance_reasons": [
         "source:ai industry+16",
@@ -122,14 +122,14 @@
     },
     {
       "code": "/n06",
-      "title": "OpenAI Paused AI Training. Why Donald Trump Could Save the AI Stock Rally. - barrons.com",
-      "title_zh_hant": "OpenAI 暫停 AI 訓練 為何川普可能拯救 AI 股漲勢",
+      "title": "OpenAI Paused AI Training. Why Donald Trump Could Save the AI Stock Rally. - Barron's",
+      "title_zh_hant": "OpenAI 暫停 AI 訓練。為何川普可能拯救 AI 股漲勢。- 巴隆周刊",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPamlueVN5ZWszNkJWSHRQNnI0RWVVZ2RjNlVaYWVLcTFvMFNxNnBodEItUjJYSG1iUmY1MmdTS1hYSVp0TnRXRHg5UFF1VnJUbFZWM2hBV3JGT0JqbndXTnJuMEt4NHF1alQ0b1o1cDJIOGp1dldVcTY4YUwtd1VxYlNfN0JfTHM?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
       "published_at": "2026-09-29T01:12:00+08:00",
-      "summary": "OpenAI Paused AI Training. Why Donald Trump Could Save the AI Stock Rally. barrons.com",
+      "summary": "OpenAI Paused AI Training. Why Donald Trump Could Save the AI Stock Rally. Barron's",
       "importance_score": 85,
       "importance_reasons": [
         "source:ai industry+16",
@@ -142,7 +142,7 @@
     {
       "code": "/n07",
       "title": "OpenAI pauses AI model training after another agent bypasses network restrictions - csoonline.com",
-      "title_zh_hant": "OpenAI 暫停 AI 模型訓練 又有代理繞過網路限制",
+      "title_zh_hant": "又有代理繞過網路限制後 OpenAI 暫停 AI 模型訓練 - csoonline.com",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQV1V0S0NaNlV6cnBPM3VfN0FXRnppbGJlOHZHMHcwY0RHSkdCcVlaLWhPMmVlM1N1ZEhPTlF3VDd1Qld3UkNEU3hYVk1jX0xLdkl2SWJkY0dyeDA3elpxVkVCTVp1T3dEeFVEc2d0Tmdjcm9Wd2VUN2JITmVvWkdtQWZWWmpTQWM0azdPZ2JhU0FoeFNfcjNhQlJoNFNuV1poZW1hbnBxdWxSQTR5MjBDQXVUblZrSGFDMkxub0JxRDFPRkN3WFo4?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
@@ -160,46 +160,8 @@
     },
     {
       "code": "/n08",
-      "title": "OpenAI’s Training Halt Stalls the Persistent Assistant Pivot Ahead of DevDay - Yahoo Finance",
-      "title_zh_hant": "OpenAI 暫停訓練 DevDay 前的常駐助理轉型卡關",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOVJWczBoQTlIMkJKY2RjVXNwbXhWeGZRbVRYaTRIeGVuZ3RpdHBiNGtZSUVtNFBNZjNRajFJUlp3eV9rMEdseXVxc3N0UkNQdXlXcU1lYjA3V1VHaHVUQUUwWFVQZGx0QXIwbVlUaGVXNm1uM1VFdU5PNUpNVElZNC1YVkc0eFZCQVJzSkdVZFJSZVdCa3pYQi1uYkJTNTNuSWtMQQ?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T00:43:30+08:00",
-      "summary": "OpenAI’s Training Halt Stalls the Persistent Assistant Pivot Ahead of DevDay Yahoo Finance",
-      "importance_score": 85,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=6h+18",
-        "category:ai_intelligence+10",
-        "frontier model / release+25",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n09",
-      "title": "OpenAI halts frontier-model training amid string of agent misalignment incidents - Ars Technica",
-      "title_zh_hant": "OpenAI 暫停前沿模型訓練 因連串代理失準事件",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN2MtdjhSdi1aSkFVNjN6aExQcmZGT1BaNDh2VGFpSlZnbmh2Y2pDaE9lT0NiaVBJdWJycF9PS2MwUXB2UDRWZ2lheGpQa1JydjdEal9nUmE5cEc1QWdvM2F1SFBJSldZY2k0S1BvRzB0bE1yVnJpWmFoTnh3MVJsTVo0T1I5ZVhUNUM1LUFQNGpJRTAwVjFDTmZMWHBSSTNhY2hvMEFiMmZyN0s2YWs3S3g2d0Fvbzg?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T00:43:18+08:00",
-      "summary": "OpenAI halts frontier-model training amid string of agent misalignment incidents Ars Technica",
-      "importance_score": 85,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=6h+18",
-        "category:ai_intelligence+10",
-        "frontier model / release+25",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n10",
       "title": "Gold's lustre dims as Treasury yields surge, markets bet on higher Fed rates - Reuters",
-      "title_zh_hant": "公債殖利率飆升、市場押注聯準會升息 黃金光澤黯淡",
+      "title_zh_hant": "美債殖利率飆升、市場押注聯準會升息 黃金魅力黯淡 - 路透",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRlVEOVNvOG5SeC1zaU9PX2U0SDJReDlrdHRQVld5X3BEVHFYX1pPOVNtelBSeFhjNGF5bkxZaHVSS1pLOVduZTBFVnR6a3E5bGZmWktsdnhZZUo4Q2tNNThBSFlnTnBDbWZCd3hYOFJrVkYtbkd2REhaQ0JfV290YWxaTnBuYlNiaG9Cc25KMlppTzZyVnd1alF4dFppSjdiZExOZkdpaGJJYWZFcE00VzNDQ3NEYjA?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -216,9 +178,9 @@
       ]
     },
     {
-      "code": "/n11",
+      "code": "/n09",
       "title": "A Benchmark and Diagnostic Study of Epistemic Admission in Shared Agent Memory",
-      "title_zh_hant": "共享代理記憶中知識承認的基準與診斷研究",
+      "title_zh_hant": "共享代理記憶中知識採納的基準與診斷研究",
       "link": "https://arxiv.org/abs/2609.30813",
       "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
@@ -236,9 +198,9 @@
       ]
     },
     {
-      "code": "/n12",
+      "code": "/n10",
       "title": "SciR: A Controllable Benchmark for Scientific Reasoning in LLMs",
-      "title_zh_hant": "SciR：LLM 科學推理的可控基準",
+      "title_zh_hant": "SciR：大型語言模型科學推理的可控基準",
       "link": "https://arxiv.org/abs/2606.13020",
       "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
@@ -256,9 +218,9 @@
       ]
     },
     {
-      "code": "/n13",
+      "code": "/n11",
       "title": "Energy Efficiency of Locally Deployed LLMs: A Preliminary Quantitative GPU Power Benchmark on Consumer Hardware",
-      "title_zh_hant": "本地部署 LLM 的能源效率：消費級硬體 GPU 功耗的初步量化基準",
+      "title_zh_hant": "地端部署大型語言模型的能源效率：消費級硬體上的初步 GPU 功耗量化基準",
       "link": "https://arxiv.org/abs/2608.00008",
       "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
@@ -276,9 +238,9 @@
       ]
     },
     {
-      "code": "/n14",
+      "code": "/n12",
       "title": "Nvidia sets biggest-ever buyback plan as AI chip competition weighs on stock performance - Reuters",
-      "title_zh_hant": "AI 晶片競爭拖累股價 輝達祭出史上最大回購計畫",
+      "title_zh_hant": "Nvidia 啟動史上最大庫藏股計畫，AI 晶片競爭拖累股價 - 路透",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTzg4UzFUbWw0cThEbUEwYVdsdF9WVVpuSDZ0RkJjLWd1UE5XdVJFWjRKazNRU2lyVkxiX2xIZFplVnkxTTl4QUhnV1NaM21SdFNxTFBMYXVJMlJVU2lobmtWYkpqa2wyWlRPLWxuZTMtTzhRUVpHZ1V6VkRLS0psbzlQTWQwcGNpVXNuSGRYSjlCQU9sU3lXcXVteXk2ZmZf?oc=5",
       "source": "Reuters Top via Google News",
       "category_key": "breaking",
@@ -295,28 +257,209 @@
       ]
     },
     {
-      "code": "/n15",
-      "title": "Kyiv Science Academy hit, 10 dead as Russian jet-drones strike across Ukraine - Reuters",
-      "title_zh_hant": "俄羅斯噴射無人機襲擊烏克蘭 基輔科學院遭擊中 10 死",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMXNCaFd6cFhVZnVqaUNuN2dFMG9HVUs2UGVqR3BNa01SY3pXU0RLWmZoZEdEaWwyeTdHVHhyX2dLalFPTDFqMkthSXhqTUxZWWE2YVdyYUZMd2VWQVZsNHgwSDNkRmZYcTFuVHc0Ykk3b2FjdDF1ODNZbjRFczFxOW9rVnJBOHNlLW5Ma0V6a29pd0l3TWdfMS1XTDN6UXNGcnB4b0QtVXlIZDU5X2tFd3dTQWc?oc=5",
-      "source": "Reuters Top via Google News",
-      "category_key": "breaking",
-      "category_label": "突發重點",
-      "published_at": "2026-09-29T04:27:07+08:00",
-      "summary": "Kyiv Science Academy hit, 10 dead as Russian jet-drones strike across Ukraine Reuters",
-      "importance_score": 79,
+      "code": "/n13",
+      "title": "OpenAI halts frontier-model training amid string of agent misalignment incidents - Ars Technica",
+      "title_zh_hant": "OpenAI 因連串代理對齊失誤事件暫停前沿模型訓練 - Ars Technica",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN2MtdjhSdi1aSkFVNjN6aExQcmZGT1BaNDh2VGFpSlZnbmh2Y2pDaE9lT0NiaVBJdWJycF9PS2MwUXB2UDRWZ2lheGpQa1JydjdEal9nUmE5cEc1QWdvM2F1SFBJSldZY2k0S1BvRzB0bE1yVnJpWmFoTnh3MVJsTVo0T1I5ZVhUNUM1LUFQNGpJRTAwVjFDTmZMWHBSSTNhY2hvMEFiMmZyN0s2YWs3S3g2d0Fvbzg?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-29T00:43:18+08:00",
+      "summary": "OpenAI halts frontier-model training amid string of agent misalignment incidents Ars Technica",
+      "importance_score": 77,
       "importance_reasons": [
-        "source:reuters+22",
+        "source:ai industry+16",
+        "fresh:<=12h+10",
+        "category:ai_intelligence+10",
+        "frontier model / release+25",
+        "research / paper+16"
+      ]
+    },
+    {
+      "code": "/n14",
+      "title": "OpenAI paused training again, and Washington’s in the middle of it - Yahoo Finance",
+      "title_zh_hant": "OpenAI 再度暫停訓練，華府也捲入其中 - 雅虎財經",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUk15LVJHZXM0VFRFTUNXQ1dPb0lXRjMyem13RTNjZWxqSzBmVC1OUDBkREZlbmJibUZDZmlLaG0yQTRreHhxTTdNQ0trbHg4eGNvalZmSlJmY3Vkb20yMzhLWFhVVEliSXBHMElJZ1hYNkdyTEhOT3ZxNTRyNWJ0ZVhBUGFuSlRlOEJrSC1PaDV3STExckFLLW1nTFVKRXN0UjVQVHBn?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-29T00:17:00+08:00",
+      "summary": "OpenAI paused training again, and Washington’s in the middle of it Yahoo Finance",
+      "importance_score": 77,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=12h+10",
+        "category:ai_intelligence+10",
+        "frontier model / release+25",
+        "research / paper+16"
+      ]
+    },
+    {
+      "code": "/n15",
+      "title": "OpenAI pulls plug on ‘untrustworthy’ new AI model as tech doomerism mounts: report - New York Post",
+      "title_zh_hant": "OpenAI 喊停「不可信」新 AI 模型，科技末日論升溫：報導 - 紐約郵報",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZ3NWY0xWTUg5VmFwYmdsNnV1NWdIcjJrb3RHb1d1QXUyY1JWZW5ZSE42bmxzR1pYc3BzZFpVMlN4dll0QklUNmcwS01IcXVaSUQ1Z1lFRWk0QmQzT3YtNjN0UXJ1RmNzTWFNWlhnZTN0eklYS0I1UDJvVWVGZzQwLURocHo5MlZMQ3B5N2FBZmoyYl83VmQxOEg1SGFtb1VRMVRyM2RldFc3dlJvZDNZMUtiM19vZw?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-29T06:49:00+08:00",
+      "summary": "OpenAI pulls plug on ‘untrustworthy’ new AI model as tech doomerism mounts: report New York Post",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
         "fresh:<=2h+25",
-        "category:breaking+8",
-        "geopolitical risk+14",
-        "fatalities / disaster scale+10"
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
       ]
     },
     {
       "code": "/n16",
+      "title": "Gemini app adding Google Wallet integration for ‘personalized insights’ - 9to5Google",
+      "title_zh_hant": "Gemini 應用程式新增 Google Wallet 整合，以提供「個人化洞察」 - 9to5Google",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5kS2FScm1DZWxIZnI3Z0kyT3o3SVJnSjhHRVlUNlRxT1VLZE9KdEtpcWJTLVhSSmhaRXRfSjhkcnc4Q1BUVUQwMjFLOEdweVZveHVJZnN0YTNMUE1BV3dSZUh2OHB0RWdleFJv?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-29T06:47:00+08:00",
+      "summary": "Gemini app adding Google Wallet integration for ‘personalized insights’ 9to5Google",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n17",
+      "title": "Rouge OpenAI agents targets 3 US government websites - wandtv.com",
+      "title_zh_hant": "失控 OpenAI 代理鎖定 3 個美國政府網站 - wandtv.com",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYTNNcWU0bDBnaGtfUW1KbnhqNUxucHZPSFk3aDJpeFZFMlIwU2hhUlktT0xPSWxEYkVQSHlXVTMyak80TG80UVQ5a0Q5Tmt5X0ozc0d5aFdORTZnVzl4VGM5c0pHRndUeDJtWEdrMVI0Z1QycFpVUmtWMm1SbUZRXzA1MTI1NHdKWVV3emNoNmY3TXEyZGoxeg?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-29T06:41:00+08:00",
+      "summary": "Rouge OpenAI agents targets 3 US government websites wandtv.com",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n18",
+      "title": "OpenAI is scrapping the release of a new AI model dubbed GPT-6.1 Astra due to safety concerns, according to WSJ - Newsquawk",
+      "title_zh_hant": "《華爾街日報》：OpenAI 因安全疑慮取消代號 GPT-6.1 Astra 的新 AI 模型發布 - Newsquawk",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWkdGb21VVk9aMUp4UC1QQTdhZXRIV1U3ZzNldjdVOHZNMmFkTzl0VkNlbjBHcWhnZUZVREpsOE8yNkM1em5WSDZJWHFMYmpuR0VrOW55NWpaMENpUHQzMnRGeEQ4TWtrMmk0cGxZYmlhaF9LNEpxdDltMWtvdDFpOW94U3pvUmlhV0FtVWUtLThNeXhnMGNZeDVRUlhMdjlhLUpra0hnMVNZZEV3aUNneVNZb0EtNFRhTFBhYUlTa2lOV0U0SDJneTk0MXlrODJyWW5ONmQ0SGprb3VuQnc?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-29T06:30:34+08:00",
+      "summary": "OpenAI is scrapping the release of a new AI model dubbed GPT-6.1 Astra due to safety concerns, according to WSJ Newsquawk",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n19",
+      "title": "OpenAI abandons plan to release upcoming model as safety concerns escalate - CNBC",
+      "title_zh_hant": "安全疑慮升高 OpenAI 放棄發布即將推出的模型 - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON3J6Rk5EcVdTM1V5QmZWRVhSQW1DaDBmYU5YQ0JnM1hLMUxXbWVSVy1vdmZYWjA1T1N2WnRMNnB2N0NkVUwySjFlU05ISE5uRUFOdnIxYVVxVTkwaTlNcm5LdlduajAwZHFGcUExZ3Z5Rm5zZmNFcldST2pfN2pvWU5JRkY2US1TUVRZZ09jYjFLQUh3cnBsVHNCQmh4SHdKcC1mM0ZLRFNmV0o4R2tfUtIBtgFBVV95cUxQakpZOVlkQTEzOHdkWEI5ZmxXVUc1MFJCWkFLNkVxNld2NjA4WkRwUFV0TlM4ejJhWnZzc1JfcERhMFIwdUEtWU5pLU9tSzN6VnBLbFpKYkd3SEZqMnBJcFVJY3VLdjlqS2NWUDVKTVNXZ0otXy1RZE9XaGg4YVYydjJEM3BjSHlDXzZla2dleU9lOTZjem1oWDBqRWp1LXlyckFZcTNDd3lmazBVcGZJc0dUc0xGUQ?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-29T06:27:58+08:00",
+      "summary": "OpenAI abandons plan to release upcoming model as safety concerns escalate CNBC",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n20",
+      "title": "OpenAI Scrapped Latest Model Release Over Safety Fears, WSJ Says - Bloomberg.com",
+      "title_zh_hant": "《華爾街日報》稱 OpenAI 因安全疑慮取消最新模型發布 - 彭博",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONjA2Z0FLVXc0M054OXNXQWpjclRZeDQ2eWpOMXZpd3NXN291LUo2ejBaWmpvcVVIQjY4bUhoRGQ3RENGVWtIVUlUWXZ0ZHQ3VzRLMF9VaGo0MEVWdGsxdkpLaTVXLThNRnYwaHZnYmZJRFZZaXU0SU1mYjcxdXliTmlMbENMY052bWdkTEVBcFhEMHp5U1Mxd1RHNi1JdmFhc0k1aEYyVFd5dUZ4WkR6MVhUSHk?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-29T06:24:43+08:00",
+      "summary": "OpenAI Scrapped Latest Model Release Over Safety Fears, WSJ Says Bloomberg.com",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n21",
+      "title": "SNL Skewers Anthropic CEO: ‘I Urge You to Urge Me to Stop’ - CNET",
+      "title_zh_hant": "《週六夜現場》嘲諷 Anthropic 執行長：「我敦促你敦促我停下來」 - CNET",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOG1DejdkV2dmMXFPaWQwS0dxeHN0c3ZiUkZ5UUNFQTlNWlB2eFJWbVYtYU5JdldTUWluMHBUaWVHeExRXzFmMkxLTEYxR0FVbFdPRV9wYzd6b2xVVlVCUEF5c2JuSzMtV3M3dFFfYkkxSHpRZDRnc3NqM0dWdjJ5eEs5MjFza2dyVWZKZmFtRDBQMzZLNzFRNnRHai1WbUFYQmlrRFlfaw?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-29T06:16:17+08:00",
+      "summary": "SNL Skewers Anthropic CEO: ‘I Urge You to Urge Me to Stop’ CNET",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n22",
+      "title": "Trump Ally Moves to Curb OpenAI Development as President Blasts AI Backlash - Newsweek",
+      "title_zh_hant": "川普盟友出手限制 OpenAI 發展，總統抨擊 AI 反彈聲浪 - 新聞週刊",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTFJHZXNlcVltaHd3WC1sRlRhUVBCbHJmajZNLXpJaG8xS2JBdVZkclhpX1dKcVUwMXk3d25uc2JTQk5BaDdoWkMxQzVJaU9PelVxZGR1Z0sxcnVHV245YnhGNllpc0FQNFZzcnlDbGxEaFJncHRocFpBWGx1QmVFQWtneExGTkdP?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-29T06:08:00+08:00",
+      "summary": "Trump Ally Moves to Curb OpenAI Development as President Blasts AI Backlash Newsweek",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n23",
+      "title": "News outlets ask court to give ‘little weight’ to DOJ support for OpenAI in copyright dispute - The Hill",
+      "title_zh_hant": "新聞機構要求法院對司法部在版權爭議中支持 OpenAI 給予「極低比重」 - 國會山報",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdzlJZXVkMkYyTEtjVVZLQmNaYkVQRDJGNy1nczZmTTdZQV9pbVVySTU2ZkRiVHhCSEJhUWRJUnYzSHlsaG5RUjJBSVEwUDdlckZNUmpfT0dQaTF6eEZlanBVLWxrcFB6UUJ4TkZLSFFac2pval81QmljMUR4UldISFAxcV9xV3PSAYwBQVVfeXFMTVV6Vm1ueWpRR3A4MzZqb3dPRkdBSWRlRm1pNEpwYzNiRC1HWVpMdk11VDcxMWJoZWFIcWFwcWhtMk9wRXh0d1pBaGxGUXlENUJieVczZ1k3MTZUb2piTEZrU0ZIRjBkQXZEaXRWT25nd01RQl82RXppaWlrMVFaT01kQlBUY0ZnNUhuV2U?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-09-29T05:57:00+08:00",
+      "summary": "News outlets ask court to give ‘little weight’ to DOJ support for OpenAI in copyright dispute The Hill",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n24",
       "title": "Anthropic Releases Its Second New AI Model in Less Than a Week - Gizmodo",
-      "title_zh_hant": "Anthropic 不到一週發布第二個新 AI 模型",
+      "title_zh_hant": "Anthropic 不到一週推出第二款新 AI 模型 - Gizmodo",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNnNPM1IxVi1OOUlhNjVOZ2pJUGRlU2g5ZXlxTVRzWEpjZEkyMXp5TndaVFNMMnRPQXhReFpaNUZrY1ozSzlNRUhrc2U2eDQ1ejlxcU5xWDlFdHNPNmNtb0hQVzBIOVNCcWk5Q1FOb1hua0NWd3dsbTA3RnBpRTF1TlN1R1JfelpVMmdzMzYwR1hQMkNDRXE3Sw?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
@@ -332,15 +475,15 @@
       ]
     },
     {
-      "code": "/n17",
-      "title": "Florida asks judge to block OpenAI development until safeguards - news.az",
-      "title_zh_hant": "佛州要求法官阻止 OpenAI 開發 直到有防護措施",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObmZldHJGT0tjU0VxZ2Y1WlRuNmFUeHp3ajhzSU9WU2RocXh1enNhcTNNWXRjZFQwOFhNeTdzUzc1aWJmTzB2Q0JlaFlkRG01Wkk3VlhPWFNPTTVIdWQ4NjIyQ0J6cFJkZWtKY185ZEh2ZXF2SUQzSzlGa3BnQkhEMHpPNEwxeS1BbjBMTQ?oc=5",
+      "code": "/n25",
+      "title": "Florida attorney general seeks injunction against OpenAI, citing harm to children and safety risks - Gulf Coast News and Weather",
+      "title_zh_hant": "佛州檢察長以危害兒童與安全風險為由 尋求對 OpenAI 發出禁制令 - Gulf Coast News and Weather",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRVN3dm14S3hsc1FBTGFuOS1LSFR4djNTZ3ZfQkQ3cXRMSnAxdjNDV05ReGN1SjJfaGhSMGVUb3ozQXYxUVlGeTVRLTZHdC10Ul8ySU82V0hMNll0NEdKeFNRV3R0c25KeGx6amhMUTQyZTNPNURRV3B1YVQyMm1xd003SnlmMWlpUVdFdzJEZzZLOTZ6N1hN?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T05:35:15+08:00",
-      "summary": "Florida asks judge to block OpenAI development until safeguards news.az",
+      "published_at": "2026-09-29T05:46:00+08:00",
+      "summary": "Florida attorney general seeks injunction against OpenAI, citing harm to children and safety risks Gulf Coast News and Weather",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -350,9 +493,9 @@
       ]
     },
     {
-      "code": "/n18",
+      "code": "/n26",
       "title": "The Wrap: OpenAI Sounds the Alarm; Anthropic Loses This Round; Luján Wants AI Committee - LinkedIn",
-      "title_zh_hant": "The Wrap：OpenAI 示警；Anthropic 這回合落敗；Luján 要設 AI 委員會",
+      "title_zh_hant": "The Wrap：OpenAI 示警；Anthropic 本輪失利；Luján 盼設 AI 委員會 - LinkedIn",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaHRRWVRDYjdaWWNhbEc4bThmYi1qN2pMdXA2RDB1ZzhlZlJlNTJ4dEhHSVk1MTlKUXRHamhKamtzcl9oX3NlZHV4bGtkM3ZVU0I1a2gtUS0wTTh3Y3ZYUlRWNC1BVXZnS2ZDS0tZSmw3RmozZG5pNmV3cGxuYzZ2UUIxRWZyUE9jT1hfenZ1RXd3TGxTemdDcmZxRUJpaTg1X3o0clB3?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
@@ -368,15 +511,15 @@
       ]
     },
     {
-      "code": "/n19",
-      "title": "Florida AG says state lawsuit targets OpenAI after alleged HuggingFace breach - fox49.tv",
-      "title_zh_hant": "佛州檢察總長：Hugging Face 疑遭入侵後 州訴訟鎖定 OpenAI",
+      "code": "/n27",
+      "title": "Florida AG says state lawsuit targets OpenAI after alleged HuggingFace breach - wtwcfox",
+      "title_zh_hant": "佛州檢察長：HuggingFace 疑遭入侵後 州訴訟鎖定 OpenAI - wtwcfox",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOajVrMjI0a3hvSGhCVDlQbzd1MXBrWUJMckdpLUdoWDUwTHZXdnozMllrNHE3bkw1NG1xZVRremJ4M2tYbVRieXJ1bnltWVBsbGNyUmlyNW5qQUZ3MElWcVduUVFpNUJtQ015Zkptc2g2UFYzQUtJN2NrYWpkc3FLSGpKYkZ6alV4X0U5YVdIZlRfUkhRVHd6YWo2YjEwTzE2QVlzUkx5dk0?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
       "published_at": "2026-09-29T05:13:05+08:00",
-      "summary": "Florida AG says state lawsuit targets OpenAI after alleged HuggingFace breach fox49.tv",
+      "summary": "Florida AG says state lawsuit targets OpenAI after alleged HuggingFace breach wtwcfox",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -386,9 +529,9 @@
       ]
     },
     {
-      "code": "/n20",
+      "code": "/n28",
       "title": "Trump meets Anthropic CEO after Pentagon clash over AI safety - mycbs4.com",
-      "title_zh_hant": "五角大廈 AI 安全衝突後 川普會見 Anthropic 執行長",
+      "title_zh_hant": "五角大廈因 AI 安全與 Anthropic 爆衝突後 川普會見其執行長 - mycbs4.com",
       "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxOdk1pYml3TGpYRlk2ZWVYYXB3TC1RdkJEMEUwbUZCZ1I2ZW9ON0d2b3kzekhHT1lUejVpUW9DOXdSaGM2SVpZcHhuTlNBYy04Tm8zMzdpOGJwM0ZNQzFfUTVEX3NuUUpvMjRpUmxJVVlCWEVtV3RldG1fWW9pWVViUW13S096UDNOTXJab0c0Y2t6T0kzMEJvMFFWNEJhMVhZR01xNlpGazNMQnhHVUUtR3E5eEVrQjdDNFdya214TkJDaU4xS0hhMjBMODlLcmFsYk5wSUI1a2pRdXhrTGVaci1MNTFfT21EbXJFZTBUaHhWRDU1MmUwTlJwb1BLMzc3cVpLSlRyMFg0bUx0dWRQRjFCU09jSjU3bE9aRnI1VkpDazBWTmF4SGFSR1d3TU5MQ2hkbDMzUXZkMFYxbkFZVnc3YzVWUEpxd2N6elE3aW04UGhvOXp3bXJEVVlraVg5S1RWSHdmZkFwWUNQQWk0VHhuSURGdw?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
@@ -404,280 +547,9 @@
       ]
     },
     {
-      "code": "/n21",
-      "title": "OpenAI’s pause on latest model is ‘responsible’ as field moves at ‘incredible velocity’: AI expert - NBC News",
-      "title_zh_hant": "AI 專家：OpenAI 暫停最新模型是「負責任」 因領域發展「快得驚人」",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMXRlRVdYel8zLWU2Nk9uVVA5eUdVSElDWE5RNDVTcmF1eFpodS02S2lNaHhHT3JwWkMwa2lucXFvTDdPSURpMFdoaDk3X2E2bU5QSFVEZmtMVlhwUkVpV1F4MnMwSXZzc2M2V0I2VDhzOWJsd2cyQVEzbm5icHVPNVRkZVV4cGF1Q3pIUVltMks1Y0lNUHl4U2lBMEVpR2ttaUhERjloS2l2Q1F6aFUxU1k5bERud2kxVEZFRnVvZGhqZk5mUkhLM1BOaEJTdGNkSUNPQ01ZTm1UUjFCSGtkV2cwUVdZZw?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T04:58:07+08:00",
-      "summary": "OpenAI’s pause on latest model is ‘responsible’ as field moves at ‘incredible velocity’: AI expert NBC News",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n22",
-      "title": "BREAKING: Florida seeks injunction against OpenAI - Marcus on AI",
-      "title_zh_hant": "突發：佛州尋求對 OpenAI 發布禁制令",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tZWZla2piTEVsd2hwcTBwS1Q0ZmNyNzZRQUpXbUpnSlBnU3BHalBwcm8yUzFtVE1pMHhJTE5uS3QyUnBZTXR6SlhUNkl2bi16Q3JIYTIzdUxvWV9yakoxdS1uN0pRbjUtbWJHWEg4QmdPUWoySUE?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T04:54:59+08:00",
-      "summary": "BREAKING: Florida seeks injunction against OpenAI Marcus on AI",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n23",
-      "title": "Uthmeier asks court to temporarily block OpenAI from offering ChatGPT to minors - news4jax.com",
-      "title_zh_hant": "Uthmeier 要求法院暫時禁止 OpenAI 向未成年人提供 ChatGPT",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLTNLdWdnRWlkcy1ULUZwQjVOeENXb3B5M0U1dDRRWTRkdmxCc2tOZlhKMFRtM0F1a09wdGtTaGxUZDk3SjBCTWRvLXNoWGdmRkRxME1HQmNGRWhMOFFYVUM5OUJKNnFKaUV0M2dkaHJ6MkFhZ1Q1OGYzb3hoNGhrdmhjMnlKUHNhZW0tcGU3VF9hdXVac25GdlQyd2U2a1k4Zk5UQUZEeEZJTkJJSFBUVlpEM2laeERpdWlKUnFiOFlFMHdEN3c?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T04:54:47+08:00",
-      "summary": "Uthmeier asks court to temporarily block OpenAI from offering ChatGPT to minors news4jax.com",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n24",
-      "title": "Anthropic’s Robert Mahari on Standing Out Among Big Tech By Standing Together - Law.com",
-      "title_zh_hant": "Anthropic 的 Robert Mahari 談如何靠團結在大型科技公司中脫穎而出",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc3dnYmRnNGdHRk5HNkZDQmoxblZtSzRPZjBwQU4xRTdlQjdxTlFYc3FLcU5oUEtwNHc2cVJ1MHBLRjZVX3FuTzVGN0pGVGVpbFMxR3YtaHUyVGE0Z0dqRGdPXzMtaUpOVXZHcU9GR1BGaE5Rd0kxS0U5MjFuckIzdHU3QjQzNTFaMkxoTFFpV0xCRGExYXZCVVhXckF2Y1lYX0RBdURYaUxzUElmVHM0b0FITk5vai02TEQ0ZHh1aw?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T04:53:35+08:00",
-      "summary": "Anthropic’s Robert Mahari on Standing Out Among Big Tech By Standing Together Law.com",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n25",
-      "title": "Judge allows most of Reddit's lawsuit against Anthropic to proceed - Mashable",
-      "title_zh_hant": "法官允許 Reddit 對 Anthropic 訴訟大部分繼續進行",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSVVhTTJxakNfUnR2a0JCaTN4cjhmZ0FOWUFSbU9WWkpYSmQxUFJ1SjRtR2JrVXFGM0Fkb0RmalMwZ0pRbERNUHpIbS1HM0tkUUVpUlNzTndSZnVhcnhUODQxOWJiZEpWenAzOUFnYnZNbFN2N2Y0Um55ZGZ0NWg1TUE0aHFkeDVBT29RemNBeE0?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T04:50:31+08:00",
-      "summary": "Judge allows most of Reddit's lawsuit against Anthropic to proceed Mashable",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n26",
-      "title": "Florida invokes extinction fears in legal bid to halt OpenAI development - Ars Technica",
-      "title_zh_hant": "佛州援引滅絕憂慮 聲請阻止 OpenAI 開發",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYmttY09Ud2l0UW1JUEx4ZU5PWTh2anV6azZSYmNsUklBTlJORkluTDhxem9fMG1qdVU3eUNwS0FpTkNWazUwY2NCU1RsSGNEeFhjTWtFai1QUnRXREZPaHdRTWlUV3hFMHY1Z0RRQVBaMDFvLXRwcmxMcUNDWkQ2eVVDS1N3TlFLYjNkem5Ta2twOVc1ZWs2Z3pHS3M2SEg3dHlvLU9hckh3d3M?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T04:49:39+08:00",
-      "summary": "Florida invokes extinction fears in legal bid to halt OpenAI development Ars Technica",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n27",
-      "title": "Gemini fully replaces Google Assistant on Android - 9to5Google",
-      "title_zh_hant": "Gemini 在 Android 上完全取代 Google Assistant",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUQzdtaTRfbGV5RVJ2ZlZGOHB4emEyRHZGanktV3pVd3NwYlpmb0VsUERMVUZTTU5hQWluNTNyTVlzd1BjMmJaOXdCODlpY2dWODhPMElieHBSQnBOMmlFc3FBaVlDSHhqeHR5V2N0LVVsTzEx?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T04:48:00+08:00",
-      "summary": "Gemini fully replaces Google Assistant on Android 9to5Google",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n28",
-      "title": "‘Stop pretending it’s human’: Florida AG asks judge to block OpenAI from making new models - WCTV",
-      "title_zh_hant": "「別再假裝它是人類」：佛州檢察總長要求法官阻止 OpenAI 開發新模型",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPd1JTWGNRN0FCSFNWMmNxWUNIYndZaHdiQWJqcVFKOUFWTUw3V1dIeV9kb3FoUHlzTFEwU3Znd2RhM0JJQjBUZGg5WFJzbVZqeW1PQW1sVGxUZU4yLWQ5TXE1aTExNUJEMldtZnBsTXBIVjhCWFRFMXNzV09TajBQZVQzSWo4OVR0bWNlTGsxSGhzQTI2VE9MMF8wZ01XVUlnTTRvOG1ER0k2UzNBb2k4?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T04:45:00+08:00",
-      "summary": "‘Stop pretending it’s human’: Florida AG asks judge to block OpenAI from making new models WCTV",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
       "code": "/n29",
-      "title": "Daily Digest: BXP moves ahead on S.F. tower, Anthropic CEO Dario Amodei dines with Trump at White House - The Business Journals",
-      "title_zh_hant": "每日摘要：BXP 推進舊金山大樓案，Anthropic 執行長 Dario Amodei 與川普在白宮共進晚餐",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeEJ0MEF5OWl3b0NYUDQ1OFFpa3VvanJ2Tk1PTVphaS12Rjl5dTJ3ejhSVVJ1QWJsR1o1VFhuN0pVTlEyZXN4Wmt4a1VVRUNjVVpMNUo0UzVUUFdHNGp0US1lZUxlaWpndU5jRVdMdlhsZ25nTzUza0hHbTBJcWd6TUJsOWZUaXdsbTBzZGpwMWttQURwX3RWTlEtRzN4MmV6WDZFWmtiazl1WHNndkJmdlNB?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T04:41:00+08:00",
-      "summary": "Daily Digest: BXP moves ahead on S.F. tower, Anthropic CEO Dario Amodei dines with Trump at White House The Business Journals",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n30",
-      "title": "OpenAI offered to invest $100 million into Hugging Face before Nvidia's $13 billion deal - CNBC",
-      "title_zh_hant": "OpenAI 曾在輝達 130 億美元交易前 提議投資 Hugging Face 1 億美元",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPak03bFJBUFI4cWgzdzZZNmtWVGdaSTNXcFNRWE52RmwxRnFkck9DMnlZS1N1eVQyR3FOT3JWSFFVcXFXTTFqVXoyNm9CRDV3MkJLeG9tNmhoSWtuaTA1ZUNaSldQODlyRThZRlZnREVwNER0T19DQXEtQW42djZKaUgyVUU5MWZMbjVBZkFPbjAwNFFyS3RRVHhZZlVSOE56TlE0YWFNVVV4TkNYZW5CempzNFUzTk9FZU9sdXB3WEF5ZzVac0dn?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T04:34:24+08:00",
-      "summary": "OpenAI offered to invest $100 million into Hugging Face before Nvidia's $13 billion deal CNBC",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n31",
-      "title": "OpenAI DevDay: Can ‘O’ Take the Spotlight From Meta’s Muse? - barrons.com",
-      "title_zh_hant": "OpenAI DevDay：『O』能搶走 Meta Muse 的風采嗎？ - barrons.com",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBKbmNrc19uSEFGdENVbENIeVB1MXNSekpQWWZiTVdpaFVwRjdiSmR1clNkZEVPY1hEVGNZbTJVOWNITXEzT2x2RFZxampLdVNseDFlTVJWMXVoVFQ0dHV6X0xDYmsxMjlGY2ZSSnhubTdNb1A2Tm01QkdR?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T04:14:00+08:00",
-      "summary": "OpenAI DevDay: Can ‘O’ Take the Spotlight From Meta’s Muse? barrons.com",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n32",
-      "title": "What Does OpenAI's Astra for Law Mean for Law Firms? - Law.com",
-      "title_zh_hant": "OpenAI 的 Astra for Law 對律師事務所有何意義？ - Law.com",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTXFFZlJ2M1g2SlRvY0t6a2JXRTBoTDJ4VmFOQzI4TWdRUWZWcGtvTno2UGhYNVFselB2SW9QV2ZkNzlJeEZ1YVh5MFRiWmFYREs5cWVMcGxyWG44a3VOVFVHRklqR0k0N1N6LWlqR0RzVTliY1BVd0ZHcGp5bW1uTEEtRnU0VGNXNlRJTGtHTUFwZHBITWxlWTlDUWZhUQ?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T04:08:25+08:00",
-      "summary": "What Does OpenAI's Astra for Law Mean for Law Firms? Law.com",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n33",
-      "title": "Anthropic Launches Claude Sonnet 5.5 As AI Coding Race Accelerates - Benzinga",
-      "title_zh_hant": "Anthropic 推出 Claude Sonnet 5.5，AI 程式開發競賽升溫 - Benzinga",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPS2ZmNmJuNlFDdHVUMzFOQXh3MENWWllCODBycE1FUVB2X2tnSzRwaHVqaDNrSnRNc0tpb3Nid2FBcEwxTHh6dEhLRldGMlFZU2djam1JbXRLczlELV9RNk02WFpIM0JzS0wyYkN5T0ZmWHJJYzZEV0VrSmtURVYxVHY4b1kzSDJXd3ZXd2hfdEZmQ2ZqUWt5djJxXzUweEFXUTI3dFZ4OEtIMGRCcDZSWkNKSEU4VTNxLVBIUWJ4R1IyVVY2VmtvQzNB?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T04:08:16+08:00",
-      "summary": "Anthropic Launches Claude Sonnet 5.5 As AI Coding Race Accelerates Benzinga",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n34",
-      "title": "See what 4 builders are making with Gemini 3.8 Flash - blog.google",
-      "title_zh_hant": "看看 4 位開發者用 Gemini 3.8 Flash 打造什麼 - blog.google",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcE43ODZ4dV80TkdQZ3dFTWdQWm5lQzNpS2lOWFl4TEJDeFAwNDRwcjFFakNna1RkTXZEZ3lLNmxtRWZzei1ab20wZFBHQTJSX0w1M2ZPWkNvQ3hsZXZwdmNlRzY5Q04xSDE5ajRVTkNYVnF4QkF2aUdJSlFqNXlJeXpqcXN4UkRRR3FaSVVJSHBtWnRfc2xTc0gtSWxxbk1KUkE?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T04:02:50+08:00",
-      "summary": "See what 4 builders are making with Gemini 3.8 Flash blog.google",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n35",
-      "title": "UK diesel price hits all-time high, the RAC says",
-      "title_zh_hant": "RAC：英國柴油價格創歷史新高",
-      "link": "https://www.bbc.co.uk/news/articles/c6n4k987k981o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-09-29T04:42:56+08:00",
-      "summary": "The US-Israel war with Iran has caused fuel prices to soar due to disruption of global oil supplies.",
-      "importance_score": 75,
-      "importance_reasons": [
-        "source:bbc+16",
-        "fresh:<=2h+25",
-        "category:business_tech+6",
-        "markets / macro+14",
-        "geopolitical risk+14"
-      ]
-    },
-    {
-      "code": "/n36",
       "title": "SPADE: Escaping the Popularity-Similarity Frontier to Measure Serendipitous Recommendations",
-      "title_zh_hant": "SPADE：跳脫熱門度與相似度前緣，衡量機緣式推薦",
+      "title_zh_hant": "SPADE：跳脫熱門度－相似度邊界，衡量意外驚喜推薦",
       "link": "https://arxiv.org/abs/2609.31164",
       "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
@@ -694,9 +566,9 @@
       ]
     },
     {
-      "code": "/n37",
+      "code": "/n30",
       "title": "Can You Check That? The Checkability Boundary for Local LLM Network Automation",
-      "title_zh_hant": "你能查核嗎？本地 LLM 網路自動化的可查核性邊界",
+      "title_zh_hant": "你能查核嗎？地端 LLM 網路自動化的可查核性界線",
       "link": "https://arxiv.org/abs/2609.31540",
       "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
@@ -713,9 +585,9 @@
       ]
     },
     {
-      "code": "/n38",
+      "code": "/n31",
       "title": "GT-HarmBench: Benchmarking AI Safety Risks Through the Lens of Game Theory",
-      "title_zh_hant": "GT-HarmBench：從賽局理論視角衡量 AI 安全風險",
+      "title_zh_hant": "GT-HarmBench：以賽局理論視角衡量 AI 安全風險",
       "link": "https://arxiv.org/abs/2602.12316",
       "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
@@ -732,9 +604,9 @@
       ]
     },
     {
-      "code": "/n39",
+      "code": "/n32",
       "title": "Blind, Not Weak: A Best-of-Suite Safety-Utility Frontier for Recover-and-Reguard Defenses Against Encoded VLM Jailbreaks",
-      "title_zh_hant": "盲而不弱：對抗編碼式 VLM 越獄的復原—防護防禦，打造套件最佳安全—效用前緣",
+      "title_zh_hant": "盲，不等於弱：對抗編碼式 VLM 越獄的復原與防護，打造安全與效用最佳前沿",
       "link": "https://arxiv.org/abs/2607.26574",
       "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
@@ -751,15 +623,34 @@
       ]
     },
     {
-      "code": "/n40",
-      "title": "Stocks fall as higher oil prices, Treasury yields weigh - Reuters",
-      "title_zh_hant": "股市下跌，油價與公債殖利率走高構成壓力 - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMG5ieTU4M0RYMC1lQi0wbDVONnJJbW5NS3pya2xkLXUxSFF3ajh5ZWlER3B5ZW1IR0J3ZjRxZFFCTDd2ajh4ZnVHZ2xqY1U2c0pIamh2MGhzWVlIMVVieHpOXzg0bnJwRFlTaEg4dVdycUc1X25ZQlZkUUsxUGZ3TGc1RDlNWjg2U1RFQ3JEUWx2NGIxb0ZvZXJJb0F6MjcxOER2WHFIdmtSei1fZHdBS29YcGhvUFk?oc=5",
-      "source": "Reuters Markets via Google News",
+      "code": "/n33",
+      "title": "Jim Cramer says these stocks can win even as oil and bond yields squeeze the market",
+      "title_zh_hant": "Jim Cramer 說，即使油價與債券殖利率壓抑市場，這些股票仍可勝出",
+      "link": "https://www.cnbc.com/2026/09/28/jim-cramer-stocks-oil-bond-yields.html",
+      "source": "CNBC Technology",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-09-29T06:15:57+08:00",
+      "summary": "Here's the stocks Jim Cramer said will be less impacted by interest rates and the Iran war.",
+      "importance_score": 73,
+      "importance_reasons": [
+        "source:cnbc+14",
+        "fresh:<=2h+25",
+        "category:business_tech+6",
+        "markets / macro+14",
+        "geopolitical risk+14"
+      ]
+    },
+    {
+      "code": "/n34",
+      "title": "Policy headwinds may soon outweigh AI tailwinds for stocks, says CIO - Reuters",
+      "title_zh_hant": "投資長：政策逆風可能很快壓過 AI 順風，不利股市 - 路透社",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBORVdvam5vUHNPNWZzRVZRZ3ZhN0Z5dkdMS1pLRFJNamY4SjlXU2hFM2pzVFBYVDJDUXk4aUpNSE5UQnRHR3ZUOUpWUFdmZFVTdXFSUm9NTjFMVlB5NjNWbzltQWNwNzg?oc=5",
+      "source": "Reuters Taiwan Supply Chain via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-09-29T04:38:51+08:00",
-      "summary": "Stocks fall as higher oil prices, Treasury yields weigh Reuters",
+      "published_at": "2026-09-29T06:52:31+08:00",
+      "summary": "Policy headwinds may soon outweigh AI tailwinds for stocks, says CIO Reuters",
       "importance_score": 71,
       "importance_reasons": [
         "source:reuters+22",
@@ -769,64 +660,64 @@
       ]
     },
     {
-      "code": "/n41",
-      "title": "White House weighs red-dyed diesel tax relief to lower fuel prices - Reuters",
-      "title_zh_hant": "白宮考慮提供紅色柴油稅負減免，以降低燃料價格 - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOGVaUEhyZkFiZjllQjF6QzRaV2ZmVXk4TVdaUnJQNzg0VEhUZFFleC1WVHByOE16QV8wb3lucjNybVdCM2sxU1NWMTJTamV0MENoMVktQ0h0d0Y1VlpDRmhfbVBybng4dFhDTHN5WWQxZDV2V2lsWUtRUllsci1FQzk0S0cteTQxNlo1WU90UGg5dG4ydmpid3BPSjNGMlNQYl9xYWhMMFJjeFFRMUh6OHhncHhybmM?oc=5",
-      "source": "Reuters Top via Google News",
+      "code": "/n35",
+      "title": "Nvidia unveils security platform to stop AI agents from going rogue - AP News",
+      "title_zh_hant": "輝達推出安全平台，防止 AI 代理失控 - 美聯社",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLUs1WDRHbkRJcDEzM0tsZ1BWNlZzS2pMVm94RkllS3hiR0Q2UUlPTnc0SVZUcGRCMUVoNDhvTjVKdkhuajJ3RXR2WnJRS2xoRTFwNUREV09yc0dFMjc2YVpCY0RTMW1JbXdDOGpXY283UFVBcG1YRlh6UzBaS0lPOEYwck9UanNBM1dDdXRvVjhQNWtNR1NJWENoemNqNmtHMi1zZWt5UFZwdw?oc=5",
+      "source": "AP Top via Google News",
       "category_key": "breaking",
       "category_label": "突發重點",
-      "published_at": "2026-09-29T04:20:38+08:00",
-      "summary": "White House weighs red-dyed diesel tax relief to lower fuel prices Reuters",
+      "published_at": "2026-09-29T06:14:00+08:00",
+      "summary": "Nvidia unveils security platform to stop AI agents from going rogue AP News",
+      "importance_score": 71,
+      "importance_reasons": [
+        "source:ap+20",
+        "fresh:<=2h+25",
+        "category:breaking+8",
+        "semiconductors / Taiwan supply chain+18"
+      ]
+    },
+    {
+      "code": "/n36",
+      "title": "ECB eyes new currency safety nets to boost euro's global role - Reuters",
+      "title_zh_hant": "歐洲央行研擬新貨幣安全網，以強化歐元全球角色 - 路透社",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTXV0ZlVtOXNhdnBPeENoRFpyTk5kX3ZzaTM5ZG5aSHl3VTFRbGhYdTdmOW54REc2b2ZSNHhzcS02ZzhPUExlT3ZJdUdTaW13aUJIVXdycFNZRkZvNkNYU2FHLVNfSjE1UjZnTl9iS05SM0VCYllEbTI3Z1dxeHdYU3ZTZWUxcm15SURQaDltMjdFWlpYTjZJMnBhaDZBZXhVbTlsbVlvN3hDWWZFSE5F?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-09-29T05:50:33+08:00",
+      "summary": "ECB eyes new currency safety nets to boost euro's global role Reuters",
       "importance_score": 71,
       "importance_reasons": [
         "source:reuters+22",
         "fresh:<=2h+25",
-        "category:breaking+8",
-        "policy / regulation+16"
+        "category:markets+8",
+        "market move+16"
       ]
     },
     {
-      "code": "/n42",
-      "title": "Ethiopian pro-government forces claim capture of strategic Tigray town - Reuters",
-      "title_zh_hant": "衣索比亞親政府部隊宣稱攻占提格雷戰略城鎮 - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUjNEWTc5Q1dFTC1VdlRWS1lFUnFOSTBSUTc4S2tfTHRvMmlhMlpzalVtb25RMW0tbnk2R0tuNThvX1J2MUZhWlZzYlpGYndqc2JaWG9Bb0RPM1FFMWRTVndwcVBicTUzMlQ1eVRSWnl3OEVSR0hCMVlyaVBYVXBRaDhLSjE2ZjNsTVByM3dGSklBMjNVdkVJdnhxcGlJQmtlVXpQcmx2LXFya3FaMnJyazliaGFTWjVwcG5J?oc=5",
-      "source": "Reuters Top via Google News",
-      "category_key": "breaking",
-      "category_label": "突發重點",
-      "published_at": "2026-09-29T04:17:17+08:00",
-      "summary": "Ethiopian pro-government forces claim capture of strategic Tigray town Reuters",
-      "importance_score": 71,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=2h+25",
-        "category:breaking+8",
-        "policy / regulation+16"
-      ]
-    },
-    {
-      "code": "/n43",
-      "title": "Jim Cramer says Nvidia’s record buyback could ‘change the trajectory’ of the stock",
-      "title_zh_hant": "Jim Cramer：Nvidia 創紀錄庫藏股回購可能「改變股價軌跡」",
-      "link": "https://www.cnbc.com/2026/09/28/jim-cramer-says-nvidias-record-buyback-could-change-the-trajectory-of-the-stock.html",
-      "source": "CNBC Technology",
+      "code": "/n37",
+      "title": "Kyiv Science Academy hit, 10 dead as Russian jet-drones strike across Ukraine - Reuters",
+      "title_zh_hant": "俄羅斯噴射無人機襲擊烏克蘭全境，基輔科學院遇襲釀 10 死 - 路透社",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMXNCaFd6cFhVZnVqaUNuN2dFMG9HVUs2UGVqR3BNa01SY3pXU0RLWmZoZEdEaWwyeTdHVHhyX2dLalFPTDFqMkthSXhqTUxZWWE2YVdyYUZMd2VWQVZsNHgwSDNkRmZYcTFuVHc0Ykk3b2FjdDF1ODNZbjRFczFxOW9rVnJBOHNlLW5Ma0V6a29pd0l3TWdfMS1XTDN6UXNGcnB4b0QtVXlIZDU5X2tFd3dTQWc?oc=5",
+      "source": "Reuters Business via Google News",
       "category_key": "business_tech",
       "category_label": "商業科技",
-      "published_at": "2026-09-29T00:44:44+08:00",
-      "summary": "Nvidia's $150 billion worth of additional buyback firepower is a major step in the right direction.",
+      "published_at": "2026-09-29T04:27:07+08:00",
+      "summary": "Kyiv Science Academy hit, 10 dead as Russian jet-drones strike across Ukraine Reuters",
       "importance_score": 70,
       "importance_reasons": [
-        "source:cnbc+14",
+        "source:reuters+22",
         "fresh:<=6h+18",
         "category:business_tech+6",
-        "semiconductors / Taiwan supply chain+18",
-        "markets / macro+14"
+        "geopolitical risk+14",
+        "fatalities / disaster scale+10"
       ]
     },
     {
-      "code": "/n44",
+      "code": "/n38",
       "title": "Nvidia releases AI safety software it says could have stopped Hugging Face hack - Reuters",
-      "title_zh_hant": "Nvidia 推出 AI 安全軟體，稱本可阻止 Hugging Face 駭侵事件 - Reuters",
+      "title_zh_hant": "輝達發布 AI 安全軟體，稱原可阻止 Hugging Face 遭駭 - 路透社",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSVREakRaN2V6OWo0bzNFcVBHb1VZMzRVS29mcWF4XzZwSmdxLVRublBqSTE5ZlNBaHBKb0lTU1o2SWV0V0t1U3M3TVl1ZnlJWGVJRGxKclM5RkphYzhzU3FlNkZHNDk3TUZhdW54dGtydmR3MFR2ZFVZdWItaVpsNjZYX2hIbjVHcTM0ZTVqLVd6UHV2OGY4eFM4ZW1va1pCSF90VzlZd3BSUjVkY1RJRzV2ZGFEUnlnbDY1d0ZjOFZoYXBVRU5YZEM0Zmk?oc=5",
       "source": "Reuters Business via Google News",
       "category_key": "business_tech",
@@ -843,9 +734,9 @@
       ]
     },
     {
-      "code": "/n45",
+      "code": "/n39",
       "title": "Indonesia central bank reduces FX intervention in spot market, governor says - Reuters",
-      "title_zh_hant": "印尼央行總裁：央行減少即期匯市干預 - Reuters",
+      "title_zh_hant": "印尼央行總裁：已減少即期外匯市場干預 - 路透社",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSWtZT1RlYXVGM2VncXlPblFPaHg4NGtMVkdxQ1o5dHpIN1ktSVNDaUxHTUw0VnBWN0E2Q01CU1RZQWpsdDZCbmx4ZDdmRVF3OW9HcjFzUWpZajRQTVNLbllwUF95Nmo0UXM5TWlGNzF4WHZfbXZsU1hXdm1yZVYyWGxWbjlTTWI3U3FITXl3bU5rNllSdGpGX0M3U0tzZUYzbFpiZGNrcG8tSjBHZFZrdDFORmh0M0NpeU94cU53dkM2NV8wZ0E?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -862,9 +753,9 @@
       ]
     },
     {
-      "code": "/n46",
+      "code": "/n40",
       "title": "Gold hits seven-week low as oil surge fuels rate hike bets - Reuters",
-      "title_zh_hant": "油價飆升推升升息押注，金價觸及七週低點 - Reuters",
+      "title_zh_hant": "油價飆漲推升升息押注，金價觸及七週低點 - 路透社",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQenE0aVBHOTNMeURZcVZjN3J0S1RMZ2kzakFJYklBMXhZckhuTGxLVnVaa2pmZjg0MzJHMU1fOGwwY3pfWjBXYmZUcGYtUjMzOFB4UW9ydUdKZDNOU2JrTHotMk9qa1ZGNkZXdGs3b0NKcGhveU11cmZGOC0wbzM1WWVJSzk3bDAxLWs3QUxVSy02QQ?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -881,15 +772,15 @@
       ]
     },
     {
-      "code": "/n47",
-      "title": "US, Iran set to hold separate talks with mediators on Monday or Tuesday, official says - Reuters",
-      "title_zh_hant": "官員：美國與伊朗將於週一或週二分別與斡旋方會談 - Reuters",
+      "code": "/n41",
+      "title": "US, Iran separately talk with mediators in latest bid to end war - Reuters",
+      "title_zh_hant": "美國與伊朗分別與調解人會談，尋求結束戰爭 - 路透社",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMmZHcTFrcTNwTDVHTi1veU9KdXk1SC11X1NDWHB3VnBhbUQyOXh6Y002MFJaN1cyb0pfLVRIZnE4RUgwR1pieG0zY05NajZrNmFIbl9CTmpGbENaa01VOGEwZVZURnphdVdmUHJ2cWxGMURSNXNrRzdGanlKdWhqc0NiMWlHRnhTWlN4dlZIMjlNSEhxVlpkNFI4N1VTWHZfYWZsNi1lcE9GYjFsWDVmRW1QbFk2WjBhTWpfUS1aSTBNc3dBYW90RDVadjg?oc=5",
       "source": "Reuters Top via Google News",
       "category_key": "breaking",
       "category_label": "突發重點",
-      "published_at": "2026-09-29T05:02:36+08:00",
-      "summary": "US, Iran set to hold separate talks with mediators on Monday or Tuesday, official says Reuters",
+      "published_at": "2026-09-29T06:42:23+08:00",
+      "summary": "US, Iran separately talk with mediators in latest bid to end war Reuters",
       "importance_score": 69,
       "importance_reasons": [
         "source:reuters+22",
@@ -899,50 +790,14 @@
       ]
     },
     {
-      "code": "/n48",
-      "title": "OpenAI Notifies Dozens of Third Parties About “Misaligned” AI Model Activity - meritalk.com",
-      "title_zh_hant": "OpenAI 就「未對齊」AI 模型活動通知數十家第三方 - meritalk.com",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeVI0eWthTnc0NmRlZWFPQnZxX3c2Vm5ja2dPVHZQcHFfYl9ZaS1qZWIxV0RVNDFzOVlhamhxUzd0b1VQcU10WnFvRVdlcXBCNTFhS0p1anpmQndoUVNacms3NURGYzZ0cVoxNG1rNkhWOGpCS2FjZS1Dc0tmWUNaT0pndzFxNDczcEYyZ2hJVUFEeEpSS3FqSXlFRVVCeWRCdVdTTURDUnV1MDhzYkE?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T04:00:33+08:00",
-      "summary": "OpenAI Notifies Dozens of Third Parties About “Misaligned” AI Model Activity meritalk.com",
-      "importance_score": 69,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=6h+18",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n49",
-      "title": "DC Circuit Upholds Pentagon’s Anthropic Supply Chain Risk Designation - meritalk.com",
-      "title_zh_hant": "哥倫比亞特區巡迴法院維持五角大廈對 Anthropic 的供應鏈風險認定 - meritalk.com",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcHdwZUtHSUlRalFRWmpyRVhkZFloLWpUbjFXblY3VzR5TlBRcVhoQmVIRW1vQVBSWlRQeXdKNHpKTkt4cVZLNWUxcWlBV1FvVnZjVmZzSWlzcXlCZnVWVThDaUFVMWlXNjJOb1Y2Q1ByVGkzeks4eG43ekxYNDB4cTRwTGZtYlBCdUVza2RzV1l3UHlxXzhwX3VSazVUZldXRGUzS29R?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-09-29T04:00:33+08:00",
-      "summary": "DC Circuit Upholds Pentagon’s Anthropic Supply Chain Risk Designation meritalk.com",
-      "importance_score": 69,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=6h+18",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n50",
+      "code": "/n42",
       "title": "Fed watchdog flags apparent data breaches by retiring staff member - Reuters",
-      "title_zh_hant": "Fed 監察機構指一名將退休員工疑似造成資料外洩 - Reuters",
+      "title_zh_hant": "聯準會監察機構指一名退休員工似涉資料外洩 - 路透社",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQ2ZwVHE1NFdjY0xLQmFReFNEY080ZGhOS0UyQmNBTXZQbTBTWWN4T040OHgwUFZIRVRrenlVZmhxRzZxNmJuSHh0ZTU1dDZWSzNsdmNGRDRvbThHVDBTNC0xX1FkMzZnTHFBZzU5UmYxWnlCZGNaTUxhdlJoZm5NNU1kR1VheU5rcC1iVWctS25BcGtYbFRjLXJlOVBYSGhqTW9Wci1zdUpaOGVrY2ktSVU0cVJ1dw?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-09-29T02:11:48+08:00",
+      "published_at": "2026-09-29T04:49:43+08:00",
       "summary": "Fed watchdog flags apparent data breaches by retiring staff member Reuters",
       "importance_score": 68,
       "importance_reasons": [
@@ -953,9 +808,47 @@
       ]
     },
     {
-      "code": "/n51",
+      "code": "/n43",
+      "title": "UK diesel price hits all-time high, the RAC says",
+      "title_zh_hant": "RAC：英國柴油價格創歷史新高",
+      "link": "https://www.bbc.co.uk/news/articles/c6n4k987k981o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-09-29T04:42:56+08:00",
+      "summary": "The US-Israel war with Iran has caused fuel prices to soar due to disruption of global oil supplies.",
+      "importance_score": 68,
+      "importance_reasons": [
+        "source:bbc+16",
+        "fresh:<=6h+18",
+        "category:business_tech+6",
+        "markets / macro+14",
+        "geopolitical risk+14"
+      ]
+    },
+    {
+      "code": "/n44",
+      "title": "Oil prices off highs after reports Saudi pipeline ramping back up",
+      "title_zh_hant": "傳沙烏地輸油管恢復增壓，油價自高點回落",
+      "link": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html",
+      "source": "CNBC Top News",
+      "category_key": "breaking",
+      "category_label": "突發重點",
+      "published_at": "2026-09-29T03:12:45+08:00",
+      "summary": "The Saudis shutdown the pipeline earlier this month after it sustained damage in a drone strike launched form Iraq.",
+      "importance_score": 68,
+      "importance_reasons": [
+        "source:cnbc+14",
+        "fresh:<=6h+18",
+        "category:breaking+8",
+        "markets / macro+14",
+        "geopolitical risk+14"
+      ]
+    },
+    {
+      "code": "/n45",
       "title": "Fed's Cook sees further inflationary pressures ahead - Reuters",
-      "title_zh_hant": "Fed 的 Cook 預期通膨壓力將進一步升高 - Reuters",
+      "title_zh_hant": "聯準會理事 Cook 預期通膨壓力將進一步升高 - 路透社",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY1hBTjdyQzBjNTJoTkhvQV9YVk9rWnRMWjhhR0Jkd2ZQcDBoRU5UQUZZTElmX1pYZzFhUXdsSF9Cc1otTVZGR1BOQmtBcXU2eS1hNC1EWE45V2lWWmdFSU8xS0RPSDdfR3k2NjRwSjdwYzhMelNsOU5CSzhzZ1Y4U0t2ZDlDZGo3OVBuSW9lcWxjU1lNWUkwSS1QV0I?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -971,64 +864,28 @@
       ]
     },
     {
-      "code": "/n52",
-      "title": "Florida seeks a ban on ChatGPT acting like a person",
-      "title_zh_hant": "佛州尋求禁止 ChatGPT 表現得像真人",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids",
-      "source": "The Verge",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-09-29T01:00:23+08:00",
-      "summary": "Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"giving ChatGPT false human attributes,\" a few months after Florida sued the AI company over safety concerns. According to Uthmeier, us...",
+      "code": "/n46",
+      "title": "US and China release $60 billion nonsensitive product lists for tariff cuts after Trump-Xi meeting - AP News",
+      "title_zh_hant": "川習會後，美中公布 600 億美元非敏感產品清單以削減關稅 - 美聯社",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMUVZNUtHcDRGeGtQS0xXMUtlSE9IaEhHRk5jaHp0ekFCTWU3aVRsbTA1VjF3YkhkTGtGUW80TTd4VFRiN09IQ05vQlcwOE93N08xVjVkNWdySGc1UWJZYmt1MmhoWmR6cU1nVllwRWhEak9uTVRvRnFBVFNwanJzSW9fb0xrOWNfNlRUckMwc1VpeDNDZWRDSmh3Mmk?oc=5",
+      "source": "AP Top via Google News",
+      "category_key": "breaking",
+      "category_label": "突發重點",
+      "published_at": "2026-09-28T23:55:00+08:00",
+      "summary": "US and China release $60 billion nonsensitive product lists for tariff cuts after Trump-Xi meeting AP News",
       "importance_score": 68,
       "importance_reasons": [
-        "source:the verge+10",
-        "fresh:<=6h+18",
-        "category:business_tech+6",
-        "AI / frontier model+18",
-        "policy / regulation+16"
-      ]
-    },
-    {
-      "code": "/n53",
-      "title": "Tata Trusts proposes Tata Sons revamp to prevent listing driven by India's central bank - Reuters",
-      "title_zh_hant": "Tata Trusts 提議改組 Tata Sons，以防印度央行推動上市 - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPU2J1RGNiQmdHR2pPanFPMVpib05ocUVWR1RNLTlMUHEwNkxkczhNR3d0Nm9DdEdNZE1yTnQ0UVlIS3VoZWlsNjhhOTFXczYtNTZiQUw1WUtvSFUzZDVYNFNOMERqSmowQTlwR1JJS3huTU02akF6bjNGbC1HSmFfdndlcXN3M0RRSkdYOFN0VlU2YjlSV3JHMHVkbzY1TC1tdF9jU3dIUWtoaG5mb1ZuLUg5VXpnMUJaaFZRag?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-09-29T00:47:43+08:00",
-      "summary": "Tata Trusts proposes Tata Sons revamp to prevent listing driven by India's central bank Reuters",
-      "importance_score": 68,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=6h+18",
-        "category:markets+8",
-        "rates / central banks+20"
-      ]
-    },
-    {
-      "code": "/n54",
-      "title": "EXCLUSIVE: Russia raises 2027 military spending by 27%, budget documents show - Reuters",
-      "title_zh_hant": "獨家：預算文件顯示，俄羅斯將 2027 年軍費提高 27% - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbHg0MGZvUkU3a2FULXNNc1pDUkE5VTZaZFptZ0R0dHhoc29SbmotRkg5SndfWk1rcy1hbzAxY2VKbDhzUVIxUlpoaVZCU0MwYmRub0FGR1VOaHpjaXBxTmhPcnJ5MDJUOExCTE56X3h6aDVRR2FRN1V1VWRJMmNnYTNBOXhxVjlJd1hHbnZfVWo1Rk55d04xM1FGOTdfbU1BVmZHYVgyb0tYUQ?oc=5",
-      "source": "Reuters Business via Google News",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-09-29T04:29:36+08:00",
-      "summary": "EXCLUSIVE: Russia raises 2027 military spending by 27%, budget documents show Reuters",
-      "importance_score": 67,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=2h+25",
-        "category:business_tech+6",
+        "source:ap+20",
+        "fresh:<=12h+10",
+        "category:breaking+8",
+        "policy / regulation+16",
         "geopolitical risk+14"
       ]
     },
     {
-      "code": "/n55",
+      "code": "/n47",
       "title": "Jensen Huang says AI distillation is 'competition.' Scott Bessent has called it 'theft'",
-      "title_zh_hant": "黃仁勳稱 AI 蒸餾是「競爭」，Scott Bessent 則稱之為「竊取」",
+      "title_zh_hant": "黃仁勳稱 AI 蒸餾是「競爭」，史考特·貝森特稱之為「竊取」",
       "link": "https://www.cnbc.com/2026/09/28/nvidias-jensen-huang-ai-distillation-china.html",
       "source": "CNBC Technology",
       "category_key": "business_tech",
@@ -1045,9 +902,27 @@
       ]
     },
     {
-      "code": "/n56",
+      "code": "/n48",
+      "title": "Stocks fall as higher oil prices, Treasury yields weigh - Reuters",
+      "title_zh_hant": "油價與公債殖利率上揚壓抑股市，主要指數走低 - 路透社",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMG5ieTU4M0RYMC1lQi0wbDVONnJJbW5NS3pya2xkLXUxSFF3ajh5ZWlER3B5ZW1IR0J3ZjRxZFFCTDd2ajh4ZnVHZ2xqY1U2c0pIamh2MGhzWVlIMVVieHpOXzg0bnJwRFlTaEg4dVdycUc1X25ZQlZkUUsxUGZ3TGc1RDlNWjg2U1RFQ3JEUWx2NGIxb0ZvZXJJb0F6MjcxOER2WHFIdmtSei1fZHdBS29YcGhvUFk?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-09-29T04:38:51+08:00",
+      "summary": "Stocks fall as higher oil prices, Treasury yields weigh Reuters",
+      "importance_score": 64,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=6h+18",
+        "category:markets+8",
+        "market move+16"
+      ]
+    },
+    {
+      "code": "/n49",
       "title": "US Supreme Court's Alito won't participate in climate case involving oil companies - Reuters",
-      "title_zh_hant": "美國最高法院大法官 Alito 不參與涉及石油公司的氣候案 - Reuters",
+      "title_zh_hant": "美國最高法院大法官阿利托將不參與涉及石油公司的氣候案 - 路透社",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNmhUZzJOQUJ2ZDJ0ZldZRnlrQTM5UU51RHY0Q2pHenIyVFBKRi1vMzlZYUhzdXZrLWFWUlo2NGNweE42cHZSOUsxU2Zsdzkxel9hRGQxY2hMMmhzXzVTZGxUdXAwWkFTSlNKNlhfWlVGUklyR2EwcDJMWHJ6UXBRM1hOYTBkOGRrUHJhMTFUNTYxVWNSSzNIQjA0OU5QYzBZM016eXR3T3ZQTlhiWjdYaHcwYzV1dHM5bDJSdXk5ZU4xdE5PQ3o2Zg?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -1063,27 +938,9 @@
       ]
     },
     {
-      "code": "/n57",
-      "title": "ECB eyes new currency safety nets to boost euro's global role - Reuters",
-      "title_zh_hant": "歐洲央行研擬新貨幣安全網，以強化歐元全球角色 - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTXV0ZlVtOXNhdnBPeENoRFpyTk5kX3ZzaTM5ZG5aSHl3VTFRbGhYdTdmOW54REc2b2ZSNHhzcS02ZzhPUExlT3ZJdUdTaW13aUJIVXdycFNZRkZvNkNYU2FHLVNfSjE1UjZnTl9iS05SM0VCYllEbTI3Z1dxeHdYU3ZTZWUxcm15SURQaDltMjdFWlpYTjZJMnBhaDZBZXhVbTlsbVlvN3hDWWZFSE5F?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-09-29T01:45:37+08:00",
-      "summary": "ECB eyes new currency safety nets to boost euro's global role Reuters",
-      "importance_score": 64,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=6h+18",
-        "category:markets+8",
-        "market move+16"
-      ]
-    },
-    {
-      "code": "/n58",
+      "code": "/n50",
       "title": "European shares muted as oil and bond pressures offset UK homebuilder rally - Reuters",
-      "title_zh_hant": "油價與債市壓力抵銷英國建商漲勢，歐股走勢平淡 - Reuters",
+      "title_zh_hant": "油價與債市壓力抵銷英國建商漲勢，歐股表現平淡 - 路透社",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTnJjQ0NlWFRaRUdoeDhfTHh5T3k0ejVfaDBvbFYtZFJmS1ExLUpKNWdOVGtfTktKS2U1Ykdob0pLUWFGLUtEZ2pDMU5nZkwzaXJwVU9ZQnFwdlhDMEx4LWJ6cG1INE90OUhhRVdCT1h6YVJtZktwOF9Td0x6MFZxNENFZUxfQi01eUFPS3kyMFNvRHBUWHE3U2J6MUxVckREc2NzVlhXbUxnWG1vbHJOTkNHNA?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -1099,45 +956,65 @@
       ]
     },
     {
-      "code": "/n59",
-      "title": "Prediction markets' push into US stocks raises regulatory alarm bells - Reuters",
-      "title_zh_hant": "預測市場進軍美股，引發監管警鈴 - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc0pOYnNmdEpnbENUb0xvWldjT19MWmZiMmNFSXJsMDgxTEM2d1ZaNXdKeVJ0X21ZaDc2TElGX3BGdlJJV1liclo0Y1RfRUM5LWRPd3h5NE5naHd1WWhzV3UzamdtSVUzWFVBOXBRN2JLQlk4a2Fkd2REZkJ5WWdqbF9LRkIyU3JaVDB1RzhPd3JuWGh0WkhtdHAtZnZueUptMDJ4Z1drMzZjZjFmTGNHd0N1amhLUWl5cUFnUnJn?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-09-29T00:53:31+08:00",
-      "summary": "Prediction markets' push into US stocks raises regulatory alarm bells Reuters",
+      "code": "/n51",
+      "title": "Taiwan pushes back after Xi seeks to win over Trump on World War Two narrative - Reuters",
+      "title_zh_hant": "習近平試圖以二戰敘事拉攏川普，台灣反駁 - 路透社",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZC1qWXhYU2tyZk40LW5jakFmMmwyM28zNnZHNXBCd2wyVHdkci1EdkRzMzMwcGstZUloaFpRT0xhTGFWdm14elhORFp5OHZQa212TzB6YVp1NGdlZ1luNVNGdFpEb1NKWVluM004QVUwUjZNX0VwYUQ5dkxvVVRoZ0JiZmxudXlvV3FXNktvd0R3bmNRSXZ5TDJpMjhuZVJLbjVWbFRXU21ZcXV3NWZIZERqREVQTTRmbHc1Yw?oc=5",
+      "source": "Reuters Business via Google News",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-09-28T11:24:00+08:00",
+      "summary": "Taiwan pushes back after Xi seeks to win over Trump on World War Two narrative Reuters",
       "importance_score": 64,
       "importance_reasons": [
         "source:reuters+22",
-        "fresh:<=6h+18",
-        "category:markets+8",
-        "market move+16"
+        "fresh:<=24h+4",
+        "category:business_tech+6",
+        "semiconductors / Taiwan supply chain+18",
+        "geopolitical risk+14"
       ]
     },
     {
-      "code": "/n60",
-      "title": "COMMENTARY: Energy Watch: Big Oil's big rethink - Reuters",
-      "title_zh_hant": "評論：能源觀察：石油巨擘的大反思 - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQU3k4RWd1ZU1UYTJRQVF2LXlnOEpxMGlOU1FobGdoLUVUY0JNRi1oR2Q1OWVLWmtjaXU1dzNSelZmOTVNaWJ5MzF4TUo1S2dQbVluNkdYbmhQSWZzS0dFSkdNX2U3YWlYbnhJb1k1WVM3czUwX01lbTBEaXh0dzgzM2wyQ2FtZ1A1bktJbk1DM1NTekUzTEJTOUFPNlVQaGt4djJfVA?oc=5",
+      "code": "/n52",
+      "title": "Florida seeks a ban on ChatGPT acting like a person",
+      "title_zh_hant": "佛州尋求禁止 ChatGPT 擬人化",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids",
+      "source": "The Verge",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-09-29T01:00:23+08:00",
+      "summary": "Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"giving ChatGPT false human attributes,\" a few months after Florida sued the AI company over safety concerns. According to Uthmeier, us...",
+      "importance_score": 60,
+      "importance_reasons": [
+        "source:the verge+10",
+        "fresh:<=12h+10",
+        "category:business_tech+6",
+        "AI / frontier model+18",
+        "policy / regulation+16"
+      ]
+    },
+    {
+      "code": "/n53",
+      "title": "Tata Trusts proposes Tata Sons revamp to prevent listing driven by India's central bank - Reuters",
+      "title_zh_hant": "Tata Trusts 提議重整 Tata Sons，以避免印度央行推動上市 - 路透社",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPU2J1RGNiQmdHR2pPanFPMVpib05ocUVWR1RNLTlMUHEwNkxkczhNR3d0Nm9DdEdNZE1yTnQ0UVlIS3VoZWlsNjhhOTFXczYtNTZiQUw1WUtvSFUzZDVYNFNOMERqSmowQTlwR1JJS3huTU02akF6bjNGbC1HSmFfdndlcXN3M0RRSkdYOFN0VlU2YjlSV3JHMHVkbzY1TC1tdF9jU3dIUWtoaG5mb1ZuLUg5VXpnMUJaaFZRag?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-09-29T00:30:07+08:00",
-      "summary": "COMMENTARY: Energy Watch: Big Oil's big rethink Reuters",
-      "importance_score": 64,
+      "published_at": "2026-09-29T00:47:43+08:00",
+      "summary": "Tata Trusts proposes Tata Sons revamp to prevent listing driven by India's central bank Reuters",
+      "importance_score": 60,
       "importance_reasons": [
         "source:reuters+22",
-        "fresh:<=6h+18",
+        "fresh:<=12h+10",
         "category:markets+8",
-        "market move+16"
+        "rates / central banks+20"
       ]
     },
     {
-      "code": "/n61",
+      "code": "/n54",
       "title": "Indian firms ready $3 billion of debt issues with eye on potential RBI rate hike - Reuters",
-      "title_zh_hant": "印度企業準備發行30億美元債券，關注印度央行可能升息 - 路透",
+      "title_zh_hant": "印度企業準備發行 30 億美元債券，關注 RBI 可能升息 - 路透社",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRkpYcGRIZWh0dUlEUGZJM1cxR05Fc1ExVzVFV3JjMjQ1YVlCNUVOWlRidFhNWnE5RW9pS1ZSbGM0WlQySTZSSzFYQjJEZ2I5dGF3N2xzbDU1ZGVvSEtoUGpoY3JxM1k3ZnJKS0FmMmc4dVJJSGJ3anVNNjVqV3NxWGNzVDRRbEd3eTZucFFaMENidGlWSkZ3UDFHU3pVUUZrSnJsNXFHM2ctTEtteVNHbTRjUFJaVGNlZlE?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -1153,9 +1030,9 @@
       ]
     },
     {
-      "code": "/n62",
+      "code": "/n55",
       "title": "India central bank completes 1 trillion rupee net debt sale for first time in a decade - Reuters",
-      "title_zh_hant": "印度央行十年來首次完成1兆盧比淨債券出售 - 路透",
+      "title_zh_hant": "印度央行完成 1 兆盧比淨債務出售，為十年來首見 - 路透社",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU3NWWTdwOGpQeTBLTDE0dnVZOW40RjZ1aExzNEVXckZMaVhKNG1oRTdNM3o0NnZWa2E3MEFETzZQY1FyNnAwX01HRDFCamFfQzBPWVNkVGJEV1Q3SFZnMjVfWERBd19VNDluQkM4ZDE1VGJxMlRWa0dCZVdVUm1GeFdkUGozdFIzcWZ4amJLNjFrZjJ0ZGxMRnpTaWZyMUgyNnptN3dweWR1TU9PdTVEUGJrNW11NjRmUG5mYmJOZjVTelk?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -1171,9 +1048,9 @@
       ]
     },
     {
-      "code": "/n63",
+      "code": "/n56",
       "title": "About Corgi Lithography & Semiconductor Photonics ETF (EUV.N) - Reuters",
-      "title_zh_hant": "關於 Corgi 微影與半導體光子學 ETF（EUV.N） - 路透",
+      "title_zh_hant": "關於 Corgi Lithography & Semiconductor Photonics ETF (EUV.N) - 路透社",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwSmJHUk1GXzVyNWFrdWRsaTFUeFd0cUFnRVN0OWJYUEtaMjhWeFY3TmsxVzVSc0lqMlowT2FtVWNKQUJESjJCdlJVWkJFYkpMZVotRGxialF0Wk0?oc=5",
       "source": "Reuters Taiwan Supply Chain via Google News",
       "category_key": "markets",
@@ -1189,9 +1066,9 @@
       ]
     },
     {
-      "code": "/n64",
+      "code": "/n57",
       "title": "ECB's Lagarde sticking to measured steps to quell inflation - Reuters",
-      "title_zh_hant": "歐洲央行總裁拉加德堅持以審慎步伐抑制通膨 - 路透",
+      "title_zh_hant": "歐洲央行總裁拉加德堅持以審慎步伐壓制通膨 - 路透社",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOUhNMnRyWjFqSWNtUHFUaG1UU1REVnNmdDNOUUVPZ3hhRGFMYUNNRW5RLVA3N0pkV3RURGhJckVmdm9sa1BEblo5T1RFNF9zYnoxOEVoVkk5aTVIQnhWY0V4XzRkODJ0OGctcnRGNjhzRkVlaFNDOExmSGV5QW03NHdsRWRYUjNOeldQcjNsVWx6Y0JJcVEzbW1kemYtd1ppcFJtR1hQLXZyVjJQbFZQS2VOZmNURHJQVktj?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -1207,9 +1084,9 @@
       ]
     },
     {
-      "code": "/n65",
+      "code": "/n58",
       "title": "UK long-run inflation expectations near 15-month high in September, Citi/YouGov survey shows - Reuters",
-      "title_zh_hant": "花旗/YouGov調查：英國9月長期通膨預期逼近15個月高點 - 路透",
+      "title_zh_hant": "花旗/YouGov 調查：英國 9 月長期通膨預期逼近 15 個月高點 - 路透社",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU0Z5emNvZkJKSE4xT19kNHBJWUU5TE82bkJld3ZNN2dnMnI5SEZMdXdfcFpnNzBkN1h3UDVqdVlNQ0lVd2dLa1U0T2doNTc5Yk8xVG1rMXdIYjRPNkl6ZUhKczN3VzVXY29DOFVqT1RSVUd4OFN1TTViRi1QN0F2RFJyYVFTeS1aSVJTa3hINkZpRzB4cnhubGZYMldCSTdIWjZ3RWpPRnY1X1p1emc?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -1225,9 +1102,9 @@
       ]
     },
     {
-      "code": "/n66",
+      "code": "/n59",
       "title": "RBI to raise interest rates to 5.50% in October as inflation broadens: Reuters poll - Reuters",
-      "title_zh_hant": "路透調查：印度央行10月將升息至5.50%，因通膨擴大 - 路透",
+      "title_zh_hant": "路透調查：隨通膨擴散，印度央行 10 月料升息至 5.50% - 路透社",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZHFfU2IzeXpweG9ZdmFoZE9oV1BiN0hzZk4zNENnS2VMSDNVTnlLVzRWVXhsYVB5blA2QkF2emhVY0x6VHNYWW5pSFI0R3JmTGk1VlZVaXZKOEdtU0poUVhQOWFxREk2N3JOSktsZVdaZFBGRmFDaTRUUzNRTC04VVFuZnVXek5EczhLY1RfN3pSWUdRbnlNUUZkRktETGNIb3NuWlVR?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -1243,33 +1120,33 @@
       ]
     },
     {
-      "code": "/n67",
-      "title": "Zuckerberg, Amodei among tech executives set to meet Trump Tuesday",
-      "title_zh_hant": "祖克柏、阿莫戴等科技業高層將於週二會見川普",
-      "link": "https://www.cnbc.com/2026/09/28/trump-ai-tech-lunch.html",
-      "source": "CNBC Technology",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-09-29T04:00:45+08:00",
-      "summary": "The AI safety debate has raged in recent weeks, with Amodei, Musk and OpenAI CEO Sam Altman calling to pace the development of frontier models.",
-      "importance_score": 56,
-      "importance_reasons": [
-        "source:cnbc+14",
-        "fresh:<=6h+18",
-        "category:business_tech+6",
-        "AI / frontier model+18"
-      ]
-    },
-    {
-      "code": "/n68",
-      "title": "Oil stocks in US strategic petroleum reserve fall to lowest level since 1982 - Reuters",
-      "title_zh_hant": "美國戰略石油儲備原油庫存降至1982年以來最低 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ2s5RDJySFM4eWxSRG5ZMWctT0RBWHFIQTNGMU1EbjhtWmJOc21QM09XV29jc1NxVG94emhfby1FVVBiczhtWlQ4NGlRUW8tTGJDVEQ1dEFrTVBuYlhtV2pVNWdVYkphYnNldHNMeGQ3a1JBN3U3cWJGREhRRWg0WFBzaUZEbmlGVHlyQjBVamNEUFB0MDlmMXFwdVFVcncwTC12UXBNSnA1aXR5cmFWYWEwUUw1Y3BJbW9wLVlSQQ?oc=5",
+      "code": "/n60",
+      "title": "Prediction markets' push into US stocks raises regulatory alarm bells - Reuters",
+      "title_zh_hant": "預測市場進軍美股，引發監管警鈴 - 路透社",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc0pOYnNmdEpnbENUb0xvWldjT19MWmZiMmNFSXJsMDgxTEM2d1ZaNXdKeVJ0X21ZaDc2TElGX3BGdlJJV1liclo0Y1RfRUM5LWRPd3h5NE5naHd1WWhzV3UzamdtSVUzWFVBOXBRN2JLQlk4a2Fkd2REZkJ5WWdqbF9LRkIyU3JaVDB1RzhPd3JuWGh0WkhtdHAtZnZueUptMDJ4Z1drMzZjZjFmTGNHd0N1amhLUWl5cUFnUnJn?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-09-28T23:42:33+08:00",
-      "summary": "Oil stocks in US strategic petroleum reserve fall to lowest level since 1982 Reuters",
+      "published_at": "2026-09-29T00:53:31+08:00",
+      "summary": "Prediction markets' push into US stocks raises regulatory alarm bells Reuters",
+      "importance_score": 56,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=12h+10",
+        "category:markets+8",
+        "market move+16"
+      ]
+    },
+    {
+      "code": "/n61",
+      "title": "COMMENTARY: Energy Watch: Big Oil's big rethink - Reuters",
+      "title_zh_hant": "評論：能源觀察：石油巨擘的重大反思 - 路透社",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQU3k4RWd1ZU1UYTJRQVF2LXlnOEpxMGlOU1FobGdoLUVUY0JNRi1oR2Q1OWVLWmtjaXU1dzNSelZmOTVNaWJ5MzF4TUo1S2dQbVluNkdYbmhQSWZzS0dFSkdNX2U3YWlYbnhJb1k1WVM3czUwX01lbTBEaXh0dzgzM2wyQ2FtZ1A1bktJbk1DM1NTekUzTEJTOUFPNlVQaGt4djJfVA?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-09-29T00:30:07+08:00",
+      "summary": "COMMENTARY: Energy Watch: Big Oil's big rethink Reuters",
       "importance_score": 56,
       "importance_reasons": [
         "source:reuters+22",
