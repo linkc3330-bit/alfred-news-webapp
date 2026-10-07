@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T06:15:01.815147+08:00",
+  "generated_at": "2026-10-07T08:30:57.839603+08:00",
   "date": "2026-10-07",
   "categories": [
     {
@@ -15,7 +15,7 @@
     {
       "key": "ai_intelligence",
       "label": "AI Intelligence",
-      "count": 21
+      "count": 17
     },
     {
       "key": "markets",
@@ -26,14 +26,14 @@
   "items": [
     {
       "code": "/n01",
-      "title": "llm-mistral 0.16",
-      "title_zh_hant": "llm-mistral 0.16",
-      "link": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+      "title": "Quoting Victoria Kim",
+      "title_zh_hant": "引述 Victoria Kim",
+      "link": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
       "source": "Simon Willison",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-10-07T05:32:34+08:00",
-      "summary": "Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning",
+      "published_at": "2026-10-07T07:58:56+08:00",
+      "summary": "Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon...",
       "importance_score": 94,
       "importance_reasons": [
         "source:simon willison+18",
@@ -45,6 +45,44 @@
     },
     {
       "code": "/n02",
+      "title": "How Jump Trading is scaling quant research with ChatGPT - OpenAI",
+      "title_zh_hant": "Jump Trading 如何以 ChatGPT 擴大量化研究 - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE93YUJfZWFpb2VQNEEzdENGbGR4aEE0UkZYWjE0XzhrM0lsLU82WWtXRG9TQ2VITXJuMnp4MVpLbWNOR20zV0VwNV9CcnJhZGs?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-10-07T07:19:19+08:00",
+      "summary": "How Jump Trading is scaling quant research with ChatGPT OpenAI",
+      "importance_score": 92,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25",
+        "research / paper+16"
+      ]
+    },
+    {
+      "code": "/n03",
+      "title": "llm-mistral 0.16",
+      "title_zh_hant": "llm-mistral 0.16",
+      "link": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+      "source": "Simon Willison",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-10-07T05:32:34+08:00",
+      "summary": "Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning",
+      "importance_score": 87,
+      "importance_reasons": [
+        "source:simon willison+18",
+        "fresh:<=6h+18",
+        "category:ai_intelligence+10",
+        "frontier model / release+25",
+        "research / paper+16"
+      ]
+    },
+    {
+      "code": "/n04",
       "title": "Mistral Large 4",
       "title_zh_hant": "Mistral Large 4",
       "link": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
@@ -53,64 +91,28 @@
       "category_label": "AI Intelligence",
       "published_at": "2026-10-07T02:20:58+08:00",
       "summary": "My comment on Mistral Large 4 — Hacker News. wren6991 : The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m claude-op...",
-      "importance_score": 89,
+      "importance_score": 81,
       "importance_reasons": [
         "source:simon willison+18",
-        "fresh:<=6h+18",
+        "fresh:<=12h+10",
         "category:ai_intelligence+10",
         "frontier model / release+25",
         "benchmark / evaluation+18"
       ]
     },
     {
-      "code": "/n03",
-      "title": "Under oath, Google confirms three AI agent test escapes as OpenAI, Anthropic and Meta face NYC lawmakers - R&D World",
-      "title_zh_hant": "Google 宣誓證實 3 起 AI 代理測試逃逸，OpenAI、Anthropic 與 Meta 面臨紐約市議員質詢",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQX0x4LU04ZVRIdmMtNWlOemZzQWhWeTdwMUN2ZnJLRXl3LUVwc3VmY09JWU5lX3BGRzNWclFRTmN3WGg4cmhBSEFEWmw5ekJjWHlIMmRSa2k2ZWJKUTU2c2hkTTEwWlN0amZMd3V6YVl4MGFON251ZFFtOW15bHpOMEV0VW5jazRlOERiRm56aEJ1OFlBcTJPbktVQlg4OS1Lc3ZMYV9pejg2UExDVHlpZWlqUTJvbC03ZnFBOUVURlR2YUxNbURKMm1kVElUdw?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-10-07T06:11:13+08:00",
-      "summary": "Under oath, Google confirms three AI agent test escapes as OpenAI, Anthropic and Meta face NYC lawmakers R&D World",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n04",
-      "title": "Anthropic Expands Discounts and Support for Founders - PYMNTS.com",
-      "title_zh_hant": "Anthropic 擴大對創辦人的折扣與支援",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVktlTklUd2picGk3dGJqaUxXVC1ZUVJSQ1Fuc0VGc0sydDZPemdyMXlrT0Y2Z2lDN2d5S01ULUxfc2JFeHlVREw1UU1oY3VCZTZTY2NOZkRlTUVnakpfYTJxRGtuLU5xSS1OYjNvZE80YlQzZ0w3SzcyWFpaMTNxR2dqVk5ablpMcXU2NnhDTjQ1dkt5OFZmMndhbnhxT1NxRjNpVA?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-10-07T06:01:51+08:00",
-      "summary": "Anthropic Expands Discounts and Support for Founders PYMNTS.com",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
       "code": "/n05",
-      "title": "Anthropic opens powerful AI models to more cybersecurity teams - Latest news from Azerbaijan",
-      "title_zh_hant": "Anthropic 向更多資安團隊開放強大 AI 模型",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOT1lJaUF6VGpQVEVpSEYyRkYtLXYyYjM1UXJBcFA2amczaG9aSGFsRW5ZYmhrbkhqajFYcFJ3eVE3b1ExZG1XT3F5WGVjUTdTTzFKSHMtVTIzWUhBUXJURHh3VVhSRWxWTldDV2UxQ01lVzZJNUxlTjZXWDBwT0NXS3dFbVBkTDJIWjlr?oc=5",
-      "source": "AI Industry via Google News",
+      "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
+      "title_zh_hant": "OpenAI「流氓」代理活動現蹤 Wikimedia 專案",
+      "link": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+      "source": "Simon Willison",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-10-07T05:58:02+08:00",
-      "summary": "Anthropic opens powerful AI models to more cybersecurity teams Latest news from Azerbaijan",
-      "importance_score": 76,
+      "published_at": "2026-10-07T08:16:45+08:00",
+      "summary": "OpenAI “rogue” agent activities found on Wikimedia projects Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking: T...",
+      "importance_score": 78,
       "importance_reasons": [
-        "source:ai industry+16",
+        "source:simon willison+18",
         "fresh:<=2h+25",
         "category:ai_intelligence+10",
         "frontier model / release+25"
@@ -118,32 +120,33 @@
     },
     {
       "code": "/n06",
-      "title": "As OpenAI Faces Breach Probes, David Morris Calls AI Alignment a ‘Wild Misconception’ - Yahoo",
-      "title_zh_hant": "OpenAI 面臨外洩調查之際，David Morris 稱 AI 對齊是「嚴重誤解」",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTkpFcDhrSXFnSGR1WXI1cENQWmF2YXZreW1fWXk3SFZNdDZ4ZDF6V0wzR291RnczdFpSb09JejZGS2xacDlmOS1SUmxPZGtrblNUOHhLNEVEX0lzMno4V1NYRVE3TTFFTXVsaU9IbHF3VENMem1KRnNlUy1sSzFqSXBHcFhVY1B6YzFZNGZtZw?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-10-07T05:28:37+08:00",
-      "summary": "As OpenAI Faces Breach Probes, David Morris Calls AI Alignment a ‘Wild Misconception’ Yahoo",
-      "importance_score": 76,
+      "title": "North Korea warns US over Taiwan while Kim pledges support for Russia - Reuters",
+      "title_zh_hant": "北韓因台灣警告美國 金正恩承諾支持俄羅斯 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMHg2SlpoVHlESU44TmVmZmNnNjFrYWw4bzYxVmtkWHBsdkppd2hFLVlSNFg3X19RRV9zc2tUa2tOX1BSckpvOVJnTHJabXJ4aHR3TDZJTENCOV9tV0ZPN3FYUkt2YjlVZllULUEyN0hTLXd5a3pFUmNEcXF4N1ZxTTVQX1JVdmNoaXdBcnhNUDRvZ0MtLTRhLUhmQzNTaEtiTlN1MTh3M3o4d0ZhQVFWaTZTQ2lCSHoyV3FocnhDRE4zX3FVTjJz?oc=5",
+      "source": "Reuters Business via Google News",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-10-07T05:58:14+08:00",
+      "summary": "North Korea warns US over Taiwan while Kim pledges support for Russia Reuters",
+      "importance_score": 78,
       "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
+        "source:reuters+22",
+        "fresh:<=6h+18",
+        "category:business_tech+6",
+        "semiconductors / Taiwan supply chain+18",
+        "geopolitical risk+14"
       ]
     },
     {
       "code": "/n07",
-      "title": "Anthropic Expands Claude Into Google Workspace With New AI Tools - Benzinga",
-      "title_zh_hant": "Anthropic 將 Claude 擴展至 Google Workspace，推出新 AI 工具",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNjJEb0h1RlVEakhyRlZ4QzE5a2drdF9vTUdna3RrZ1lndVY0OGZuUjF1S1RHVW0xWFpXWG84N2JIbGFSWmFQUEQ4WU5oaXAxZG1BZ291NGJkVnVXRGxmU3I5cl9YdWhYOHlSTkQ5VU9JS2ZCNjdKcHFidmswY0o4X0ZOVUstcjNEQlFpeTBOZk9rc3p3ckVLNzFta2VIbmEwMF9ucDVWVjlUSVFuWGlua0U2TDlGX1ZUQ0VuVkVPTzYwbW5pdTZr?oc=5",
+      "title": "OpenAI shares new math results from internal model - Breakingthenews.net",
+      "title_zh_hant": "OpenAI 分享內部模型新數學成果 - Breakingthenews.net",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMlZ2ampRcDdaTXFfVGRsazZzd193SVhpXzlmN1ZhWXdJX1c1OEJHbWtHTmZ4ZmxsV2pQYVpqUEpNUjc5NzNlR1duaG13R1VRbXA2dWw5eWZtVjhWM3MwOFVoeGcwLXVDVXRyVjRuWGpvRXp4Zi1fNkNMejgwc0Z0RUMzSDNMc1d0ck5ZUWlRSUpvOW5NVEpfd2cwNA?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-10-07T05:24:45+08:00",
-      "summary": "Anthropic Expands Claude Into Google Workspace With New AI Tools Benzinga",
+      "published_at": "2026-10-07T08:02:00+08:00",
+      "summary": "OpenAI shares new math results from internal model Breakingthenews.net",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -154,14 +157,14 @@
     },
     {
       "code": "/n08",
-      "title": "Anthropic Pushes Its IPO to November as Investors Eye a $2 Trillion Valuation - Yahoo Finance",
-      "title_zh_hant": "Anthropic 將 IPO 推遲至 11 月，投資人著眼 2 兆美元估值",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX3lRdlBuU3kxb0dwdnNEbmhpRHBxUmlWS05WR0VOdWlsMGpFVjFDZnRBOThBUF9yU1JnWl9wYTZyVVBpSHVmamN1eUtYQ3BuWlhtQnhRSVZOWER5WC1Odmx5X3UzNWowT1M2TDZXNF9uemZaS0gzTmVFS2ZwT0xrMVhwSUVBWU9udi1qSDMxZ0dWR3pEOEQxanpPTjhHVlJYUXdUSXJR?oc=5",
+      "title": "Anthropic commits $100m to train 10,000 Claude engineers | ETIH EdTech News - EdTech Innovation Hub",
+      "title_zh_hant": "Anthropic 承諾投入 1 億美元培訓 1 萬名 Claude 工程師 | ETIH EdTech News - EdTech Innovation Hub",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNelhoWWI2UXY4bFdiS3M5RzRnR2NWZHJITDN5QnVBeGZybWp4dlFmLWZUbElROUVaWWFNc0RZTFRMV0pfcUMtRlVQU1NtTzA2VkRIQmxhNVJmek5wY3pTOFFRTnI1bVNkN0RlU3R5SW5lNDRWTmNPMXdGNE9tXzNIZk9OVEpUUThUbVVFSkpoVUNhaVBNLVY5SXdUVUFSeHFGbGpLcmFBUDRrSGloZlZhb1ZjVGZHaUZUaWtJSlNjcTk?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-10-07T05:20:00+08:00",
-      "summary": "Anthropic Pushes Its IPO to November as Investors Eye a $2 Trillion Valuation Yahoo Finance",
+      "published_at": "2026-10-07T08:00:53+08:00",
+      "summary": "Anthropic commits $100m to train 10,000 Claude engineers | ETIH EdTech News EdTech Innovation Hub",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -172,14 +175,14 @@
     },
     {
       "code": "/n09",
-      "title": "'Zombie star' and supernova remnant revealed in stunning Gemini image - Mashable",
-      "title_zh_hant": "驚豔 Gemini 影像揭露「殭屍星」與超新星殘骸",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWUxZSTlORDJobl9JQzE5WTVXOC1fLXlzdVczNkJuWHZtWi14cGlyRmpRWWlxaDlVVTNOekswNHpYUlI3WHMxd20xdC10VkNuS0pkX1FBMUNUVkk4Y3d0R3VVT1VlcTlvODlDRWdrc1pTcHJScl9UR1VwQUI0RGNSb05Gdw?oc=5",
+      "title": "Gemini Horoscope for October 7, 2026 - Yahoo",
+      "title_zh_hant": "雙子座 2026 年 10 月 7 日星座運勢 - Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSEdqYjl3VGJpTnJsbVpfTFRPWW55MHh1el83bTR1QWREYU5RNEd4S3lLRTFKOUdVb2FnaTkyQWNNeUJUQ1ViWEM3aVBCdi1MbHpETmlneDR1ZVU3Y0wyM0kxMkVHaTgzYWZIYmZyajFzRElqeDRKbnZCSU0zUHVjVHladWpLRW51MTJsbmVDMGU?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-10-07T05:16:57+08:00",
-      "summary": "'Zombie star' and supernova remnant revealed in stunning Gemini image Mashable",
+      "published_at": "2026-10-07T08:00:00+08:00",
+      "summary": "Gemini Horoscope for October 7, 2026 Yahoo",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -190,14 +193,14 @@
     },
     {
       "code": "/n10",
-      "title": "OpenAI Decides ChatGPT Would Be Better With More Sponsored Results - Gizmodo",
-      "title_zh_hant": "OpenAI 認為 ChatGPT 加入更多贊助結果會更好",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWWZGMHkxdEt6cXQwMnpEdElzd0FlTGw0cTNBN29EeVMwRHpnV3BZd3ZfbWcxSlp2bHBTM0REMWlJNjlOeG4zbE1qZk1rY1U5RDcwQllEdkNRT1Fvdi1RSFpRV1FQbE9pY3YzNkEtb3pWWFVwYVJzc3VMUkRYa01RXzJPSE9Xby1tbUVQZEJfRXZja1RhcXc5U3RrQ2JJQQ?oc=5",
+      "title": "Advancing computer use with Ironclad - OpenAI",
+      "title_zh_hant": "以 Ironclad 推進電腦使用能力 - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RXzZqWjI3M3FjdC1IeVFTVGxQVXBKMnNKUmN0b3hvc05ZYmp3UXdoV2MtSkVkVlhXQnpISHBiMFk0bk5tYkZoYXhmN0Zubjcya3ZFMHk5bmxUM0JUNFh4R1FqX09MbDdhY0Faekgzaw?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-10-07T05:15:47+08:00",
-      "summary": "OpenAI Decides ChatGPT Would Be Better With More Sponsored Results Gizmodo",
+      "published_at": "2026-10-07T07:53:57+08:00",
+      "summary": "Advancing computer use with Ironclad OpenAI",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -208,14 +211,14 @@
     },
     {
       "code": "/n11",
-      "title": "Here’s how much Anthropic CEO Dario Amodei and his sister made last year - New York Post",
-      "title_zh_hant": "Anthropic 執行長 Dario Amodei 與妹妹去年賺了多少",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVE1mSTZESWczdUkwaU1yMEF4UjlERmpmWm55SjZWaWM0OEFMLWMzam1FM0t5RndsdXh1RUFERWJaRVFGS2FEUDM4ZU5Nb0p6WGdGZVowalREc2I1T2dQeXdlNXdzbm1VX043QmlmaW03UU80MThTNlNremdUNWNubERpSGN5NWY0aHVIdGsyQy03aTJ6T1hKRFJnTUVTV0tDSVE?oc=5",
+      "title": "OpenAI Releases Findings on 377 Math Problems, Further Roiling Field - The New York Times",
+      "title_zh_hant": "OpenAI 公布 377 道數學問題研究結果，進一步撼動該領域 - 紐約時報",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5lVzdtMDhZYkhnM1R0cVJJYW9oN3ZaZEhnNTUzQTVaaGRMTXRfbk05eG4yd19rQnNObVdkMVB4d1pPX1FBc0ZWVVFSQmFMdng1Y1A1UkxlM0ZPNFRpSHJzQ2o4YUFfbW9nRURqRXAzbkNyakY3QW5F?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-10-07T05:12:45+08:00",
-      "summary": "Here’s how much Anthropic CEO Dario Amodei and his sister made last year New York Post",
+      "published_at": "2026-10-07T07:46:31+08:00",
+      "summary": "OpenAI Releases Findings on 377 Math Problems, Further Roiling Field The New York Times",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -226,14 +229,14 @@
     },
     {
       "code": "/n12",
-      "title": "Anthropic Claude subscription plan provides more value than OpenAI's, study says - The Register",
-      "title_zh_hant": "研究：Anthropic 的 Claude 訂閱方案比 OpenAI 更有價值",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcWY4dUh1dUExNEs0Mng4cHZfS0FhSGwzX1Y5UmxxanI4S0JucjBRdWR5TUZwZTBJckd0SUhLRk80V0pnOTFHdVZvX2tGVEc4eDZWR3F2Q01USzZwV2NSVUhPc3JDZzhaWTB3NW81NjBHRTBCYmJSM3NvUTdiZzVLVlNDVWdLUGpWRnZUYS1LbUxydmlVMTl4UUx0YmtGRnFobUc1Y2JhVEhyM3ZpekxxUnh0cVkza0hVT09yemU3RFJ4Y3BsRDFmaEg3bVRwS3V4?oc=5",
+      "title": "OpenAI’s largest mathematics release tackles 4,000 problems with Lean-checked proofs - Interesting Engineering",
+      "title_zh_hant": "OpenAI 最大規模數學發布 以 Lean 驗證證明處理 4,000 道問題 - Interesting Engineering",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ3QwZy1ZMkt1UWdKLUZQaER2a1dycjg0LTRsSkttRWJuX2MxZGRqUk5lQ3JiZk9vNEZNNDBaQ0k4WV9wVUtUMDZYWUp1YUw4Mng1eUNyYm11Y09NWUt1MkQzQ2EwMEdIRWc4Z2pNZzJYYXBIbUNjNVN3OEJSU1lmd0h6Y2Y5d2F0c1ByUVpxVQ?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-10-07T05:11:38+08:00",
-      "summary": "Anthropic Claude subscription plan provides more value than OpenAI's, study says The Register",
+      "published_at": "2026-10-07T07:32:00+08:00",
+      "summary": "OpenAI’s largest mathematics release tackles 4,000 problems with Lean-checked proofs Interesting Engineering",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -244,14 +247,14 @@
     },
     {
       "code": "/n13",
-      "title": "Anthropic’s AI Access Expansion Highlights Need for Risk-Based Governance - CDO Magazine",
-      "title_zh_hant": "Anthropic 擴大 AI 存取，凸顯風險導向治理需求",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM19VaFlBeUlwWnVjbmxYNGpEZk42bjVsM3dBcTl1RkxQWVhHQWhqWFRBdllRQ3JNNzJmcXJBVU5XOEJKWkxXV2hJWng0cGRXclBZSnRhT0gzYzJueDJHOHlzVEdERGNkMXVaUDVfbkkxTDVqZW1QT3JRcDFpblFlUFpRX3J3Y1RxcWxzNThFaU5RSHZGUGlBSXlFelJxYWRpaWNEbjNuNmFfZw?oc=5",
+      "title": "Anthropic reconfigures its cool kids security program - The Register",
+      "title_zh_hant": "Anthropic 重整其「酷小孩」安全計畫 - The Register",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPelRneFVzclAyMUtSdTcxNEVhT1k3RUlMT1ZtRGVQV1hNQmpRX2VPODZrQkVMZm5vTlFsNlptUVdjOTFEcF9TVEtxaUROZkFyS1NmbHBLQWF2NzI5d3FUTGlyajg0M3Y1NUVfcExlRHpYVE9Ra2hob1IwTG02Z0ZNVHZuWDJ4T1BQbkp3VFh6dXBKZ2FZM2tpcEdRX1hRT0tMdW1qRldEX01iNGFId0E?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-10-07T05:07:00+08:00",
-      "summary": "Anthropic’s AI Access Expansion Highlights Need for Risk-Based Governance CDO Magazine",
+      "published_at": "2026-10-07T07:29:27+08:00",
+      "summary": "Anthropic reconfigures its cool kids security program The Register",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -262,14 +265,14 @@
     },
     {
       "code": "/n14",
-      "title": "OpenAI’s Jason Kwon gave even-toned, reassuring answers to the Australian government. Did … ChatGPT write this? - The Guardian",
-      "title_zh_hant": "OpenAI 的 Jason Kwon 對澳洲政府給出平和且令人安心的答覆。這是……ChatGPT 寫的嗎？",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYm0yckt1aUItdll6Ry1MMjQyZGZNVWlxZTdBWnNObXVnYVVfVzdobXJfUjRsQ1hqSDZYcmZqZ1VMZnBRSmJCV2l5TkdyQnZmLXFfdW81em13VTZDNDEtWkgzMDNLQlJ2LVpCS2hiR2t5U3NjRUJBODc5U1BuT1dqb2F2WHRvc0g4OVU3cVVXcmlnUGpPNm9mZE9QZkJybjctS3E5Z0c4NktTTnV4Rk92bjdfM0wxNXM3QlFpOFltTUJ6TE5mRlJlWHNMOTRCaTdmelcwTm1fZmw?oc=5",
+      "title": "Google Gemini AI Predicts Chainlink (LINK) to Hit $300 by 2027 - Cryptonews",
+      "title_zh_hant": "Google Gemini AI 預測 Chainlink（LINK）2027 年觸及 300 美元 - Cryptonews",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWTYxaExIYjJLQUFvaTJXdmt4ZzVIcy1xMFd6aXpaeThYQjBKVS1BV29fd0xTU0g3V1JmMFZjdERJd0gyWmhRaUJXMmF0MV9JaXpBZWNFT1g0Z01qVUs5dFBFbWppY1E4R3NRNTVmVEl1elNfb21UV3hraXRlSlBBRTd0TQ?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-10-07T05:04:00+08:00",
-      "summary": "OpenAI’s Jason Kwon gave even-toned, reassuring answers to the Australian government. Did … ChatGPT write this? The Guardian",
+      "published_at": "2026-10-07T07:27:00+08:00",
+      "summary": "Google Gemini AI Predicts Chainlink (LINK) to Hit $300 by 2027 Cryptonews",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -280,14 +283,14 @@
     },
     {
       "code": "/n15",
-      "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU - Ars Technica",
-      "title_zh_hant": "OpenAI 將預設為 ChatGPT 輸出加上浮水印，但僅限歐盟",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdnRIR0NoSURGX0hkaXdnMUNqalpodmFfYmRTRWk2dWFvOUQxTUhMcEpTUFZhSEdDal9HWU4wVFdmQjNia1k1SXFEaFZxaG9vNEdTcWh6OUJFSWJnUGlCUGVndG10LWhYV201UENWWFpsczM4UW9LZkdMVmVmcUVnYnMtMFJCNFFwUERiSWpERDFFY0pCNlBQVTFxMTFfTXdxQ2VSWHBB?oc=5",
+      "title": "OpenAI drops another batch of mathematical breakthroughs - The Verge",
+      "title_zh_hant": "OpenAI 再公布一批數學突破 - The Verge",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRHZQUTNwZGRwZWR1QV9Vbi04X1AwUDRLdkVsWVItbTJmbFVrQm1RNzlWbXhTVDJFcFNISmlndmxkdnpKTFNLX3IyTm93MHp1aEI1T2xQM3cwaVFjaFpYbW5YSVFvSk0wemYxbHFBQm94ZTZpNEZFRk85dzBrUl92eWRzYmgxZm4wd3g0b0lfWQ?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-10-07T04:50:32+08:00",
-      "summary": "OpenAI will watermark ChatGPT outputs by default—but only in the EU Ars Technica",
+      "published_at": "2026-10-07T07:26:38+08:00",
+      "summary": "OpenAI drops another batch of mathematical breakthroughs The Verge",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -298,14 +301,14 @@
     },
     {
       "code": "/n16",
-      "title": "OpenAI’s Human Rights Lead: What the military could do with AI ‘keeps me up at night’ - Fortune",
-      "title_zh_hant": "OpenAI 人權主管：軍方能拿 AI 做什麼，讓我徹夜難眠",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbTNzTVZXVDBUekRBMjQ0bF9lcG9kX0hvY1RPaDRNY2tLaFlSLTZEMWhtVkhfWEZaOXRGSmlQT3lHZTBXN3RTRGliOHRqU2ZieUIzbklPaDh5Q0t2Q2ZIWFdOTHo3cTdCa0hUcWhRRWIwdktsQ3Y3dFY0UHBMaU1uWUhvdzJVbjUxbVh0MnRDT2l4ZGlxMEFtSQ?oc=5",
+      "title": "Anthropic opens its most powerful AI models to more security teams - SRN News",
+      "title_zh_hant": "Anthropic 向更多安全團隊開放其最強大 AI 模型 - SRN News",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSkR0bS1kejAxc2pOSHZSZlNVZnN5ZXJacU84alN0Zzc3Wks4Tl94WFJObS1vbTh0dE8xblZlazRUVmFmR1JiOGxScnY4MGwwRTJZMmpLa21QRjJCbmxYN3lmYXgtOHhSUGtOZ3l5eVhxSF95LXFOSEFDWjV0NWZqOENYRUNCUVZEbEVPVVpwaFk?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-10-07T04:43:00+08:00",
-      "summary": "OpenAI’s Human Rights Lead: What the military could do with AI ‘keeps me up at night’ Fortune",
+      "published_at": "2026-10-07T07:21:14+08:00",
+      "summary": "Anthropic opens its most powerful AI models to more security teams SRN News",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -316,14 +319,14 @@
     },
     {
       "code": "/n17",
-      "title": "3 Software Stocks in the AI Security Spend Shift After the OpenAI Breach - Simply Wall Street",
-      "title_zh_hant": "OpenAI 外洩事件後，AI 安全支出轉向的 3 檔軟體股",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVjlicERyS1lMclBYQlR2emplRnlfWnhNdlN5cEdiZW4xeUxFb1YtNWdfOWlodGZxc1JYelBVZnpaQXdZNTBLS3ZwN3lCLU02ZDlmZzhZU0R6SmQtT2JueE82YVRraDZDQkdZX2pNVGh5VS0zeWs2a1FFYVd0T1dJZHJOQzRPT1BHV3lhZ2k2YUJHMnMzN1dwOWRYRWZBSGhRbFJpdks5bmRxNjRUdzhBSTNOM2dmZGxfSmhqb2pqdFpYR3l2eUpiY2JsbFhwWEtG0gHWAUFVX3lxTFBxVGJRTTRJcmREUGR2anlXbHF5S3poZEFTeDgzUnlhRkc5ZDFGckFVNXFxNmFUNmFKVldjOUN0ZzE3WU1rNm54NGh6dk5ibzRmZUJQcW9od1djOF9idDl3eDJKeFhYTEkxRkQ2ZjlzUUhkVE1jNEo3cVJEUW1VX2hyNUVTVy1fNFRaVWNuc0dUeHhPT0VoYWZjUmtaZlRqQXBDeE1FSXpWYmp2UGptTHRFRVVTMU1aMlM0TWpxZGdRUS12Q3VjVm02dkdVSkxnM01jSTNmMnc?oc=5",
+      "title": "Anthropic folds Project Glasswing into an expanded three-tier Cyber Verification Program - SiliconANGLE",
+      "title_zh_hant": "Anthropic 將 Project Glasswing 納入擴大後的三級網路驗證計畫 - SiliconANGLE",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQV2hxbEllWjBTSVlfODJGTHNncFk5Nnk5Vlk0b3poenAySFJ6YUZ1cm1mSElzWGdSallFQk0yQWhONzA1YXpIX0d1cHhSWEg1R2IyM3pILTNaVUNXVjZ1RnhVTGFPNldXNTBleUE1STc2YjZ5eEF3MzFRLXZESWNoclZoZkxQVnlKYzZMUkFQOGVZUzZEbU1WME5STUJ4VVROTjlFd1F6QWNJc3FYand3RnVuZXZrNzN6QnQ0U2oxNXNTaTg?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-10-07T04:36:27+08:00",
-      "summary": "3 Software Stocks in the AI Security Spend Shift After the OpenAI Breach Simply Wall Street",
+      "published_at": "2026-10-07T06:46:00+08:00",
+      "summary": "Anthropic folds Project Glasswing into an expanded three-tier Cyber Verification Program SiliconANGLE",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -334,14 +337,14 @@
     },
     {
       "code": "/n18",
-      "title": "OpenAI to begin watermarking AI-generated text - Computerworld",
-      "title_zh_hant": "OpenAI 將開始為 AI 生成文字加上浮水印",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbTB1elVOcnd5Q2RSSldOVEhrT3JpMkJmU3RncWVIZDJaSV8wRlJDbHQwZldYUGk3Sk42Z2hvU2dnSFV3a2JqalNLbkhUdXRVRVo2elVRazdqRzU2UEV2X1BrQzN0OEs2VjRlcnpDVUlGUFBMcWxMNXd5YnZhNGhXSTR2ckFWSHZ0eHF5ZEdiYjhLR0dFMVllaGxVclg?oc=5",
+      "title": "OpenAI Releases 722 Math Manuscripts From an Unreleased AI Model - Unite.AI",
+      "title_zh_hant": "OpenAI 公布 722 份來自未發布 AI 模型的數學手稿 - Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeWYzb0FwczUxUUttU1JOT3BSbDJudGsxbUppOFZDMkxMOVlOeHNrVmN3YzZLRWF2TVhzRXdza2RsN2lvUVBJaU02TFFMSmdaS1V4V09yY3B1VnpYeHc0NHhPYTV2d1NJRkQtMDdjdUFYZ3lMcVVfWFpCMkplOVV5MHhmc2c2OTNEemNuX1MzVQ?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-10-07T04:30:32+08:00",
-      "summary": "OpenAI to begin watermarking AI-generated text Computerworld",
+      "published_at": "2026-10-07T06:39:01+08:00",
+      "summary": "OpenAI Releases 722 Math Manuscripts From an Unreleased AI Model Unite.AI",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -352,44 +355,8 @@
     },
     {
       "code": "/n19",
-      "title": "Meta, Microsoft Walk Away From Anthropic as Their Own AI Tools Gain Ground - TradingView",
-      "title_zh_hant": "Meta、Microsoft 在自家 AI 工具站穩腳步後捨棄 Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbGFzRVJuWU54S0N5ZlI0VmNkLURfN0xRVGJrS0k4S0xJNWtLY3pRM1lMajJnOGc2OUpiWGRUNk9DanhIb0I3X3UteW5tQk5LTm1qZTAtR3ZhVTFtZGlqcXNBTGlzaEcyTW5sUWFJU1VSV2RRc1JXdGNHNlZQTEtXX3I2Zzc4YmdTQTBWbzl5NVRzdjZqRHRra1oyeEtEQUNPTkZtaVRkZlUtNTlCd2JyZ2ltelVwMi1Pd2hyb2JWUnRSX05tc1dGcVdKLWNOUQ?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-10-07T04:30:23+08:00",
-      "summary": "Meta, Microsoft Walk Away From Anthropic as Their Own AI Tools Gain Ground TradingView",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n20",
-      "title": "DOD Halts Use of Anthropic AI After Court Upholds Supply Chain Risk Designation - MeriTalk",
-      "title_zh_hant": "法院維持供應鏈風險認定後，美國國防部停止使用 Anthropic AI",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUGF5V3Q1a2o1bVVxRUUwUU91dHFxR09VbU41aXZ0NFZDSDRkdzV3cU40VV8xanVqSGtCZ2JDOWVJdnN5dWhZZXpqRGtJUFUteGxkYlc1cXRsNlFqY1hvV25BcjRIUGlXZmdYbTdJamlrcW0zUnpZc2stLTFFbGUyV21UdEV6NjdQYnFwa0VwV3FqcXZrelhkOW1KWksxa3ZVa2hDRlNZZlpWdFQ0RkdJNGJIT0w?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-10-07T04:17:49+08:00",
-      "summary": "DOD Halts Use of Anthropic AI After Court Upholds Supply Chain Risk Designation MeriTalk",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n21",
       "title": "Most families of US troops killed in the Iran war's deadliest attack weren't at White House event - AP News",
-      "title_zh_hant": "伊朗戰爭最致命攻擊中陣亡美軍的家屬，多數未出席白宮活動",
+      "title_zh_hant": "伊朗戰爭最致命攻擊中陣亡美軍的多數家屬未出席白宮活動 - AP News",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa1VpOTVFYU5JaFIxSGZ4SFg1dTVDamJQb2xSc18zanA3Nkc3UGxJTmhXS24xTmxwbUlRb255NGtncnJpSU1fUDBzUzNSREtydzJhdFIzS1kzcEVESGw2UDY4dDN2Sll6Rzg3MlM5REhiOXJSSDYyZW02cWFsendNMGFTbTJyejRILWRMMXNOVzU4blMxQ2NIdHIwSXNTeGkxaFIzdg?oc=5",
       "source": "AP Top via Google News",
       "category_key": "breaking",
@@ -406,34 +373,15 @@
       ]
     },
     {
-      "code": "/n22",
-      "title": "US EIA hikes oil price forecasts again as Iran war drains global stockpile - Reuters",
-      "title_zh_hant": "美國 EIA 再度上調油價預測，因伊朗戰爭消耗全球庫存",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZk8xUmkwZm83ZUdaTWpWaEVibFZzckNxOVFNOG9OTjlWdzJBdXRqWk5GUUFoME5DWXJmNThNRlIzdVBxUXNfeGd5cTFFNjlVZmg1VkFwVXdONzVLNGh0RVF5S203NlRieWFBNEY3b0dnZlZ3MERxUGlYWTRDaGwzYUJaYWJxWjI1WTlJbDNfMFJ0TVlqSjdFNnl6SVF6UVhmQlhNM2pRUnltSDVMMXNmS21JZkMySWNFVjhtbXVSMUw?oc=5",
-      "source": "Reuters Top via Google News",
-      "category_key": "breaking",
-      "category_label": "突發重點",
-      "published_at": "2026-10-07T01:39:05+08:00",
-      "summary": "US EIA hikes oil price forecasts again as Iran war drains global stockpile Reuters",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=6h+18",
-        "category:breaking+8",
-        "markets / macro+14",
-        "geopolitical risk+14"
-      ]
-    },
-    {
-      "code": "/n23",
-      "title": "North Korea warns US over Taiwan while Kim pledges support for Russia - Reuters",
-      "title_zh_hant": "北韓就台灣問題警告美國，金正恩承諾支持俄羅斯",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMHg2SlpoVHlESU44TmVmZmNnNjFrYWw4bzYxVmtkWHBsdkppd2hFLVlSNFg3X19RRV9zc2tUa2tOX1BSckpvOVJnTHJabXJ4aHR3TDZJTENCOV9tV0ZPN3FYUkt2YjlVZllULUEyN0hTLXd5a3pFUmNEcXF4N1ZxTTVQX1JVdmNoaXdBcnhNUDRvZ0MtLTRhLUhmQzNTaEtiTlN1MTh3M3o4d0ZhQVFWaTZTQ2lCSHoyV3FocnhDRE4zX3FVTjJz?oc=5",
+      "code": "/n20",
+      "title": "Japan's $15 billion Rapidus chip bet hinges on winning customers - Reuters",
+      "title_zh_hant": "日本 150 億美元 Rapidus 晶片豪賭 成敗取決於能否贏得客戶 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQT3RVWTVycENiQVRWbElpV0owalhoc2h6cEo2bVZhZXRWRW13dDN3azBUODhKY1ByMHh6bElCSkdNaDZSZ05qQmgwVnBtVEZocHh4OTZCNGFvck81WFBUVkNPRVVWTVMzUHdtLWlZSEtGSHdLMTVtcENWbDVmdmdVWU94OHhlaVgyWlhjRDg4MTlDc1lLVHpIMnBsT2RkN1hiNTFKOHhEdjBzZlYzdUU3UUZqTVA?oc=5",
       "source": "Reuters Taiwan Supply Chain via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-10-07T05:51:43+08:00",
-      "summary": "North Korea warns US over Taiwan while Kim pledges support for Russia Reuters",
+      "published_at": "2026-10-07T07:57:00+08:00",
+      "summary": "Japan's $15 billion Rapidus chip bet hinges on winning customers Reuters",
       "importance_score": 73,
       "importance_reasons": [
         "source:reuters+22",
@@ -443,52 +391,107 @@
       ]
     },
     {
-      "code": "/n24",
-      "title": "Quoting Felix Rieseberg",
-      "title_zh_hant": "引述 Felix Rieseberg",
-      "link": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
-      "source": "Simon Willison",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-10-06T07:56:47+08:00",
-      "summary": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just...",
+      "code": "/n21",
+      "title": "SpaceX seeks $40 billion to buy Nvidia chips, FT reports - Reuters",
+      "title_zh_hant": "SpaceX 尋求 400 億美元購買 Nvidia 晶片，金融時報報導 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZjBzanVwMDltRU1WZFNTWGF3VUw0ZEdQZmlmQWRsbG5lb21pU3VxTlUtM0tZbzNWaFlXY1JhbHcxV0FXX3RpTUVUQlVGenhSYnZ1VlprMzlqdEZwa1lPbEczRnJWRWZfU19nTDdtMzM2WFlMWm0zeWliejlSRUtrdXJsRmM4VFYtbmJXLVprajJ1U2cxVUZPdGhMaUgzRUVJV2R0Q3BiTGJiOHg0ZUYw?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-10-07T07:19:20+08:00",
+      "summary": "SpaceX seeks $40 billion to buy Nvidia chips, FT reports Reuters",
       "importance_score": 73,
       "importance_reasons": [
-        "source:simon willison+18",
-        "fresh:<=24h+4",
-        "category:ai_intelligence+10",
-        "frontier model / release+25",
-        "AI infrastructure+16"
+        "source:reuters+22",
+        "fresh:<=2h+25",
+        "category:markets+8",
+        "Taiwan supply chain+18"
       ]
     },
     {
-      "code": "/n25",
-      "title": "Yemeni government fighters shown driving vehicles over Houthi opponents - Reuters",
-      "title_zh_hant": "葉門政府軍被拍到駕車輾過胡塞對手",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdTUtR05NTWVJVFBWcjJmSVZRb0RuVXl6Zk5ocVBacHBIMm1yeWo2VWQ4U2ZqNVFPcTFqeExXUjFyMlpONkU5blQyekxfbGpwM3ZBay05dFU4WkRqZ3lIcmw3VG9UQ3NxSWczQU9qMjFRbHV3QVd3LXl3ZElxaHVRMkFVdHVfajl5SV81YkF1X1ZYX0ZNbW0yMFdjUWFnY3JTLXhZd1gzSU5pNTR5MU1mT0RneVlsLU1uaVdEd1lSRnd0M19Yd1JF?oc=5",
-      "source": "Reuters Top via Google News",
-      "category_key": "breaking",
-      "category_label": "突發重點",
-      "published_at": "2026-10-07T04:43:50+08:00",
-      "summary": "Yemeni government fighters shown driving vehicles over Houthi opponents Reuters",
+      "code": "/n22",
+      "title": "Inflation may force Fed rate hike this month, investor says - Reuters",
+      "title_zh_hant": "投資人：通膨可能迫使聯準會本月升息 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE90TkNNVHNXcHdNUUtXSElrMGlfRE1Xejk5ZkVSVHY4aDU1aDh3cVQwQ3VTamlOMVB4YllsTEVyejVkX01DM1BnZGFNUzA4eHV2d2ppZXF6MDBiOFNuSnVlbGh4cFFjTjQ?oc=5",
+      "source": "Reuters Taiwan Supply Chain via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-10-06T16:48:45+08:00",
+      "summary": "Inflation may force Fed rate hike this month, investor says Reuters",
+      "importance_score": 72,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=24h+4",
+        "category:markets+8",
+        "rates / central banks+20",
+        "macro data+18"
+      ]
+    },
+    {
+      "code": "/n23",
+      "title": "US stocks rally as S&P 500, Nasdaq reach record closing highs - Reuters",
+      "title_zh_hant": "美股大漲 標普 500 與那斯達克收盤創新高 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yUXByMWtIeWdfMTFyNkgzSHFNUF9YWE5XeVZuOXV4bHNFLTlsUDZVa2hucmtGblJsNF9kU2l5UlNvN1RYS0NBRkdZOUF6X3JpaFpCVk1uUGw1aHExSXR3M0lyZUZxeDQ?oc=5",
+      "source": "Reuters Taiwan Supply Chain via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-10-07T07:50:20+08:00",
+      "summary": "US stocks rally as S&P 500, Nasdaq reach record closing highs Reuters",
       "importance_score": 71,
       "importance_reasons": [
         "source:reuters+22",
         "fresh:<=2h+25",
+        "category:markets+8",
+        "market move+16"
+      ]
+    },
+    {
+      "code": "/n24",
+      "title": "Diesel costs, AI chip demand pose inflation risks, says market expert - Reuters",
+      "title_zh_hant": "市場專家：柴油成本與 AI 晶片需求構成通膨風險 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wUkMyTS05UDl4aGJGWTFUcG9IN3JKRTJhZkJXUGkyQkMxdmJ6SE5DWGE3cGtEakN0NFhFUFF5TTNLelIzVXpDLXFZZDQ5YXdPNnlRaUhnQ0toUjU1Q0t4Zl9SRm9fLTA?oc=5",
+      "source": "Reuters Taiwan Supply Chain via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-10-06T16:48:45+08:00",
+      "summary": "Diesel costs, AI chip demand pose inflation risks, says market expert Reuters",
+      "importance_score": 70,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=24h+4",
+        "category:markets+8",
+        "macro data+18",
+        "Taiwan supply chain+18"
+      ]
+    },
+    {
+      "code": "/n25",
+      "title": "EXCLUSIVE: In interview, US Vice President Vance says Iran must cut nuclear enrichment to end war - Reuters",
+      "title_zh_hant": "獨家：美國副總統范斯受訪表示，伊朗必須削減核濃縮以結束戰爭 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ3R3RzJuRF9NSlo0bWNMaGY3dTdUbXRmSU1BMml2V2RLd0sxazNvVUNRdXpHa21Ebk4tVWtLeHZXMG5xM2ZUVG1aTEJDU0FRWnRHZnozTHQxdVRjeTJvbXRKNzFpNG1wR3RqVDlKMXpXY09hYlFKVlF4RW5uQjJJMXhKOEt3c0ZLWE4tbWZlQW5hUnRnckxmaU1mU0R0SWwzRGNXdGo0ZTVTUXBlSHlfakN1Yw?oc=5",
+      "source": "Reuters Top via Google News",
+      "category_key": "breaking",
+      "category_label": "突發重點",
+      "published_at": "2026-10-07T06:40:00+08:00",
+      "summary": "EXCLUSIVE: In interview, US Vice President Vance says Iran must cut nuclear enrichment to end war Reuters",
+      "importance_score": 69,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=2h+25",
         "category:breaking+8",
-        "policy / regulation+16"
+        "geopolitical risk+14"
       ]
     },
     {
       "code": "/n26",
-      "title": "'I'm getting fed up': voters line up before dawn as early voting begins in Ohio - Reuters",
-      "title_zh_hant": "「我受夠了」：俄亥俄州提前投票開跑，選民黎明前排隊",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR3NBVWtIOEhDaDlKenA1S0x2NUh3dDFfa1c5REw3OThWbjVzQnpwWVhQd09nYnBJU2dwMFJfZWxhcU1nb1JTR1JETm85R1lRV0RVZEViRmR0UGZJdmpSQUdNLXZhTWRleFRaMndmX283c29UY3FvZE9KSVBsRVM0ZW5rMXZYam9FeklWUTZoU3FKQ2pDcFBzc21LVFF6QndO?oc=5",
+      "title": "Fed minutes may already be outdated, says portfolio manager - Reuters",
+      "title_zh_hant": "投資組合經理：聯準會會議紀要可能已過時 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9IdHZrNVZuN1NQR0ZHODNUXzM5ZG5rUXNISVFpYVlpeFZZLTIxMjF1VEY5bklwQ3MtVS1qNFFvWkZaNlVNQlU5b1dUemYxTVc1Qldldm85OHdnRm83X3RiQTF0ZC1xMXJlTkhnNjlVNG1UZDV5UGxYaQ?oc=5",
       "source": "Reuters Taiwan Supply Chain via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-10-07T02:52:59+08:00",
-      "summary": "'I'm getting fed up': voters line up before dawn as early voting begins in Ohio Reuters",
+      "published_at": "2026-10-07T04:50:22+08:00",
+      "summary": "Fed minutes may already be outdated, says portfolio manager Reuters",
       "importance_score": 68,
       "importance_reasons": [
         "source:reuters+22",
@@ -500,7 +503,7 @@
     {
       "code": "/n27",
       "title": "Meta joins with group of companies to tame ‘chaos’ of doing business with AI bots",
-      "title_zh_hant": "Meta 與多家公司聯手，馴服與 AI 機器人做生意的「混亂」",
+      "title_zh_hant": "Meta 與多家公司合作 馴服與 AI 機器人做生意的「混亂」",
       "link": "https://www.cnbc.com/2026/10/06/meta-joins-companies-to-tame-chaos-of-doing-business-with-ai-bots.html",
       "source": "CNBC Top News",
       "category_key": "breaking",
@@ -518,153 +521,99 @@
     },
     {
       "code": "/n28",
-      "title": "Fed plans to overhaul bank supervision responsibilities, Bowman says - Reuters",
-      "title_zh_hant": "Fed 的 Bowman：計劃全面改革銀行監理職責",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeXUxU2F5X1UwSTZreDdOc3FaTDdsWVBreUNYY3U1WVlpZXVUNGM1UE8tLU50eUU1UTlzVHRPVlhOTlBmemF5ZTJGY3lNa2Njc1NwaFNkWG04OVdTbkUxVGd4d1E1WkFkVkpXdmFoVkEyUHFkX24tSUlMTkZaS3FUYy1pQzJfQ1Nldy10bDhwdEhoOHg5eHFpVDFMWDJ6bkcyT1F3R0tDaWhFSU4tb0RHeUVYNFVSUHJT?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-10-07T02:15:37+08:00",
-      "summary": "Fed plans to overhaul bank supervision responsibilities, Bowman says Reuters",
-      "importance_score": 68,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=6h+18",
-        "category:markets+8",
-        "rates / central banks+20"
-      ]
-    },
-    {
-      "code": "/n29",
-      "title": "Fed's Daly: need for more hikes hinges on what happens with shocks - Reuters",
-      "title_zh_hant": "聯準會 Daly：是否需要更多升息取決於衝擊情勢",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOS1NIR0txbU9OM3c1aUhGM2doeVltazU2U2YyOHV2YVR4R2lkRG5FUXp2N0VnaVdLVlRCV1BUMXBJWUpBUmVTZTlMQXV2VU1KOXhocElZNGEzYWFnS2xGQ2hCTlRPbzJjN0J5Ty1neVBpdU1UV0JxRlFRTDNjOEk1QjhXQ1otdkhOTG8zLW5QLTRxQVc5dE5KeVNURTlXYWU4Unh4eg?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-10-07T00:59:53+08:00",
-      "summary": "Fed's Daly: need for more hikes hinges on what happens with shocks Reuters",
-      "importance_score": 68,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=6h+18",
-        "category:markets+8",
-        "rates / central banks+20"
-      ]
-    },
-    {
-      "code": "/n30",
-      "title": "Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks",
-      "title_zh_hant": "荷莫茲海峽石油出口回升，卻易受伊朗升高油輪攻擊影響",
-      "link": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html",
-      "source": "CNBC Top News",
+      "title": "US EIA hikes oil price forecasts again as Iran war drains global stockpile - Reuters",
+      "title_zh_hant": "伊朗戰爭耗盡全球庫存 美國 EIA 再度上調油價預測 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZk8xUmkwZm83ZUdaTWpWaEVibFZzckNxOVFNOG9OTjlWdzJBdXRqWk5GUUFoME5DWXJmNThNRlIzdVBxUXNfeGd5cTFFNjlVZmg1VkFwVXdONzVLNGh0RVF5S203NlRieWFBNEY3b0dnZlZ3MERxUGlYWTRDaGwzYUJaYWJxWjI1WTlJbDNfMFJ0TVlqSjdFNnl6SVF6UVhmQlhNM2pRUnltSDVMMXNmS21JZkMySWNFVjhtbXVSMUw?oc=5",
+      "source": "Reuters Top via Google News",
       "category_key": "breaking",
       "category_label": "突發重點",
-      "published_at": "2026-10-07T00:19:10+08:00",
-      "summary": "Nearly 20 commercial ships, mostly tankers, have come under attack over the past month while sailing through the Hormuz choke point.",
+      "published_at": "2026-10-07T01:39:05+08:00",
+      "summary": "US EIA hikes oil price forecasts again as Iran war drains global stockpile Reuters",
       "importance_score": 68,
       "importance_reasons": [
-        "source:cnbc+14",
-        "fresh:<=6h+18",
+        "source:reuters+22",
+        "fresh:<=12h+10",
         "category:breaking+8",
         "markets / macro+14",
         "geopolitical risk+14"
       ]
     },
     {
-      "code": "/n31",
-      "title": "Wall Street shares notch records as oil prices stabilize, bond yields retreat - Reuters",
-      "title_zh_hant": "油價回穩、公債殖利率回落 華爾街股市創新高",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZlMwQU1nbHRaZ2dnOUVOM1c1LXBxNXhWUTNzS1ROWDZyODk1NldRTHB2ODNKbnI0am5tUUcwMU9YekUxMWtLOFVGMFczTU12cHpCclQ1cnhDRzBMVGRBWTYwRjZPVUZidVFlT1FMZGdUcnR6MENjNXVMUXRzTlVzdVJkSQ?oc=5",
-      "source": "Reuters Business via Google News",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-10-07T04:42:27+08:00",
-      "summary": "Wall Street shares notch records as oil prices stabilize, bond yields retreat Reuters",
-      "importance_score": 67,
+      "code": "/n29",
+      "title": "Nvidia-backed Lambda targets $4 billion raise ahead of planned IPO, WSJ reports - Reuters",
+      "title_zh_hant": "Nvidia 投資的 Lambda 計劃 IPO 前目標募資 40 億美元，華爾街日報報導 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQR3dfcjJxclVWTV9faDZyaUpIZ3F3cl95X2dFdzRaN0IxTWFuX0VwdWFBeEFtdjdqNVlKRHVCNVUzZF9paU9Cb0F3Y1NLR1l1UnNMVXNudDVYTEg4SVlVSHl2b1QwWjR6WV92ZV92MEUzRnozaEx4cHF6ZURxdUY2VDNlWWZSaGIxX3hsWEsxalhvZjhpSk85dWEwNWN6U0ZKeUNPdklHYnZpQjlORGpKemZOY0NfWkZFWHdvUkd3?oc=5",
+      "source": "Reuters Top via Google News",
+      "category_key": "breaking",
+      "category_label": "突發重點",
+      "published_at": "2026-10-07T03:01:28+08:00",
+      "summary": "Nvidia-backed Lambda targets $4 billion raise ahead of planned IPO, WSJ reports Reuters",
+      "importance_score": 66,
       "importance_reasons": [
         "source:reuters+22",
-        "fresh:<=2h+25",
-        "category:business_tech+6",
-        "markets / macro+14"
+        "fresh:<=6h+18",
+        "category:breaking+8",
+        "semiconductors / Taiwan supply chain+18"
+      ]
+    },
+    {
+      "code": "/n30",
+      "title": "(AIP.B) | Stock Price & Latest News - Reuters",
+      "title_zh_hant": "(AIP.B) | 股價與最新消息 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1rU1QwQkxoM0plNzFXQ2lPYXFWRlJUUW9BN0t5aUljTnBaVlpybWNERVI0SExIOXhwczZCcGFnMEVfNDFwV3J6cEV6bXoyd3djUU96Y3QyUklzQXNRV3ZDV3hhU18tSlE?oc=5",
+      "source": "Reuters Taiwan Supply Chain via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-10-07T02:36:00+08:00",
+      "summary": "(AIP.B) | Stock Price & Latest News Reuters",
+      "importance_score": 64,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=6h+18",
+        "category:markets+8",
+        "market move+16"
+      ]
+    },
+    {
+      "code": "/n31",
+      "title": "Fed plans to overhaul bank supervision responsibilities, Bowman says - Reuters",
+      "title_zh_hant": "鮑曼：聯準會計劃改革銀行監管職責 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeXUxU2F5X1UwSTZreDdOc3FaTDdsWVBreUNYY3U1WVlpZXVUNGM1UE8tLU50eUU1UTlzVHRPVlhOTlBmemF5ZTJGY3lNa2Njc1NwaFNkWG04OVdTbkUxVGd4d1E1WkFkVkpXdmFoVkEyUHFkX24tSUlMTkZaS3FUYy1pQzJfQ1Nldy10bDhwdEhoOHg5eHFpVDFMWDJ6bkcyT1F3R0tDaWhFSU4tb0RHeUVYNFVSUHJT?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-10-07T02:15:37+08:00",
+      "summary": "Fed plans to overhaul bank supervision responsibilities, Bowman says Reuters",
+      "importance_score": 60,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=12h+10",
+        "category:markets+8",
+        "rates / central banks+20"
       ]
     },
     {
       "code": "/n32",
-      "title": "From just-in-time to just-in-case: oil executives say world needs more export routes - Reuters",
-      "title_zh_hant": "從即時到以防萬一：石油業高層稱全球需要更多出口路線",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTDR0Q2ZrRW1NUW9NNU13Q0hldFhocVBkZTJrRHpicldtQXRjNEp3akpjaEI3NUtESWJqT0EwS2kwaXg4c21iQTg5Yy0xX3Q0aVNhTXg4dHRCNmZYU1N3aWZWN3JjZGR0WHBrNzFJZkhXNnBPVzltUHp1U0U4Q0E2MEtQa1prMDMzSHBoQlE5RlZiQ29zTmZvbWhVM3JPOURSN3htdFdCZ3FfVlowQ1FmRC1IWWVYUnVrandwcThELWQxdGpoeXc?oc=5",
+      "title": "Fed's Daly: need for more hikes hinges on what happens with shocks - Reuters",
+      "title_zh_hant": "聯準會戴利：是否需進一步升息取決於衝擊如何發展 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOS1NIR0txbU9OM3c1aUhGM2doeVltazU2U2YyOHV2YVR4R2lkRG5FUXp2N0VnaVdLVlRCV1BUMXBJWUpBUmVTZTlMQXV2VU1KOXhocElZNGEzYWFnS2xGQ2hCTlRPbzJjN0J5Ty1neVBpdU1UV0JxRlFRTDNjOEk1QjhXQ1otdkhOTG8zLW5QLTRxQVc5dE5KeVNURTlXYWU4Unh4eg?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-10-07T01:35:28+08:00",
-      "summary": "From just-in-time to just-in-case: oil executives say world needs more export routes Reuters",
-      "importance_score": 64,
+      "published_at": "2026-10-07T00:59:53+08:00",
+      "summary": "Fed's Daly: need for more hikes hinges on what happens with shocks Reuters",
+      "importance_score": 60,
       "importance_reasons": [
         "source:reuters+22",
-        "fresh:<=6h+18",
+        "fresh:<=12h+10",
         "category:markets+8",
-        "market move+16"
+        "rates / central banks+20"
       ]
     },
     {
       "code": "/n33",
-      "title": "The world has nearly burned through its oil stockpile buffer, executives say - Reuters",
-      "title_zh_hant": "石油業高層：全球石油庫存緩衝幾近耗盡",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRXpPa01RZzZ1ZlNmZS1XU1FlVnlKbTNhblkyVFU1dkttNzY2WllwRXNVdHVSNlBkV21wQi05d3NQdTFQcjQ1Vm5CcG1XQ1gtaDdZUmZiZXZaVVA1ZXBIcEpoOHBIZ0k1RnpKWXpsOVBjWWhrQzlWNW53SFM2dm5LeWJFVThkLUNHMzY2VFN1cFl0QXpqc2U5T2FvM1M1TmQyRjUwTDBBTFJ3NkRLS0ZENmY4cDNPam13OG9pRUFZUGw?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-10-07T01:27:44+08:00",
-      "summary": "The world has nearly burned through its oil stockpile buffer, executives say Reuters",
-      "importance_score": 64,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=6h+18",
-        "category:markets+8",
-        "market move+16"
-      ]
-    },
-    {
-      "code": "/n34",
-      "title": "Venezuela's Cardon refinery halted after fire, sources say - Reuters",
-      "title_zh_hant": "消息人士：委內瑞拉卡東煉油廠發生火災後停擺",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUzg2YXJYRzVZM2tjYUx4U2ozUHo4cy1jZnFlYkRLOWlITnBFRjJES2ZtMGVLMVdnUDluVDl2b0pFWURvOWNYOFNQbm1WdnNpeHd5Q05FUlVnQVhNZkkwWFpLUkdLVlR5RHFuSjBGazhKcE1FQU90OERlLWoxWVJnTlkxQnplTVdITkhvVHE0TzFTUmtJSHlQX0E3VVZaaGsxNy1HVUVwX3g0aHc?oc=5",
-      "source": "Reuters Business via Google News",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-10-07T05:09:35+08:00",
-      "summary": "Venezuela's Cardon refinery halted after fire, sources say Reuters",
-      "importance_score": 63,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=2h+25",
-        "category:business_tech+6",
-        "fatalities / disaster scale+10"
-      ]
-    },
-    {
-      "code": "/n35",
-      "title": "South Korea exports eased Russia fuel crisis caused by drone strikes, Ukraine says - Reuters",
-      "title_zh_hant": "烏克蘭：南韓出口緩解俄羅斯因無人機攻擊引發的燃料危機",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQXotNFg0SW5LTUZxQ09TWjlDNGdtWnNvckU2dW4tZ0xKakxEYXBZb0ltblA3MHZzMXlSanh4TThxSktldmpTQ0Z2UmZUQWE3d0Q3YjRJMGhkVGJnbllyWXZUbzRXWmIyNjkydVVCTFJaMEZKOTh3bFVGZE9zQm9feU80LV9BYlpfaUxBZl80bU9tTnNudGRkRERHY2pLLXhPMVA5bGJsRl9uWG1sQzl4aVNfbGtBVHlyYXFkN1VaR1hMMl9XNXFN?oc=5",
-      "source": "Reuters Business via Google News",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-10-07T00:22:45+08:00",
-      "summary": "South Korea exports eased Russia fuel crisis caused by drone strikes, Ukraine says Reuters",
-      "importance_score": 60,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=6h+18",
-        "category:business_tech+6",
-        "geopolitical risk+14"
-      ]
-    },
-    {
-      "code": "/n36",
       "title": "Russians open 220,000 digital rouble accounts in first month after launch, central bank says - Reuters",
-      "title_zh_hant": "俄央行：數位盧布上路首月 俄羅斯人開設22萬個帳戶",
+      "title_zh_hant": "俄羅斯央行：數位盧布推出首月開設 22 萬個帳戶 - 路透",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSXROelUwcHdCUVJoTU05MjU0bDkyTHp0SWx3dWlrQjc5eXNhdEVYS3VoX1k2OG9fSmdYc2tZdk1JMmdrUHNCcU5yaG1XM2x2d015STZCWVc5dXFWOHo3OTBFeV92aTFTVFc0dHFHMVU0OXk1OWtBT2ZnRDVRalUyY3ZRSmRVY201N1ItOFJlWktfZE5NM3BQcUZfbmRObHNDQjBZaGtZck9mRlNnRU12OW9GY3pqeWJ6S3VrTnRFcFdXaWJXU2o3ejZ3?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -680,27 +629,9 @@
       ]
     },
     {
-      "code": "/n37",
-      "title": "Swaps signal risk of outsized India RBI rate hike to usher in global rate catch-up - Reuters",
-      "title_zh_hant": "交換合約示警：印度央行恐大幅升息 引發全球利率追趕",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONUVVRGh4YUlyY3MtUVV5RXd5VDFaQ1dsdEw3M09pYmJQdkxaZThvNXl3cFlFNmZXREQtSDVzbFZLcHU1ZXNmXzRtdm9Dd0E2TGozdGJxdVlnSXNnblhQWllFZEV6ZUxtR3d3cjJfSHo5cDctdVpGRVJBTVc3SHNSc01LdGVsdzNHNHFTcGlxS0p6RFJCS2laT0lRbGlObU1sb1hobThuajB2RHIybXJqamxPWU9MUkl1NUZscmpB?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-10-06T20:19:23+08:00",
-      "summary": "Swaps signal risk of outsized India RBI rate hike to usher in global rate catch-up Reuters",
-      "importance_score": 60,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=12h+10",
-        "category:markets+8",
-        "rates / central banks+20"
-      ]
-    },
-    {
-      "code": "/n38",
+      "code": "/n34",
       "title": "OpenAI admits response to Australian government hacks 'not good enough'",
-      "title_zh_hant": "OpenAI承認對澳洲政府遭駭的回應「不夠好」",
+      "title_zh_hant": "OpenAI 坦承對澳洲政府遭駭的回應「不夠好」",
       "link": "https://www.bbc.co.uk/news/articles/cmx2qne2j88wo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
       "category_key": "business_tech",
@@ -717,9 +648,9 @@
       ]
     },
     {
-      "code": "/n39",
+      "code": "/n35",
       "title": "Cost-of-living crises have lasting impact on inflation expectations, poverty, IMF says - Reuters",
-      "title_zh_hant": "IMF：生活成本危機對通膨預期與貧窮造成持久影響",
+      "title_zh_hant": "國際貨幣基金：生活成本危機對通膨預期與貧窮造成持久影響 - 路透",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNW9nbmdmVzFNOXVhRE81N3NZWGRIV0R5TDNpS2l4bmFTSzBPTHlTU1Job19jbXJHZm5zSFMyWXA4bGIwZWZTQnFuaFNFUVQ3MzI4NTdTbnJMNC1GeW9HMi03emwwTjdvV2hBd1dqcFJrazhicEVMNWE3dmc4TzBJcHRHVWFOVDF4RVU0OVRnM3RXbHBBdHI3NktqWlBCSWtONVlCVWI0cGxNdkZXZXkxc3pEbTg0eUhDOFlGTXhEazZ5Njg5QWp0UkQtNA?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -735,33 +666,51 @@
       ]
     },
     {
-      "code": "/n40",
-      "title": "High inflation has become embedded in Britain, Bank of England's Mann says - Reuters",
-      "title_zh_hant": "英國央行曼恩：高通膨已在英國根深蒂固",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVkVHcERWcXVaT3FTNktpcnJoVmoyamo1UThqNzd1V0M0cWlyZ1I4SkRiYU91VjJMcldFV2M0YUdyT25uellhYXpxcGJNcFQwRlFWQkpUWHVLdi11Z05HYmJNYW9LVEFVQVJwdmI2ZVh0eEhVWnhKekVwU2hUaVF1UEY1cmd4VUxWY01oYTVkdHhVOVVaVU1RenpVNExwNEliQmRQNWdITWNOUQ?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-10-06T18:19:58+08:00",
-      "summary": "High inflation has become embedded in Britain, Bank of England's Mann says Reuters",
-      "importance_score": 58,
+      "code": "/n36",
+      "title": "Cramer says these blue-chip stocks are among the best ways to invest in the AI boom",
+      "title_zh_hant": "克萊默：這些藍籌股是投資 AI 熱潮的最佳方式之一",
+      "link": "https://www.cnbc.com/2026/10/06/jim-cramer-ai-stocks.html",
+      "source": "CNBC Technology",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-10-07T06:13:04+08:00",
+      "summary": "Jim Cramer said established tech giants with strong businesses and multiple ways to benefit from AI are some of the best places to invest in the boom.",
+      "importance_score": 56,
       "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=12h+10",
-        "category:markets+8",
-        "macro data+18"
+        "source:cnbc+14",
+        "fresh:<=6h+18",
+        "category:business_tech+6",
+        "semiconductors / Taiwan supply chain+18"
       ]
     },
     {
-      "code": "/n41",
-      "title": "Emmy Awards to leave broadcast TV for Amazon's Prime Video in 2027 - Reuters",
-      "title_zh_hant": "艾美獎2027年起轉往Amazon Prime Video 告別無線電視",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONUh5M1dMVmlkdXhUVm1UZ2dsZVlQRTFrNTVLaW1oWFg2bFg5QnM1U3duRjZpWmt2OUFmdjZjeFc4WVpPZnV6T0puaVlZNDExaDRCWkZhcTY0cnJqbFpfZTh0M3MxRlVDX2hpM2RhaW9MMkRaNmpGbkpSSlJqT2xvWUpNeWJQMTRVNXhqUjAxemxJV2VJd2FiZTJCU1dFYXY2cWQ3VU52QTNLZmxYYUpwNUNUakhEbm5tWDVfeA?oc=5",
+      "code": "/n37",
+      "title": "Venezuela's Cardon refinery halted after fire, sources say - Reuters",
+      "title_zh_hant": "消息人士：委內瑞拉卡東煉油廠火災後停擺 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUzg2YXJYRzVZM2tjYUx4U2ozUHo4cy1jZnFlYkRLOWlITnBFRjJES2ZtMGVLMVdnUDluVDl2b0pFWURvOWNYOFNQbm1WdnNpeHd5Q05FUlVnQVhNZkkwWFpLUkdLVlR5RHFuSjBGazhKcE1FQU90OERlLWoxWVJnTlkxQnplTVdITkhvVHE0TzFTUmtJSHlQX0E3VVZaaGsxNy1HVUVwX3g0aHc?oc=5",
       "source": "Reuters Business via Google News",
       "category_key": "business_tech",
       "category_label": "商業科技",
-      "published_at": "2026-10-07T00:44:57+08:00",
-      "summary": "Emmy Awards to leave broadcast TV for Amazon's Prime Video in 2027 Reuters",
+      "published_at": "2026-10-07T05:09:35+08:00",
+      "summary": "Venezuela's Cardon refinery halted after fire, sources say Reuters",
+      "importance_score": 56,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=6h+18",
+        "category:business_tech+6",
+        "fatalities / disaster scale+10"
+      ]
+    },
+    {
+      "code": "/n38",
+      "title": "UK watchdog opens first Online Safety Act probe into Meta - Reuters",
+      "title_zh_hant": "英國監管機構依《線上安全法》對 Meta 展開首宗調查 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPclF2Mmc3UnhHNHpseEtyQnViYlFIc0ZRU2RYcVd4Z19zVFdwN1Y2UUhDbUZhZHBfTkN6NkZpYUtmMGZRZDV5aXB1X1V6b05QNThhbGI1d3ZrUmQ1SlJIUUtkeVhXZkdOOXdnUUlfclJzTkN2MERfTUNrT25TbUxWcVBHLWdORXZfYlBLUDB6QmNqbU5ySUJFY2tYeXhoNlpmVEMzMm92U1I2RzA?oc=5",
+      "source": "Reuters Business via Google News",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-10-07T04:38:50+08:00",
+      "summary": "UK watchdog opens first Online Safety Act probe into Meta Reuters",
       "importance_score": 56,
       "importance_reasons": [
         "source:reuters+22",
@@ -771,9 +720,27 @@
       ]
     },
     {
-      "code": "/n42",
+      "code": "/n39",
+      "title": "The world has nearly burned through its oil stockpile buffer, executives say - Reuters",
+      "title_zh_hant": "業界高層：全球石油庫存緩衝幾乎耗盡 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRXpPa01RZzZ1ZlNmZS1XU1FlVnlKbTNhblkyVFU1dkttNzY2WllwRXNVdHVSNlBkV21wQi05d3NQdTFQcjQ1Vm5CcG1XQ1gtaDdZUmZiZXZaVVA1ZXBIcEpoOHBIZ0k1RnpKWXpsOVBjWWhrQzlWNW53SFM2dm5LeWJFVThkLUNHMzY2VFN1cFl0QXpqc2U5T2FvM1M1TmQyRjUwTDBBTFJ3NkRLS0ZENmY4cDNPam13OG9pRUFZUGw?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-10-07T01:27:44+08:00",
+      "summary": "The world has nearly burned through its oil stockpile buffer, executives say Reuters",
+      "importance_score": 56,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=12h+10",
+        "category:markets+8",
+        "market move+16"
+      ]
+    },
+    {
+      "code": "/n40",
       "title": "London stocks gain on softer oil, easing gilt yields; Defence shares fall - Reuters",
-      "title_zh_hant": "油價走軟、英國公債殖利率回落 倫敦股市上漲；國防股下跌",
+      "title_zh_hant": "油價走軟、英國公債殖利率回落 倫敦股市上漲；國防股下跌 - 路透",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSzh2RWtVenBUZmhPWExwdWdmTjlkMmhiSS12TGRobzUxNWlVdFRHWDAxaFhackxjZEI0WHJjOGF0TURrVFJsWWhjQXk1M29CV195NG54MlhZd1RXVC1XYlZ5VDZ3YTNSMEZpdVlNYi1LeUVmOGUwQUdSZndkTjZwcVZiMFZWSWdpOHpGTDI5MmZ0c3diaXFxbmdBUUt4MWNYQUR3cVZ4aVY1N1VSME1faG9xYU9Mc3djcFlPMDREYw?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -789,9 +756,9 @@
       ]
     },
     {
-      "code": "/n43",
+      "code": "/n41",
       "title": "Energy Transfer to buy Vaquero Midstream for $2.63 billion in cash-and-stock deal - Reuters",
-      "title_zh_hant": "Energy Transfer以26.3億美元現金加股票收購Vaquero Midstream",
+      "title_zh_hant": "Energy Transfer 將以 26.3 億美元現金加股票收購 Vaquero Midstream - 路透",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaXBmRnVNVFNpZzVrY2RDclA1TlAyZVZhclVkZnl5NHFIY3ZUTlRSMmhoV0lVNU8xQi1VRElYc2pMZzlvSEFxTWxUU3ZBN2FJT1Vkdi01ZWdMX0VDSldmblJlVGphRXBjWnZEckNCRjJHZjZ5cVhhZmhhVmhnT3dLeWhXLVlfRnk0bmdOcU9OQzZmcWlCNTBlRkZDZ3c0THVfdThNalNWdElhM3dZeUdjZ1MyZw?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -807,11 +774,29 @@
       ]
     },
     {
-      "code": "/n44",
+      "code": "/n42",
+      "title": "French bond contagion fears are rattling the euro - Reuters",
+      "title_zh_hant": "法國債券蔓延疑慮震盪歐元 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5elotbXRpRk1BQnhtRG14ZlNhOGJtT0doMTNjUlQ1YUVBcVRYZFhSWGdzcXdSelI0M29RM2dwa3U0UjB0bnF0Rkh0bEhUUHJ6TWppcG5tVThVTDl3N2pFNmFYR2ZIUQ?oc=5",
+      "source": "Reuters Taiwan Supply Chain via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-10-06T23:10:21+08:00",
+      "summary": "French bond contagion fears are rattling the euro Reuters",
+      "importance_score": 56,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=12h+10",
+        "category:markets+8",
+        "market move+16"
+      ]
+    },
+    {
+      "code": "/n43",
       "title": "US software stocks scale fresh 2026 highs as AI disruption worries fade - Reuters",
-      "title_zh_hant": "AI顛覆疑慮消退 美國軟體股衝上2026年新高",
+      "title_zh_hant": "AI 顛覆憂慮消退 美國軟體股再創 2026 年新高 - 路透",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdnhFSTVnZUJoZGRnMDJIQmZyM3RKR2c5X2FReUNWbmVwQ29uMnN6R1RUS1p2aG1hTlJYWFdRWElvNEpxYjJpMmFFWmtCVWJVZWpUVWNBcTJXQzllczlZWG5xWTkzbTJadkg1NUY0T2Nob3R1aDlRbDlhUUx5M3p4MTk0MXlWTmlWc1hIMHhMMzJGb1V1ZTlIaXNZTVlWbk5Ed29VWWtJMTlWRElZVk03QWxkaw?oc=5",
-      "source": "Reuters Markets via Google News",
+      "source": "Reuters Taiwan Supply Chain via Google News",
       "category_key": "markets",
       "category_label": "Markets",
       "published_at": "2026-10-06T22:17:40+08:00",
@@ -825,9 +810,27 @@
       ]
     },
     {
+      "code": "/n44",
+      "title": "Iraq proposes oil price assumption of $58 per barrel in draft budget - Reuters",
+      "title_zh_hant": "伊拉克預算草案提議油價假設為每桶 58 美元 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSGlyWktydWVyR0h5RVhQcXFub3NBa3JKTWtuc0ZtdUp4a01ETExZQUdpWDN0Q1drUkJKd3R6eW9BT29OOEFHOGppa0ROUzFHOXo1amY5Q3Axa0U1VUtWM3BDTURiYUtLdExRS3QxVGFUZ2VCOGxNelBVT19lMlhsS0ZSVElQVUdHOGFGbWhVYTdJNTJQeHJVcXVmTlFPZmNYcmh6YlY5WExranNwV3pLc1ZLYw?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-10-06T21:01:43+08:00",
+      "summary": "Iraq proposes oil price assumption of $58 per barrel in draft budget Reuters",
+      "importance_score": 56,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=12h+10",
+        "category:markets+8",
+        "market move+16"
+      ]
+    },
+    {
       "code": "/n45",
       "title": "Attack on oil tanker leaves 12 injured, Indian ministry says - Reuters",
-      "title_zh_hant": "印度部會：油輪遇襲釀12傷",
+      "title_zh_hant": "印度政府部會：油輪遇襲造成 12 人受傷 - 路透",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQS0xLQ09DRmI3QkxnRG5ZSlNHNk03ZHRlMlRJc25oUm9IR0FDOTdzOURDa1hYaVgtNWVOQTB4Y2pObks2MzhRdVVXWldNOWE4ZFV2TUw1dzdXVDB4a3NSanBwOUlVSks0QlNiUmZiUVlqT0hPOEVPMk9haHFBTzZmdTk5NTl4ZFYxdHFFZF92dFBabWtTWURjMkZ2TnZrb3duUW9jT1hkOA?oc=5",
       "source": "Reuters Taiwan Supply Chain via Google News",
       "category_key": "markets",
@@ -844,32 +847,31 @@
     },
     {
       "code": "/n46",
-      "title": "Chinese independent refiners boost Iraqi oil purchases as Iranian flows fall, traders say - Reuters",
-      "title_zh_hant": "貿易商：伊朗石油供應下滑 中國獨立煉油廠增購伊拉克原油",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeVpJd0hveEZLT295UHBsdlFzX0U5MnRpMHVrcGZYMXZmSzMzeXlfMGd3TmRBdlNwYl9lWW1EeDNWVy1ZRGppc21oSElzWG9ONVpRWjhHS1NERTFkczJTMlhWQVlVVEQyM0RKRkZTVDNHQ3lsRXBJbUs5ZmE3VHYxU1hPb09TUlR3Y1g5T3FLVWJnWEJLR2VPOFR5VFVhZi1saF9kMTNlQ2RVM0NETUthX1hBaHNHOXM2RDh5TmhaY2hwZ2s?oc=5",
+      "title": "COMMENTARY: For Trump’s Treasury, the sting is in the auction ‘tail’: McGeever​ - Reuters",
+      "title_zh_hant": "評論：對川普的財政部而言，痛點在拍賣「尾端」：麥基弗 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaFVZRlVfTmRGRkNfM2FDTGFCV3dmZi1nN3lGc1g4WG1mVUNfclNlSTZsY0dscnhBdmJ6UHFLclYwQWV1TkViWXVWeWhYM09KMUFUMDh1WXFSYVZxblJkYTE0SkZKTG1zODA2Y1poMVFiRS05enFCc3FVN2p0TGsyZ1JnSmV4ajJ1RXNiOVA0SzhWeTlVZDFHOXBGNTdZM0ZwdmJkY0JPQlU4TGNPelNUVTNKbU1kZw?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-10-06T19:23:43+08:00",
-      "summary": "Chinese independent refiners boost Iraqi oil purchases as Iranian flows fall, traders say Reuters",
-      "importance_score": 56,
+      "published_at": "2026-10-07T07:30:45+08:00",
+      "summary": "COMMENTARY: For Trump’s Treasury, the sting is in the auction ‘tail’: McGeever​ Reuters",
+      "importance_score": 55,
       "importance_reasons": [
         "source:reuters+22",
-        "fresh:<=12h+10",
-        "category:markets+8",
-        "market move+16"
+        "fresh:<=2h+25",
+        "category:markets+8"
       ]
     },
     {
       "code": "/n47",
-      "title": "S&P 500, Nasdaq reach record closing highs as focus pivots to earnings - Reuters",
-      "title_zh_hant": "焦點轉向財報 S&P 500與Nasdaq收盤創新高",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ0p5VWxQQ0ZmUUI0Vk5wRUVjTUJhZjZGUlZjU2tWU1AtOEdqYjZ0OFRtRXNrUVdrTFlNZjVWdzluRjUyaWhHTlYxMG5Yc21pMHFubTdiX1RIRTRUSnB4UTZPckRMZTlzTHBEbkZKU1ROMTZpWE9lMXhPQkhyQmhBV3JNdkFrQVk?oc=5",
+      "title": "French police use batons, fire tear gas during student protests - Reuters",
+      "title_zh_hant": "法國警方在學生抗議中使用警棍並發射催淚瓦斯 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9XcW5zRlZXY0FGRl9HSW1xOHE1akFTeXdvX3VidURfd3A3RmRjNGZhNFhqcWl6WVZPOFFLaHZDbmNHRU1fbHFfU2ZxRXU3N181MGdjckxQUC00N2llWS1KR1lETDlWbXZreFJ0QXphaE9UYXk3Q1B0RnYyeEM?oc=5",
       "source": "Reuters Taiwan Supply Chain via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-10-07T04:47:55+08:00",
-      "summary": "S&P 500, Nasdaq reach record closing highs as focus pivots to earnings Reuters",
+      "published_at": "2026-10-07T07:21:34+08:00",
+      "summary": "French police use batons, fire tear gas during student protests Reuters",
       "importance_score": 55,
       "importance_reasons": [
         "source:reuters+22",
@@ -879,42 +881,8 @@
     },
     {
       "code": "/n48",
-      "title": "Americans deeply skeptical of taxpayer-funded election ads, Reuters/Ipsos poll finds - Reuters",
-      "title_zh_hant": "路透/益普索民調：美國人高度質疑納稅人出資的選舉廣告",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSG5zQmlvX25UOGl1ZXlsZ0tCZlZvakNtV2hxa2tvRHVodU1WRDJBbV80SHFwSC1xNG8zdlFCM2VyWVhsSmZvUFMwSngyalhaYkVSLWhwSTN1ZVlob2NIMTMzdlFHdWUtY3ZhQmxfV1JJdlRvVUdDUk52VWlXYVREUlQ3dldEcEJQWHV2Y242ZlY1eUNQbUlVTFlSMU41RlA3TEpDY29aMTQ4TlZHZnAybEtHaXdPVTBUU3owc3R3?oc=5",
-      "source": "Reuters Taiwan Supply Chain via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-10-07T04:46:41+08:00",
-      "summary": "Americans deeply skeptical of taxpayer-funded election ads, Reuters/Ipsos poll finds Reuters",
-      "importance_score": 55,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=2h+25",
-        "category:markets+8"
-      ]
-    },
-    {
-      "code": "/n49",
-      "title": "IMF says hedge funds' market footprint growing, merits closer scrutiny - Reuters",
-      "title_zh_hant": "IMF：避險基金市場影響力日增 值得更嚴格審查",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWmNUOExEMjdnQk5pclVuMDZJRnYyOTl4ZXJ1R0JDNmRUdllob0JhdFg2eldDcC1CNmRlX3plNHFONG1PU3JQSjRtZW1lcEdnRF9GQVZNZ0RQVFh0YXVoVUVNTFdGUTdhdmVWWDYtb1JyNEZpbElUSEZGMTQxNGpFdGo1Qzh5bzRtZm5nQ2hJMmNTbXJURGIyakswR0xIdlVUams2SGVwSGpQOTk2YmpGdFE5RXk5YUxDclA0SzVB?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-10-07T04:40:36+08:00",
-      "summary": "IMF says hedge funds' market footprint growing, merits closer scrutiny Reuters",
-      "importance_score": 55,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=2h+25",
-        "category:markets+8"
-      ]
-    },
-    {
-      "code": "/n50",
       "title": "Hungary government proposes wealth tax on ultra-rich - Reuters",
-      "title_zh_hant": "匈牙利政府提議對超級富豪課徵財富稅",
+      "title_zh_hant": "匈牙利政府提議對超級富豪課徵財富稅 - 路透",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa3UwWjM5RUcwa3NfTzJGbDllVkMzdlJlTFBOMHJNTi1Rdk4telg3aFJZZk8zOE1zUTJtZHI5TVQ5RTlqc190dVFxTm1uVFdzSEFVR3RaNWlHVjA0amZpOW1sd3RESjBpSTU2U0hJTWdSQ1BmZVAzckU0Y1I3WkJud1Bfby12MkdBUWJ6S3FKazJJb2ljRUNSdmxR?oc=5",
       "source": "Reuters Business via Google News",
       "category_key": "business_tech",
@@ -930,56 +898,21 @@
       ]
     },
     {
-      "code": "/n51",
-      "title": "Paramount wraps up mega Warner Bros merger to create Hollywood powerhouse Skydance - Reuters",
-      "title_zh_hant": "派拉蒙完成與華納兄弟的大型合併 打造好萊塢巨頭Skydance",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPU3FqSTVKTlVKYjhpTElEZG96U0k0V2hxWGFYNXk5emE4XzN2Ukpyb0dSakdPLWxoVnMzUE9uV3dmb3ZxM2x4ZE9ZNllUYjdKMElxdGFjSDdLYkVwdmY5R0FoQ3hEVDY0R2dySWdkNUhSUzNLZXg1QklURkQwY2RrUElRVWNUaFFhbC1HSXUxQ0Z5bERVYUdwLV9ZeHJ1X1YwY2tJM0ZhTm9WUFNoQXN6Y2FPYkxCUldRb0ZwNFNmUkNNaHJNSHhpc0lFaVVuS1l1cmdyUA?oc=5",
-      "source": "Reuters Business via Google News",
+      "code": "/n49",
+      "title": "Apple is reportedly partnering with LG to launch a smart lock, thermostat, and doorbell",
+      "title_zh_hant": "蘋果傳與 LG 合作推出智慧鎖、恆溫器和門鈴",
+      "link": "https://techcrunch.com/2026/10/06/apple-is-reportedly-partnering-with-lg-to-launch-a-smart-lock-thermostat-and-doorbell/",
+      "source": "TechCrunch",
       "category_key": "business_tech",
       "category_label": "商業科技",
-      "published_at": "2026-10-07T05:42:37+08:00",
-      "summary": "Paramount wraps up mega Warner Bros merger to create Hollywood powerhouse Skydance Reuters",
+      "published_at": "2026-10-07T06:53:09+08:00",
+      "summary": "Apple appears poised to push into the smart home market with a slate of new devices and a key partner.",
       "importance_score": 53,
       "importance_reasons": [
-        "source:reuters+22",
+        "source:techcrunch+12",
         "fresh:<=2h+25",
-        "category:business_tech+6"
-      ]
-    },
-    {
-      "code": "/n52",
-      "title": "BOJ chief calls for more focus on anchoring inflation around target - Reuters",
-      "title_zh_hant": "日本央行總裁呼籲更關注將通膨錨定在目標附近",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LSXpnMlh6b1YyOExHN0RXZ1NRcy1XVjZka3hIVXRRQ19LRV8zNWtHVDIxbFBFOGQ1U0NuX2lrOTV2TTEwQlpRak9tUlBvSk9xbjJxbUJxTDY?oc=5",
-      "source": "Reuters Taiwan Supply Chain via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-10-06T15:38:15+08:00",
-      "summary": "BOJ chief calls for more focus on anchoring inflation around target Reuters",
-      "importance_score": 52,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=24h+4",
-        "category:markets+8",
-        "macro data+18"
-      ]
-    },
-    {
-      "code": "/n53",
-      "title": "ECB's Lane: Not seeing strong second-round inflation impacts - Reuters",
-      "title_zh_hant": "歐洲央行連恩：未見強烈第二輪通膨影響",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVTZTZjhadnloenZjMTdsajFBX0pVSUgyODFaZGJHODczVmNWSm9lRW45UEN0S2taRlhxendxelN5RHJwYVZuVHpKMVlvWXRHZF9yeTBTUS02d05kaFZDakR6YVI1ZWduOGpra3QzX2xJcmpkV1ZMM29zTUdTMFJ3b2p1Q3BuZ1QwSDZoYW1WS19VMzBKUldjX2c2eHJRX2NEajhzcmIxLWViS2JvYUVURA?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-10-06T15:24:38+08:00",
-      "summary": "ECB's Lane: Not seeing strong second-round inflation impacts Reuters",
-      "importance_score": 52,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=24h+4",
-        "category:markets+8",
-        "macro data+18"
+        "category:business_tech+6",
+        "major company decision+10"
       ]
     }
   ]
