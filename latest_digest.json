@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T23:30:02.541904+08:00",
-  "date": "2026-11-11",
+  "generated_at": "2026-11-12T06:15:02.789437+08:00",
+  "date": "2026-11-12",
   "categories": [
     {
       "key": "business_tech",
@@ -15,7 +15,7 @@
     {
       "key": "ai_intelligence",
       "label": "AI Intelligence",
-      "count": 100
+      "count": 33
     },
     {
       "key": "markets",
@@ -27,17 +27,17 @@
     {
       "code": "/n01",
       "title": "ExpertCrowd-SWE: Measuring Frontier Coding Agents on Expert-Authored Engineering Tasks in Unfamiliar Codebases",
-      "title_zh_hant": "ExpertCrowd-SWE：在不熟悉程式碼庫中評估前沿編碼代理於專家撰寫工程任務的表現",
+      "title_zh_hant": "ExpertCrowd-SWE：在不熟悉程式碼庫中，以專家撰寫工程任務評測前沿編碼代理",
       "link": "https://arxiv.org/abs/2611.13246",
       "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
       "published_at": "2026-11-11T13:00:00+08:00",
       "summary": "arXiv:2611.13246v1 Announce Type: new Abstract: ExpertCrowd-SWE (EC-SWE) is a benchmark of 100 expert-authored, multi-file software engineering tasks for evaluating autonomous coding agents in large, unfamiliar codebase...",
-      "importance_score": 99,
+      "importance_score": 93,
       "importance_reasons": [
         "source:arxiv+20",
-        "fresh:<=12h+10",
+        "fresh:<=24h+4",
         "category:ai_intelligence+10",
         "frontier model / release+25",
         "benchmark / evaluation+18",
@@ -46,18 +46,37 @@
     },
     {
       "code": "/n02",
+      "title": "Fed could hike rates by 50 basis points as oil surges, says market expert - Reuters",
+      "title_zh_hant": "市場專家：油價飆升下，Fed 可能升息 2 碼 - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1acHBTLUlUaE5ySUE1YzZkenEteVpjcVpsRWUteHU4SC1UWUg2dmpPMVljOWNmaHBoUndLcVBpVzAxVjd4LVI2Slc3ei1mVEJfcmduVTdfeXNZZUI3UXFmWEo3b3ZoVzBGUXdiVy1OM2JRWDhxTkN3M1IxT1hTdw?oc=5",
+      "source": "Reuters Taiwan Supply Chain via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-12T05:39:03+08:00",
+      "summary": "Fed could hike rates by 50 basis points as oil surges, says market expert Reuters",
+      "importance_score": 91,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=2h+25",
+        "category:markets+8",
+        "rates / central banks+20",
+        "market move+16"
+      ]
+    },
+    {
+      "code": "/n03",
       "title": "Pruning and Distilling Mixture-of-Experts into Dense Language Models",
-      "title_zh_hant": "",
+      "title_zh_hant": "將混合專家模型剪枝並蒸餾為稠密語言模型",
       "link": "https://arxiv.org/abs/2605.28207",
       "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
       "published_at": "2026-11-11T13:00:00+08:00",
       "summary": "arXiv:2605.28207v3 Announce Type: replace-cross Abstract: Mixture-of-Experts (MoE) is now the dominant architecture for frontier language models, yet it requires all expert parameters to be loaded in memory, making it l...",
-      "importance_score": 97,
+      "importance_score": 91,
       "importance_reasons": [
         "source:arxiv+20",
-        "fresh:<=12h+10",
+        "fresh:<=24h+4",
         "category:ai_intelligence+10",
         "frontier model / release+25",
         "research / paper+16",
@@ -65,54 +84,72 @@
       ]
     },
     {
-      "code": "/n03",
-      "title": "Anthropic's IPO roadshow video",
-      "title_zh_hant": "Anthropic 的 IPO 路演影片",
-      "link": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
-      "source": "Simon Willison",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T23:11:59+08:00",
-      "summary": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\"...",
-      "importance_score": 94,
-      "importance_reasons": [
-        "source:simon willison+18",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25",
-        "AI infrastructure+16"
-      ]
-    },
-    {
       "code": "/n04",
-      "title": "Dollar firms as hot inflation, hawkish Fed talk lift rate-hike bets - Reuters",
-      "title_zh_hant": "通膨升溫、Fed 鷹派言論推高升息押注，美元走強 - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVUM1V3d2azVfSFlud1E3Z05veEpjMmxwYzhBWkc1NTgxRktLS25sQWVlbWVWUGxCdVBXR3dmbzMxeDNYUzFJVi1aTTZIcWQ0X3kteU55dWdKeEN0ZGhvNlBHc2cwMFY4a1Q3R2VxQS1BdUcwMkRMYlc4VFltaFZxekxGVHg3ZVhhRE92WXNwb3JkMXFKeExZUlppZ2dnaHVmcjJMLTVUM1BXLUVXSlNn?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-11T08:54:00+08:00",
-      "summary": "Dollar firms as hot inflation, hawkish Fed talk lift rate-hike bets Reuters",
-      "importance_score": 88,
+      "title": "CoreWeave sparks AI cloud stock rally, lifts Nvidia as results ease bubble fears - Reuters",
+      "title_zh_hant": "CoreWeave 財報緩解泡沫憂慮，帶動 AI 雲端股與 Nvidia 上漲 - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaTZzT256WkU3aE4zUnA1UXBqX05FOENKeXI4MFZtUDQtc28zeDBLWEE2UGdydUU0OXI0LVotdWEwUVBJeDB0bVh6Z1BrN0dQbHFRa0RwZ2xEdDlBaS12T3ZSQXlzcHNSTHAxN2FBUjFXTTlaTmRUWWVJdFZmaXBDZTJteWlWQ2d0MDYzRHRyLWV3Y0xiMU5ndjRMdlBOaDR0T25uVVFNZS12ZDhjWkRMRzBDc2EzN2RyR0dvTnZqWlgxZw?oc=5",
+      "source": "Reuters Top via Google News",
+      "category_key": "breaking",
+      "category_label": "突發重點",
+      "published_at": "2026-11-12T04:54:06+08:00",
+      "summary": "CoreWeave sparks AI cloud stock rally, lifts Nvidia as results ease bubble fears Reuters",
+      "importance_score": 87,
       "importance_reasons": [
         "source:reuters+22",
-        "fresh:<=24h+4",
-        "category:markets+8",
-        "rates / central banks+20",
-        "macro data+18",
-        "market move+16"
+        "fresh:<=2h+25",
+        "category:breaking+8",
+        "semiconductors / Taiwan supply chain+18",
+        "markets / macro+14"
       ]
     },
     {
       "code": "/n05",
-      "title": "Anthropic signs another $4.3bn in compute agreements with Microsoft - Data Center Dynamics",
-      "title_zh_hant": "Anthropic 再與 Microsoft 簽署 43 億美元算力協議 - Data Center Dynamics",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNVYxX3hVWFE0cDZ4TVdaSFF5Mm52N0JoRHNNTTBjSEtNWVlDM0JCOTVNTVpqMndzcFg1N1NBdGhxY2dEUThQWWZ3bzRjRW1JeXNpWHNsNk8tUWc0MUxvNkY4ZU51LS1JS3I4ZXlEMmtrdERSRnBPbnE0ZmNGeDl2aXkwMEpURHZCQWlTOHZPdFRWSDFFRHBIV2Vyc05EcXNpU0pZdGN5OEt4aDg5Rmc?oc=5",
+      "title": "Lutnick stalled Trump crackdown on diversion of Nvidia chips to China, Axios reports - Reuters",
+      "title_zh_hant": "Axios：盧特尼克擱置川普打擊 Nvidia 晶片流向中國的行動 - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeDk3Z2kxT2NlVkxtZ3FMbksyU0ZlT2JzcERTTVBkeGFzUk5kaHhpazg4Mk5GSnZGTmNmbVVZakFyUHZOeGx5ZEt1N0pVZFRBcDlzMFU0dDc0RFh1ak1ndzZBVWNsN3NCVmliX040XzZHXzc3TFlCUWNTeXdyUkZ1S3B4WUhLSnNCWDVzeGd2NDZUZzBaTUNwemdVRWtqWGlzUnczR09yU09qaWwxZGRKaFBOUDdiR2lLa0VSa0tiWQ?oc=5",
+      "source": "Reuters Business via Google News",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-11-12T05:21:45+08:00",
+      "summary": "Lutnick stalled Trump crackdown on diversion of Nvidia chips to China, Axios reports Reuters",
+      "importance_score": 85,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=2h+25",
+        "category:business_tech+6",
+        "semiconductors / Taiwan supply chain+18",
+        "geopolitical risk+14"
+      ]
+    },
+    {
+      "code": "/n06",
+      "title": "Anthropic IPO could draw record retail buyers, Vanda Research says - Yahoo Finance",
+      "title_zh_hant": "Vanda Research：Anthropic IPO 可能吸引創紀錄散戶買盤 - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUUNCR0JEN3dTdTNGYWFQMEtjQTl1RUVITk5TcDkwam5jbWpoS2doemZHQUZNRDNYcUhEeDVPU1JYV19zbWRkbGczYmltbC12TmlpN0RQRTVGRzJGTTF1cmVqSWQ2UUcxQXIxeFhfVlNxR1NiNkZaaG11VkRoZUZHdWFkZVNsQ0wtbW1CVjNLZFJtV1J0ckZyRFVOOEVLeC1zbktXY0dnYl82Q2xDUG0tUmcyd3RCb3BNY2ZtUEVVVQ?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T20:27:03+08:00",
-      "summary": "Anthropic signs another $4.3bn in compute agreements with Microsoft Data Center Dynamics",
+      "published_at": "2026-11-12T02:36:42+08:00",
+      "summary": "Anthropic IPO could draw record retail buyers, Vanda Research says Yahoo Finance",
+      "importance_score": 85,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=6h+18",
+        "category:ai_intelligence+10",
+        "frontier model / release+25",
+        "research / paper+16"
+      ]
+    },
+    {
+      "code": "/n07",
+      "title": "Micron Stocks Jump 11.2% as Memory Rebound Meets $1 Billion Anthropic Placement - Yahoo Finance",
+      "title_zh_hant": "記憶體回溫加上 10 億美元 Anthropic 配售，Micron 股價大漲 11.2% - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOay1XZGtHS3MtbXhuS0daVjJYWWhaSWRDcy1qVTBURGRtT3lOQS1lNXMyN3pwaEtIYURUcnVPR2I4SnMzdjNUTHR2ZlJlWjAxQzdhbkUtdW9yTWxYSDNkR0ctY2t2RjcxRUZDd0oydVZxLWItalpPLWxsTERfUWo2ZUZRNXlwN3BVdzE1OURCX1Z1QQ?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-11-12T00:54:03+08:00",
+      "summary": "Micron Stocks Jump 11.2% as Memory Rebound Meets $1 Billion Anthropic Placement Yahoo Finance",
       "importance_score": 85,
       "importance_reasons": [
         "source:ai industry+16",
@@ -123,206 +160,162 @@
       ]
     },
     {
-      "code": "/n06",
-      "title": "OPEC+ oil output in October nears pre-Iran war rate, led by Saudi Arabia - Reuters",
-      "title_zh_hant": "OPEC+ 10 月原油產量逼近伊朗戰爭前水準，由沙烏地阿拉伯領軍 - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSDZlTWwtdThPTnp0UjFXeXowU3I2SzZTbDA1Zk9BZUJER0dMV1o3S2oza0sxUmxlT2xhb2k4Ykx1TDlORm5zNVdJSk8wVzZBM2VRV2xFUlpJQTdiTTJJY1ZULXJNbjIyaWVudGx5UUNjZWlMaGRJcXZHVjBmUkUxVmVxZC1FUWk0SUFmZkFQZGhaeFVPdWtkV2xIQ0hRT1ZDWGYySlk3RHdRTDloMDlLdQ?oc=5",
-      "source": "Reuters Business via Google News",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-11-11T22:14:31+08:00",
-      "summary": "OPEC+ oil output in October nears pre-Iran war rate, led by Saudi Arabia Reuters",
-      "importance_score": 81,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=2h+25",
-        "category:business_tech+6",
-        "markets / macro+14",
-        "geopolitical risk+14"
-      ]
-    },
-    {
-      "code": "/n07",
-      "title": "Trust, but verify, audit and attribute: a human-in-the-loop framework for checking AI-produced research results",
-      "title_zh_hant": "信任但驗證、稽核與歸因：查核 AI 產出研究成果的人機協作框架",
-      "link": "https://arxiv.org/abs/2611.13042",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13042v1 Announce Type: new Abstract: Artificial intelligence (AI) systems now produce research results in bulk: in October 2026 a single laboratory released more than 700 AI-generated mathematics manuscripts,...",
-      "importance_score": 81,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "frontier model / release+25",
-        "research / paper+16"
-      ]
-    },
-    {
       "code": "/n08",
-      "title": "Reliability of Claude Code as an Agentic AI Grading System for Handwritten University Exams",
-      "title_zh_hant": "Claude Code 作為手寫大學考卷代理式 AI 評分系統的可靠性",
-      "link": "https://arxiv.org/abs/2611.13217",
-      "source": "arXiv cs.AI",
+      "title": "OpenAI and Georgia county leaders hit with Mafia-style RICO racketeering lawsuit over $30 billion AI data center — residents allege closed-door conspiracy and...",
+      "title_zh_hant": "OpenAI 與喬治亞州地方官員因 300 億美元 AI 資料中心遭黑幫式 RICO 訴訟，居民指閉門共謀...",
+      "link": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPamJCY3otWUdoaXpvanUwaWYtMVF3R2lWeTExLXd1WFhLdjF0bFN4NVBNejJkNUpycWtoZFgwdkFaX0NQbzBYRGgzSFdtbm1RUW5uTjJsR3ZFVmVNb2YxUGstRjVRaFBGMmFIVGthcEQ5Vml3dmszQ0wyeHVwVFVuc0FJa3Jtbm5kR3JWSHBOV1NmeGJURDBsbDRLOWV2eDdwX3NyOUpYSzBZcjFCc2ZFLVZIaGl5U3NWRmlVUDAzUldBcy11ajVXbnpDVDRoSTlnMGZpTlFHYmJzUXlLMS1pN3VOWVNQZHltT3NtWlBQYnhGQjdlNW9VZU5ZWHRUbUtuYUVTTkFadHZFcTEyRVFxbzlwUUhudHpVUzBrZE1SV2gtclFodnJrZkIyT2RKMXlROGFzSmdSTVNxUm9FWDlWUWRNU2g4ZGZGMTJRbWN5ZlBpdzl3NHRNeFlSLTJhcjBLSlZCcnR0RTlJSzVjR1RFTg?oc=5",
+      "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13217v1 Announce Type: new Abstract: This study examines the reliability of Claude Code, an agentic deployment of the Claude Opus 4.6 large language model, as a grading system for handwritten university exams...",
-      "importance_score": 81,
+      "published_at": "2026-11-12T00:30:00+08:00",
+      "summary": "OpenAI and Georgia county leaders hit with Mafia-style RICO racketeering lawsuit over $30 billion AI data center — residents allege closed-door conspiracy and NDAs were used to push 3.2-gigawatt ‘Project Camellia’ throu...",
+      "importance_score": 85,
       "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
+        "source:ai industry+16",
+        "fresh:<=6h+18",
         "category:ai_intelligence+10",
         "frontier model / release+25",
-        "research / paper+16"
+        "AI infrastructure+16"
       ]
     },
     {
       "code": "/n09",
-      "title": "A Multi-Word Tokenizer for 204 Languages That Needs Fewer Tokens Than GPT-4o's, Including on English",
-      "title_zh_hant": "支援 204 種語言的多詞 tokenizer，所需 token 少於 GPT-4o，英文也不例外",
-      "link": "https://arxiv.org/abs/2611.13059",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13059v1 Announce Type: cross Abstract: Languages of India need 1.6 to 14 times as many tokens as English on GPT-4o's tokenizer for the same content, which makes them more expensive and slower to serve. We tra...",
-      "importance_score": 81,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "frontier model / release+25",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n10",
-      "title": "Transparency Disclosures for Chain-of-Thought Monitorability",
-      "title_zh_hant": "思維鏈可監測性的透明度揭露",
-      "link": "https://arxiv.org/abs/2611.13873",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13873v1 Announce Type: cross Abstract: Chain-of-thought (CoT) monitoring is one of the most valuable tools for monitoring advanced AI systems, but it is under threat. We argue that frontier AI developers shou...",
-      "importance_score": 81,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "frontier model / release+25",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n11",
-      "title": "US lawmakers push China chip rules after Nvidia CEO allegations - Reuters",
-      "title_zh_hant": "Nvidia 執行長相關指控後，美國議員推動中國晶片規範 - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQWxqUnFpSkZaOE5LVFZnaWZJaHhteVV2dkdiQnRnX1Zua2Jnd0N3VVBxSzBtOWhETm92Mk9EY0JMbEZMNV9ibThnaWhjd1Y5RTZfMEoxYkk0TTF4Zlk4cmd2RnV2bV85VExSZmswbEJFNmZuZGNBMHYwUklvTjNmdDR1cEIteDdzSlJDc2ZVT3FrS0lZaUVJb1J2MDBvdWtNR0l5NllodU1WUQ?oc=5",
-      "source": "Reuters Business via Google News",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-11-11T04:06:00+08:00",
-      "summary": "US lawmakers push China chip rules after Nvidia CEO allegations Reuters",
-      "importance_score": 80,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=24h+4",
-        "category:business_tech+6",
-        "semiconductors / Taiwan supply chain+18",
-        "policy / regulation+16",
-        "geopolitical risk+14"
-      ]
-    },
-    {
-      "code": "/n12",
-      "title": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
-      "title_zh_hant": "Jim Cramer 週三美股十大觀察重點",
-      "link": "https://www.cnbc.com/investingclub/2026/11/11/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+      "title": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
+      "title_zh_hant": "黃仁勳在華府風波：出現辭職呼聲，並有動作收緊 Nvidia 對中國出口",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
       "source": "CNBC Top News",
       "category_key": "breaking",
       "category_label": "突發重點",
-      "published_at": "2026-11-11T22:13:25+08:00",
-      "summary": "CoreWeave lifts the AI trade, and my advice to Nvidia.",
+      "published_at": "2026-11-12T06:14:02+08:00",
+      "summary": "Huang was notably opposed to strict export controls on AI chips to China, which ruffled feathers with congressional China hawks.",
       "importance_score": 79,
       "importance_reasons": [
         "source:cnbc+14",
         "fresh:<=2h+25",
         "category:breaking+8",
         "semiconductors / Taiwan supply chain+18",
-        "markets / macro+14"
-      ]
-    },
-    {
-      "code": "/n13",
-      "title": "CoreWeave sparks AI cloud stock rally, lifts Nvidia as results ease bubble fears - Reuters",
-      "title_zh_hant": "CoreWeave 財報緩解泡沫擔憂，點燃 AI 雲端股漲勢並提振 Nvidia - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaTZzT256WkU3aE4zUnA1UXBqX05FOENKeXI4MFZtUDQtc28zeDBLWEE2UGdydUU0OXI0LVotdWEwUVBJeDB0bVh6Z1BrN0dQbHFRa0RwZ2xEdDlBaS12T3ZSQXlzcHNSTHAxN2FBUjFXTTlaTmRUWWVJdFZmaXBDZTJteWlWQ2d0MDYzRHRyLWV3Y0xiMU5ndjRMdlBOaDR0T25uVVFNZS12ZDhjWkRMRzBDc2EzN2RyR0dvTnZqWlgxZw?oc=5",
-      "source": "Reuters Business via Google News",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-11-11T20:29:22+08:00",
-      "summary": "CoreWeave sparks AI cloud stock rally, lifts Nvidia as results ease bubble fears Reuters",
-      "importance_score": 78,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=6h+18",
-        "category:business_tech+6",
-        "semiconductors / Taiwan supply chain+18",
-        "markets / macro+14"
-      ]
-    },
-    {
-      "code": "/n14",
-      "title": "Goldman adds another rate hike to Fed outlook after hot inflation data - Reuters",
-      "title_zh_hant": "通膨數據升溫後，高盛對 Fed 預測再添一次升息 - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaGZrcC11RmpmMVp3a09iZl9aR2N6TDVFV2d1eE50MzBMT0hkZFMtbXFteWFvcDBnSEM0MXdhWFJmM0d4eXZNVFMtNDA2VHozS0UyeEdWcGtQanctN3pxdVVVeWRacnFxS2d3N1I1MktUbUVISWhwZ0VibFgtTWVUX0ZtelYwSmJMQXdUbDJqZmxPMklpS2c?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-11T12:58:00+08:00",
-      "summary": "Goldman adds another rate hike to Fed outlook after hot inflation data Reuters",
-      "importance_score": 78,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=12h+10",
-        "category:markets+8",
-        "rates / central banks+20",
-        "macro data+18"
-      ]
-    },
-    {
-      "code": "/n15",
-      "title": "Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem",
-      "title_zh_hant": "Jensen Huang 與疑似中國間諜的緋聞，讓 Nvidia 中國問題更棘手",
-      "link": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html",
-      "source": "CNBC Technology",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-11-11T22:39:33+08:00",
-      "summary": "The allegations against Jensen Huang have brought new attention to the Nvidia CEO's potential influence over U.S. policy on chip sales to China.",
-      "importance_score": 77,
-      "importance_reasons": [
-        "source:cnbc+14",
-        "fresh:<=2h+25",
-        "category:business_tech+6",
-        "semiconductors / Taiwan supply chain+18",
         "geopolitical risk+14"
       ]
     },
     {
-      "code": "/n16",
-      "title": "Anthropic Prepares to Push Ahead With IPO Despite Market Jitters - WSJ",
-      "title_zh_hant": "儘管市場動盪，Anthropic 準備推進 IPO - WSJ",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRlNNX2c5SGV4WXdpZ2Utb2NzU0NhVlpUM3MwWEZ3bFdyVHZ5cDZGbnJSWVpEelJrZ0tCQTZrNjUyRTFaLW1JeGxucWtvcEJwOXUyQkwzUkpPQUNEYTFobG9qc3oyTVhHb1VCeDRPck1xU2lla1NtMlY5VkExdmJobDJ6U01LbHgzYjZFTmFHYzFCVjRfM1VxRVJIeE40d3REMXlqT01qQnh5TEg1?oc=5",
+      "code": "/n10",
+      "title": "Anthropic's IPO roadshow video",
+      "title_zh_hant": "Anthropic IPO 路演影片",
+      "link": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+      "source": "Simon Willison",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-11-11T23:11:59+08:00",
+      "summary": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\"...",
+      "importance_score": 79,
+      "importance_reasons": [
+        "source:simon willison+18",
+        "fresh:<=12h+10",
+        "category:ai_intelligence+10",
+        "frontier model / release+25",
+        "AI infrastructure+16"
+      ]
+    },
+    {
+      "code": "/n11",
+      "title": "Gemini Decisions API",
+      "title_zh_hant": "Gemini Decisions API",
+      "link": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+      "source": "Simon Willison",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-11-12T06:03:25+08:00",
+      "summary": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and...",
+      "importance_score": 78,
+      "importance_reasons": [
+        "source:simon willison+18",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n12",
+      "title": "EXCLUSIVE: Anthropic IPO Could Follow SpaceX’s ‘Almost Perfectly’ Handled Offering, Market Expert Jay Woods Says - Benzinga",
+      "title_zh_hant": "獨家：市場專家 Jay Woods 稱 Anthropic IPO 可望複製 SpaceX『近乎完美』的上市操作 - Benzinga",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQYV92TFIwVUtNdmhSUTJoY05MeWxDZ0ZJbnhhbzBQZmhmdGVqN1l6bm9wcFNTS0JpX054TW9UTFRGbFFsMjdYUjBXUjR4NlRZZWFmNHQ5UnNEMmhhcHNLY0pncTJpYUo2SE05ekJxaWRicW1NOGQ1VUVRYmttVVFEZkh5OW9zSk9nenpLMWNkVFd1ajRELXFzbFIzUXhsWXR5SVlsYkYzWlg2eHRGbTFXazNxSFN6RGo2NXJmTjNMeXdwenR4X1J3U3VRZ2pvZ0RrcGtqT0l5aEhxam9PSmxfUkhPR1NqSTl0LWozZmlXWXlLdw?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T23:23:44+08:00",
-      "summary": "Anthropic Prepares to Push Ahead With IPO Despite Market Jitters WSJ",
+      "published_at": "2026-11-12T06:06:33+08:00",
+      "summary": "EXCLUSIVE: Anthropic IPO Could Follow SpaceX’s ‘Almost Perfectly’ Handled Offering, Market Expert Jay Woods Says Benzinga",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n13",
+      "title": "Leverage Shares' 3x Anthropic ETP will not list Thursday as planned - ETF Stream",
+      "title_zh_hant": "Leverage Shares 的 3 倍 Anthropic ETP 不會按計畫於週四掛牌 - ETF Stream",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTHE4UVFHa1NqS1A0aG9ER3RNeWU4QTZkVi1IaFBCdFZEbUxTbF9IeVdJSzNJNmRwaEJBQURNWTg4MHBRSVF0NGtqQ2VRTUttRlVuc1R0QWpiNHZBT0V6dmdNRUF6eE5BV25YUkd2ejRtVEJ1Y2oxV0VCWWs2bzBhdUp0YzE3OE50aXVGd2lXMVdwX2pJdlR6STJSMUJabkN1Vm51N09rVEVITmc?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-11-12T06:04:53+08:00",
+      "summary": "Leverage Shares' 3x Anthropic ETP will not list Thursday as planned ETF Stream",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n14",
+      "title": "Anthropic's IPO Is Just 1 Week Away. Should You Buy the Stock? - The Globe and Mail",
+      "title_zh_hant": "Anthropic IPO 只剩一週，該買這檔股票嗎？ - The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNOHU2NzFfMlhETFo3NTJadTA2UTZzVTZlODczWW91eXBkZnhQblJWRkpCcXNuVjhkNldLYXo0N1VaYURlbzFFZDAyMWdsbDlKRzl1LUswcng2TXpQRVEwYWRBNjNrd3pJeHA1c3ZhRkx5UFBHZ190eDFmalYtTVhKeWxzdTZubGN2T3VzanA2VVhwaFQ2ZUZZRTlIRlZ5ZDFXMTFJTUZpRDZIQ2p4NUE5Tkg4dGQ5OVk1MjlQbVIwdnhsSXRrWXRucFJ0ZkdPUGV0UDNfNURBZGRSc3oxVGtPSA?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-11-12T06:00:02+08:00",
+      "summary": "Anthropic's IPO Is Just 1 Week Away. Should You Buy the Stock? The Globe and Mail",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n15",
+      "title": "OpenAI, Anthropic $1.4T valuations spark VC concerns of market correction - Crypto Briefing",
+      "title_zh_hant": "OpenAI、Anthropic 估值達 1.4 兆美元，引發創投憂心市場修正 - Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNa0ViSWtqUFBZWHdpNGtmbVZBUDFGYVFMUDFXQndOMmpScXpEYmZEbGR2ZGt2YldWeTlOLUxTUlBTc2Fhb0xSV044em5mcmowLVo4VzlxN3ZWSnFNUTRURTVOb25LUDJ5bjV4NXJrcERfYXpMdmc4SHVXeUZ0LVdmb3JIaDJESzhBSDMzV25Rb3gtZmJEQkxDOUhlOTlQLWc?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-11-12T05:44:06+08:00",
+      "summary": "OpenAI, Anthropic $1.4T valuations spark VC concerns of market correction Crypto Briefing",
+      "importance_score": 76,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n16",
+      "title": "Anthropic's Mythos claim may put Nvidia’s CUDA moat in a vulnerable spot - Yahoo Finance",
+      "title_zh_hant": "Anthropic 的 Mythos 說法恐使 Nvidia 的 CUDA 護城河出現破口 - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVW5pMDBscGRMRnNOTlhVNmNpRXlVd2dlZmhobGs2bUhxXzNoak9iZDhLU01rZUZlNjVpd2Z2T3d1Q3MtLTl0ejBMajdpZENVbW5rMW5JR0ttTHoyRHUzanpRSDFBR1RrT2xGNU5TODBvb1g4MkhwV1hYdkU5bThLaW9HTWU0U1VrYlFWczBhbzdzbnVUMDNfbGlrQWxDQjAwWlBVOFJ5RDFsLVJ5bm9CenljcE9tRlE2?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-11-12T05:43:46+08:00",
+      "summary": "Anthropic's Mythos claim may put Nvidia’s CUDA moat in a vulnerable spot Yahoo Finance",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -333,14 +326,14 @@
     },
     {
       "code": "/n17",
-      "title": "Anthropic seeking $1.3T valuation - KTVU",
-      "title_zh_hant": "Anthropic 尋求 1.3 兆美元估值 - KTVU",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WLXpDQ19wZDk4OXVWUDFuTGRJWGRJU3ZrRnlFU0xUVDktcy1PTVRyVGpFanoxN1JzRFBYQVdTa3FZdTJjRGNvMl90X09hclpNSDZUM0dhUHJoaTDSAWBBVV95cUxNOTVZWURUZWRWd2M5cFRjejh2bjRQME40MDFiZl9jN3R0UzNNMERXYTdKVnl2VkNma21jblp3Z05MRnpXZFAxdWp5Y1VWZzhENHNrN0d3LTNYTFg5bEdfNVY?oc=5",
+      "title": "Anthropic’s Pre-IPO Valuation Has Dropped 30%. Why That’s a Warning for Investors Wanting to Buy ANT Stock After the IPO. - Barchart.com",
+      "title_zh_hant": "Anthropic 上市前估值跌 30%，為何這對想買 IPO 後 ANT 股票的投資人是警訊 - Barchart.com",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONjAwaUxIeElxU09sZjZOMzdZLXA4SkFFZXFNTm5ZT1JnOC00b2c5bGE4VG4wSTdEN1FkcVlnalJqVC1lY3ZwNV83MEkwcVoxZWRQNmY5YmkyWGI3RXBNcExMaG9qZ2liRFRwYjBTQXNtU3E2UlJTOWdXRDlhRzNCdW9xbFJqd1BrQlpfVU9Vc0RldG8wc0NHRFZHYjF3YWZNY05VZlMwQ25nWVRScHRCMzF5LS1ORGdYUjJXa1JlWEt6dm5XdHg2OHFyeV9oSzRqMWZPV3NFbkJjN3lzUE5fVk50aE1TVERjYUg2M043a2hnUQ?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T23:16:33+08:00",
-      "summary": "Anthropic seeking $1.3T valuation KTVU",
+      "published_at": "2026-11-12T05:41:24+08:00",
+      "summary": "Anthropic’s Pre-IPO Valuation Has Dropped 30%. Why That’s a Warning for Investors Wanting to Buy ANT Stock After the IPO. Barchart.com",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -351,14 +344,14 @@
     },
     {
       "code": "/n18",
-      "title": "Google Cloud debuts Gemini for healthcare - Healthcare Dive",
-      "title_zh_hant": "Google Cloud 推出醫療保健版 Gemini - Healthcare Dive",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbnlIanZyYzhoeGxFakNsdnpnUDJrRTRDUGdzRldiWlp1ZGdVRXRCeENyUjZQcWdUNk9BUWZINlVZa3BraGIzLWpVdTVvdFptd0tyaXhKQVRqNjNxT1JTSEd3WWVIbVY4QTAtM25YdTlSN0d6YldXOTktNGktcllhM21qZ1czN0hmRk43cnhB?oc=5",
+      "title": "OpenAI, Anthropic Valuations Fuel VC Fears of Startup Correction - Bloomberg.com",
+      "title_zh_hant": "OpenAI、Anthropic 估值飆升，加劇創投對新創修正的憂慮 - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVzBRbmVLSUFUYS1uMjVUUVZVaTFQQmZhTmRGNklQRjhLc1B3MnJPWW1fNkNua014V3NzS2hWREJ2d3YtVElhTXc5VHBId1N2aTJ3M2MwdE5nWmtTT2ZSdDhXSzlyTzdta0RMOFVUTTJqV0ZPWndsc2ZBVHgzTFA0aWFPMnRrcVJHZ1Jmd0FNZHNzU0p5cTZDV050MzJPajlTdWVyMXIwQ2UybFdmNnVYMW5IVVE?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T23:14:19+08:00",
-      "summary": "Google Cloud debuts Gemini for healthcare Healthcare Dive",
+      "published_at": "2026-11-12T05:39:14+08:00",
+      "summary": "OpenAI, Anthropic Valuations Fuel VC Fears of Startup Correction Bloomberg.com",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -369,14 +362,14 @@
     },
     {
       "code": "/n19",
-      "title": "Anthropic's new Claude tools put software stocks on notice - Yahoo Finance",
-      "title_zh_hant": "Anthropic 新 Claude 工具令軟體股警戒 - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS3pFLTdTbk1nd0xzejhUTEdtR0thRWViNDlsR1JKdmlfa0dSOTJfVnpJcEZyYkZBRzV3ZXJQOHNjR1JqMGZmOXVjQVZOZVpIYUZoZ0ZZbHlZZURkUTFjQ3NvN2hESnVZNFRyTEtrdVUxTTNBYjNDa0NLaWN3OUowclpPWm1OU0dNUEVuNzk0RDJpeFNMR0RHOUZRZFBjRlc4djl5c2Ezcw?oc=5",
+      "title": "Anthropic Is Reserving 20% of Its IPO for Retail Investors. Here’s What Claude Thinks. - Barchart.com",
+      "title_zh_hant": "Anthropic 保留 20% IPO 給散戶。Claude 怎麼看 - Barchart.com",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUjgtYTBNSWRqZ011YWk1SVlYdnBuWFlHcFR4eUhaaDU5bENOcldKdElscC1lRmlvcWtEUUtTUUY1WFYzdTZrUXk1S2JsQ3hYTG5ZLUV5blUySHhVdWhHbU1semZ0NU9zbHE0QjgtR1FpZmx4YUxDMm91dGFUbmdzelR6MlBSdXpBc1lWa3VYSDNjaDUzbU5vVVUyaFdLNzlDMHBkbDlqNTdYRjh0dF9fRzE4REV1aXRPcXYxSjdDNDh1TzF4?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T23:13:39+08:00",
-      "summary": "Anthropic's new Claude tools put software stocks on notice Yahoo Finance",
+      "published_at": "2026-11-12T05:39:04+08:00",
+      "summary": "Anthropic Is Reserving 20% of Its IPO for Retail Investors. Here’s What Claude Thinks. Barchart.com",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -387,14 +380,14 @@
     },
     {
       "code": "/n20",
-      "title": "Wall Street is shrugging at CoreWeave's debt and OpenAI's losses - Yahoo Finance",
-      "title_zh_hant": "華爾街對 CoreWeave 債務與 OpenAI 虧損不以為意 - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNenE4Y2VVNmRuZ0VvcWRpZWM3NW1zbFdEZTZYZTdXZ05KRXJSN1dIa1BWSkNLT3duTDcyeEs4ZTNLcXItZ2ExcV9JZzVpZExiUVRnb1FhczBWQ1FkeHhPdHB4UkJoMngzN25YZjExbk9ZVWdZMjB6cVVaYm51QWlnSllCNGY1d3EyRTNrOFJFSHdtOXBYa2lTU2RzQzRFcnkzRkJRNnU2UThtRHR3ZVE?oc=5",
+      "title": "Tech round-up: A closer look at Anthropic, Nvidia, CoreWeave, and next week - Yahoo Finance",
+      "title_zh_hant": "科技週報：深入看 Anthropic、Nvidia、CoreWeave 與下週展望 - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN2J1MWp1QUZwcjkzcFRBVC0zXzh0dDM5ZHl5cTV2endxNnNlWGpTNVV1S1dwWGg2MVc2djV3YzVTd0RsM0VCWUJDX1E0OUp0MjBMOUtVZzV6VkQ5bmQ0cGJzNGhLWkw0dFQtRHNPUTZsajRDbmI5LTdWMkxEUVpvR3FhQnBoMzNLeWpSY015QlQ3V201RE0zUFRLOVdLcldNaTJHMWFXcFJuQU5ueVpoWk4zWmhieExPZWc?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T23:09:33+08:00",
-      "summary": "Wall Street is shrugging at CoreWeave's debt and OpenAI's losses Yahoo Finance",
+      "published_at": "2026-11-12T05:19:55+08:00",
+      "summary": "Tech round-up: A closer look at Anthropic, Nvidia, CoreWeave, and next week Yahoo Finance",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -405,14 +398,14 @@
     },
     {
       "code": "/n21",
-      "title": "Microsoft Bet Big on OpenAI. Anthropic’s Profit Lead Raises Questions. - Barron's",
-      "title_zh_hant": "Microsoft 重押 OpenAI，Anthropic 獲利領先引發疑問 - Barron's",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbmxQN1VFeUZSVzdzNUQ3c09YSTNGRkVDeUZEcXNUVWZjaXVuM2FkanZlajVWN0E4Ym5tMXE4NlV5VHhiUG9IMk5yTnpCcmd5QXJRNU9nVjdidnZ1bnVsR0pOLWpadl96UHhVYW1kVWR5bjNBejBhM09Cb2pwX296T08tYTBPd2E2?oc=5",
+      "title": "Google's Gemini Decision 1 destroys the so-called system one models - Startup Fortune",
+      "title_zh_hant": "Google 的 Gemini Decision 1 顛覆所謂的系統一模型 - Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeE9NR1JSWmxZLXAtc0gyclZpcTlnUm1kdVJVYjFrZnNTMThCUVJSMUVyNVd4QUFNSGx0d003Y2JCNkxsd29tR2tyRlU2YkF2RjVjWjFiajBjbHdfUV84SlZkNWpXU0FWZ1B3TUxPeVNrRUNYS3UtWUtncUhVSkpOZGpKQWwyUzB6cS1qZmQ4ZlBKTjNkWmN1TkhB?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T23:08:00+08:00",
-      "summary": "Microsoft Bet Big on OpenAI. Anthropic’s Profit Lead Raises Questions. Barron's",
+      "published_at": "2026-11-12T05:15:09+08:00",
+      "summary": "Google's Gemini Decision 1 destroys the so-called system one models Startup Fortune",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -423,14 +416,14 @@
     },
     {
       "code": "/n22",
-      "title": "Anthropic, Others Warn of AI Acceleration - The Information",
-      "title_zh_hant": "Anthropic 等業者警告 AI 加速發展 - The Information",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR2VDQlNWbzQ4NWlyV2pkdVJSVXU2bW42cEgzaHMyRGtJdnZnYzFSdkg2eV9VcUdJNnZNN1ZvanQxR3VBVjlVbHdsZ0d1b1NlTzIwdjBMXzlPNG9jVVVOa3pqTTgzVjRsVVFsS2VaUExBT2NuVDV0SHVWX2FlMzd0aEZYRTRSOGtnRVBtMTBVNnJONTVH?oc=5",
+      "title": "Anthropic IPO Is ‘Jenga Block’ Holding Up Next Leg of AI Trade - Bloomberg.com",
+      "title_zh_hant": "Anthropic IPO 如『疊疊樂積木』撐住 AI 交易下一波 - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMGdCeFJuSW5EWTJkTy1ERGxfeVdsRDRDMFBQcmM3UXB2dlhWQlhMQ1ZGdEdxd05BcTZyZDI0RVpWb3F5XzB2a2tIOWwwQWF3Y05pU3JVd3pCTUFqMWFXM1VUcmtEaGhhcWh6MHZQYzU0U1hJejMxOElDLWZwYzlubFk4TG9zYUkwSHZaUXlvTnI1WF9qemV2TXd5TXluNmtZc015dFNXbDVqcnFlOGhlTQ?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T23:01:00+08:00",
-      "summary": "Anthropic, Others Warn of AI Acceleration The Information",
+      "published_at": "2026-11-12T05:15:02+08:00",
+      "summary": "Anthropic IPO Is ‘Jenga Block’ Holding Up Next Leg of AI Trade Bloomberg.com",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -441,14 +434,14 @@
     },
     {
       "code": "/n23",
-      "title": "Anthropic IPO eyes higher valuation as stronger demand pushes price up - Yahoo Finance",
-      "title_zh_hant": "需求強勁推高價格，Anthropic IPO 瞄準更高估值 - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMU9ISXA5aXRSVVVCZEdWNHFJRzRlTzZtT3h1RGtxdlA5WG16blRiSFhpS0Uta3QwTFpQV2FPeXVURjY0dzJOSkY2WVV3bnVWU3I5d1lDLXI3VW1RUG9NUnJhOWlpVzVCeDd4V2FhemF4VEFxNldKel9oazdrUWNRai1vWVY0Z0VmM045S3VhV0s2ZktqYzhXZU96NUlYSVdycHVWNFBhMlkyN1NwLUF2RUV5NU1RclM0?oc=5",
+      "title": "Ticker: OpenAI revenue soars; IBM to end immigration sponsorship for some - Boston Herald",
+      "title_zh_hant": "財經快訊：OpenAI 營收飆升；IBM 將停止部分移民擔保 - Boston Herald",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOHA0SkNodzVCeHlMdUxVYlNxY2ZfQjl2T3dUQ21YMmJiNHo0NVdkaEY5b2h3Y3hSZ25zTnd2VE40UHpqa3hZeWVkdmVyNHVwbm9qM3pMNEhxZ0lUcUxoMzh5Q240RHJVMHhNeEZLTEJabVJUTGRwRm9YNDBxR2xyUHZGZ3Rld3BMSm9jNWt3ZVd3X0RBRFppeTZDeWdzU29yaFhVb0dGZXRtd1RxUUlSd0t3?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T22:55:20+08:00",
-      "summary": "Anthropic IPO eyes higher valuation as stronger demand pushes price up Yahoo Finance",
+      "published_at": "2026-11-12T05:13:23+08:00",
+      "summary": "Ticker: OpenAI revenue soars; IBM to end immigration sponsorship for some Boston Herald",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -459,14 +452,14 @@
     },
     {
       "code": "/n24",
-      "title": "AI Bulls Return on CoreWeave, Anthropic and OpenAI Buzz - Bloomberg.com",
-      "title_zh_hant": "CoreWeave、Anthropic 與 OpenAI 熱潮帶動 AI 多頭回歸 - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbDVyVXJLM0xoWXpxLVcxOElGUThIVndBSU9MekRDTF8wc0pBcnpHZER2V0VKSlhnQnJBdjZSZF9aM1pTcXVoSGhEalNMTUNxaDMxbUNVTk5ONGJQS1ZHRmRtWVhiOEI1QzNTNEdQWFpSZnR2bkgyTUJ1T1lRN0U1ajNiLXhmc2JWMnpkczFHaXZmTXlmaVBhS0dMVVZ6UkhrQzVicGZya19ZMnBu?oc=5",
+      "title": "‘Cleared for Takeoff’ in AI. Anthropic, OpenAI & Nvidia. ARD #204 - AI: Reset to Zero",
+      "title_zh_hant": "AI『獲准起飛』：Anthropic、OpenAI 與 Nvidia。ARD #204 - AI: Reset to Zero",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9KUmhvNFhNUWF1Ynd5SHF2THVwTkRxclRrQTFWQWQtcHJjWTNXNEgyOWhCUG13bURrZmE2azhld0xYcVJya0U1TVlWUmY2Q2ZQR1BNZW40cnhPRUtLYnlPazlfWGJmRE9OVkJnZEJMR3pDN1dFZzNLUmlwMFE?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T22:49:25+08:00",
-      "summary": "AI Bulls Return on CoreWeave, Anthropic and OpenAI Buzz Bloomberg.com",
+      "published_at": "2026-11-12T05:02:31+08:00",
+      "summary": "‘Cleared for Takeoff’ in AI. Anthropic, OpenAI & Nvidia. ARD #204 AI: Reset to Zero",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -477,14 +470,14 @@
     },
     {
       "code": "/n25",
-      "title": "Google's November Pixel Drop Brings Gemini Intelligence to the Pixel 10 and Launches the $29.99 Pixel Tag - gHacks",
-      "title_zh_hant": "Google 11 月 Pixel Drop 為 Pixel 10 帶來 Gemini 智慧功能，並推出 29.99 美元 Pixel Tag - gHacks",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSHdsOGtiSi13Yl82d3JPak9aaTVxMHcwWjFnemE5dURPMzJzU3FKdDdtUGtxaHZySHRYNXpwLWdHamxqM3JFaW11SGhFSXAxR0ItMDJRbkNOb0M0elljZnZQVXhCLTl2a2ZJTWlGVXRBd1FqQ0h1Yno2WU9sNDRHYUo2anZobHBLSFY1VC1YZkdlMFNycnNXM0YxX3dUN1laTFFiVzAyR3RDeTRJNUZHVUVhUElBT2FicHdEUFljUnVkaU1wSlNUc2EtRFpNSFdqTVhPaA?oc=5",
+      "title": "Google unveils Gemini Decisions API to handle 1,000 questions at once - Interesting Engineering",
+      "title_zh_hant": "Google 推出 Gemini Decisions API，可一次處理 1,000 個問題 - Interesting Engineering",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNW44Z2huZUh4QTZLVWRXWGFfeG5TLUtIWHpSS253dlVpTExMbUxBcFM3RXFzaGtrV3VrTm00ODlXcHFVV01XTXZJb2w3a1htVlhfMGMtMVVGeTRDTXBtT0FmWnJRWVhBOWpITFRTWXFmdEs0R0MxVUZnZmxQMXl3b3dwVDBEMnhDbFhhY3ZjcDJkMW8?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T22:49:22+08:00",
-      "summary": "Google's November Pixel Drop Brings Gemini Intelligence to the Pixel 10 and Launches the $29.99 Pixel Tag gHacks",
+      "published_at": "2026-11-12T04:51:00+08:00",
+      "summary": "Google unveils Gemini Decisions API to handle 1,000 questions at once Interesting Engineering",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -495,14 +488,14 @@
     },
     {
       "code": "/n26",
-      "title": "Anthropic hired Goldman Sachs' ex-chief security architect from Google as a Deepmind researcher left for Citadel - eFinancialCareers",
-      "title_zh_hant": "Anthropic 自 Google 延攬 Goldman Sachs 前首席安全架構師；DeepMind 研究員轉投 Citadel - eFinancialCareers",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPd29lLWxwMTlCaUFDWHZvdElQUE1IYVpzYlhRNmRSbjVySy10SjdZMk9qOEVxbExoVmF1NFAtZVJ6U2E4N1RlajVZUDctcjFxbzBsLXdjaklSTzJRZExDWW9kZlBjT1YxeFl3dmpGV1RCVk92VmtiVy1iX3BaSGV3d2tCdVV1b2p1T09yNkxhZkVORFRpc2xKWENvY08wVE5WR2htY08wTDN5WlJwN3U0T3ZkcGp3RU9Sd1lZalc0ZnlLYVJvSjRsRWNnMFYycTdzT3RaTUZtUVBBSTF2XzJHaW43Mks?oc=5",
+      "title": "On this day in space! Nov. 11, 1966: NASA launches Gemini 12 mission with astronaut icons Buzz Aldrin and Jim Lovell aboard - Space",
+      "title_zh_hant": "太空史上的今天！1966 年 11 月 11 日：NASA 發射 Gemini 12 任務，太空人傳奇 Buzz Aldrin 與 Jim Lovell 隨行 - Space",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbDd1NnhtUi1EZm9QZTZVTWVrOENxTW1KaEU0UXhpaDZyY2VVZUoyTTZubnl1c0p6UDJtSmNYc1R5ZDg5RFU0SWZFdmFUbkJ0UmUtc2xoN3BDcTYzWHNINkpCNnVRMzN5bDdPSFA3TkE3QWl5aU9YTEFvMG1GT2R1cjhLSQ?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T22:47:34+08:00",
-      "summary": "Anthropic hired Goldman Sachs' ex-chief security architect from Google as a Deepmind researcher left for Citadel eFinancialCareers",
+      "published_at": "2026-11-12T04:50:18+08:00",
+      "summary": "On this day in space! Nov. 11, 1966: NASA launches Gemini 12 mission with astronaut icons Buzz Aldrin and Jim Lovell aboard Space",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -513,14 +506,14 @@
     },
     {
       "code": "/n27",
-      "title": "OpenAI adds verified business profiles and AI agents to ChatGPT - Quartz",
-      "title_zh_hant": "OpenAI 為 ChatGPT 新增驗證商家檔案與 AI 代理 - Quartz",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LZDdPYkRUTjBfaGZMNXd2NlBJczBITmVfOE1ZUjFQaWRMVGU5eDN3LUtseXlaU3I5RHJYWThvdVpIUVV5UzZreDRMZzNVQ0lmUnNmTF90TVZ5bUU3TG9YNVgzeUxTdS1BT2tCTnVmZ1VIdw?oc=5",
+      "title": "Amazon and Google Are Sitting on a $411 Billion Anthropic Windfall - Yahoo Finance",
+      "title_zh_hant": "Amazon 與 Google 坐擁 4,110 億美元 Anthropic 意外之財 - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObXF1R3pVM3NETS10eWxGWE5ZT24xTnpPb2lHeGRKbG8zSUpDQ2NRSHNiRUN5SmJiSVJPS0k1WVNKR3dOTzZ0dlh0ZmxDb2RTMnJKWTdOVWFOb1RjY3RJZGZsS1B1OG56eTFGeHBsZVdPUW5MVVZxMVM1MTh5WlhXZWFnOU5CbGlIa0Y2TlB5Q0JvQ0tZVnhxNFhWMXUwdzg?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T22:43:31+08:00",
-      "summary": "OpenAI adds verified business profiles and AI agents to ChatGPT Quartz",
+      "published_at": "2026-11-12T04:47:45+08:00",
+      "summary": "Amazon and Google Are Sitting on a $411 Billion Anthropic Windfall Yahoo Finance",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -531,14 +524,14 @@
     },
     {
       "code": "/n28",
-      "title": "Anthropic seeks $1.3 trillion valuation amid AI bubble fears - DW.com",
-      "title_zh_hant": "AI 泡沫憂慮之際，Anthropic 尋求 1.3 兆美元估值 - DW.com",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTlA2cjFGLVd2cE5lT0RFX0d4RGxLc0dpN1Jma1NoQndRTnQxQkRUMmw4NF9VbnM5SFJsU25SWmN2cmFQWmE5NDBWMmpxUGh1NDBlY0lBSUQ0amM4RF9YYVpPclFmSnJzREY4ZVBTX0JJMVNyV1hzUXhZem5hc2puMWM5YUxEcExNd2JWalpOdHNWRlk2S0NZYjBBTQ?oc=5",
+      "title": "Anthropic’s IPO Prospectus by the Head-Spinning Numbers - Barron's",
+      "title_zh_hant": "從令人頭暈的數字看 Anthropic 的 IPO 招股書 - Barron's",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hTWhjWmJJX1JsTUk2ZVJwWVdUOXhEb3dONVo3ZWdXNnFQei1BRkpDamxRczF6bEpNVjVDWGxYRE5mb09uN0RGRlZvUWhLS0pyZmw3dUh5TkEtZW9LUDZIaXJ4WDdQOG9WSU1VWlFVNmhwV01pUExpMzM5d0o?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T22:39:51+08:00",
-      "summary": "Anthropic seeks $1.3 trillion valuation amid AI bubble fears DW.com",
+      "published_at": "2026-11-12T04:32:00+08:00",
+      "summary": "Anthropic’s IPO Prospectus by the Head-Spinning Numbers Barron's",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -549,14 +542,14 @@
     },
     {
       "code": "/n29",
-      "title": "Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days - The Decoder",
-      "title_zh_hant": "Anthropic 稱 AI 正侵蝕 Nvidia 的 CUDA 領先優勢，將切換 AMD 晶片從數月縮短至三天 - The Decoder",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSUlLVl9MQkF2d2tNQXctbXotemNQUEJnLWJReXNYZlBRYUJWQkZoOV9aZjdKdXhHZ3N1VkhKNEprWmx3QWxGNGtnRjQ2UnZ2dS1xV2dobFRQYTN0UXBxaFdjY3JBc2tKSC1SSHJXM18tYTVTcFFhX0pxcl9SRkVwQmxLamVUbGU1Mnp0a3YtRm5kZ1U4NUkwM3BkYW01LXhBM3JtaFJVTDBuZ0FrQmJraENaUXdOdmJXbHpYNmJsNkdSQQ?oc=5",
+      "title": "Watch Massive Demand for Anthropic IPO, Megadeals After Midterms - Bloomberg.com",
+      "title_zh_hant": "關注期中選舉後 Anthropic IPO 與巨型交易的龐大需求 - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOURXem5GRDk0a3RsR2lPOC1KSVktWFRNLVFOQ3FNT1VkWi13ZlJrNWFBMUY4MnVmclV3eWoyeklGWVBUaDBxT3E5LW9sNVpJVTIxMGc3a3ZmUHZ1aUwyTi0tczMwOTVWMDVCX2NBSzBqR2FWUU5wSUpPVGxrdVg3ZW9SV25UaW5K?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T22:28:29+08:00",
-      "summary": "Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days The Decoder",
+      "published_at": "2026-11-12T04:26:29+08:00",
+      "summary": "Watch Massive Demand for Anthropic IPO, Megadeals After Midterms Bloomberg.com",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -567,14 +560,14 @@
     },
     {
       "code": "/n30",
-      "title": "RIOT Stock Sees Downgrade On ‘Substantial’ Anthropic Reliance: HUT, MARA Shares See Price Target Cuts - Yahoo Finance",
-      "title_zh_hant": "RIOT 股票因「高度」依賴 Anthropic 遭降評；HUT、MARA 目標價遭下調 - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOEdmdE1pNV9IUjJvaFBFUm5BUEQ2cU5qUmdBaVZ3dWhUeUtwWE5hZ0ZFU2hjR0wtVndMSG5fcU42Tk9KLVFmTS1KTWtKYXFjSklwTjFfal9FeG9TVTVoUHZSS1FiMTNzVDdDRjEtOXJhVmR4QWFaU2JPT3l1NUpCWE1NTWllM05JWnlCN2F0RENpVGVKbGQ2cVhSNmpYLVBDemlvcw?oc=5",
+      "title": "Google is adding Gemini voice AI to Apple CarPlay for iPhone users - Quartz",
+      "title_zh_hant": "Google 將 Gemini 語音 AI 加入 Apple CarPlay，供 iPhone 用戶使用 - Quartz",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5zaENaeXFoQXlhWUF4S1NxM2lseGlDSHpjWWJYTFM4djNHWUk5Z3pKQkdzSjRlbkpUSEpHUlFFZTFRaDN1SERVQ3JCNWprRTNRSnZYY0huTkE4N2c4MmlPbkoxcnlkRTlOV3c?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T22:25:48+08:00",
-      "summary": "RIOT Stock Sees Downgrade On ‘Substantial’ Anthropic Reliance: HUT, MARA Shares See Price Target Cuts Yahoo Finance",
+      "published_at": "2026-11-12T04:22:38+08:00",
+      "summary": "Google is adding Gemini voice AI to Apple CarPlay for iPhone users Quartz",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -585,14 +578,14 @@
     },
     {
       "code": "/n31",
-      "title": "Anthropic Cut Its IPO Target by Hundreds of Billions — Here's How Much Its Founders Will Now Likely Pocket - Entrepreneur",
-      "title_zh_hant": "Anthropic 將 IPO 目標大砍數千億美元，創辦人如今可能入袋多少？",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUmh5c3doblZkdVdfbnlRMm9iTUFhaWdfT2hMcmJEQjAxMjI4WVNvMDctQW1Fb2EtdkwwWDNITUdtUmNfN3NXMUVzN0NRZ215ejY5bXJreHFzcVNIWVl4Z0txTC1xT2t2Y0dDemZubF9EYmdwMmNsRlBTY1AyaDZTV2xIdzlFMVYyRjdsb0NJTDJQNjRncVJDWnRFSWNKZ2hWVlR6ajYyOTEtbkU4OWdZMHZwVVltVmlJdnJwMXYwS1E5LUlsR1AxOU90SDVMalBtZGdyaXRLaGpFZw?oc=5",
+      "title": "Anthropic IPO draws multiple times its share supply as demand surges: report - Cryptonews.net",
+      "title_zh_hant": "報導：需求激增，Anthropic IPO 認購倍數達發行量數倍",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Ua2N3MkVyckoxNy12Q3RjYnc4WExBaUg1ZU5aeWJLZUhST3h1Z0V5cVozQ3dZZEFiZFVLVkQ2bGZrR1RKOWh3c2ZfcTd4cUZGVklBSTk5d3E?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T22:24:37+08:00",
-      "summary": "Anthropic Cut Its IPO Target by Hundreds of Billions — Here's How Much Its Founders Will Now Likely Pocket Entrepreneur",
+      "published_at": "2026-11-12T04:21:06+08:00",
+      "summary": "Anthropic IPO draws multiple times its share supply as demand surges: report Cryptonews.net",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -603,14 +596,14 @@
     },
     {
       "code": "/n32",
-      "title": "OpenAI's revenue surges, but profitability remains elusive - Yahoo Finance",
-      "title_zh_hant": "OpenAI 營收飆升，但獲利仍遙不可及",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSU53TV92OTRYWG4yREhmUHJrNnJBZWN1dC1YdmlYaXVMRFFhellJYmdpbzg5UmRTbXg0TXhLcHMtVHozQmhfX21HMlByMDBGQ0I2aDIwWjNxZGJRcTlzRGhTUEtoVW1LS3pXcHBmVWVMOFotZU5lSE03LWFGclhQSktqbmFybkRZa0RNZDNMUWsxNTJsU0tkT1FKd3d6NnpuOF9LbjZn?oc=5",
+      "title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass - The Decoder",
+      "title_zh_hant": "Google 以 Gemini Decision 1 加入決策模型浪潮，單次可為 1,000 道題評分",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVGwwYm5fZTkzVlIza1pxV2hkLXFXQVFBRzdXYkNuMGk4QTlNeGVvbWE0MDZCMjRoQ2J1Zm9sd05HUmszQmRNQ3QtbkZTZGFjZEE4WkJYTXpjN1ZxWDludl8xTC1MQ1k5bE1vdFlab0lFSThCVkZZRGRKSGFtdTVBRFIzZW4xSEFYVHNzaktPT0RIVlFNMEpZeGlMS2lFX1BNa1dyaVRubk1fMk9iQUgxS3hTVEozVXBWSGZ0c2NtcnNpdw?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T22:24:00+08:00",
-      "summary": "OpenAI's revenue surges, but profitability remains elusive Yahoo Finance",
+      "published_at": "2026-11-12T04:18:29+08:00",
+      "summary": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass The Decoder",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -621,918 +614,90 @@
     },
     {
       "code": "/n33",
-      "title": "Broadcom's $161 Billion Anthropic Lease Is the Real AI Bet - Money Morning",
-      "title_zh_hant": "Broadcom 的 1,610 億美元 Anthropic 租約才是真正的 AI 押注",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZVhqV3JsRjVOQU85OVhLeGJmc0lFekEtQ3lZbDJLWl9aVXN3WFVUeEZXWDBnWGl2VEo1YjA2SkJhRjhGM3RtWEVpVl8tb25DUzlHMVhrODhObFlyaWZzbGJwMkVMTEhqNWMwRy1mZXJqYnVtNjRJUF93WWRuaGNMUWpTeEp5bGo5ZjJEVXhWcmtlLWp3WUw5V1JYUG9XOU8w?oc=5",
-      "source": "AI Industry via Google News",
+      "title": "Trust, but verify, audit and attribute: a human-in-the-loop framework for checking AI-produced research results",
+      "title_zh_hant": "信任但驗證、審計與歸因：查核 AI 研究成果的人機協作框架",
+      "link": "https://arxiv.org/abs/2611.13042",
+      "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T22:15:17+08:00",
-      "summary": "Broadcom's $161 Billion Anthropic Lease Is the Real AI Bet Money Morning",
-      "importance_score": 76,
+      "published_at": "2026-11-11T13:00:00+08:00",
+      "summary": "arXiv:2611.13042v1 Announce Type: new Abstract: Artificial intelligence (AI) systems now produce research results in bulk: in October 2026 a single laboratory released more than 700 AI-generated mathematics manuscripts,...",
+      "importance_score": 75,
       "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
+        "source:arxiv+20",
+        "fresh:<=24h+4",
         "category:ai_intelligence+10",
-        "frontier model / release+25"
+        "frontier model / release+25",
+        "research / paper+16"
       ]
     },
     {
       "code": "/n34",
-      "title": "Anthropic's IPO is said to be multiple times oversubscribed as roadshow gets under way - Quartz",
-      "title_zh_hant": "據稱 Anthropic IPO 超額認購數倍，路演正式展開",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKWGZ4ck1uamZJQ3p5MmN3eVFwQ1dyQjMzd0VXV3M3ZmljNHlCM2daclNuN0pBdzlzLXZpb2Y4THdVNVpna0Rpc0FYQ3hxTjJWcFBEMWdodjFNZ2o5Y0xTUS0yNW94MUt4cllBaUVnby0yRUZa?oc=5",
-      "source": "AI Industry via Google News",
+      "title": "Reliability of Claude Code as an Agentic AI Grading System for Handwritten University Exams",
+      "title_zh_hant": "Claude Code 作為手寫大學考卷代理式 AI 評分系統的可靠性",
+      "link": "https://arxiv.org/abs/2611.13217",
+      "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T22:08:36+08:00",
-      "summary": "Anthropic's IPO is said to be multiple times oversubscribed as roadshow gets under way Quartz",
-      "importance_score": 76,
+      "published_at": "2026-11-11T13:00:00+08:00",
+      "summary": "arXiv:2611.13217v1 Announce Type: new Abstract: This study examines the reliability of Claude Code, an agentic deployment of the Claude Opus 4.6 large language model, as a grading system for handwritten university exams...",
+      "importance_score": 75,
       "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
+        "source:arxiv+20",
+        "fresh:<=24h+4",
         "category:ai_intelligence+10",
-        "frontier model / release+25"
+        "frontier model / release+25",
+        "research / paper+16"
       ]
     },
     {
       "code": "/n35",
-      "title": "Anthropic’s Drug Discovery Dreams: ‘It Is Not A Side Effort’ - Forbes",
-      "title_zh_hant": "Anthropic 的藥物探索夢：「這不是副業」",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWHlvUzljLURLYVJfOEp0dXVWV21YN0dxRkMyRklNNmg3b29nZHpMd2E2Y0pUSFhSdkUyUEtsMnQzZkl2QzN4RmZvY29taFd5c2dZMWI3NkdCcWo5YXpmbVZfcmo3bUo5MURzamtyeUs4enM2Mm0zeDYtXzNwOTJRWHdVaGlDbndpMGpfcmRaOGpwZ2JaZzN5cUR0ZnBxSmFpeUFsQ0E0dkNvdzJWNWZV?oc=5",
-      "source": "AI Industry via Google News",
+      "title": "A Multi-Word Tokenizer for 204 Languages That Needs Fewer Tokens Than GPT-4o's, Including on English",
+      "title_zh_hant": "支援 204 種語言的多詞分詞器：所需 token 比 GPT-4o 更少，英語亦同",
+      "link": "https://arxiv.org/abs/2611.13059",
+      "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T22:00:00+08:00",
-      "summary": "Anthropic’s Drug Discovery Dreams: ‘It Is Not A Side Effort’ Forbes",
-      "importance_score": 76,
+      "published_at": "2026-11-11T13:00:00+08:00",
+      "summary": "arXiv:2611.13059v1 Announce Type: cross Abstract: Languages of India need 1.6 to 14 times as many tokens as English on GPT-4o's tokenizer for the same content, which makes them more expensive and slower to serve. We tra...",
+      "importance_score": 75,
       "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
+        "source:arxiv+20",
+        "fresh:<=24h+4",
         "category:ai_intelligence+10",
-        "frontier model / release+25"
+        "frontier model / release+25",
+        "research / paper+16"
       ]
     },
     {
       "code": "/n36",
-      "title": "Anthropic sets a $1.4 trillion IPO target, but bankers may already be aiming higher - Fortune",
-      "title_zh_hant": "Anthropic 設定 1.4 兆美元 IPO 目標，但銀行家可能已瞄準更高",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU2tMZUJ2b3k0ZVNZd09tVmU3RDY5bzdKUnNXd0hkU0JLN3JmcG83dkJET05oU0xvV0dodV95a3MyT0NUM0RmcS1fbDUtRGRTUGJpZjJhVXE3VnlVUTUyV0twLTJpRG1KODkwVWpXZFZKMzloWEVSZmRyQk1LUXZyQ2ZTSERGcDRHb3ZYQXpsVHdfd3kzcFR6OGxOcVlfQ3dMV0pBSEh5bkFPMUlTSWx3MmU3dk50ak9y?oc=5",
-      "source": "AI Industry via Google News",
+      "title": "Transparency Disclosures for Chain-of-Thought Monitorability",
+      "title_zh_hant": "思維鏈可監測性的透明度揭露",
+      "link": "https://arxiv.org/abs/2611.13873",
+      "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T21:59:00+08:00",
-      "summary": "Anthropic sets a $1.4 trillion IPO target, but bankers may already be aiming higher Fortune",
-      "importance_score": 76,
+      "published_at": "2026-11-11T13:00:00+08:00",
+      "summary": "arXiv:2611.13873v1 Announce Type: cross Abstract: Chain-of-thought (CoT) monitoring is one of the most valuable tools for monitoring advanced AI systems, but it is under threat. We argue that frontier AI developers shou...",
+      "importance_score": 75,
       "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
+        "source:arxiv+20",
+        "fresh:<=24h+4",
         "category:ai_intelligence+10",
-        "frontier model / release+25"
+        "frontier model / release+25",
+        "research / paper+16"
       ]
     },
     {
       "code": "/n37",
-      "title": "Anthropic Trades at 94 Times Earnings. So What? - marketscreener.com",
-      "title_zh_hant": "Anthropic 以 94 倍本益比交易，那又怎樣？",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPek9vTVJySVRkUU9DTHBnbFN5OEFkQjFuSU83ZlQ5enkzZ0tFZ0FwOU9WN3k1X3l6d1ZYWmlXWERaODI1ZG8waWlndklMMWNSeDlXU3pUR00zcUxyeWhfSkNVdFdYeUdpaUdxZ0owZ2dJR3c1eF8yVGJ0RXR0cjY3ZlNHVzR3RXVIOXN3QUR3c29VUTdKaTFFbGhyY1dnRmM?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T21:54:59+08:00",
-      "summary": "Anthropic Trades at 94 Times Earnings. So What? marketscreener.com",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n38",
-      "title": "Anthropic’s I.P.O. and the Clubby Business of A.I. - The New York Times",
-      "title_zh_hant": "Anthropic 的 IPO 與 AI 的俱樂部式生意",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU2JLM2NpM2tmaXR1MTJvb0VXczItSHBOaTdacGVsSDRPRzBHbWJYLTk4ZWY3enJISGdreml2aElvRk5oYm9UbWsxRWRxcnVCc0xobHJtYW1tSzhwRmhZUWE3Vmt2MlNTSTVuVS1hUzlTLVBQaFMyQ2hpS24yWlNOM0czR2Y?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T21:40:36+08:00",
-      "summary": "Anthropic’s I.P.O. and the Clubby Business of A.I. The New York Times",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n39",
-      "title": "Anthropic to give $50M to charity, as it seeks $1.3 trillion valuation - KTVU",
-      "title_zh_hant": "Anthropic 將捐 5,000 萬美元做公益，同時尋求 1.3 兆美元估值",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbndCVXpNNmhzRHVvS3lnb0F5OFdPMUlSZUVMMlBvRTB0WTFSWHRGRDlpNzhCSm9FVm95OER1dVhrdVNZREVTNTJFQVo3bV96Tk52N01ieEc0aktwRTc3TlctRDJXVGo4TWZwNTQ1Uzc2dUdTc1BoSEhGakJDZWJ6UVBicHpVQmF3ZUlYQkxTOGt3bUhtYUNEWmdJb0FXYkdOZ2I0aWNsU2VibDhfUjlfVVdYYVRlQ0VQMzhQM0JDMDQ1Zw?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T21:34:28+08:00",
-      "summary": "Anthropic to give $50M to charity, as it seeks $1.3 trillion valuation KTVU",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n40",
-      "title": "COMMENTARY: Bond storm of 2026 may be passing, but Fed gusts linger - Reuters",
-      "title_zh_hant": "評論：2026 年債券風暴可能正在過去，但 Fed 餘風仍存",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV0x0ak5pTlFSejJaTk96eW5PRW9paVN2d3NTaWRtdlJvZWZtTFJtbzVNR0hOR3ZZX1NkcnVRZExPYjhuMW52WTVlaUUtNkdtVWRvdEF3NXNoOXVrZF82RV9uN3NnenVTREpVQXBVSU1uSEZ4OHpOR2p4ZGpQUklBVVM3VFZMQmc5T2xUMS1rYkFnTG8wYTJreUZPU2d3YXpkaUpEajJnYVNYVkhiOV9UaFRSeU1udUE?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-11T15:00:00+08:00",
-      "summary": "COMMENTARY: Bond storm of 2026 may be passing, but Fed gusts linger Reuters",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=12h+10",
-        "category:markets+8",
-        "rates / central banks+20",
-        "market move+16"
-      ]
-    },
-    {
-      "code": "/n41",
-      "title": "Gold gains after steep drop, but hawkish central bank signals weigh - Reuters",
-      "title_zh_hant": "金價暴跌後回升，但央行鷹派訊號構成壓力",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUkZNV2RySHI5TXJ4YTBhNlNpTllnVXUyRk9CNzBrLXBLWFc3OTlOM0Y1MUVDcGRhS1pQU1oxR3hveVE5VWRfVGF1aTR4Z0lhcWJjbGV4Ym93cDdqb09JQlpFdC10cW9FUkVBX0NPVFFyOTdxSV81Z0RWUEx4UkdITjNwUnRHUmdDbmg5a0F5QmZXRzdjWGZzeXJsdUNUbDRKM3NvU0VGVGQ?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-11T11:39:00+08:00",
-      "summary": "Gold gains after steep drop, but hawkish central bank signals weigh Reuters",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=12h+10",
-        "category:markets+8",
-        "rates / central banks+20",
-        "market move+16"
-      ]
-    },
-    {
-      "code": "/n42",
-      "title": "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem - Reuters",
-      "title_zh_hant": "評論：升息 2 碼？Warsh 的 Fed 有溝通問題",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVmdEZENBbDFmNjBmQ1lkUUdxbTUwZlZCZDF0MUo5cXZCTzMxNmdORWpkWl9WX1RucHdsR0VuSWhLOXhSYjZTYUstRFl6WWJ6V3JYallmel9vc0xhS2VGa0EwVGRkdE95MEVlU3RLb3owb0cweERFQUxXaFRqNXJiYURqN2F0WEVWSVY1SzkxbzVqN2V1NlMyMUxXTG1SQ0VEZUZZQm43SUxlbWpRSG15TVhRdUJDdXF5Q1laUmV1MGg?oc=5",
+      "title": "NEWSLETTER: Nvidia drama revives chip export ban debate - Reuters",
+      "title_zh_hant": "電子報：Nvidia 風波重啟晶片出口禁令辯論",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVERVMHpGRTdJWkp4X1FKTTk2N3VEQjhrRVRJSklGY0poVEM3a3dybHVpcW9yZzZGMmN3YlNYUFRZcnRCVWZ0VWtMakdadUg2NWpLZHhEdVZNd1U5X2t1SExpLUpRZ2FZb3pXbWJleG5qSjhSeWhpZXlFTl8zMUsyMV9kUTlpOUFfSGEzblBwVk5pWjZiQzVjWXh5d2psR3lnSzFiRVJzYUhwQmhmejJ0R3dmX0k?oc=5",
       "source": "Reuters Taiwan Supply Chain via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-11-11T22:02:23+08:00",
-      "summary": "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem Reuters",
-      "importance_score": 75,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=2h+25",
-        "category:markets+8",
-        "rates / central banks+20"
-      ]
-    },
-    {
-      "code": "/n43",
-      "title": "US federal employees to work in Taiwan government offices under scheme to strengthen ties - Reuters",
-      "title_zh_hant": "美國聯邦雇員將進駐台灣政府辦公室，以強化雙邊關係",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNN2NpOWxKOEdIcDkzeElRQWNmX2RJRWpCcGtETmFEZlZJRmlaZ1ZMQW9EMV9Sa0N1WWtVUkRaUVh2VkJKcWQ1QjhFRkt6NTlXa2ZnRGJrMTkySV9NMXBDZXNQOVM2R1VLTTRFZUNjTzFYMEZ5TnljMVlHY19fS0ZreXVMeXJPeEdWbVJpNDJQYWZjTGtCMFR1SExyenpLZnJOT3hWQkZmRWFsbWd1dzNTV2x2ak11di1aTVUzbmQ0QlpDUV9lWjBwQkJqWXM3dw?oc=5",
-      "source": "Reuters Top via Google News",
-      "category_key": "breaking",
-      "category_label": "突發重點",
-      "published_at": "2026-11-11T13:55:00+08:00",
-      "summary": "US federal employees to work in Taiwan government offices under scheme to strengthen ties Reuters",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=12h+10",
-        "category:breaking+8",
-        "semiconductors / Taiwan supply chain+18",
-        "policy / regulation+16"
-      ]
-    },
-    {
-      "code": "/n44",
-      "title": "Graph Visualizations in Prompts for Knowledge Graph Question Answering",
-      "title_zh_hant": "知識圖譜問答提示中的圖形視覺化",
-      "link": "https://arxiv.org/abs/2611.12938",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.12938v1 Announce Type: new Abstract: We study when and how multimodal input improves knowledge graph question answering (KGQA) in large vision--language models. Using a controlled evaluation over 1,500 WebQSP...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n45",
-      "title": "Tabular Foundation Models vs Tuned Gradient Boosting for Telecom Churn: A Profit- and Calibration-Aware Evaluation",
-      "title_zh_hant": "表格基礎模型 vs 調校式梯度提升於電信客戶流失：兼顧利潤與校準的評估",
-      "link": "https://arxiv.org/abs/2611.12942",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.12942v1 Announce Type: new Abstract: Tabular foundation models (TFMs) predict from a labelled context in a single forward pass. A recent benchmark reported that they decisively outperform tree ensembles for c...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n46",
-      "title": "Agent Architecture Cost-Success Trade-offs: A Controlled Evaluation across Enterprise-Style SOPs",
-      "title_zh_hant": "代理架構的成本與成功率取捨：跨企業式 SOP 的受控評估",
-      "link": "https://arxiv.org/abs/2611.12953",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.12953v1 Announce Type: new Abstract: Enterprises increasingly use large language model agents to execute standard operating procedures (SOPs): long, branching, tool-intensive workflows. Yet there is little co...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n47",
-      "title": "BuySideFlow: A Point-in-Time Benchmark for LLM Agents in Investment Research",
-      "title_zh_hant": "BuySideFlow：投資研究中 LLM 代理的時點基準",
-      "link": "https://arxiv.org/abs/2611.12966",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.12966v1 Announce Type: new Abstract: Large language models (LLMs) can generate SQL and SQL--Python workflows for investment research, but ensuring point-in-time (PIT) validity remains challenging. Agents must...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n48",
-      "title": "TrustMod-SM: A Multi-Axis Benchmark for Evaluating Trustworthiness of LLMs in Social Media Content Moderation",
-      "title_zh_hant": "TrustMod-SM：評估 LLM 在社群媒體內容審核可信度的多軸基準",
-      "link": "https://arxiv.org/abs/2611.12970",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.12970v1 Announce Type: new Abstract: Large Language Models (LLMs) show strong potential for social media content moderation, but their trustworthiness beyond overall accuracy remains underexplored. We introdu...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n49",
-      "title": "Elicitation of the parameters of a multi-criteria sorting model",
-      "title_zh_hant": "多準則分類模型參數之引出",
-      "link": "https://arxiv.org/abs/2611.13062",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13062v1 Announce Type: new Abstract: Multiple-criteria decision aiding (MCDA) proposes models and methods for different types of decision problems such as choice, ranking or sorting. Such models involve vario...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n50",
-      "title": "Agent Benchmarks Stop Ranking Before They Run Out of Tasks",
-      "title_zh_hant": "代理基準在任務耗盡前就停止排名",
-      "link": "https://arxiv.org/abs/2611.13541",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13541v1 Announce Type: new Abstract: Data-science and ML-engineering agents are evaluated on benchmarks such as MLE-bench, ALE-Bench, SWE-fficiency and AlgoTune, whose tasks yield a quantity (a Kaggle metric,...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n51",
-      "title": "Ceci n'est pas une pipe -- Toward a Symbolic Solver for the Abstraction and Reasoning Corpus Using Evolutionary Computation",
-      "title_zh_hant": "「這不是煙斗」：以演化計算走向 ARC 的符號求解器",
-      "link": "https://arxiv.org/abs/2611.13831",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13831v1 Announce Type: new Abstract: The Abstraction and Reasoning Corpus (ARC) is a benchmark designed to assess the capability of Artificial Intelligence (AI) systems to generalize starting from a few sampl...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n52",
-      "title": "Beyond Proxy Metrics: MLLMs as Human Surrogates for Explainable AI Evaluation",
-      "title_zh_hant": "超越代理指標：以多模態 LLM 作為可解釋 AI 評估的人類替代",
-      "link": "https://arxiv.org/abs/2611.13926",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13926v1 Announce Type: new Abstract: Explainable AI (XAI) has expanded into a broad and impactful research area, but the fundamental question of how best to evaluate explanation techniques has proven frustrat...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n53",
-      "title": "Hx2Dx: From Anamnesis to Diagnosis - A Multimodal Arena for Conversational Clinical Reasoning in LLMs",
-      "title_zh_hant": "Hx2Dx：從病史到診斷——LLM 對話式臨床推理的多模態競技場",
-      "link": "https://arxiv.org/abs/2611.14122",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.14122v1 Announce Type: new Abstract: Large language models (LLMs) achieve expert-level diagnostic accuracy in static evaluations, where the model receives a curated vignette or case report that already conden...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n54",
-      "title": "LM-SimBench: A Unified Framework, Dataset, and Benchmark for Large Language Model Training Simulation",
-      "title_zh_hant": "LM-SimBench：大型語言模型訓練模擬的統一框架、資料集與基準",
-      "link": "https://arxiv.org/abs/2611.14285",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.14285v1 Announce Type: new Abstract: Evaluating candidate parallelization strategies through distributed training runs makes strategy selection prohibitively expensive at scale. Performance simulation offers...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n55",
-      "title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
-      "title_zh_hant": "代理評估框架比較分析：企業分析代理的穩定性、偵測與發現",
-      "link": "https://arxiv.org/abs/2611.14493",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.14493v1 Announce Type: new Abstract: Deploying LLM-based analytics agents in enterprise settings requires evaluation frameworks that can reliably detect failures across complex, multi-tool workflows. We prese...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n56",
-      "title": "Brasilidade: Measuring Brazilian Identity for Large Language Models",
-      "title_zh_hant": "Brasilidade：衡量大型語言模型的巴西認同",
-      "link": "https://arxiv.org/abs/2611.12906",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.12906v1 Announce Type: cross Abstract: This work presents a new benchmark that aims to address the limitations of current methods for evaluating LLMs in Brazilian Portuguese. We introduced Brasilidade, an ass...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n57",
-      "title": "Compile-Gated Lean Proof Refactoring with Enterprise Agent Practices: A Model per Step under a US\\$3 Cap, Followed by Programmatic Rewrite Rules",
-      "title_zh_hant": "編譯閘控的 Lean 證明重構與企業代理實務：每步一個模型、上限 3 美元，隨後套用程式化重寫規則",
-      "link": "https://arxiv.org/abs/2611.13011",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13011v1 Announce Type: cross Abstract: Our closed-track entry (Arena username Vexorium-Agent) scored 86.31 points on the final board (L = 77.07, H = 81.86, Z = 100) over the 60 final problems, against 33.33 f...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n58",
-      "title": "GTAGym: Real AAA Game Tasks Environment for Evaluation and Reinforcement Learning",
-      "title_zh_hant": "GTAGym：用於評估與強化學習的真實 AAA 遊戲任務環境",
-      "link": "https://arxiv.org/abs/2611.13028",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13028v1 Announce Type: cross Abstract: AAA games offer a rich testbed for evaluating agent perception, reasoning, and control. However, evaluating whether agents can complete tasks in AAA games is challenging...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n59",
-      "title": "How Much of Your VLA Is kNN",
-      "title_zh_hant": "你的 VLA 有多少是 kNN？",
-      "link": "https://arxiv.org/abs/2611.13160",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13160v1 Announce Type: cross Abstract: Vision-language-action (VLA) models now exceed 95% success on the LIBERO simulation benchmark, yet it remains unclear how much of this performance requires generalizatio...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n60",
-      "title": "When Are Predictions Enough? An Evaluation Protocol for Frozen Expert Composition",
-      "title_zh_hant": "預測何時足夠？凍結專家組合的評估協議",
-      "link": "https://arxiv.org/abs/2611.13356",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13356v1 Announce Type: cross Abstract: Practitioners often combine independently trained models while keeping their weights frozen. These experts are commonly combined through their final predictions, althoug...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n61",
-      "title": "The Dose Makes the Poison: Exposure-Aware Evaluation of Generative Drug Design",
-      "title_zh_hant": "劑量決定毒性：生成式藥物設計的暴露感知評估",
-      "link": "https://arxiv.org/abs/2611.13398",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13398v1 Announce Type: cross Abstract: Generative models are increasingly used to propose molecules for drug discovery. They can produce far more candidates than can be experimentally tested, making computati...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n62",
-      "title": "PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text-to-Video Generation",
-      "title_zh_hant": "PhyRubric：以評分規準為基礎的文本轉影片生成物理常識診斷評估",
-      "link": "https://arxiv.org/abs/2611.13576",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13576v1 Announce Type: cross Abstract: As text-to-video (T2V) models are increasingly positioned as world simulators, it is essential to evaluate whether their videos conform to physical commonsense. However,...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n63",
-      "title": "PolyRoute: A Twelve-Language and Code-Mixed Benchmark for Typed-Decision Routing, with Baselines and a Leaderboard",
-      "title_zh_hant": "PolyRoute：十二種語言與語碼混合的型別化決策路由基準，含基線與排行榜",
-      "link": "https://arxiv.org/abs/2611.13843",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13843v1 Announce Type: cross Abstract: Typed-decision encoders answer a question about a text in one forward pass, but their behaviour outside English is rarely measured on a fixed yardstick. We release PolyR...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n64",
-      "title": "Chem World: A Large-Scale Benchmark and Physics-Aware Framework for Trustworthy Molecular Property Prediction",
-      "title_zh_hant": "Chem World：可信分子性質預測的大型基準與物理感知框架",
-      "link": "https://arxiv.org/abs/2611.13945",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13945v1 Announce Type: cross Abstract: Molecular property prediction is fundamental to computational chemistry and drug formulation research, yet existing benchmarks remain fragmented across datasets, propert...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n65",
-      "title": "Ninety-Six Ways to Measure a Scribe: Fragmented Evaluation of Ambient Scribes in Healthcare",
-      "title_zh_hant": "九十六種衡量抄寫員的方法：醫療環境抄寫員的碎片化評估",
-      "link": "https://arxiv.org/abs/2611.14284",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.14284v1 Announce Type: cross Abstract: Ambient artificial intelligence (AI) scribes have moved rapidly from experimental pilots to enterprise-wide deployment across health systems, promising reduced documenta...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n66",
-      "title": "AI Isn't Getting Dumber, We're Getting Pickier: Rising Standards in Human Evaluation of Large Language Models",
-      "title_zh_hant": "AI 不是變笨，是我們變挑剔：大型語言模型人工評估標準日益提高",
-      "link": "https://arxiv.org/abs/2611.14333",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.14333v1 Announce Type: cross Abstract: Users often complain that AI assistants such as ChatGPT are getting worse. Some versions do change, but human evaluation leaves a second possibility untested: the people...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n67",
-      "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
-      "title_zh_hant": "一套策略搞定 100 項家務：我們對 2026 BEHAVIOR 挑戰賽的解法",
-      "link": "https://arxiv.org/abs/2611.14432",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.14432v1 Announce Type: cross Abstract: We describe our solution for the 2026 BEHAVIOR Challenge: 100 long-horizon household tasks in the OmniGibson simulator. We placed 9th on the final leaderboard, the only...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n68",
-      "title": "Messier: A High-Resolution Corpus for Cross-Benchmark Agent Evaluation",
-      "title_zh_hant": "Messier：用於跨基準代理評估的高解析度語料庫",
-      "link": "https://arxiv.org/abs/2607.25891",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2607.25891v3 Announce Type: replace Abstract: Comprehensively evaluating AI agents across interactive environments is difficult due to fragmented tasks, scaffolds, verifiers, and scoring rules. Unfortunately, exis...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n69",
-      "title": "MoveBench: A Rubric-Based Benchmark for Evaluating Large Language Models in Sports and Health Coaching",
-      "title_zh_hant": "MoveBench：以評分規準評估大型語言模型於運動與健康指導的基準",
-      "link": "https://arxiv.org/abs/2610.26185",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2610.26185v3 Announce Type: replace Abstract: Despite rapid advances in large language models (LLMs), their deployment in the sports and health domain remains high-risk due to the absence of domain-specific evalua...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n70",
-      "title": "Kierston & KierstonBench: Simulation of Allentown, PA and Evaluation of Language Models in Crime Investigation and Surveillance Tasks",
-      "title_zh_hant": "Kierston 與 KierstonBench：賓州阿倫敦模擬及語言模型於犯罪調查與監控任務的評估",
-      "link": "https://arxiv.org/abs/2611.04785",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.04785v2 Announce Type: replace Abstract: Large language models are candidates for collecting and analyzing records in criminal investigations and mass surveillance. Their capability and accuracy in this work...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n71",
-      "title": "Circe: Training-Free LLM Self-Evaluation via Component Interaction Consistency",
-      "title_zh_hant": "Circe：透過元件互動一致性進行免訓練的大型語言模型自我評估",
-      "link": "https://arxiv.org/abs/2611.07948",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.07948v2 Announce Type: replace Abstract: As large language models (LLMs) are increasingly deployed in real-world applications, evaluating the correctness of their responses is crucial for reliable use. Howeve...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n72",
-      "title": "Knowing When to Intervene: Causal Evaluation of AI Agents",
-      "title_zh_hant": "知道何時介入：AI 代理的因果評估",
-      "link": "https://arxiv.org/abs/2611.09792",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.09792v2 Announce Type: replace Abstract: Current evaluations of agentic AI systems primarily rely on benchmarks. However, the static nature of benchmarks makes them uninformative about the value of auditing i...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n73",
-      "title": "Agentic discrete-event simulation for manufacturing system design: an open 3D simulator, a benchmark and an industrial case",
-      "title_zh_hant": "製造系統設計的代理式離散事件模擬：開放 3D 模擬器、基準與產業案例",
-      "link": "https://arxiv.org/abs/2611.10602",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.10602v2 Announce Type: replace Abstract: The design of manufacturing systems relies on discrete-event simulation (DES) models that experts still build in tool-specific interfaces. AI agents can now write simu...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n74",
-      "title": "FinCutBench: A Continually Updated Benchmark for Measuring the Temporal Boundaries of LLM Financial Knowledge",
-      "title_zh_hant": "FinCutBench：持續更新、用以衡量大型語言模型金融知識時間邊界的基準",
-      "link": "https://arxiv.org/abs/2611.11588",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.11588v2 Announce Type: replace Abstract: In financial backtesting and other point-in-time tasks, external inputs can be restricted by date, but model parameters may retain financial facts disclosed later, int...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n75",
-      "title": "Specification-based Security Evaluation of Real-World Agents Tool-Calling under Long-Horizon Context Tasks",
-      "title_zh_hant": "基於規格的長時程脈絡任務下真實世界代理工具呼叫安全評估",
-      "link": "https://arxiv.org/abs/2506.15253",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2506.15253v2 Announce Type: replace-cross Abstract: As large language model (LLM) agents are increasingly deployed in long-horizon unattended scenarios, security evaluation of them before deployment becomes increa...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n76",
-      "title": "OmniReview: A Large-scale Benchmark and LLM-enhanced Framework for Realistic Reviewer Recommendation",
-      "title_zh_hant": "OmniReview：真實審稿人推薦的大規模基準與大型語言模型增強框架",
-      "link": "https://arxiv.org/abs/2602.08896",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2602.08896v2 Announce Type: replace-cross Abstract: Academic peer review remains the cornerstone of scholarly validation, yet the field faces some challenges in data and methods. From the data perspective, existin...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n77",
-      "title": "Decentralized Ranking Aggregation via Gossip: Convergence and Robustness",
-      "title_zh_hant": "透過 Gossip 的分散式排名聚合：收斂性與穩健性",
-      "link": "https://arxiv.org/abs/2602.22847",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2602.22847v3 Announce Type: replace-cross Abstract: The concept of ranking aggregation plays a central role in preference analysis, and numerous algorithms for calculating median rankings, often originating in soc...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n78",
-      "title": "With Tools or Because of Tools? Tracing Capability Gains in Multimodal Agents",
-      "title_zh_hant": "有工具，還是因為工具？追蹤多模態代理的能力增益",
-      "link": "https://arxiv.org/abs/2606.02357",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2606.02357v3 Announce Type: replace-cross Abstract: Tool-augmented multimodal agents show strong benchmark gains, often taken as evidence that agents have learned to use tools. We argue that this interpretation ca...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n79",
-      "title": "BEiTScore++: Reference-free Image Captioning Evaluation with BEiT-3 and Conformalized Quantile Regression",
-      "title_zh_hant": "BEiTScore++：結合 BEiT-3 與保形化分位數迴歸的無參考影像字幕評估",
-      "link": "https://arxiv.org/abs/2611.09505",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.09505v2 Announce Type: replace-cross Abstract: Reliable uncertainty estimation is important for deploying evaluation metrics in real-world settings, where both input ambiguity and domain shifts are common. In...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n80",
-      "title": "CulturalCrosswords: A Multilingual Benchmark of Answer Constraints and Grid Completion",
-      "title_zh_hant": "CulturalCrosswords：答案限制與填字格完成度的多語言基準",
-      "link": "https://arxiv.org/abs/2611.10044",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.10044v2 Announce Type: replace-cross Abstract: When several answers fit a riddle, exact-match scoring can penalise a valid response. CulturalCrosswords tests how answer constraints affect large language model...",
-      "importance_score": 74,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "benchmark / evaluation+18",
-        "research / paper+16"
-      ]
-    },
-    {
-      "code": "/n81",
-      "title": "UK-backed AI chip startup Fractile hits $7 billion valuation in funding round - Reuters",
-      "title_zh_hant": "英國支持的 AI 晶片新創 Fractile 募資輪估值達 70 億美元 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU0V1VVc2X0ppTUpCU0lET0pMdzV1YjFLbV83a0luR0VCdmVFN0g0ZzFzZXpZeWdWMjBNWVppUWV5QlNNYkFEdkY3QnJadVhleU5saHFaMk1USXRUZkpoTGEzeE9rejdTbGFnYVVMdk5DZVBLWlFuNnlKZi0wRnR2cE96UlRTWXluUGdpME53bkEtQWZPSGowd2l5OXU0WVM2ZHZ0OXlHSW5KZjFuUFVSYWpSZWlobFZJSnNiblE1YVZSc0ozVlNJaA?oc=5",
-      "source": "Reuters Taiwan Supply Chain via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-11T22:53:25+08:00",
-      "summary": "UK-backed AI chip startup Fractile hits $7 billion valuation in funding round Reuters",
+      "published_at": "2026-11-12T06:00:00+08:00",
+      "summary": "NEWSLETTER: Nvidia drama revives chip export ban debate Reuters",
       "importance_score": 73,
       "importance_reasons": [
         "source:reuters+22",
@@ -1542,618 +707,47 @@
       ]
     },
     {
-      "code": "/n82",
-      "title": "CoreWeave provides silver lining for neoclouds as Nvidia storm swirls",
-      "title_zh_hant": "輝達風暴席捲之際，CoreWeave 為新興雲端業者帶來一線希望",
-      "link": "https://www.cnbc.com/2026/11/11/coreweave-provides-silver-lining-for-neoclouds-as-nvidia-storm-swirls.html",
-      "source": "CNBC Technology",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-11-11T19:56:11+08:00",
-      "summary": "Huang's close ties to the White House are in the firing line",
-      "importance_score": 72,
+      "code": "/n38",
+      "title": "How Nvidia CEO Jensen Huang got entangled in a China chip and spy scandal - Reuters",
+      "title_zh_hant": "Nvidia 執行長黃仁勳如何捲入中國晶片與間諜醜聞",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTVJmZ25HVWdCdEZubWhDTWI1WnM3TzAwc2JObjJlMVBENUZTOElPYUJXUXUxQjAwN3VoaHlkcENWYk9GbGJudDBGQmNnRWNMU0Y4Mmx1cmxxSGxjc1hhQ0g2dkFPYkNjTXIyYkNydVN0QzdrRnNUdHF0UEhyMV8xWTlMMGlVcjgzVkFQdGFzZWRjaUljQTI3VU1xcGF4WktRQllTbEwwMlVwN2JNeDlOZTFn?oc=5",
+      "source": "Reuters Taiwan Supply Chain via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-12T04:59:43+08:00",
+      "summary": "How Nvidia CEO Jensen Huang got entangled in a China chip and spy scandal Reuters",
+      "importance_score": 73,
       "importance_reasons": [
-        "source:cnbc+14",
-        "fresh:<=6h+18",
-        "category:business_tech+6",
-        "semiconductors / Taiwan supply chain+18",
-        "policy / regulation+16"
+        "source:reuters+22",
+        "fresh:<=2h+25",
+        "category:markets+8",
+        "Taiwan supply chain+18"
       ]
     },
     {
-      "code": "/n83",
-      "title": "Tracing Psychometric Inference in Large Language Models",
-      "title_zh_hant": "追蹤大型語言模型中的心理計量推論",
-      "link": "https://arxiv.org/abs/2611.12937",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.12937v1 Announce Type: new Abstract: Do large language models represent psychological constructs internally, or do they only generate outputs that resemble psychometric structure? We address this question usi...",
+      "code": "/n39",
+      "title": "Goldman adds another rate hike to Fed outlook after hot inflation data - Reuters",
+      "title_zh_hant": "通膨數據升溫後，高盛對聯準會展望再添一次升息",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaGZrcC11RmpmMVp3a09iZl9aR2N6TDVFV2d1eE50MzBMT0hkZFMtbXFteWFvcDBnSEM0MXdhWFJmM0d4eXZNVFMtNDA2VHozS0UyeEdWcGtQanctN3pxdVVVeWRacnFxS2d3N1I1MktUbUVISWhwZ0VibFgtTWVUX0ZtelYwSmJMQXdUbDJqZmxPMklpS2c?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-11T12:58:00+08:00",
+      "summary": "Goldman adds another rate hike to Fed outlook after hot inflation data Reuters",
       "importance_score": 72,
       "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
+        "source:reuters+22",
+        "fresh:<=24h+4",
+        "category:markets+8",
+        "rates / central banks+20",
+        "macro data+18"
       ]
     },
     {
-      "code": "/n84",
-      "title": "APS-VLA: Action-Guided and Future-Aware Token Pruning for Efficient Vision-Language-Action Models",
-      "title_zh_hant": "APS-VLA：動作引導與未來感知的 token 剪枝，實現高效視覺-語言-動作模型",
-      "link": "https://arxiv.org/abs/2611.13030",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13030v1 Announce Type: new Abstract: Vision-language-action (VLA) policies have demonstrated strong generalization in robotic manipulation, yet processing dense visual tokens often incurs high inference laten...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n85",
-      "title": "Activation-Guided Graph Retrieval for Cognitive Memory Reconstruction in Language Model Systems",
-      "title_zh_hant": "活化引導的圖檢索：語言模型系統中的認知記憶重建",
-      "link": "https://arxiv.org/abs/2611.13127",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13127v1 Announce Type: new Abstract: Retrieval-augmented language model systems generally select context by query-conditioned relevance. We argue that long-lived AI systems require a second operator: activati...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n86",
-      "title": "F3-AGI v4.0: Bioenergetically-Gated Active Inference, Metaplastic Preconditioning, and Residual Program Synthesis for Sample-Efficient Abstract Reasoning",
-      "title_zh_hant": "F3-AGI v4.0：生物能量閘控主動推論、可塑性前調節與殘差程式合成，實現樣本高效抽象推理",
-      "link": "https://arxiv.org/abs/2611.13325",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13325v1 Announce Type: new Abstract: Few-shot abstract reasoning on ARC-AGI requires inducing algorithmic transformations from 2 to 5 demonstration pairs without task-specific pretraining. Because few-shot de...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n87",
-      "title": "Online-Adaptive Fuzzy Cognitive Maps for Neuro-symbolic Financial Forecasting",
-      "title_zh_hant": "線上自適應模糊認知圖於神經符號金融預測",
-      "link": "https://arxiv.org/abs/2611.13388",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13388v1 Announce Type: new Abstract: We present a neuro-symbolic framework that pairs online-adaptive Fuzzy Cognitive Maps (FCMs) with long short-term memory (LSTM) networks for financial forecasting. Financi...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n88",
-      "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
-      "title_zh_hant": "SteerDistill：透過閉環教師引導量化大型語言模型代理",
-      "link": "https://arxiv.org/abs/2611.13410",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13410v1 Announce Type: new Abstract: Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requi...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n89",
-      "title": "TreeAgent: Structure-Aware Memory Agent for Processing Long Hierarchical Data",
-      "title_zh_hant": "TreeAgent：處理長階層式資料的結構感知記憶代理",
-      "link": "https://arxiv.org/abs/2611.13946",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13946v1 Announce Type: new Abstract: Practical Web applications increasingly require agents to interpret long conversations or documents. For inputs exceeding the context windows of large language models (LLM...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n90",
-      "title": "Personalized Memory Rubrics: Learning What to Remember per User via Rubric-Guided Credit Assignment",
-      "title_zh_hant": "個人化記憶評分規準：透過評分規準引導的信用分配，學習每位使用者該記住什麼",
-      "link": "https://arxiv.org/abs/2611.14017",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.14017v1 Announce Type: new Abstract: Long-horizon personalized agents maintain an evolving memory by continuously deciding what to add, modify, or discard. However, learning an optimal update policy remains c...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n91",
-      "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
-      "title_zh_hant": "別只信記憶：證據連結記憶可減少 LLM 代理的記憶誘發退化",
-      "link": "https://arxiv.org/abs/2611.14320",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.14320v1 Announce Type: new Abstract: External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n92",
-      "title": "Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models",
-      "title_zh_hant": "位元或排列？小型本地語言模型如何分配固定推論預算：權重精度 vs. 選項順序平均",
-      "link": "https://arxiv.org/abs/2611.14413",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.14413v1 Announce Type: new Abstract: Local language models can save memory by storing weights in fewer bits, and they can reduce sensitivity to the order of answer options by averaging a few reorderings. We a...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n93",
-      "title": "One Temperature to Rule Them All?",
-      "title_zh_hant": "一個溫度參數就能主宰一切？",
-      "link": "https://arxiv.org/abs/2611.13077",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13077v1 Announce Type: cross Abstract: Inference-time sampling is a central mechanism for improving large language models, with temperature controlling the tradeoff between reliability and diversity. While re...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n94",
-      "title": "Which Successes Make Good References? Action-Sequence Alignment for Multi-Turn On-Policy Distillation",
-      "title_zh_hant": "哪些成功案例適合當參考？多輪同策略蒸餾的動作序列對齊",
-      "link": "https://arxiv.org/abs/2611.13135",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13135v1 Announce Type: cross Abstract: On-policy distillation (OPD) reduces train-inference distribution mismatch by supervising a student on its own trajectories. For multi-turn tool-use agents, conditioning...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n95",
-      "title": "STAR: Semantic-Criticality Tiered Allocation of Radio Resources via Zero-Shot Learning",
-      "title_zh_hant": "STAR：透過零樣本學習依語意關鍵性分層分配無線電資源",
-      "link": "https://arxiv.org/abs/2611.13238",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13238v1 Announce Type: cross Abstract: In remote inference, edge devices transmit high-resolution images over wireless links to a receiver, where an artificial intelligence (AI) model answers task-specific qu...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n96",
-      "title": "Adaptive Residual Quantization for Memory-Efficient Temporal Action Segmentation",
-      "title_zh_hant": "用於記憶體高效時序動作分割的自適應殘差量化",
-      "link": "https://arxiv.org/abs/2611.13262",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13262v1 Announce Type: cross Abstract: Temporal action segmentation (TAS) is commonly trained on large banks of pre-extracted frame features, but storing and replaying those features becomes a practical bottl...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n97",
-      "title": "Bursts That Outlast Themselves: Persistent Degradation in Prefix-Cached Agent Serving",
-      "title_zh_hant": "超越自身的突發：前綴快取代理服務中的持續退化",
-      "link": "https://arxiv.org/abs/2611.13412",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13412v1 Announce Type: cross Abstract: LLM agents drive inference engines with closed-loop sessions whose context grows every turn, and serving them economically depends on prefix caching: a hit costs an incr...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n98",
-      "title": "Placing LLM Lookup Tables by Per-Layer Prefetch Deadlines",
-      "title_zh_hant": "依逐層預取截止時間放置 LLM 查找表",
-      "link": "https://arxiv.org/abs/2611.13413",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13413v1 Announce Type: cross Abstract: DeepSeek-V4.1's 203 GB of Engram n-gram tables sit in host DRAM today, taking 190 of the 223 GiB a 4-GPU serving process uses. Row indices depend only on input tokens, s...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n99",
-      "title": "Free Lunch Uncertainty: Sequence-Level R\\'enyi Entropy from Particle Decoding for Adaptive LLM Reasoning",
-      "title_zh_hant": "免費午餐式不確定性：從粒子解碼取得序列級 Rényi 熵以實現自適應 LLM 推理",
-      "link": "https://arxiv.org/abs/2611.13414",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13414v1 Announce Type: cross Abstract: Quantifying uncertainty over an entire LLM completion is critical for selective prediction and adaptive compute. Zero-cost signals such as mean token entropy and log-pro...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n100",
-      "title": "Sharp Sample Complexity of KL-Regularized Reinforcement Learning",
-      "title_zh_hant": "KL 正則化強化學習的緊緻樣本複雜度",
-      "link": "https://arxiv.org/abs/2611.13480",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13480v1 Announce Type: cross Abstract: KL-regularized reinforcement learning, the objective behind maximum-entropy RL and RL from human feedback, is variational inference in the graphical model of \"control as...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n101",
-      "title": "MOAI: Module-Optimizing Architecture for non-interactive secure transformer Inference",
-      "title_zh_hant": "MOAI：用於非互動式安全 Transformer 推理的模組最佳化架構",
-      "link": "https://arxiv.org/abs/2611.13641",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13641v1 Announce Type: cross Abstract: Privacy concerns have been raised in Large Language Models (LLM) inference when models are deployed in Cloud Service Providers (CSP). Homomorphic encryption (HE) offers...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n102",
-      "title": "On Private Knowledge Retrieval and Private Inference for secure multi-agent systems",
-      "title_zh_hant": "安全多代理系統中的私有知識檢索與私有推理",
-      "link": "https://arxiv.org/abs/2611.13696",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13696v1 Announce Type: cross Abstract: Multi-agent systems provide a convenient framework for the massive deployment of agents based on Large Language Models (LLMs). It provides a sound framework where agents...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n103",
-      "title": "Bridging Graph and Pairwise Learning for Gene Regulatory Network Inference from scRNA-seq Data",
-      "title_zh_hant": "結合圖學習與成對學習，從 scRNA-seq 資料推論基因調控網路",
-      "link": "https://arxiv.org/abs/2611.13801",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13801v1 Announce Type: cross Abstract: Motivation: Gene regulatory networks (GRNs) capture the underlying interactions through which transcription factors (TFs) regulate genes. Based on gene expression data,...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n104",
-      "title": "Specify Privacy Yourself: Assessing Inference-Time Personalized Privacy Preservation Ability of Large Vision-Language Models",
-      "title_zh_hant": "自己指定隱私：評估大型視覺語言模型在推論時的個人化隱私保護能力",
-      "link": "https://arxiv.org/abs/2611.13997",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.13997v1 Announce Type: cross Abstract: Large Vision-Language Models (LVLMs) have demonstrated remarkable capabilities but raise significant privacy concerns due to their abilities to infer sensitive personal...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n105",
-      "title": "Coding Agent Memory Post-Training II: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via On-Policy Distillation",
-      "title_zh_hant": "程式代理記憶後訓練 II：以同策略蒸餾釋放預訓練檔案操作在長程任務中的記憶潛力",
-      "link": "https://arxiv.org/abs/2611.14009",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.14009v1 Announce Type: cross Abstract: Language-model agents increasingly tackle long-horizon tasks whose interaction histories exceed the model's active context. They must therefore decide what to write down...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n106",
-      "title": "Sable: A Small-Field Sumcheck Argument for Bit-Exact Inference of Large Language Models",
-      "title_zh_hant": "Sable：用於大型語言模型位元精確推理的小域 Sumcheck 論證",
-      "link": "https://arxiv.org/abs/2611.14083",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.14083v1 Announce Type: cross Abstract: We present Sable, an argument system and single-GPU prover for the statement that a committed, integer-quantized transformer produced a given token sequence from a given...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n107",
-      "title": "EngineAgent: Agentizing On-Device LLM Inference Engines with Inference Stack Hierarchy Awareness and Hardware Abilities",
-      "title_zh_hant": "EngineAgent：讓裝置端 LLM 推理引擎代理化，具備推理堆疊階層感知與硬體能力",
-      "link": "https://arxiv.org/abs/2611.14356",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.14356v1 Announce Type: cross Abstract: Rapidly evolving LLM architectures and heterogeneous mobile hardware make supporting new models in on-device inference engines a recurring and costly system challenge. E...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n108",
-      "title": "Identifying Macro Causal Effects in a C-DMG over ADMGs",
-      "title_zh_hant": "在 ADMG 上的 C-DMG 中識別總體因果效應",
-      "link": "https://arxiv.org/abs/2504.01551",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2504.01551v3 Announce Type: replace Abstract: Causal effect identification using causal graphs is a fundamental challenge in causal inference. While extensive research has been conducted in this area, most existin...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n109",
-      "title": "Accurate Predictions in Education with Discrete Variational Inference",
-      "title_zh_hant": "以離散變分推論提升教育預測準確度",
-      "link": "https://arxiv.org/abs/2509.23484",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2509.23484v3 Announce Type: replace Abstract: One of the largest drivers of social inequality is unequal access to personal tutoring, with wealthier individuals able to afford it, while the majority cannot. Afford...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n110",
-      "title": "The Value of Memory in Language Agents",
-      "title_zh_hant": "記憶在語言代理中的價值",
-      "link": "https://arxiv.org/abs/2610.31303",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2610.31303v4 Announce Type: replace Abstract: Language agents carry information from past experience into future tasks whose demands may be unknown or change over time. We develop a decision-theoretic account of t...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n111",
-      "title": "KAIROS: Stateful, Context-Aware Power-Efficient Agentic Inference Serving",
-      "title_zh_hant": "KAIROS：具狀態、情境感知且節能的代理式推理服務",
-      "link": "https://arxiv.org/abs/2604.16682",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2604.16682v2 Announce Type: replace-cross Abstract: Power has become a central bottleneck for AI inference. This problem is becoming more urgent as agentic AI emerges as a major workload class, yet prior power-man...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n112",
-      "title": "Where Polanyi Meets Galois: Tacit Knowing as an Algebro-Deterministic Operation, Toward Re-rooting AI-Generated Science",
-      "title_zh_hant": "當 Polanyi 遇上 Galois：將默會知識視為代數決定性操作，邁向重新扎根 AI 生成科學",
-      "link": "https://arxiv.org/abs/2610.16102",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2610.16102v3 Announce Type: replace-cross Abstract: Tacit knowing, we argue, is an operating regime of one memory substrate, not a separate kind of content. In VaCoAl, an algebro-deterministic hyperdimensional mem...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n113",
-      "title": "Direct Trajectory Optimization for Inference-Time Alignment of Text-to-Image Diffusion Models",
-      "title_zh_hant": "以直接軌跡最佳化實現文字生圖擴散模型的推論時對齊",
-      "link": "https://arxiv.org/abs/2611.11821",
-      "source": "arXiv cs.AI",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-11T13:00:00+08:00",
-      "summary": "arXiv:2611.11821v2 Announce Type: replace-cross Abstract: Alignment of text-to-image diffusion models with reward functions is a key challenge in controllable generation. Existing approaches typically rely on optimizing...",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:arxiv+20",
-        "fresh:<=12h+10",
-        "category:ai_intelligence+10",
-        "research / paper+16",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n114",
+      "code": "/n40",
       "title": "Wall St ends lower as hot inflation data fuels interest rate worries - Reuters",
-      "title_zh_hant": "通膨數據火熱引發利率憂慮，華爾街收低 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5kYXpyeWFsZndVMG01bUYyRUVMdnlkaEpoRDN6QndkenI4ZG45dWhTTjdLdlh0MG9xaHJObVJ6akJacVJKVmpJSVR4UHFINjNUcXZxV1oySDZGX3dHLTJtQ1AtX0h4bUdIVUFHemNQZWpCb3dkblp5dXFB?oc=5",
+      "title_zh_hant": "通膨數據升溫加劇利率擔憂，華爾街收低",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9MZmtLTUlISU03SjJHMGNHSllrSFVla2ZRb09OcGItZnU1RmJ4dGZud05SR3FZV3JGSjhQWnhtZVVYdzV1NzROQ1JXOU9NcFZ3TkphSnEyZmNIY2taV054emJJUG1yZw?oc=5",
       "source": "Reuters Taiwan Supply Chain via Google News",
       "category_key": "markets",
       "category_label": "Markets",
@@ -2169,9 +763,9 @@
       ]
     },
     {
-      "code": "/n115",
+      "code": "/n41",
       "title": "Fed's Paulson calls for gradual rate hikes amid ongoing high inflation - Reuters",
-      "title_zh_hant": "Fed 的 Paulson 在高通膨持續下呼籲逐步升息 - 路透",
+      "title_zh_hant": "聯準會 Paulson 主張在通膨持續高漲下逐步升息",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc1l4X293em5tbkV6SmFadllsbWlmU25jQmxZeWtMRHFDREhLcE5wVXZiM29uVnZ6eGRPUnAtWmVMcndFTmZkUVhERG1yQVpKQTFlNzlWNy1TalhycGcyb01xOFFzWnZwLWhYRWZ4UkZ0LU5hV3V0Z0UzbFV5RE5DOFdYVEdHN0liaktqTlNfdWxuekZ4Rk1tOGFIMUp1OVZlbGpIa3Mzamc2Y1NxRWZZ?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -2188,90 +782,15 @@
       ]
     },
     {
-      "code": "/n116",
-      "title": "Brazil's central bank signals high bar for rate hikes despite inflation risks - Reuters",
-      "title_zh_hant": "巴西央行：儘管有通膨風險，升息門檻仍高 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMXp1eGp3MHJrZEdSVmZTQk9xRFBXcU9ac0haSUhRU3BHRGRGVE1uVlI2cnlwMzNMb3RMQmV6SzVtTE94ejE5WWNnSVdqUzdvNUpER2dFb3hmamlBYmUxZ19OZ0ZyM3VKZVhpWmdwR2lja09mckUxMHRNSmJ0TU1pVGxGTjk4bThPOWJMT09wVXBQQTdJRlh4WHZvRlNVRThzWXlyTzlJWkNvN0NJSnp5c1BiZVgtN2lpTS1SdURoMkVFcXFMclAw?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-11T04:03:43+08:00",
-      "summary": "Brazil's central bank signals high bar for rate hikes despite inflation risks Reuters",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=24h+4",
-        "category:markets+8",
-        "rates / central banks+20",
-        "macro data+18"
-      ]
-    },
-    {
-      "code": "/n117",
-      "title": "Brazil central bank chief says it will keep fighting inflation with tight policy - Reuters",
-      "title_zh_hant": "巴西央行總裁：將以緊縮政策持續抗通膨 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQjRVZ21Oa2dkREN1TTFCd0oxSkhNbE5rYWk2UkEwYVhISVB0MW1NWGFPbHJqTkh6eUdIM2F1T05NdXQ1YVVtcF8zSHFYRURxdWRvdm1Tajk4LVFweElLS3pTZy1vMTJhQXZYcjU2a0NhVVdBbkdYYlVRYjUtdnpwVXBlZG90Vmw5YU85NnZhZXllazdUbFBZYWg0a1pDNExWcUdWd1VTQTNUNF9sMFlXQUxKMTViRVg0TW1YOUFTYjIwd1JBNnF6NTRjUQ?oc=5",
+      "code": "/n42",
+      "title": "Muni bonds, infrastructure stocks offer shelter in volatile market, says expert - Reuters",
+      "title_zh_hant": "專家：市政債與基建股在動盪市場中提供避風港",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE95RVJwS3ZYaTBQZjZhYmN3X01wNUpCWVdUSmRGdjJRdEV6eExpLWVuTkZlV1MtYW1Sc1pjbTNFMF9XT3ZSdEszVy1VTVdkQ3dCNm51TzYwNjI0bGM5T0JNelFRdzNzRU1Rd08wVThrUUI5a2JLZURKRWJjMW15Zw?oc=5",
       "source": "Reuters Taiwan Supply Chain via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-11-11T03:51:53+08:00",
-      "summary": "Brazil central bank chief says it will keep fighting inflation with tight policy Reuters",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=24h+4",
-        "category:markets+8",
-        "rates / central banks+20",
-        "macro data+18"
-      ]
-    },
-    {
-      "code": "/n118",
-      "title": "'Surprise' inflation rise could lead to steeper rate hike from Fed - Reuters",
-      "title_zh_hant": "通膨意外升溫恐促使 Fed 更大幅度升息 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5FUlhHbmRDNHBUQmpqTmZJb0hWaVdNWnZBeVpoQUE0TEZzemdWbkh4VVdmeTJPSF94QmRFQjhENkM4MDNka0s1SzhVNkxXWncteTU3TVJoZXcycXp4T1FSVjhRMFFESTl0UUwwQ1pQRVZTUm5ra0t5YTNR?oc=5",
-      "source": "Reuters Taiwan Supply Chain via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-11T03:29:54+08:00",
-      "summary": "'Surprise' inflation rise could lead to steeper rate hike from Fed Reuters",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=24h+4",
-        "category:markets+8",
-        "rates / central banks+20",
-        "macro data+18"
-      ]
-    },
-    {
-      "code": "/n119",
-      "title": "Alice Huang, who reportedly had an affair with Nvidia CEO, is a Chinese banker turned tech exec - AP News",
-      "title_zh_hant": "據報與 Nvidia 執行長有婚外情的 Alice Huang，是中國銀行家轉任科技高管 - AP News",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWWN4Um5UWHU3MHROUmJ2YlMtSW05bmNXSFI3TkVFajJrODcydUlDa015MWdnN1FkVnBiZWNZUlZPUUs4NGRkN1MzLXRCZHZ1cnNVc3ZqUXVCYklscFJ0WWVHUlY2Z2VCV1VKN1BMTU1KRzlpNWM5STBQZm05NldlaTdBd1Y2T0xaQzNKOWo1T2laZmc?oc=5",
-      "source": "AP Top via Google News",
-      "category_key": "breaking",
-      "category_label": "突發重點",
-      "published_at": "2026-11-11T22:55:00+08:00",
-      "summary": "Alice Huang, who reportedly had an affair with Nvidia CEO, is a Chinese banker turned tech exec AP News",
-      "importance_score": 71,
-      "importance_reasons": [
-        "source:ap+20",
-        "fresh:<=2h+25",
-        "category:breaking+8",
-        "semiconductors / Taiwan supply chain+18"
-      ]
-    },
-    {
-      "code": "/n120",
-      "title": "Delta Finance says oil assets operated by Pacific Coast in Venezuela remain in dispute - Reuters",
-      "title_zh_hant": "Delta Finance 表示，Pacific Coast 在委內瑞拉營運的石油資產仍有爭議 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVkhIeFBWTWZpTkdjR1Y2aGZ6MVh4RnkwTGEtbFRmM2d4RUUtR28zWWE1TEdpR1V0MEZOUkpRVWtIQUR0d1RJMmd0YmY0LUFmQzJRVUFKZHBRTHIxaUpUZEpUZzhOYV9TV1V2WXZ0ZFZmcFpFN2ozWm5LVU5uNWI5NjdCN21sdlBDNHJkYk1TSWducnZpaDRKMXA3ci12WllwY0lVQkJpX3FrcWNBYnZScUZ3NWJsaWk1b1VGSHhucS1mekp2YmNhZmxnVDMxdw?oc=5",
-      "source": "Reuters Taiwan Supply Chain via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-11T22:39:50+08:00",
-      "summary": "Delta Finance says oil assets operated by Pacific Coast in Venezuela remain in dispute Reuters",
+      "published_at": "2026-11-12T05:39:02+08:00",
+      "summary": "Muni bonds, infrastructure stocks offer shelter in volatile market, says expert Reuters",
       "importance_score": 71,
       "importance_reasons": [
         "source:reuters+22",
@@ -2281,32 +800,106 @@
       ]
     },
     {
-      "code": "/n121",
-      "title": "Workers across Spain stage first general strike in 14 years as anger rages over housing - Reuters",
-      "title_zh_hant": "西班牙各地勞工發動14年來首次大罷工，住房問題怒火高漲 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcmd4bjFKTVdpSHgwbmZibHdXbWJNdzYwYkRDekc0MjNIcm5HV0xHVjYxc1BTdDhWRWZ1UDVkR1ZpTW1seTF4MmpRejhKUGd4NlVUdUNnNTRZUVBYY0JYbEU5cWZvZTRDWkdsZkxFVHJsMVJIVXl2N3pHWFZnQm42RFZlZVR2cDUwRUVJb2o3SnZTcExZQ2R0MGFGUVZaMGF1WF9tY3N5R29HNVRPRVE1dW5QRURKZFhMWHRvS05rTTlvUkRUVHloVjJNMndLNlU?oc=5",
-      "source": "Reuters Top via Google News",
+      "code": "/n43",
+      "title": "Who is Alice Huang? The woman at the center of Nvidia’s scandal remains elusive - AP News",
+      "title_zh_hant": "Alice Huang 是誰？Nvidia 醜聞核心人物仍行蹤成謎",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWWN4Um5UWHU3MHROUmJ2YlMtSW05bmNXSFI3TkVFajJrODcydUlDa015MWdnN1FkVnBiZWNZUlZPUUs4NGRkN1MzLXRCZHZ1cnNVc3ZqUXVCYklscFJ0WWVHUlY2Z2VCV1VKN1BMTU1KRzlpNWM5STBQZm05NldlaTdBd1Y2T0xaQzNKOWo1T2laZmc?oc=5",
+      "source": "AP Top via Google News",
       "category_key": "breaking",
       "category_label": "突發重點",
-      "published_at": "2026-11-11T22:16:09+08:00",
-      "summary": "Workers across Spain stage first general strike in 14 years as anger rages over housing Reuters",
-      "importance_score": 69,
+      "published_at": "2026-11-12T05:07:00+08:00",
+      "summary": "Who is Alice Huang? The woman at the center of Nvidia’s scandal remains elusive AP News",
+      "importance_score": 71,
+      "importance_reasons": [
+        "source:ap+20",
+        "fresh:<=2h+25",
+        "category:breaking+8",
+        "semiconductors / Taiwan supply chain+18"
+      ]
+    },
+    {
+      "code": "/n44",
+      "title": "Stocks end higher as CoreWeave results ease AI spending worries - Reuters",
+      "title_zh_hant": "CoreWeave 財報緩解 AI 支出疑慮，股市收高",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUVZoWU1fQUd2Y1M2Qnl1T2JaMTkwaXBkaDIwWjVHejZoQmdDUnVzUVlSWDVsWW1pVDRVcXQ2ZTdrRTRiMDdMNWJDS3Atem91bUpDMnFLUkZ6NjhjaTliYWV1ODRLMnk0Slh3Wk5wNGtHTDhvaEZpTFIyUlVpQ2tNdTUyb2ZLbEZGOHlTZWRJNzVScUpIS3V5a1FacGwzby00RURBa2htZFFqZmw3Z2pRS2NDWQ?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-12T05:05:09+08:00",
+      "summary": "Stocks end higher as CoreWeave results ease AI spending worries Reuters",
+      "importance_score": 71,
       "importance_reasons": [
         "source:reuters+22",
         "fresh:<=2h+25",
-        "category:breaking+8",
+        "category:markets+8",
+        "market move+16"
+      ]
+    },
+    {
+      "code": "/n45",
+      "title": "llm 0.37.2",
+      "title_zh_hant": "llm 0.37.2",
+      "link": "https://simonwillison.net/2026/Nov/11/llm/",
+      "source": "Simon Willison",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-11-12T01:19:52+08:00",
+      "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai en...",
+      "importance_score": 71,
+      "importance_reasons": [
+        "source:simon willison+18",
+        "fresh:<=6h+18",
+        "category:ai_intelligence+10",
+        "frontier model / release+25"
+      ]
+    },
+    {
+      "code": "/n46",
+      "title": "Schumer accuses Trump of defending Nvidia CEO Jensen Huang at cost of national security",
+      "title_zh_hant": "舒默指控川普為維護 Nvidia 執行長黃仁勳而犧牲國家安全",
+      "link": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
+      "source": "CNBC Technology",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-11-12T00:51:10+08:00",
+      "summary": "Rep. John Moolenaar, R-Mich., the Republican chairman of the Select Committee on China, told CNBC he expects answers about Jensen Huang's relationship.",
+      "importance_score": 70,
+      "importance_reasons": [
+        "source:cnbc+14",
+        "fresh:<=6h+18",
+        "category:business_tech+6",
+        "semiconductors / Taiwan supply chain+18",
         "geopolitical risk+14"
       ]
     },
     {
-      "code": "/n122",
+      "code": "/n47",
+      "title": "Dollar advances as markets price in December Fed rate hike - Reuters",
+      "title_zh_hant": "市場押注聯準會 12 月升息，美元走強",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVUM1V3d2azVfSFlud1E3Z05veEpjMmxwYzhBWkc1NTgxRktLS25sQWVlbWVWUGxCdVBXR3dmbzMxeDNYUzFJVi1aTTZIcWQ0X3kteU55dWdKeEN0ZGhvNlBHc2cwMFY4a1Q3R2VxQS1BdUcwMkRMYlc4VFltaFZxekxGVHg3ZVhhRE92WXNwb3JkMXFKeExZUlppZ2dnaHVmcjJMLTVUM1BXLUVXSlNn?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-11T08:54:00+08:00",
+      "summary": "Dollar advances as markets price in December Fed rate hike Reuters",
+      "importance_score": 70,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=24h+4",
+        "category:markets+8",
+        "rates / central banks+20",
+        "market move+16"
+      ]
+    },
+    {
+      "code": "/n48",
       "title": "Russia and Ukraine say some progress made at talks, US cites a lack of trust - Reuters",
-      "title_zh_hant": "俄烏稱會談取得部分進展，美國指缺乏信任 - 路透",
+      "title_zh_hant": "俄烏稱會談有部分進展，美方指缺乏互信",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdEZkalllTkswSW1lWVlXanFsVFBfVnBSUmE0U1VNWTJ4c3BrS3dzTDZWQUhwM3NfOTFMdjVuaHBqZVRTVFBYU2JEOWtpX2VoR1ZtUzZVcDlTN0tKVzVtczFhYThSSHpDTjJXSHV4U1Rqc0doRElpcW1WTGQwdmF6bE1VN3BpU2J4U3V1Rld3S25XNXZxWkVVNVlRZDAzLWpIVGFHWG9Bd2M?oc=5",
       "source": "Reuters Top via Google News",
       "category_key": "breaking",
       "category_label": "突發重點",
-      "published_at": "2026-11-11T21:39:44+08:00",
+      "published_at": "2026-11-12T04:31:54+08:00",
       "summary": "Russia and Ukraine say some progress made at talks, US cites a lack of trust Reuters",
       "importance_score": 69,
       "importance_reasons": [
@@ -2317,142 +910,181 @@
       ]
     },
     {
-      "code": "/n123",
-      "title": "COMMENTARY: Morning Bid: Jumbo Fed hike hits radar - Reuters",
-      "title_zh_hant": "評論：晨間觀點：聯準會大幅升息進入雷達視野 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTTlFNjVidGtEa2NTMGcyZ0VaUnhIQ003dnFtaHFKZG80bVlpdk91dlZwN0I1VU84ZWF4RXNjY1YyMmE3cHhweUhsNmxkeVluOF9nR3BMcy1Ec2dHckN4aEJlT3kweGd3WEdFZmlhRzJqODlTY28xb1VtUVE1LXhlM0lzcU1RQUtZX3RWS0dVVVlFTEpmZ3hn?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-11T19:42:18+08:00",
-      "summary": "COMMENTARY: Morning Bid: Jumbo Fed hike hits radar Reuters",
+      "code": "/n49",
+      "title": "Romanian intelligence agency says it identified Russian-linked cyber attack - Reuters",
+      "title_zh_hant": "羅馬尼亞情報機構稱已識別與俄羅斯有關的網攻",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUEhsbG5vWkc1Nnh3YzQ2cDhNMXpKbk10YlNTeV9xSU03aExvWW9VX3BCUUFCdFM4RU5HU1FBdUhJX2lsOWRyQVdHLTlYSTdLT3dTNFJUcEc0aE9TNW50WGFBYXZPcVJCa0dUaWM0TGFRdkJrbHNoczVuYnBHSVRuSHFFVHhXVnVWMi0yYnplX05jcU01SEx4U0x0SzJwLS1OU09yOHdKYjhKSUhPSFNMUExjQ3BSRjVVVm1BY29XSQ?oc=5",
+      "source": "Reuters Top via Google News",
+      "category_key": "breaking",
+      "category_label": "突發重點",
+      "published_at": "2026-11-11T22:03:43+08:00",
+      "summary": "Romanian intelligence agency says it identified Russian-linked cyber attack Reuters",
       "importance_score": 68,
       "importance_reasons": [
         "source:reuters+22",
-        "fresh:<=6h+18",
-        "category:markets+8",
-        "rates / central banks+20"
+        "fresh:<=12h+10",
+        "category:breaking+8",
+        "security / cyber risk+14",
+        "geopolitical risk+14"
       ]
     },
     {
-      "code": "/n124",
-      "title": "China's central bank vows to step up policy support for the economy - Reuters",
-      "title_zh_hant": "中國央行誓言加大政策支持經濟力道 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNncxU3NCdkhlZnJiY0psUGxYalpGa1FLS1BlNkpoYWpQSlg0T3A3VEFMN1RHbVBMaDROSUpSNFpoUktITUxBemhjSVNSR2dRWV9IamNIcHdfc3FxLTlQZnB4T3kzbTIxVnJpYUJWbnlKXzVSVGtJck92RDZHdlV0YnVreGlDWmI3OXU1RGo2LUdpZE9kd1kyVDdLQ0I0X3drN0V0UlFBbmxxbTBIY1JJ?oc=5",
+      "code": "/n50",
+      "title": "Gold falls as hot inflation figures, higher dollar weigh - Reuters",
+      "title_zh_hant": "通膨數據升溫與美元走強打壓，金價下跌",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUkZNV2RySHI5TXJ4YTBhNlNpTllnVXUyRk9CNzBrLXBLWFc3OTlOM0Y1MUVDcGRhS1pQU1oxR3hveVE5VWRfVGF1aTR4Z0lhcWJjbGV4Ym93cDdqb09JQlpFdC10cW9FUkVBX0NPVFFyOTdxSV81Z0RWUEx4UkdITjNwUnRHUmdDbmg5a0F5QmZXRzdjWGZzeXJsdUNUbDRKM3NvU0VGVGQ?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-11-11T19:27:44+08:00",
-      "summary": "China's central bank vows to step up policy support for the economy Reuters",
+      "published_at": "2026-11-11T11:39:00+08:00",
+      "summary": "Gold falls as hot inflation figures, higher dollar weigh Reuters",
       "importance_score": 68,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=6h+18",
-        "category:markets+8",
-        "rates / central banks+20"
-      ]
-    },
-    {
-      "code": "/n125",
-      "title": "Concerns grow as military-linked Chinese university buys Nvidia chips - Reuters",
-      "title_zh_hant": "與軍方有關的中國大學採購輝達晶片，疑慮升溫 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBadHAwV1gzc3diSE1WTkFDcjk1cTlLYUZLYktHYXdDdUZNSXQwZEhMcDFsR3EwSlctcWRsMEJPaDFXMkoxU2ZLM2x3N01Md012SklnOUQ2ajRoRWNmSFRqR0stM0w2RmR4cUVSVFpDcmctWU52TU1TR1l5WXZtUQ?oc=5",
-      "source": "Reuters Taiwan Supply Chain via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-11T20:10:29+08:00",
-      "summary": "Concerns grow as military-linked Chinese university buys Nvidia chips Reuters",
-      "importance_score": 66,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=6h+18",
-        "category:markets+8",
-        "Taiwan supply chain+18"
-      ]
-    },
-    {
-      "code": "/n126",
-      "title": "EXCLUSIVE: How a Vitol trader's ties to JD Vance helped land a prized Venezuela oil contract - Reuters",
-      "title_zh_hant": "獨家：Vitol交易員與JD范斯的關係如何助其拿下搶手的委內瑞拉石油合約 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLXBjUHpKN20yZk5xM1RsTDlpZUtVZ2FwZ0J3RHBfQkNBZW41cS1hWHJKeGZUcEFuLTFrUFo0MndIV0lxb2pmb0I1VGUzU0J6R2JQTl9sTUs2UHNYMmhwNkpPZ1YzRVkzTExhMFhzc2ZpT01GbTU4UURERTBMYkdUbFg3NVR2NjB3TEJfbEtBdDRrcGNadW5JczBGZVE1cjQyYUJnYXJUb1hrVG9jLXBheGduWEoyUWRMbVRyVHhKYzNhVUE4?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-11T21:27:49+08:00",
-      "summary": "EXCLUSIVE: How a Vitol trader's ties to JD Vance helped land a prized Venezuela oil contract Reuters",
-      "importance_score": 64,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=6h+18",
-        "category:markets+8",
-        "market move+16"
-      ]
-    },
-    {
-      "code": "/n127",
-      "title": "Charts suggest AI selloff may not derail broader stock rally - Reuters",
-      "title_zh_hant": "圖表顯示AI拋售潮未必會拖累大盤漲勢 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4ycm9TOTZQLUxxYmh4OTQwdzU4U1BmWEY4TFQ5V0I4cHBIcFJGS3VWYmVubnBqVjQyR3Nyc1lTc0tCTkFISXNQdGktNFgzR0QtZzdSNHBkYWNXSmYzOWtwRjJPRk9DalE?oc=5",
-      "source": "Reuters Taiwan Supply Chain via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-11T19:09:17+08:00",
-      "summary": "Charts suggest AI selloff may not derail broader stock rally Reuters",
-      "importance_score": 64,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=6h+18",
-        "category:markets+8",
-        "market move+16"
-      ]
-    },
-    {
-      "code": "/n128",
-      "title": "European stocks near record high on Siemens, CoreWeave AI optimism - Reuters",
-      "title_zh_hant": "西門子、CoreWeave AI樂觀情緒帶動，歐股逼近歷史高點 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVlRWM1JkZFR6Qy1vb0dDbkhqTHRsd2FIaGV4SUdSWkxITF9ndW1UNExHR2IyZk1uV2JjMU5XVndQRUxMVXI0d1QzV3ZfZkNYQVhHOEZueDEzb3ZWaDVwYjNyV3BvZnJpbGVQeFl0ZjBxNUxzdzdORWFodTBDSGtlQXBHaXAwc1pUMEMyeEtOdHhZdkMyYkVxLWYwR0FlTC0wWDNGck9HNG11b0NMN3NMbHVWcFlsTUlUSXc?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-11T18:30:06+08:00",
-      "summary": "European stocks near record high on Siemens, CoreWeave AI optimism Reuters",
-      "importance_score": 64,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=6h+18",
-        "category:markets+8",
-        "market move+16"
-      ]
-    },
-    {
-      "code": "/n129",
-      "title": "Nigeria approves 145 new oil wells so far this year, regulator says - Reuters",
-      "title_zh_hant": "奈及利亞監管機構：今年迄今已核准145口新油井 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd29WXy1pYzYwZXVYQ2NTYmYwNDFfZVRzWC1zNjhCQmluQ2t3NDFtTDdYMjVRNkhRb3JBVUpUN01ROGRCTU11VTdIZ3pBUG9yNG01dllYYk5QQ3dZWF9XaHN1UlpnY1pfOHVNakYwYjVobkJDQmxnSVQyNy1KcXFadURNeDNoVWw0RloyY25pdjZnaEduLU90cUVGZVNlUjMxelEtNGwxaXF6VEM5RGtUVTZqMUFRamVMbXc?oc=5",
-      "source": "Reuters Business via Google News",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-11-11T03:41:44+08:00",
-      "summary": "Nigeria approves 145 new oil wells so far this year, regulator says Reuters",
-      "importance_score": 62,
       "importance_reasons": [
         "source:reuters+22",
         "fresh:<=24h+4",
-        "category:business_tech+6",
-        "policy / regulation+16",
-        "markets / macro+14"
+        "category:markets+8",
+        "macro data+18",
+        "market move+16"
       ]
     },
     {
-      "code": "/n130",
-      "title": "Spain sees widespread disruption in first general strike for 14 years",
-      "title_zh_hant": "西班牙14年來首次大罷工，各地廣泛受擾",
+      "code": "/n51",
+      "title": "Ukraine's Zelenskiy says progress in peace talks hinges on US approach to Russia - Reuters",
+      "title_zh_hant": "澤倫斯基：和平談判進展取決於美國對俄立場",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLVVESEhzeFJHMmo1SUlBcWswbUctbUprbnVPc1pSRWx1ay00ci1hbmYyUjBqOE1JazB2c1l0dVE3cGtGbDc0QldyN3VqYkdGMUtQWlE1cG9FRnV3b2VkUENMbGxyMlJQdmg2MkJxTThvSENGVVVkR3IwcFlXMEJHWUJ5a0dTY0R2b1k2ZXpOUVdvcGkzWWtGcFc1VHl2MDR1UUxaWF9DdmdMY2JaNU5RM3g0UTBDdm1tUHIw?oc=5",
+      "source": "Reuters Business via Google News",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-11-12T04:59:58+08:00",
+      "summary": "Ukraine's Zelenskiy says progress in peace talks hinges on US approach to Russia Reuters",
+      "importance_score": 67,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=2h+25",
+        "category:business_tech+6",
+        "geopolitical risk+14"
+      ]
+    },
+    {
+      "code": "/n52",
+      "title": "OPEC+ oil output in October nears pre-Iran war rate, led by Saudi Arabia - Reuters",
+      "title_zh_hant": "OPEC+ 10 月原油產量在沙烏地阿拉伯領軍下，接近伊朗戰爭前水準",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSDZlTWwtdThPTnp0UjFXeXowU3I2SzZTbDA1Zk9BZUJER0dMV1o3S2oza0sxUmxlT2xhb2k4Ykx1TDlORm5zNVdJSk8wVzZBM2VRV2xFUlpJQTdiTTJJY1ZULXJNbjIyaWVudGx5UUNjZWlMaGRJcXZHVjBmUkUxVmVxZC1FUWk0SUFmZkFQZGhaeFVPdWtkV2xIQ0hRT1ZDWGYySlk3RHdRTDloMDlLdQ?oc=5",
+      "source": "Reuters Business via Google News",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-11-11T22:14:31+08:00",
+      "summary": "OPEC+ oil output in October nears pre-Iran war rate, led by Saudi Arabia Reuters",
+      "importance_score": 66,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=12h+10",
+        "category:business_tech+6",
+        "markets / macro+14",
+        "geopolitical risk+14"
+      ]
+    },
+    {
+      "code": "/n53",
+      "title": "Delta Finance says oil assets operated by Pacific Coast in Venezuela remain in dispute - Reuters",
+      "title_zh_hant": "Delta Finance 稱 Pacific Coast 在委內瑞拉營運的石油資產仍有爭議",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVkhIeFBWTWZpTkdjR1Y2aGZ6MVh4RnkwTGEtbFRmM2d4RUUtR28zWWE1TEdpR1V0MEZOUkpRVWtIQUR0d1RJMmd0YmY0LUFmQzJRVUFKZHBRTHIxaUpUZEpUZzhOYV9TV1V2WXZ0ZFZmcFpFN2ozWm5LVU5uNWI5NjdCN21sdlBDNHJkYk1TSWducnZpaDRKMXA3ci12WllwY0lVQkJpX3FrcWNBYnZScUZ3NWJsaWk1b1VGSHhucS1mekp2YmNhZmxnVDMxdw?oc=5",
+      "source": "Reuters Taiwan Supply Chain via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-12T02:30:18+08:00",
+      "summary": "Delta Finance says oil assets operated by Pacific Coast in Venezuela remain in dispute Reuters",
+      "importance_score": 64,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=6h+18",
+        "category:markets+8",
+        "market move+16"
+      ]
+    },
+    {
+      "code": "/n54",
+      "title": "Alphabet eyes $3 billion Hong Kong, Singapore bond sale, sources say - Reuters",
+      "title_zh_hant": "消息人士：Alphabet 擬在香港、新加坡發行 30 億美元債券",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQekxJWlNsQXlpSG80TzJHMDNiREl6ZC0zWEQ0S0FWVWZPXzJpQk5maC1NTFhXQjIyRmk5QlU1QnFxZ2VHZUNkVUNjOWo4azhLVzlHelE3dFk1UUU3UHllNUdiVzVaODFKSHJEZHQ4Q1d2a0FrLUJiYjM3bUlwZ01wODltVlYyY2YyM3dZV1piYjFmTFRlaVZNcVp3V0RMSlM2SHdPbllBTnQzNllPbGw5YWRERQ?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-12T01:09:22+08:00",
+      "summary": "Alphabet eyes $3 billion Hong Kong, Singapore bond sale, sources say Reuters",
+      "importance_score": 64,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=6h+18",
+        "category:markets+8",
+        "market move+16"
+      ]
+    },
+    {
+      "code": "/n55",
+      "title": "CoreWeave provides silver lining for neoclouds as Nvidia storm swirls",
+      "title_zh_hant": "Nvidia 風暴延燒之際，CoreWeave 為新興雲端業者帶來一線曙光",
+      "link": "https://www.cnbc.com/2026/11/11/coreweave-provides-silver-lining-for-neoclouds-as-nvidia-storm-swirls.html",
+      "source": "CNBC Technology",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-11-11T19:56:11+08:00",
+      "summary": "Huang's close ties to the White House are in the firing line",
+      "importance_score": 64,
+      "importance_reasons": [
+        "source:cnbc+14",
+        "fresh:<=12h+10",
+        "category:business_tech+6",
+        "semiconductors / Taiwan supply chain+18",
+        "policy / regulation+16"
+      ]
+    },
+    {
+      "code": "/n56",
+      "title": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
+      "title_zh_hant": "CoreWeave 營收超預期並上調指引，緩解 AI 放緩疑慮",
+      "link": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+      "source": "CNBC Markets",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-12T05:13:41+08:00",
+      "summary": "CoreWeave's stock has been hammered heading into the neocloud's Q3 earnings report.",
+      "importance_score": 63,
+      "importance_reasons": [
+        "source:cnbc+14",
+        "fresh:<=2h+25",
+        "category:markets+8",
+        "market move+16"
+      ]
+    },
+    {
+      "code": "/n57",
+      "title": "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings",
+      "title_zh_hant": "財報前夕黃仁勳面臨嚴格檢視，Nvidia 股價反彈",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
+      "source": "CNBC Technology",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-11-12T05:04:36+08:00",
+      "summary": "Investors are assessing whether CEO Jensen Huang's affair will have spillover effects on Nvidia's business.",
+      "importance_score": 63,
+      "importance_reasons": [
+        "source:cnbc+14",
+        "fresh:<=2h+25",
+        "category:business_tech+6",
+        "semiconductors / Taiwan supply chain+18"
+      ]
+    },
+    {
+      "code": "/n58",
+      "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
+      "title_zh_hant": "數千人響應西班牙大罷工，巴塞隆納爆發衝突",
       "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
       "category_key": "business_tech",
       "category_label": "商業科技",
-      "published_at": "2026-11-11T22:06:27+08:00",
-      "summary": "Protests are also expected in the biggest cities less than three weeks before Spaniards vote in parliamentary elections.",
+      "published_at": "2026-11-12T06:07:37+08:00",
+      "summary": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
       "importance_score": 61,
       "importance_reasons": [
         "source:bbc+16",
@@ -2462,15 +1094,15 @@
       ]
     },
     {
-      "code": "/n131",
-      "title": "South African rand steady despite hawkish Fed signals - Reuters",
-      "title_zh_hant": "儘管聯準會釋出鷹派訊號，南非蘭德仍持穩 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYjFDc3h6QkRMb0t4U0JwZHlBa2Q0YVVLWHNtOXpreHkwVVFxRWpGbFJkdGhZVE9Yd2lTbENBVFJFUThodi1oVUR4dnYtUHF0RThkYmFZdkZ6Y0xEZDhKRVhBMDRid2hzbGFacWhIWnNZcVpPZXdlbEUwMy1nekpmSGg4dzhEV3ptTkRxRWFHeTl2Mkx1a08wQWtYQk9GY2hQUFo1dw?oc=5",
+      "code": "/n59",
+      "title": "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem - Reuters",
+      "title_zh_hant": "評論：升息兩碼？Warsh 執掌的聯準會面臨溝通問題",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVmdEZENBbDFmNjBmQ1lkUUdxbTUwZlZCZDF0MUo5cXZCTzMxNmdORWpkWl9WX1RucHdsR0VuSWhLOXhSYjZTYUstRFl6WWJ6V3JYallmel9vc0xhS2VGa0EwVGRkdE95MEVlU3RLb3owb0cweERFQUxXaFRqNXJiYURqN2F0WEVWSVY1SzkxbzVqN2V1NlMyMUxXTG1SQ0VEZUZZQm43SUxlbWpRSG15TVhRdUJDdXF5Q1laUmV1MGg?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-11-11T14:48:00+08:00",
-      "summary": "South African rand steady despite hawkish Fed signals Reuters",
+      "published_at": "2026-11-11T22:02:23+08:00",
+      "summary": "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem Reuters",
       "importance_score": 60,
       "importance_reasons": [
         "source:reuters+22",
@@ -2480,21 +1112,111 @@
       ]
     },
     {
-      "code": "/n132",
-      "title": "Taiwan appoints Acer founder as APEC envoy, calls for written guarantees from China - Reuters",
-      "title_zh_hant": "台灣任命宏碁創辦人為APEC特使，呼籲中國提供書面保證 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQzM1dGUzNzlPWFJ6dTlBMGc4OHdjSWlRZ0d6Y3NERDNEcmpzUGF0LUFYM0hrUDJRZDFFOE01YVFrWGpPSEtEVV9OelI5NnNXbXcxUkhuR2ZvNzFseWlTRkNfcGFzRVNHNjBiX055akdLaEM4eTh3NTFNcUx4RHdmUmtjTm1NTGNoWjRGQWdnbk9kN1M3eFRvMjVBeDYxbzdHcGdYUkdWV2E?oc=5",
+      "code": "/n60",
+      "title": "COMMENTARY: Morning Bid: Jumbo Fed hike hits radar - Reuters",
+      "title_zh_hant": "評論：晨間觀點：聯準會大幅升息進入雷達",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTTlFNjVidGtEa2NTMGcyZ0VaUnhIQ003dnFtaHFKZG80bVlpdk91dlZwN0I1VU84ZWF4RXNjY1YyMmE3cHhweUhsNmxkeVluOF9nR3BMcy1Ec2dHckN4aEJlT3kweGd3WEdFZmlhRzJqODlTY28xb1VtUVE1LXhlM0lzcU1RQUtZX3RWS0dVVVlFTEpmZ3hn?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-11-11T15:14:00+08:00",
-      "summary": "Taiwan appoints Acer founder as APEC envoy, calls for written guarantees from China Reuters",
+      "published_at": "2026-11-11T19:42:18+08:00",
+      "summary": "COMMENTARY: Morning Bid: Jumbo Fed hike hits radar Reuters",
+      "importance_score": 60,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=12h+10",
+        "category:markets+8",
+        "rates / central banks+20"
+      ]
+    },
+    {
+      "code": "/n61",
+      "title": "China's central bank vows to step up policy support for the economy - Reuters",
+      "title_zh_hant": "中國央行承諾加大政策支持經濟 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNncxU3NCdkhlZnJiY0psUGxYalpGa1FLS1BlNkpoYWpQSlg0T3A3VEFMN1RHbVBMaDROSUpSNFpoUktITUxBemhjSVNSR2dRWV9IamNIcHdfc3FxLTlQZnB4T3kzbTIxVnJpYUJWbnlKXzVSVGtJck92RDZHdlV0YnVreGlDWmI3OXU1RGo2LUdpZE9kd1kyVDdLQ0I0X3drN0V0UlFBbmxxbTBIY1JJ?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-11T19:27:44+08:00",
+      "summary": "China's central bank vows to step up policy support for the economy Reuters",
+      "importance_score": 60,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=12h+10",
+        "category:markets+8",
+        "rates / central banks+20"
+      ]
+    },
+    {
+      "code": "/n62",
+      "title": "Concerns grow as military-linked Chinese university buys Nvidia chips - Reuters",
+      "title_zh_hant": "與軍方有關聯的中國大學採購 Nvidia 晶片引發憂慮 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UMXpQTGdfREtMZGZuWG9VdEpPSldtVWRaUzdDcE5xV29wdHZPcXU0Q0JScFpENDVSSlNyazBPQWVuS2RaSWNKU3A1QldLSUdLcktVZUtic25ZMlZ3NHREdWxBUUFZNE0?oc=5",
+      "source": "Reuters Taiwan Supply Chain via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-11T20:09:33+08:00",
+      "summary": "Concerns grow as military-linked Chinese university buys Nvidia chips Reuters",
       "importance_score": 58,
       "importance_reasons": [
         "source:reuters+22",
         "fresh:<=12h+10",
         "category:markets+8",
         "Taiwan supply chain+18"
+      ]
+    },
+    {
+      "code": "/n63",
+      "title": "Japan advisers urge focus on sustaining growth after inflation hits BOJ goal - Reuters",
+      "title_zh_hant": "日本通膨觸及 BOJ 目標 顧問籲聚焦維持成長 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWFpTTUNEWng3NnFaRDIzRnhobm96aUZCNjIzbzFrb0Jld2o2Q0poa1Z2bS1zNmJmUnJkYWNlQ1lVWkV5NFc0eTV2N2FpTFRjM3BaUzNaMzFzZUJ2dXY5bXZtcUZHUndCZVlBcXUyUGxWUkQ5MDBmdTA5NHdGT2NwRWxFUjR1NnVyV2xGN3UyTFlVMmJFT2pqb3RCbnlsWXVvZWxtc3lhd1N6aUxJUjhMUFpRQXJDU0hWNGdNZHBSdlNjdkNHOGxz?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-11T19:41:04+08:00",
+      "summary": "Japan advisers urge focus on sustaining growth after inflation hits BOJ goal Reuters",
+      "importance_score": 58,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=12h+10",
+        "category:markets+8",
+        "macro data+18"
+      ]
+    },
+    {
+      "code": "/n64",
+      "title": "Libya's NOC discusses 2027 oil exploration with Repsol, TPAO and MOL - Reuters",
+      "title_zh_hant": "利比亞 NOC 與 Repsol、TPAO 及 MOL 討論 2027 年石油探勘 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaVVwOXRmREhPelpZLVVHaURkREpFWVdsejA3dmJBTDNPS1BoZnJQbEZsRTg0SFRSVVo1akt2VkFscjlFSEdmM3Y4MUt1SWdVemx0TTJ2MnBneFVnTmlIRXpOZjk4Z3Y3UmFXS0xJUDZiVW9TOGtYV3lfWjl6R2V3ckZsZ1pVcEZ3azBjclpzc3U1TENBYVZmN0hFQXQ2MkFDZWNocnpyM09SOElLZXFlZjJaSEE?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-11T22:21:43+08:00",
+      "summary": "Libya's NOC discusses 2027 oil exploration with Repsol, TPAO and MOL Reuters",
+      "importance_score": 56,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=12h+10",
+        "category:markets+8",
+        "market move+16"
+      ]
+    },
+    {
+      "code": "/n65",
+      "title": "Charts suggest AI selloff may not derail broader stock rally - Reuters",
+      "title_zh_hant": "圖表顯示 AI 拋售未必會破壞大盤漲勢 - 路透",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4ycm9TOTZQLUxxYmh4OTQwdzU4U1BmWEY4TFQ5V0I4cHBIcFJGS3VWYmVubnBqVjQyR3Nyc1lTc0tCTkFISXNQdGktNFgzR0QtZzdSNHBkYWNXSmYzOWtwRjJPRk9DalE?oc=5",
+      "source": "Reuters Taiwan Supply Chain via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-11T19:09:17+08:00",
+      "summary": "Charts suggest AI selloff may not derail broader stock rally Reuters",
+      "importance_score": 56,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=12h+10",
+        "category:markets+8",
+        "market move+16"
       ]
     }
   ]
