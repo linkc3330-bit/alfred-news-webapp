@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T06:15:02.789437+08:00",
+  "generated_at": "2026-11-12T08:31:12.411417+08:00",
   "date": "2026-11-12",
   "categories": [
     {
@@ -15,7 +15,7 @@
     {
       "key": "ai_intelligence",
       "label": "AI Intelligence",
-      "count": 33
+      "count": 19
     },
     {
       "key": "markets",
@@ -27,7 +27,7 @@
     {
       "code": "/n01",
       "title": "ExpertCrowd-SWE: Measuring Frontier Coding Agents on Expert-Authored Engineering Tasks in Unfamiliar Codebases",
-      "title_zh_hant": "ExpertCrowd-SWE：在不熟悉程式碼庫中，以專家撰寫工程任務評測前沿編碼代理",
+      "title_zh_hant": "ExpertCrowd-SWE：在不熟悉程式碼庫中評估前沿編碼代理於專家撰寫工程任務的表現",
       "link": "https://arxiv.org/abs/2611.13246",
       "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
@@ -46,25 +46,44 @@
     },
     {
       "code": "/n02",
-      "title": "Fed could hike rates by 50 basis points as oil surges, says market expert - Reuters",
-      "title_zh_hant": "市場專家：油價飆升下，Fed 可能升息 2 碼 - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1acHBTLUlUaE5ySUE1YzZkenEteVpjcVpsRWUteHU4SC1UWUg2dmpPMVljOWNmaHBoUndLcVBpVzAxVjd4LVI2Slc3ei1mVEJfcmduVTdfeXNZZUI3UXFmWEo3b3ZoVzBGUXdiVy1OM2JRWDhxTkN3M1IxT1hTdw?oc=5",
-      "source": "Reuters Taiwan Supply Chain via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-12T05:39:03+08:00",
-      "summary": "Fed could hike rates by 50 basis points as oil surges, says market expert Reuters",
-      "importance_score": 91,
+      "title": "OpenAI calls for teacher training as AI homework use outpaces guidance | ETIH EdTech News - EdTech Innovation Hub",
+      "title_zh_hant": "OpenAI 呼籲教師培訓，AI 作業使用已超越指引",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSzNkU0IwWEJwaVhaRHVYR3RZTFQ1YVdqZkwxNnIxMjMtOGpGeVJGWUMwaDU1QWhreHB0R3U0eHJCQnhLZWdyNjNMWm96NTNvbTYwbDFfSS1XN2p6SjFzMWJGQ2VNTHN5UXVpR1gweTd1LTlqLUpZaUNQay1ITkR5SDBveUVBLVRGX21BTUJEV1A0TWxFaGlvT3NwZVFGclhTYnlWWlJCNHJVU0UxbmtFWE12NF9tdVZYME9r?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-11-12T08:07:22+08:00",
+      "summary": "OpenAI calls for teacher training as AI homework use outpaces guidance | ETIH EdTech News EdTech Innovation Hub",
+      "importance_score": 92,
       "importance_reasons": [
-        "source:reuters+22",
+        "source:ai industry+16",
         "fresh:<=2h+25",
-        "category:markets+8",
-        "rates / central banks+20",
-        "market move+16"
+        "category:ai_intelligence+10",
+        "frontier model / release+25",
+        "research / paper+16"
       ]
     },
     {
       "code": "/n03",
+      "title": "Anthropic Inks Massive $3.4 Billion Deal for Data Center Power Before Blockbuster IPO - Barchart.com",
+      "title_zh_hant": "Anthropic 重磅 IPO 前簽下 34 億美元資料中心電力大單",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcUFwUjJINW1QQ1VkMy1aLVJuWGo3bldpWTJrYV8tMkhsa1pCaHkyWEY4Zi1fem1kVDZyeThSLUFFM21STmF1M3ZXVkNHaEJZekk3VGMtcmtIS0tBd1FtZVozbHVfTEo1Ti12cDd5aTRLZEJMOEdPSXdCVmVfd1M0WVctUzRZV1kxVFFyb1p5eEdPWWYzZmZpS2t6Uk9yaVlUR24wbURuT09lVGM3V1ZSYmFsUlZ6R3pQWDU0UmlvR2YwaHBtYmVF?oc=5",
+      "source": "AI Industry via Google News",
+      "category_key": "ai_intelligence",
+      "category_label": "AI Intelligence",
+      "published_at": "2026-11-12T08:02:34+08:00",
+      "summary": "Anthropic Inks Massive $3.4 Billion Deal for Data Center Power Before Blockbuster IPO Barchart.com",
+      "importance_score": 92,
+      "importance_reasons": [
+        "source:ai industry+16",
+        "fresh:<=2h+25",
+        "category:ai_intelligence+10",
+        "frontier model / release+25",
+        "AI infrastructure+16"
+      ]
+    },
+    {
+      "code": "/n04",
       "title": "Pruning and Distilling Mixture-of-Experts into Dense Language Models",
       "title_zh_hant": "將混合專家模型剪枝並蒸餾為稠密語言模型",
       "link": "https://arxiv.org/abs/2605.28207",
@@ -84,47 +103,9 @@
       ]
     },
     {
-      "code": "/n04",
-      "title": "CoreWeave sparks AI cloud stock rally, lifts Nvidia as results ease bubble fears - Reuters",
-      "title_zh_hant": "CoreWeave 財報緩解泡沫憂慮，帶動 AI 雲端股與 Nvidia 上漲 - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaTZzT256WkU3aE4zUnA1UXBqX05FOENKeXI4MFZtUDQtc28zeDBLWEE2UGdydUU0OXI0LVotdWEwUVBJeDB0bVh6Z1BrN0dQbHFRa0RwZ2xEdDlBaS12T3ZSQXlzcHNSTHAxN2FBUjFXTTlaTmRUWWVJdFZmaXBDZTJteWlWQ2d0MDYzRHRyLWV3Y0xiMU5ndjRMdlBOaDR0T25uVVFNZS12ZDhjWkRMRzBDc2EzN2RyR0dvTnZqWlgxZw?oc=5",
-      "source": "Reuters Top via Google News",
-      "category_key": "breaking",
-      "category_label": "突發重點",
-      "published_at": "2026-11-12T04:54:06+08:00",
-      "summary": "CoreWeave sparks AI cloud stock rally, lifts Nvidia as results ease bubble fears Reuters",
-      "importance_score": 87,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=2h+25",
-        "category:breaking+8",
-        "semiconductors / Taiwan supply chain+18",
-        "markets / macro+14"
-      ]
-    },
-    {
       "code": "/n05",
-      "title": "Lutnick stalled Trump crackdown on diversion of Nvidia chips to China, Axios reports - Reuters",
-      "title_zh_hant": "Axios：盧特尼克擱置川普打擊 Nvidia 晶片流向中國的行動 - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeDk3Z2kxT2NlVkxtZ3FMbksyU0ZlT2JzcERTTVBkeGFzUk5kaHhpazg4Mk5GSnZGTmNmbVVZakFyUHZOeGx5ZEt1N0pVZFRBcDlzMFU0dDc0RFh1ak1ndzZBVWNsN3NCVmliX040XzZHXzc3TFlCUWNTeXdyUkZ1S3B4WUhLSnNCWDVzeGd2NDZUZzBaTUNwemdVRWtqWGlzUnczR09yU09qaWwxZGRKaFBOUDdiR2lLa0VSa0tiWQ?oc=5",
-      "source": "Reuters Business via Google News",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-11-12T05:21:45+08:00",
-      "summary": "Lutnick stalled Trump crackdown on diversion of Nvidia chips to China, Axios reports Reuters",
-      "importance_score": 85,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=2h+25",
-        "category:business_tech+6",
-        "semiconductors / Taiwan supply chain+18",
-        "geopolitical risk+14"
-      ]
-    },
-    {
-      "code": "/n06",
       "title": "Anthropic IPO could draw record retail buyers, Vanda Research says - Yahoo Finance",
-      "title_zh_hant": "Vanda Research：Anthropic IPO 可能吸引創紀錄散戶買盤 - Yahoo Finance",
+      "title_zh_hant": "Vanda Research：Anthropic IPO 可能吸引創紀錄散戶買家",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUUNCR0JEN3dTdTNGYWFQMEtjQTl1RUVITk5TcDkwam5jbWpoS2doemZHQUZNRDNYcUhEeDVPU1JYV19zbWRkbGczYmltbC12TmlpN0RQRTVGRzJGTTF1cmVqSWQ2UUcxQXIxeFhfVlNxR1NiNkZaaG11VkRoZUZHdWFkZVNsQ0wtbW1CVjNLZFJtV1J0ckZyRFVOOEVLeC1zbktXY0dnYl82Q2xDUG0tUmcyd3RCb3BNY2ZtUEVVVQ?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
@@ -141,64 +122,64 @@
       ]
     },
     {
-      "code": "/n07",
-      "title": "Micron Stocks Jump 11.2% as Memory Rebound Meets $1 Billion Anthropic Placement - Yahoo Finance",
-      "title_zh_hant": "記憶體回溫加上 10 億美元 Anthropic 配售，Micron 股價大漲 11.2% - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOay1XZGtHS3MtbXhuS0daVjJYWWhaSWRDcy1qVTBURGRtT3lOQS1lNXMyN3pwaEtIYURUcnVPR2I4SnMzdjNUTHR2ZlJlWjAxQzdhbkUtdW9yTWxYSDNkR0ctY2t2RjcxRUZDd0oydVZxLWItalpPLWxsTERfUWo2ZUZRNXlwN3BVdzE1OURCX1Z1QQ?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T00:54:03+08:00",
-      "summary": "Micron Stocks Jump 11.2% as Memory Rebound Meets $1 Billion Anthropic Placement Yahoo Finance",
-      "importance_score": 85,
+      "code": "/n06",
+      "title": "Fed could hike rates by 50 basis points as oil surges, says market expert - Reuters",
+      "title_zh_hant": "市場專家：油價飆漲下 Fed 可能升息 2 碼",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1acHBTLUlUaE5ySUE1YzZkenEteVpjcVpsRWUteHU4SC1UWUg2dmpPMVljOWNmaHBoUndLcVBpVzAxVjd4LVI2Slc3ei1mVEJfcmduVTdfeXNZZUI3UXFmWEo3b3ZoVzBGUXdiVy1OM2JRWDhxTkN3M1IxT1hTdw?oc=5",
+      "source": "Reuters Taiwan Supply Chain via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-12T05:39:03+08:00",
+      "summary": "Fed could hike rates by 50 basis points as oil surges, says market expert Reuters",
+      "importance_score": 84,
       "importance_reasons": [
-        "source:ai industry+16",
+        "source:reuters+22",
         "fresh:<=6h+18",
-        "category:ai_intelligence+10",
-        "frontier model / release+25",
-        "AI infrastructure+16"
+        "category:markets+8",
+        "rates / central banks+20",
+        "market move+16"
+      ]
+    },
+    {
+      "code": "/n07",
+      "title": "CoreWeave sparks AI cloud stock rally, lifts Nvidia as results ease bubble fears - Reuters",
+      "title_zh_hant": "CoreWeave 財報緩解泡沫疑慮 點燃 AI 雲端股漲勢、推升 Nvidia",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaTZzT256WkU3aE4zUnA1UXBqX05FOENKeXI4MFZtUDQtc28zeDBLWEE2UGdydUU0OXI0LVotdWEwUVBJeDB0bVh6Z1BrN0dQbHFRa0RwZ2xEdDlBaS12T3ZSQXlzcHNSTHAxN2FBUjFXTTlaTmRUWWVJdFZmaXBDZTJteWlWQ2d0MDYzRHRyLWV3Y0xiMU5ndjRMdlBOaDR0T25uVVFNZS12ZDhjWkRMRzBDc2EzN2RyR0dvTnZqWlgxZw?oc=5",
+      "source": "Reuters Top via Google News",
+      "category_key": "breaking",
+      "category_label": "突發重點",
+      "published_at": "2026-11-12T04:54:06+08:00",
+      "summary": "CoreWeave sparks AI cloud stock rally, lifts Nvidia as results ease bubble fears Reuters",
+      "importance_score": 80,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=6h+18",
+        "category:breaking+8",
+        "semiconductors / Taiwan supply chain+18",
+        "markets / macro+14"
       ]
     },
     {
       "code": "/n08",
-      "title": "OpenAI and Georgia county leaders hit with Mafia-style RICO racketeering lawsuit over $30 billion AI data center — residents allege closed-door conspiracy and...",
-      "title_zh_hant": "OpenAI 與喬治亞州地方官員因 300 億美元 AI 資料中心遭黑幫式 RICO 訴訟，居民指閉門共謀...",
-      "link": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPamJCY3otWUdoaXpvanUwaWYtMVF3R2lWeTExLXd1WFhLdjF0bFN4NVBNejJkNUpycWtoZFgwdkFaX0NQbzBYRGgzSFdtbm1RUW5uTjJsR3ZFVmVNb2YxUGstRjVRaFBGMmFIVGthcEQ5Vml3dmszQ0wyeHVwVFVuc0FJa3Jtbm5kR3JWSHBOV1NmeGJURDBsbDRLOWV2eDdwX3NyOUpYSzBZcjFCc2ZFLVZIaGl5U3NWRmlVUDAzUldBcy11ajVXbnpDVDRoSTlnMGZpTlFHYmJzUXlLMS1pN3VOWVNQZHltT3NtWlBQYnhGQjdlNW9VZU5ZWHRUbUtuYUVTTkFadHZFcTEyRVFxbzlwUUhudHpVUzBrZE1SV2gtclFodnJrZkIyT2RKMXlROGFzSmdSTVNxUm9FWDlWUWRNU2g4ZGZGMTJRbWN5ZlBpdzl3NHRNeFlSLTJhcjBLSlZCcnR0RTlJSzVjR1RFTg?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T00:30:00+08:00",
-      "summary": "OpenAI and Georgia county leaders hit with Mafia-style RICO racketeering lawsuit over $30 billion AI data center — residents allege closed-door conspiracy and NDAs were used to push 3.2-gigawatt ‘Project Camellia’ throu...",
-      "importance_score": 85,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=6h+18",
-        "category:ai_intelligence+10",
-        "frontier model / release+25",
-        "AI infrastructure+16"
-      ]
-    },
-    {
-      "code": "/n09",
-      "title": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
-      "title_zh_hant": "黃仁勳在華府風波：出現辭職呼聲，並有動作收緊 Nvidia 對中國出口",
-      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
+      "title": "Nvidia prepares to oust Jensen Huang, WSJ reports — stock sinks",
+      "title_zh_hant": "WSJ：Nvidia 準備撤換黃仁勳 股價下挫",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
       "source": "CNBC Top News",
       "category_key": "breaking",
       "category_label": "突發重點",
-      "published_at": "2026-11-12T06:14:02+08:00",
-      "summary": "Huang was notably opposed to strict export controls on AI chips to China, which ruffled feathers with congressional China hawks.",
+      "published_at": "2026-11-12T08:21:27+08:00",
+      "summary": "The report comes days after Huang admitted to an affair with a woman who is believed by U.S. intelligence of being a Chinese spy.",
       "importance_score": 79,
       "importance_reasons": [
         "source:cnbc+14",
         "fresh:<=2h+25",
         "category:breaking+8",
         "semiconductors / Taiwan supply chain+18",
-        "geopolitical risk+14"
+        "markets / macro+14"
       ]
     },
     {
-      "code": "/n10",
+      "code": "/n09",
       "title": "Anthropic's IPO roadshow video",
       "title_zh_hant": "Anthropic IPO 路演影片",
       "link": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
@@ -217,69 +198,91 @@
       ]
     },
     {
-      "code": "/n11",
-      "title": "Gemini Decisions API",
-      "title_zh_hant": "Gemini Decisions API",
-      "link": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
-      "source": "Simon Willison",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T06:03:25+08:00",
-      "summary": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and...",
+      "code": "/n10",
+      "title": "Lutnick stalled Trump crackdown on diversion of Nvidia chips to China, Axios reports - Reuters",
+      "title_zh_hant": "Axios：盧特尼克延宕川普打擊 Nvidia 晶片流向中國",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeDk3Z2kxT2NlVkxtZ3FMbksyU0ZlT2JzcERTTVBkeGFzUk5kaHhpazg4Mk5GSnZGTmNmbVVZakFyUHZOeGx5ZEt1N0pVZFRBcDlzMFU0dDc0RFh1ak1ndzZBVWNsN3NCVmliX040XzZHXzc3TFlCUWNTeXdyUkZ1S3B4WUhLSnNCWDVzeGd2NDZUZzBaTUNwemdVRWtqWGlzUnczR09yU09qaWwxZGRKaFBOUDdiR2lLa0VSa0tiWQ?oc=5",
+      "source": "Reuters Business via Google News",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-11-12T06:12:18+08:00",
+      "summary": "Lutnick stalled Trump crackdown on diversion of Nvidia chips to China, Axios reports Reuters",
       "importance_score": 78,
       "importance_reasons": [
-        "source:simon willison+18",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
+        "source:reuters+22",
+        "fresh:<=6h+18",
+        "category:business_tech+6",
+        "semiconductors / Taiwan supply chain+18",
+        "geopolitical risk+14"
+      ]
+    },
+    {
+      "code": "/n11",
+      "title": "How Nvidia CEO Jensen Huang got entangled in a China chip and spy scandal - Reuters",
+      "title_zh_hant": "Nvidia 執行長黃仁勳如何捲入中國晶片與間諜醜聞",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTVJmZ25HVWdCdEZubWhDTWI1WnM3TzAwc2JObjJlMVBENUZTOElPYUJXUXUxQjAwN3VoaHlkcENWYk9GbGJudDBGQmNnRWNMU0Y4Mmx1cmxxSGxjc1hhQ0g2dkFPYkNjTXIyYkNydVN0QzdrRnNUdHF0UEhyMV8xWTlMMGlVcjgzVkFQdGFzZWRjaUljQTI3VU1xcGF4WktRQllTbEwwMlVwN2JNeDlOZTFn?oc=5",
+      "source": "Reuters Business via Google News",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-11-12T04:59:43+08:00",
+      "summary": "How Nvidia CEO Jensen Huang got entangled in a China chip and spy scandal Reuters",
+      "importance_score": 78,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=6h+18",
+        "category:business_tech+6",
+        "semiconductors / Taiwan supply chain+18",
+        "geopolitical risk+14"
       ]
     },
     {
       "code": "/n12",
-      "title": "EXCLUSIVE: Anthropic IPO Could Follow SpaceX’s ‘Almost Perfectly’ Handled Offering, Market Expert Jay Woods Says - Benzinga",
-      "title_zh_hant": "獨家：市場專家 Jay Woods 稱 Anthropic IPO 可望複製 SpaceX『近乎完美』的上市操作 - Benzinga",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQYV92TFIwVUtNdmhSUTJoY05MeWxDZ0ZJbnhhbzBQZmhmdGVqN1l6bm9wcFNTS0JpX054TW9UTFRGbFFsMjdYUjBXUjR4NlRZZWFmNHQ5UnNEMmhhcHNLY0pncTJpYUo2SE05ekJxaWRicW1NOGQ1VUVRYmttVVFEZkh5OW9zSk9nenpLMWNkVFd1ajRELXFzbFIzUXhsWXR5SVlsYkYzWlg2eHRGbTFXazNxSFN6RGo2NXJmTjNMeXdwenR4X1J3U3VRZ2pvZ0RrcGtqT0l5aEhxam9PSmxfUkhPR1NqSTl0LWozZmlXWXlLdw?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T06:06:33+08:00",
-      "summary": "EXCLUSIVE: Anthropic IPO Could Follow SpaceX’s ‘Almost Perfectly’ Handled Offering, Market Expert Jay Woods Says Benzinga",
-      "importance_score": 76,
+      "title": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
+      "title_zh_hant": "黃仁勳華府風波：辭職呼聲與收緊 Nvidia 對中出口之舉",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
+      "source": "CNBC Technology",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-11-12T06:46:29+08:00",
+      "summary": "Huang was notably opposed to strict export controls on AI chips to China, which ruffled feathers with congressional China hawks.",
+      "importance_score": 77,
       "importance_reasons": [
-        "source:ai industry+16",
+        "source:cnbc+14",
         "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
+        "category:business_tech+6",
+        "semiconductors / Taiwan supply chain+18",
+        "geopolitical risk+14"
       ]
     },
     {
       "code": "/n13",
-      "title": "Leverage Shares' 3x Anthropic ETP will not list Thursday as planned - ETF Stream",
-      "title_zh_hant": "Leverage Shares 的 3 倍 Anthropic ETP 不會按計畫於週四掛牌 - ETF Stream",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTHE4UVFHa1NqS1A0aG9ER3RNeWU4QTZkVi1IaFBCdFZEbUxTbF9IeVdJSzNJNmRwaEJBQURNWTg4MHBRSVF0NGtqQ2VRTUttRlVuc1R0QWpiNHZBT0V6dmdNRUF6eE5BV25YUkd2ejRtVEJ1Y2oxV0VCWWs2bzBhdUp0YzE3OE50aXVGd2lXMVdwX2pJdlR6STJSMUJabkN1Vm51N09rVEVITmc?oc=5",
+      "title": "OpenAI and Georgia county leaders hit with Mafia-style RICO racketeering lawsuit over $30 billion AI data center — residents allege closed-door conspiracy and...",
+      "title_zh_hant": "OpenAI 與喬治亞州郡領袖因 300 億美元 AI 資料中心遭 RICO 黑幫式敲詐勒索訴訟——居民指控密室共謀...",
+      "link": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPamJCY3otWUdoaXpvanUwaWYtMVF3R2lWeTExLXd1WFhLdjF0bFN4NVBNejJkNUpycWtoZFgwdkFaX0NQbzBYRGgzSFdtbm1RUW5uTjJsR3ZFVmVNb2YxUGstRjVRaFBGMmFIVGthcEQ5Vml3dmszQ0wyeHVwVFVuc0FJa3Jtbm5kR3JWSHBOV1NmeGJURDBsbDRLOWV2eDdwX3NyOUpYSzBZcjFCc2ZFLVZIaGl5U3NWRmlVUDAzUldBcy11ajVXbnpDVDRoSTlnMGZpTlFHYmJzUXlLMS1pN3VOWVNQZHltT3NtWlBQYnhGQjdlNW9VZU5ZWHRUbUtuYUVTTkFadHZFcTEyRVFxbzlwUUhudHpVUzBrZE1SV2gtclFodnJrZkIyT2RKMXlROGFzSmdSTVNxUm9FWDlWUWRNU2g4ZGZGMTJRbWN5ZlBpdzl3NHRNeFlSLTJhcjBLSlZCcnR0RTlJSzVjR1RFTg?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T06:04:53+08:00",
-      "summary": "Leverage Shares' 3x Anthropic ETP will not list Thursday as planned ETF Stream",
-      "importance_score": 76,
+      "published_at": "2026-11-12T00:30:00+08:00",
+      "summary": "OpenAI and Georgia county leaders hit with Mafia-style RICO racketeering lawsuit over $30 billion AI data center — residents allege closed-door conspiracy and NDAs were used to push 3.2-gigawatt ‘Project Camellia’ throu...",
+      "importance_score": 77,
       "importance_reasons": [
         "source:ai industry+16",
-        "fresh:<=2h+25",
+        "fresh:<=12h+10",
         "category:ai_intelligence+10",
-        "frontier model / release+25"
+        "frontier model / release+25",
+        "AI infrastructure+16"
       ]
     },
     {
       "code": "/n14",
-      "title": "Anthropic's IPO Is Just 1 Week Away. Should You Buy the Stock? - The Globe and Mail",
-      "title_zh_hant": "Anthropic IPO 只剩一週，該買這檔股票嗎？ - The Globe and Mail",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNOHU2NzFfMlhETFo3NTJadTA2UTZzVTZlODczWW91eXBkZnhQblJWRkpCcXNuVjhkNldLYXo0N1VaYURlbzFFZDAyMWdsbDlKRzl1LUswcng2TXpQRVEwYWRBNjNrd3pJeHA1c3ZhRkx5UFBHZ190eDFmalYtTVhKeWxzdTZubGN2T3VzanA2VVhwaFQ2ZUZZRTlIRlZ5ZDFXMTFJTUZpRDZIQ2p4NUE5Tkg4dGQ5OVk1MjlQbVIwdnhsSXRrWXRucFJ0ZkdPUGV0UDNfNURBZGRSc3oxVGtPSA?oc=5",
+      "title": "Anthropic Joins AFT and UFT's Binding AI Safety Standard - GovTech",
+      "title_zh_hant": "Anthropic 加入 AFT 與 UFT 具約束力 AI 安全標準",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYXkweDJFZWwzRmJzZDFtMDBURmh5NUF1c1hRRnp6aFNnX3g5a2tBbVB2U0pIaTAxdEFYNjZjZE5TbWFMZDU5VmlqdnliMzhDR0dyMEdrTWVUa2k0aWtUNlFHTVotWXBvYVBUZ1haR0lYZnVVeHp6WTRRT2Q5ZHpEVnowSkgtMFBmUWtPOEFmOERHUmZ4bGQ1ZDhB?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T06:00:02+08:00",
-      "summary": "Anthropic's IPO Is Just 1 Week Away. Should You Buy the Stock? The Globe and Mail",
+      "published_at": "2026-11-12T08:10:55+08:00",
+      "summary": "Anthropic Joins AFT and UFT's Binding AI Safety Standard GovTech",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -290,14 +293,14 @@
     },
     {
       "code": "/n15",
-      "title": "OpenAI, Anthropic $1.4T valuations spark VC concerns of market correction - Crypto Briefing",
-      "title_zh_hant": "OpenAI、Anthropic 估值達 1.4 兆美元，引發創投憂心市場修正 - Crypto Briefing",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNa0ViSWtqUFBZWHdpNGtmbVZBUDFGYVFMUDFXQndOMmpScXpEYmZEbGR2ZGt2YldWeTlOLUxTUlBTc2Fhb0xSV044em5mcmowLVo4VzlxN3ZWSnFNUTRURTVOb25LUDJ5bjV4NXJrcERfYXpMdmc4SHVXeUZ0LVdmb3JIaDJESzhBSDMzV25Rb3gtZmJEQkxDOUhlOTlQLWc?oc=5",
+      "title": "Google Brings Gemini Live to Apple CarPlay - PYMNTS.com",
+      "title_zh_hant": "Google 將 Gemini Live 帶上 Apple CarPlay",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZlBkWUppQkFFTDdhR2N5RTFTanBidVZSOGJNcFhFRFFheHhKOHFyc1ZpTU05aW00SWRiaXFFT2V5Q0F4MGtEallGRW5BVU9Uem5uQXFITDBWYXlLSUtzUHZZVWdwNjViWnRfeW9Vd0xseTNqYXJCRklLb3VQakJrUUFaMU52UUM5SXRpS3Y2RTRMUTZ3RzdHc1ZEczYyUlo4U3c?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T05:44:06+08:00",
-      "summary": "OpenAI, Anthropic $1.4T valuations spark VC concerns of market correction Crypto Briefing",
+      "published_at": "2026-11-12T07:53:15+08:00",
+      "summary": "Google Brings Gemini Live to Apple CarPlay PYMNTS.com",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -308,14 +311,14 @@
     },
     {
       "code": "/n16",
-      "title": "Anthropic's Mythos claim may put Nvidia’s CUDA moat in a vulnerable spot - Yahoo Finance",
-      "title_zh_hant": "Anthropic 的 Mythos 說法恐使 Nvidia 的 CUDA 護城河出現破口 - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVW5pMDBscGRMRnNOTlhVNmNpRXlVd2dlZmhobGs2bUhxXzNoak9iZDhLU01rZUZlNjVpd2Z2T3d1Q3MtLTl0ejBMajdpZENVbW5rMW5JR0ttTHoyRHUzanpRSDFBR1RrT2xGNU5TODBvb1g4MkhwV1hYdkU5bThLaW9HTWU0U1VrYlFWczBhbzdzbnVUMDNfbGlrQWxDQjAwWlBVOFJ5RDFsLVJ5bm9CenljcE9tRlE2?oc=5",
+      "title": "Jim Cramer: This is the bet you're making if you buy the Anthropic IPO - CNBC",
+      "title_zh_hant": "Jim Cramer：買進 Anthropic IPO 就是在押這個賭注",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUUU1UTJ3dnVtQlBEN3FnbnhzUmVuUFd4UTdfOVQ4bW9lb1dXUVVqa3dPOXR4d0tWazhrdHBqajgwdnFEVk55UmIzZnF4MUR0ZnI0SVA0N2gxU0dObDBsSmNUY3N6NWlSYUd0VE1TY2NtT1Zta2hGbU9iSWtmaUxWdUN5ZS0xZw?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T05:43:46+08:00",
-      "summary": "Anthropic's Mythos claim may put Nvidia’s CUDA moat in a vulnerable spot Yahoo Finance",
+      "published_at": "2026-11-12T07:30:48+08:00",
+      "summary": "Jim Cramer: This is the bet you're making if you buy the Anthropic IPO CNBC",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -326,14 +329,14 @@
     },
     {
       "code": "/n17",
-      "title": "Anthropic’s Pre-IPO Valuation Has Dropped 30%. Why That’s a Warning for Investors Wanting to Buy ANT Stock After the IPO. - Barchart.com",
-      "title_zh_hant": "Anthropic 上市前估值跌 30%，為何這對想買 IPO 後 ANT 股票的投資人是警訊 - Barchart.com",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONjAwaUxIeElxU09sZjZOMzdZLXA4SkFFZXFNTm5ZT1JnOC00b2c5bGE4VG4wSTdEN1FkcVlnalJqVC1lY3ZwNV83MEkwcVoxZWRQNmY5YmkyWGI3RXBNcExMaG9qZ2liRFRwYjBTQXNtU3E2UlJTOWdXRDlhRzNCdW9xbFJqd1BrQlpfVU9Vc0RldG8wc0NHRFZHYjF3YWZNY05VZlMwQ25nWVRScHRCMzF5LS1ORGdYUjJXa1JlWEt6dm5XdHg2OHFyeV9oSzRqMWZPV3NFbkJjN3lzUE5fVk50aE1TVERjYUg2M043a2hnUQ?oc=5",
+      "title": "Anthropic IPO is ‘Jenga block’ holding up next leg of AI trade - The Seattle Times",
+      "title_zh_hant": "Anthropic IPO 是支撐 AI 交易下一波的「疊疊樂積木」",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOUpmM2NCa2drWll1WFg2dXlqa05Xb1VManVQVGFIRGRtZWMwekNfN3A4RGpCcEVqMGtVcndNa0h2cWgwemFiblozR2ozMmhkbklZQW5pTUw3eS15dzVmUk91YUJpb0UxSDhyMlVIZHEwczZERkM4ZVRfOVpWMHk5eFdzOHpaRmpORzZfcHowMEJZY3dXOE82b0oweWtzbEpU?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T05:41:24+08:00",
-      "summary": "Anthropic’s Pre-IPO Valuation Has Dropped 30%. Why That’s a Warning for Investors Wanting to Buy ANT Stock After the IPO. Barchart.com",
+      "published_at": "2026-11-12T07:15:04+08:00",
+      "summary": "Anthropic IPO is ‘Jenga block’ holding up next leg of AI trade The Seattle Times",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -344,14 +347,14 @@
     },
     {
       "code": "/n18",
-      "title": "OpenAI, Anthropic Valuations Fuel VC Fears of Startup Correction - Bloomberg.com",
-      "title_zh_hant": "OpenAI、Anthropic 估值飆升，加劇創投對新創修正的憂慮 - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVzBRbmVLSUFUYS1uMjVUUVZVaTFQQmZhTmRGNklQRjhLc1B3MnJPWW1fNkNua014V3NzS2hWREJ2d3YtVElhTXc5VHBId1N2aTJ3M2MwdE5nWmtTT2ZSdDhXSzlyTzdta0RMOFVUTTJqV0ZPWndsc2ZBVHgzTFA0aWFPMnRrcVJHZ1Jmd0FNZHNzU0p5cTZDV050MzJPajlTdWVyMXIwQ2UybFdmNnVYMW5IVVE?oc=5",
+      "title": "Nvidia and Alphabet commit $10 billion each alongside Anthropic’s IPO - Crypto Briefing",
+      "title_zh_hant": "Nvidia 與 Alphabet 在 Anthropic IPO 之際各承諾投入 100 億美元",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTFRCRFIxWEN4aEdNVldIU3NKVHFHSU95dzhuWEMweDY5MEZFbWllNlcwT1BaczhFZE81T2pnZjEyQ0lDanNhYmdqTW9zMzlORWJsUG85QnRwcWVXQ2p5d2pGcjdGc09wQjRVam5ZUHNwOHFGb0NUcXlOVnF5WTdEeg?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T05:39:14+08:00",
-      "summary": "OpenAI, Anthropic Valuations Fuel VC Fears of Startup Correction Bloomberg.com",
+      "published_at": "2026-11-12T06:53:00+08:00",
+      "summary": "Nvidia and Alphabet commit $10 billion each alongside Anthropic’s IPO Crypto Briefing",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -362,14 +365,14 @@
     },
     {
       "code": "/n19",
-      "title": "Anthropic Is Reserving 20% of Its IPO for Retail Investors. Here’s What Claude Thinks. - Barchart.com",
-      "title_zh_hant": "Anthropic 保留 20% IPO 給散戶。Claude 怎麼看 - Barchart.com",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUjgtYTBNSWRqZ011YWk1SVlYdnBuWFlHcFR4eUhaaDU5bENOcldKdElscC1lRmlvcWtEUUtTUUY1WFYzdTZrUXk1S2JsQ3hYTG5ZLUV5blUySHhVdWhHbU1semZ0NU9zbHE0QjgtR1FpZmx4YUxDMm91dGFUbmdzelR6MlBSdXpBc1lWa3VYSDNjaDUzbU5vVVUyaFdLNzlDMHBkbDlqNTdYRjh0dF9fRzE4REV1aXRPcXYxSjdDNDh1TzF4?oc=5",
+      "title": "AI Bounce Gains Momentum on Positive CoreWeave and Anthropic Updates - RealMoney Pro",
+      "title_zh_hant": "CoreWeave 與 Anthropic 正面消息帶動 AI 反彈動能",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQWl4M0dQUzNFcTJ0MWZzVmdmM2FITUw2V3FqaFozSThSM0Q3SjhaVWZZUWdoemVuTV92LUx0YjVqdVdQazZEVmd1RHJVdmh3NnFQMGllTVluVUM4X2Jla2VaZnBiUjdmRGROeEdUQXJTeU04Uk9xZ1hnMnFteVUwaU1jQlVNQXhBRFBnRmdFUGkwWHpQUDY1czk1VGlmb0FqR0twV3Z2eHhoc09qb0RNNXdR?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T05:39:04+08:00",
-      "summary": "Anthropic Is Reserving 20% of Its IPO for Retail Investors. Here’s What Claude Thinks. Barchart.com",
+      "published_at": "2026-11-12T06:35:00+08:00",
+      "summary": "AI Bounce Gains Momentum on Positive CoreWeave and Anthropic Updates RealMoney Pro",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -380,14 +383,14 @@
     },
     {
       "code": "/n20",
-      "title": "Tech round-up: A closer look at Anthropic, Nvidia, CoreWeave, and next week - Yahoo Finance",
-      "title_zh_hant": "科技週報：深入看 Anthropic、Nvidia、CoreWeave 與下週展望 - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN2J1MWp1QUZwcjkzcFRBVC0zXzh0dDM5ZHl5cTV2endxNnNlWGpTNVV1S1dwWGg2MVc2djV3YzVTd0RsM0VCWUJDX1E0OUp0MjBMOUtVZzV6VkQ5bmQ0cGJzNGhLWkw0dFQtRHNPUTZsajRDbmI5LTdWMkxEUVpvR3FhQnBoMzNLeWpSY015QlQ3V201RE0zUFRLOVdLcldNaTJHMWFXcFJuQU5ueVpoWk4zWmhieExPZWc?oc=5",
+      "title": "Gemini for Home Update: Packed Full of New Features - Droid Life",
+      "title_zh_hant": "Gemini for Home 更新：新功能滿載",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMnpFbXUxRVNWWElRb2hpM2ppa3V3empIQmZSalNIUnBYbVYxaFFELVFWd0lmVFhCNDUyVWg1eWF3RW9oQW56M09BWHFId3RVdEJ1WVZPM1JVREN0RVZLUFB4V3R6WWc5aW1RR0tGMndXYlBsc0JfUXhwYjgxU1ROTnk0Rjg5Y2dWNmluOGw0ZktqUHM?oc=5",
       "source": "AI Industry via Google News",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T05:19:55+08:00",
-      "summary": "Tech round-up: A closer look at Anthropic, Nvidia, CoreWeave, and next week Yahoo Finance",
+      "published_at": "2026-11-12T06:32:32+08:00",
+      "summary": "Gemini for Home Update: Packed Full of New Features Droid Life",
       "importance_score": 76,
       "importance_reasons": [
         "source:ai industry+16",
@@ -398,224 +401,64 @@
     },
     {
       "code": "/n21",
-      "title": "Google's Gemini Decision 1 destroys the so-called system one models - Startup Fortune",
-      "title_zh_hant": "Google 的 Gemini Decision 1 顛覆所謂的系統一模型 - Startup Fortune",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeE9NR1JSWmxZLXAtc0gyclZpcTlnUm1kdVJVYjFrZnNTMThCUVJSMUVyNVd4QUFNSGx0d003Y2JCNkxsd29tR2tyRlU2YkF2RjVjWjFiajBjbHdfUV84SlZkNWpXU0FWZ1B3TUxPeVNrRUNYS3UtWUtncUhVSkpOZGpKQWwyUzB6cS1qZmQ4ZlBKTjNkWmN1TkhB?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T05:15:09+08:00",
-      "summary": "Google's Gemini Decision 1 destroys the so-called system one models Startup Fortune",
+      "title": "Sterling drops against firmer dollar as markets price in a hawkish Fed - Reuters",
+      "title_zh_hant": "市場消化鷹派 Fed 美元走強 英鎊下跌",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMGZSYmRrZEJMSXpGTWFMY2R5ckZKaS1KTVlZRzN2cmw1aGVkbThseWpRSF8zVi1pSkZ2ZGlPYXpTTFBDUnRTZ2owVUNjOFktSVJPQy1SUWJCeVJrUl8wRWJ4bm5UcXF2REJfV3BseUFzSGgxZ1pELWJBc292Ynl0Ml9qOFJqQkRpMEtrdnd0ZzdrOXVrYURDcVQzRWZBR2lON3BkbHFVWkxfVWM?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-11T21:01:54+08:00",
+      "summary": "Sterling drops against firmer dollar as markets price in a hawkish Fed Reuters",
       "importance_score": 76,
       "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
+        "source:reuters+22",
+        "fresh:<=12h+10",
+        "category:markets+8",
+        "rates / central banks+20",
+        "market move+16"
       ]
     },
     {
       "code": "/n22",
-      "title": "Anthropic IPO Is ‘Jenga Block’ Holding Up Next Leg of AI Trade - Bloomberg.com",
-      "title_zh_hant": "Anthropic IPO 如『疊疊樂積木』撐住 AI 交易下一波 - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMGdCeFJuSW5EWTJkTy1ERGxfeVdsRDRDMFBQcmM3UXB2dlhWQlhMQ1ZGdEdxd05BcTZyZDI0RVpWb3F5XzB2a2tIOWwwQWF3Y05pU3JVd3pCTUFqMWFXM1VUcmtEaGhhcWh6MHZQYzU0U1hJejMxOElDLWZwYzlubFk4TG9zYUkwSHZaUXlvTnI1WF9qemV2TXd5TXluNmtZc015dFNXbDVqcnFlOGhlTQ?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T05:15:02+08:00",
-      "summary": "Anthropic IPO Is ‘Jenga Block’ Holding Up Next Leg of AI Trade Bloomberg.com",
-      "importance_score": 76,
+      "title": "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem - Reuters",
+      "title_zh_hant": "評論：升息 2 碼？Warsh 的 Fed 有溝通問題",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVmdEZENBbDFmNjBmQ1lkUUdxbTUwZlZCZDF0MUo5cXZCTzMxNmdORWpkWl9WX1RucHdsR0VuSWhLOXhSYjZTYUstRFl6WWJ6V3JYallmel9vc0xhS2VGa0EwVGRkdE95MEVlU3RLb3owb0cweERFQUxXaFRqNXJiYURqN2F0WEVWSVY1SzkxbzVqN2V1NlMyMUxXTG1SQ0VEZUZZQm43SUxlbWpRSG15TVhRdUJDdXF5Q1laUmV1MGg?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-12T07:30:27+08:00",
+      "summary": "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem Reuters",
+      "importance_score": 75,
       "importance_reasons": [
-        "source:ai industry+16",
+        "source:reuters+22",
         "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
+        "category:markets+8",
+        "rates / central banks+20"
       ]
     },
     {
       "code": "/n23",
-      "title": "Ticker: OpenAI revenue soars; IBM to end immigration sponsorship for some - Boston Herald",
-      "title_zh_hant": "財經快訊：OpenAI 營收飆升；IBM 將停止部分移民擔保 - Boston Herald",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOHA0SkNodzVCeHlMdUxVYlNxY2ZfQjl2T3dUQ21YMmJiNHo0NVdkaEY5b2h3Y3hSZ25zTnd2VE40UHpqa3hZeWVkdmVyNHVwbm9qM3pMNEhxZ0lUcUxoMzh5Q240RHJVMHhNeEZLTEJabVJUTGRwRm9YNDBxR2xyUHZGZ3Rld3BMSm9jNWt3ZVd3X0RBRFppeTZDeWdzU29yaFhVb0dGZXRtd1RxUUlSd0t3?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T05:13:23+08:00",
-      "summary": "Ticker: OpenAI revenue soars; IBM to end immigration sponsorship for some Boston Herald",
-      "importance_score": 76,
+      "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+      "title_zh_hant": "傳 Nvidia 董事會準備撤換執行長黃仁勳 股價下跌",
+      "link": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+      "source": "TechCrunch",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-11-12T07:28:45+08:00",
+      "summary": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
+      "importance_score": 75,
       "importance_reasons": [
-        "source:ai industry+16",
+        "source:techcrunch+12",
         "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
+        "category:business_tech+6",
+        "semiconductors / Taiwan supply chain+18",
+        "markets / macro+14"
       ]
     },
     {
       "code": "/n24",
-      "title": "‘Cleared for Takeoff’ in AI. Anthropic, OpenAI & Nvidia. ARD #204 - AI: Reset to Zero",
-      "title_zh_hant": "AI『獲准起飛』：Anthropic、OpenAI 與 Nvidia。ARD #204 - AI: Reset to Zero",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9KUmhvNFhNUWF1Ynd5SHF2THVwTkRxclRrQTFWQWQtcHJjWTNXNEgyOWhCUG13bURrZmE2azhld0xYcVJya0U1TVlWUmY2Q2ZQR1BNZW40cnhPRUtLYnlPazlfWGJmRE9OVkJnZEJMR3pDN1dFZzNLUmlwMFE?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T05:02:31+08:00",
-      "summary": "‘Cleared for Takeoff’ in AI. Anthropic, OpenAI & Nvidia. ARD #204 AI: Reset to Zero",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n25",
-      "title": "Google unveils Gemini Decisions API to handle 1,000 questions at once - Interesting Engineering",
-      "title_zh_hant": "Google 推出 Gemini Decisions API，可一次處理 1,000 個問題 - Interesting Engineering",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNW44Z2huZUh4QTZLVWRXWGFfeG5TLUtIWHpSS253dlVpTExMbUxBcFM3RXFzaGtrV3VrTm00ODlXcHFVV01XTXZJb2w3a1htVlhfMGMtMVVGeTRDTXBtT0FmWnJRWVhBOWpITFRTWXFmdEs0R0MxVUZnZmxQMXl3b3dwVDBEMnhDbFhhY3ZjcDJkMW8?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T04:51:00+08:00",
-      "summary": "Google unveils Gemini Decisions API to handle 1,000 questions at once Interesting Engineering",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n26",
-      "title": "On this day in space! Nov. 11, 1966: NASA launches Gemini 12 mission with astronaut icons Buzz Aldrin and Jim Lovell aboard - Space",
-      "title_zh_hant": "太空史上的今天！1966 年 11 月 11 日：NASA 發射 Gemini 12 任務，太空人傳奇 Buzz Aldrin 與 Jim Lovell 隨行 - Space",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbDd1NnhtUi1EZm9QZTZVTWVrOENxTW1KaEU0UXhpaDZyY2VVZUoyTTZubnl1c0p6UDJtSmNYc1R5ZDg5RFU0SWZFdmFUbkJ0UmUtc2xoN3BDcTYzWHNINkpCNnVRMzN5bDdPSFA3TkE3QWl5aU9YTEFvMG1GT2R1cjhLSQ?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T04:50:18+08:00",
-      "summary": "On this day in space! Nov. 11, 1966: NASA launches Gemini 12 mission with astronaut icons Buzz Aldrin and Jim Lovell aboard Space",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n27",
-      "title": "Amazon and Google Are Sitting on a $411 Billion Anthropic Windfall - Yahoo Finance",
-      "title_zh_hant": "Amazon 與 Google 坐擁 4,110 億美元 Anthropic 意外之財 - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObXF1R3pVM3NETS10eWxGWE5ZT24xTnpPb2lHeGRKbG8zSUpDQ2NRSHNiRUN5SmJiSVJPS0k1WVNKR3dOTzZ0dlh0ZmxDb2RTMnJKWTdOVWFOb1RjY3RJZGZsS1B1OG56eTFGeHBsZVdPUW5MVVZxMVM1MTh5WlhXZWFnOU5CbGlIa0Y2TlB5Q0JvQ0tZVnhxNFhWMXUwdzg?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T04:47:45+08:00",
-      "summary": "Amazon and Google Are Sitting on a $411 Billion Anthropic Windfall Yahoo Finance",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n28",
-      "title": "Anthropic’s IPO Prospectus by the Head-Spinning Numbers - Barron's",
-      "title_zh_hant": "從令人頭暈的數字看 Anthropic 的 IPO 招股書 - Barron's",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hTWhjWmJJX1JsTUk2ZVJwWVdUOXhEb3dONVo3ZWdXNnFQei1BRkpDamxRczF6bEpNVjVDWGxYRE5mb09uN0RGRlZvUWhLS0pyZmw3dUh5TkEtZW9LUDZIaXJ4WDdQOG9WSU1VWlFVNmhwV01pUExpMzM5d0o?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T04:32:00+08:00",
-      "summary": "Anthropic’s IPO Prospectus by the Head-Spinning Numbers Barron's",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n29",
-      "title": "Watch Massive Demand for Anthropic IPO, Megadeals After Midterms - Bloomberg.com",
-      "title_zh_hant": "關注期中選舉後 Anthropic IPO 與巨型交易的龐大需求 - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOURXem5GRDk0a3RsR2lPOC1KSVktWFRNLVFOQ3FNT1VkWi13ZlJrNWFBMUY4MnVmclV3eWoyeklGWVBUaDBxT3E5LW9sNVpJVTIxMGc3a3ZmUHZ1aUwyTi0tczMwOTVWMDVCX2NBSzBqR2FWUU5wSUpPVGxrdVg3ZW9SV25UaW5K?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T04:26:29+08:00",
-      "summary": "Watch Massive Demand for Anthropic IPO, Megadeals After Midterms Bloomberg.com",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n30",
-      "title": "Google is adding Gemini voice AI to Apple CarPlay for iPhone users - Quartz",
-      "title_zh_hant": "Google 將 Gemini 語音 AI 加入 Apple CarPlay，供 iPhone 用戶使用 - Quartz",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5zaENaeXFoQXlhWUF4S1NxM2lseGlDSHpjWWJYTFM4djNHWUk5Z3pKQkdzSjRlbkpUSEpHUlFFZTFRaDN1SERVQ3JCNWprRTNRSnZYY0huTkE4N2c4MmlPbkoxcnlkRTlOV3c?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T04:22:38+08:00",
-      "summary": "Google is adding Gemini voice AI to Apple CarPlay for iPhone users Quartz",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n31",
-      "title": "Anthropic IPO draws multiple times its share supply as demand surges: report - Cryptonews.net",
-      "title_zh_hant": "報導：需求激增，Anthropic IPO 認購倍數達發行量數倍",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Ua2N3MkVyckoxNy12Q3RjYnc4WExBaUg1ZU5aeWJLZUhST3h1Z0V5cVozQ3dZZEFiZFVLVkQ2bGZrR1RKOWh3c2ZfcTd4cUZGVklBSTk5d3E?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T04:21:06+08:00",
-      "summary": "Anthropic IPO draws multiple times its share supply as demand surges: report Cryptonews.net",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n32",
-      "title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass - The Decoder",
-      "title_zh_hant": "Google 以 Gemini Decision 1 加入決策模型浪潮，單次可為 1,000 道題評分",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVGwwYm5fZTkzVlIza1pxV2hkLXFXQVFBRzdXYkNuMGk4QTlNeGVvbWE0MDZCMjRoQ2J1Zm9sd05HUmszQmRNQ3QtbkZTZGFjZEE4WkJYTXpjN1ZxWDludl8xTC1MQ1k5bE1vdFlab0lFSThCVkZZRGRKSGFtdTVBRFIzZW4xSEFYVHNzaktPT0RIVlFNMEpZeGlMS2lFX1BNa1dyaVRubk1fMk9iQUgxS3hTVEozVXBWSGZ0c2NtcnNpdw?oc=5",
-      "source": "AI Industry via Google News",
-      "category_key": "ai_intelligence",
-      "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T04:18:29+08:00",
-      "summary": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass The Decoder",
-      "importance_score": 76,
-      "importance_reasons": [
-        "source:ai industry+16",
-        "fresh:<=2h+25",
-        "category:ai_intelligence+10",
-        "frontier model / release+25"
-      ]
-    },
-    {
-      "code": "/n33",
       "title": "Trust, but verify, audit and attribute: a human-in-the-loop framework for checking AI-produced research results",
-      "title_zh_hant": "信任但驗證、審計與歸因：查核 AI 研究成果的人機協作框架",
+      "title_zh_hant": "信任但驗證、稽核與歸因：檢查 AI 生成研究結果的人在迴路框架",
       "link": "https://arxiv.org/abs/2611.13042",
       "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
@@ -632,7 +475,7 @@
       ]
     },
     {
-      "code": "/n34",
+      "code": "/n25",
       "title": "Reliability of Claude Code as an Agentic AI Grading System for Handwritten University Exams",
       "title_zh_hant": "Claude Code 作為手寫大學考卷代理式 AI 評分系統的可靠性",
       "link": "https://arxiv.org/abs/2611.13217",
@@ -651,9 +494,9 @@
       ]
     },
     {
-      "code": "/n35",
+      "code": "/n26",
       "title": "A Multi-Word Tokenizer for 204 Languages That Needs Fewer Tokens Than GPT-4o's, Including on English",
-      "title_zh_hant": "支援 204 種語言的多詞分詞器：所需 token 比 GPT-4o 更少，英語亦同",
+      "title_zh_hant": "支援 204 種語言的多詞分詞器：所需 token 比 GPT-4o 更少，英語亦然",
       "link": "https://arxiv.org/abs/2611.13059",
       "source": "arXiv cs.AI",
       "category_key": "ai_intelligence",
@@ -670,7 +513,7 @@
       ]
     },
     {
-      "code": "/n36",
+      "code": "/n27",
       "title": "Transparency Disclosures for Chain-of-Thought Monitorability",
       "title_zh_hant": "思維鏈可監測性的透明度揭露",
       "link": "https://arxiv.org/abs/2611.13873",
@@ -689,14 +532,14 @@
       ]
     },
     {
-      "code": "/n37",
+      "code": "/n28",
       "title": "NEWSLETTER: Nvidia drama revives chip export ban debate - Reuters",
       "title_zh_hant": "電子報：Nvidia 風波重啟晶片出口禁令辯論",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVERVMHpGRTdJWkp4X1FKTTk2N3VEQjhrRVRJSklGY0poVEM3a3dybHVpcW9yZzZGMmN3YlNYUFRZcnRCVWZ0VWtMakdadUg2NWpLZHhEdVZNd1U5X2t1SExpLUpRZ2FZb3pXbWJleG5qSjhSeWhpZXlFTl8zMUsyMV9kUTlpOUFfSGEzblBwVk5pWjZiQzVjWXh5d2psR3lnSzFiRVJzYUhwQmhmejJ0R3dmX0k?oc=5",
       "source": "Reuters Taiwan Supply Chain via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-11-12T06:00:00+08:00",
+      "published_at": "2026-11-12T07:15:06+08:00",
       "summary": "NEWSLETTER: Nvidia drama revives chip export ban debate Reuters",
       "importance_score": 73,
       "importance_reasons": [
@@ -707,27 +550,27 @@
       ]
     },
     {
-      "code": "/n38",
-      "title": "How Nvidia CEO Jensen Huang got entangled in a China chip and spy scandal - Reuters",
-      "title_zh_hant": "Nvidia 執行長黃仁勳如何捲入中國晶片與間諜醜聞",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTVJmZ25HVWdCdEZubWhDTWI1WnM3TzAwc2JObjJlMVBENUZTOElPYUJXUXUxQjAwN3VoaHlkcENWYk9GbGJudDBGQmNnRWNMU0Y4Mmx1cmxxSGxjc1hhQ0g2dkFPYkNjTXIyYkNydVN0QzdrRnNUdHF0UEhyMV8xWTlMMGlVcjgzVkFQdGFzZWRjaUljQTI3VU1xcGF4WktRQllTbEwwMlVwN2JNeDlOZTFn?oc=5",
-      "source": "Reuters Taiwan Supply Chain via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-12T04:59:43+08:00",
-      "summary": "How Nvidia CEO Jensen Huang got entangled in a China chip and spy scandal Reuters",
+      "code": "/n29",
+      "title": "House Republicans push for Nvidia's Huang to testify, float subpoena over spy allegations - Reuters",
+      "title_zh_hant": "眾院共和黨人要求 Nvidia 黃仁勳作證 間諜指控下醞釀傳票",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZElHZGtpdHlnaUtyZUVXbDctdmJqZXlGcnhQaDA1ZXBBbXMzQ20zcHRjR3kyR1ZxTGZEbUNXRzIwQ1NKX1NVMDlxaXc1SDQyVGhqSWo0MjlidzlBdkZNMXJ6MGk0Q2k5ZnotSjVJQ0N4RHc3VDROc1owaGJYX1pWcnA3dGtZeXpGbHdUTGg5Y0s3bkNQWFZ6TDV2Qm96NUkwUHJib3NXa0h5amN6cUEwMlhSVjZiSWNFZm9RMlFiOG1HRXAzM2RwVEZTTFJNUQ?oc=5",
+      "source": "Reuters Top via Google News",
+      "category_key": "breaking",
+      "category_label": "突發重點",
+      "published_at": "2026-11-12T06:41:41+08:00",
+      "summary": "House Republicans push for Nvidia's Huang to testify, float subpoena over spy allegations Reuters",
       "importance_score": 73,
       "importance_reasons": [
         "source:reuters+22",
         "fresh:<=2h+25",
-        "category:markets+8",
-        "Taiwan supply chain+18"
+        "category:breaking+8",
+        "semiconductors / Taiwan supply chain+18"
       ]
     },
     {
-      "code": "/n39",
+      "code": "/n30",
       "title": "Goldman adds another rate hike to Fed outlook after hot inflation data - Reuters",
-      "title_zh_hant": "通膨數據升溫後，高盛對聯準會展望再添一次升息",
+      "title_zh_hant": "通膨數據火熱 高盛對 Fed 展望再加一次升息",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaGZrcC11RmpmMVp3a09iZl9aR2N6TDVFV2d1eE50MzBMT0hkZFMtbXFteWFvcDBnSEM0MXdhWFJmM0d4eXZNVFMtNDA2VHozS0UyeEdWcGtQanctN3pxdVVVeWRacnFxS2d3N1I1MktUbUVISWhwZ0VibFgtTWVUX0ZtelYwSmJMQXdUbDJqZmxPMklpS2c?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -744,88 +587,14 @@
       ]
     },
     {
-      "code": "/n40",
-      "title": "Wall St ends lower as hot inflation data fuels interest rate worries - Reuters",
-      "title_zh_hant": "通膨數據升溫加劇利率擔憂，華爾街收低",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9MZmtLTUlISU03SjJHMGNHSllrSFVla2ZRb09OcGItZnU1RmJ4dGZud05SR3FZV3JGSjhQWnhtZVVYdzV1NzROQ1JXOU9NcFZ3TkphSnEyZmNIY2taV054emJJUG1yZw?oc=5",
-      "source": "Reuters Taiwan Supply Chain via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-11T08:18:36+08:00",
-      "summary": "Wall St ends lower as hot inflation data fuels interest rate worries Reuters",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=24h+4",
-        "category:markets+8",
-        "rates / central banks+20",
-        "macro data+18"
-      ]
-    },
-    {
-      "code": "/n41",
-      "title": "Fed's Paulson calls for gradual rate hikes amid ongoing high inflation - Reuters",
-      "title_zh_hant": "聯準會 Paulson 主張在通膨持續高漲下逐步升息",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc1l4X293em5tbkV6SmFadllsbWlmU25jQmxZeWtMRHFDREhLcE5wVXZiM29uVnZ6eGRPUnAtWmVMcndFTmZkUVhERG1yQVpKQTFlNzlWNy1TalhycGcyb01xOFFzWnZwLWhYRWZ4UkZ0LU5hV3V0Z0UzbFV5RE5DOFdYVEdHN0liaktqTlNfdWxuekZ4Rk1tOGFIMUp1OVZlbGpIa3Mzamc2Y1NxRWZZ?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-11T07:34:02+08:00",
-      "summary": "Fed's Paulson calls for gradual rate hikes amid ongoing high inflation Reuters",
-      "importance_score": 72,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=24h+4",
-        "category:markets+8",
-        "rates / central banks+20",
-        "macro data+18"
-      ]
-    },
-    {
-      "code": "/n42",
-      "title": "Muni bonds, infrastructure stocks offer shelter in volatile market, says expert - Reuters",
-      "title_zh_hant": "專家：市政債與基建股在動盪市場中提供避風港",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE95RVJwS3ZYaTBQZjZhYmN3X01wNUpCWVdUSmRGdjJRdEV6eExpLWVuTkZlV1MtYW1Sc1pjbTNFMF9XT3ZSdEszVy1VTVdkQ3dCNm51TzYwNjI0bGM5T0JNelFRdzNzRU1Rd08wVThrUUI5a2JLZURKRWJjMW15Zw?oc=5",
-      "source": "Reuters Taiwan Supply Chain via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-12T05:39:02+08:00",
-      "summary": "Muni bonds, infrastructure stocks offer shelter in volatile market, says expert Reuters",
-      "importance_score": 71,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=2h+25",
-        "category:markets+8",
-        "market move+16"
-      ]
-    },
-    {
-      "code": "/n43",
-      "title": "Who is Alice Huang? The woman at the center of Nvidia’s scandal remains elusive - AP News",
-      "title_zh_hant": "Alice Huang 是誰？Nvidia 醜聞核心人物仍行蹤成謎",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWWN4Um5UWHU3MHROUmJ2YlMtSW05bmNXSFI3TkVFajJrODcydUlDa015MWdnN1FkVnBiZWNZUlZPUUs4NGRkN1MzLXRCZHZ1cnNVc3ZqUXVCYklscFJ0WWVHUlY2Z2VCV1VKN1BMTU1KRzlpNWM5STBQZm05NldlaTdBd1Y2T0xaQzNKOWo1T2laZmc?oc=5",
-      "source": "AP Top via Google News",
-      "category_key": "breaking",
-      "category_label": "突發重點",
-      "published_at": "2026-11-12T05:07:00+08:00",
-      "summary": "Who is Alice Huang? The woman at the center of Nvidia’s scandal remains elusive AP News",
-      "importance_score": 71,
-      "importance_reasons": [
-        "source:ap+20",
-        "fresh:<=2h+25",
-        "category:breaking+8",
-        "semiconductors / Taiwan supply chain+18"
-      ]
-    },
-    {
-      "code": "/n44",
+      "code": "/n31",
       "title": "Stocks end higher as CoreWeave results ease AI spending worries - Reuters",
-      "title_zh_hant": "CoreWeave 財報緩解 AI 支出疑慮，股市收高",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUVZoWU1fQUd2Y1M2Qnl1T2JaMTkwaXBkaDIwWjVHejZoQmdDUnVzUVlSWDVsWW1pVDRVcXQ2ZTdrRTRiMDdMNWJDS3Atem91bUpDMnFLUkZ6NjhjaTliYWV1ODRLMnk0Slh3Wk5wNGtHTDhvaEZpTFIyUlVpQ2tNdTUyb2ZLbEZGOHlTZWRJNzVScUpIS3V5a1FacGwzby00RURBa2htZFFqZmw3Z2pRS2NDWQ?oc=5",
-      "source": "Reuters Markets via Google News",
+      "title_zh_hant": "CoreWeave財報緩解AI支出疑慮，股市收高－路透",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBMUHV2T2h3UjhhNzAyZ0czR1BVeVQ5ajhnNXo3dlVOeE1JMXNMbE1qX0ZFbVk1Y3VMS21zMkRJVy1LNWpXVjlOMUMwOThTWVJLcld4Z1Vqd2tjSzY5UWV5dmE2d2k4YWM?oc=5",
+      "source": "Reuters Taiwan Supply Chain via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-11-12T05:05:09+08:00",
+      "published_at": "2026-11-12T08:08:26+08:00",
       "summary": "Stocks end higher as CoreWeave results ease AI spending worries Reuters",
       "importance_score": 71,
       "importance_reasons": [
@@ -836,15 +605,52 @@
       ]
     },
     {
-      "code": "/n45",
-      "title": "llm 0.37.2",
-      "title_zh_hant": "llm 0.37.2",
-      "link": "https://simonwillison.net/2026/Nov/11/llm/",
+      "code": "/n32",
+      "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+      "title_zh_hant": "黃仁勳被指另有婚外情，對象為Nvidia高層",
+      "link": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+      "source": "TechCrunch",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-11-12T07:17:05+08:00",
+      "summary": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
+      "importance_score": 71,
+      "importance_reasons": [
+        "source:techcrunch+12",
+        "fresh:<=2h+25",
+        "category:business_tech+6",
+        "semiconductors / Taiwan supply chain+18",
+        "fatalities / disaster scale+10"
+      ]
+    },
+    {
+      "code": "/n33",
+      "title": "Nvidia CEO Huang had relationship with executive who reported to him, NYT reports - Reuters",
+      "title_zh_hant": "紐時：Nvidia執行長黃仁勳與直屬高階主管有感情關係－路透",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPXy1fOVpHcXRPaFFyMFU2MWdFOGRRZXNHSFpoT2Nva18wc1FqNFN6SzVDU1BNRFZyYVNJVVFzMUN4MG5aZlRIeFBpUzVneVNQMVdkcEVoWTBXS2FQZkJtMFZHSkZhLWRYU2o1aUh4Ym1uUzFmYk56d2FRWVJuTDFpSE94QURFZmllME9IVk1ZWGxCbEpuRjB2bzN4VzhWREhCVzg0Nnc1UE5qX2NsT0Joenp1bm51UkFEdm5VRmQxcw?oc=5",
+      "source": "Reuters Business via Google News",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-11-12T06:39:02+08:00",
+      "summary": "Nvidia CEO Huang had relationship with executive who reported to him, NYT reports Reuters",
+      "importance_score": 71,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=2h+25",
+        "category:business_tech+6",
+        "semiconductors / Taiwan supply chain+18"
+      ]
+    },
+    {
+      "code": "/n34",
+      "title": "Gemini Decisions API",
+      "title_zh_hant": "Gemini Decisions API",
+      "link": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
       "source": "Simon Willison",
       "category_key": "ai_intelligence",
       "category_label": "AI Intelligence",
-      "published_at": "2026-11-12T01:19:52+08:00",
-      "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai en...",
+      "published_at": "2026-11-12T06:03:25+08:00",
+      "summary": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and...",
       "importance_score": 71,
       "importance_reasons": [
         "source:simon willison+18",
@@ -854,34 +660,15 @@
       ]
     },
     {
-      "code": "/n46",
-      "title": "Schumer accuses Trump of defending Nvidia CEO Jensen Huang at cost of national security",
-      "title_zh_hant": "舒默指控川普為維護 Nvidia 執行長黃仁勳而犧牲國家安全",
-      "link": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
-      "source": "CNBC Technology",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-11-12T00:51:10+08:00",
-      "summary": "Rep. John Moolenaar, R-Mich., the Republican chairman of the Select Committee on China, told CNBC he expects answers about Jensen Huang's relationship.",
-      "importance_score": 70,
-      "importance_reasons": [
-        "source:cnbc+14",
-        "fresh:<=6h+18",
-        "category:business_tech+6",
-        "semiconductors / Taiwan supply chain+18",
-        "geopolitical risk+14"
-      ]
-    },
-    {
-      "code": "/n47",
-      "title": "Dollar advances as markets price in December Fed rate hike - Reuters",
-      "title_zh_hant": "市場押注聯準會 12 月升息，美元走強",
+      "code": "/n35",
+      "title": "Dollar climbs as traders raise December Fed hike bets - Reuters",
+      "title_zh_hant": "交易員提高12月聯準會升息押注，美元走強－路透",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVUM1V3d2azVfSFlud1E3Z05veEpjMmxwYzhBWkc1NTgxRktLS25sQWVlbWVWUGxCdVBXR3dmbzMxeDNYUzFJVi1aTTZIcWQ0X3kteU55dWdKeEN0ZGhvNlBHc2cwMFY4a1Q3R2VxQS1BdUcwMkRMYlc4VFltaFZxekxGVHg3ZVhhRE92WXNwb3JkMXFKeExZUlppZ2dnaHVmcjJMLTVUM1BXLUVXSlNn?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
       "category_label": "Markets",
       "published_at": "2026-11-11T08:54:00+08:00",
-      "summary": "Dollar advances as markets price in December Fed rate hike Reuters",
+      "summary": "Dollar climbs as traders raise December Fed hike bets Reuters",
       "importance_score": 70,
       "importance_reasons": [
         "source:reuters+22",
@@ -892,27 +679,46 @@
       ]
     },
     {
-      "code": "/n48",
-      "title": "Russia and Ukraine say some progress made at talks, US cites a lack of trust - Reuters",
-      "title_zh_hant": "俄烏稱會談有部分進展，美方指缺乏互信",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdEZkalllTkswSW1lWVlXanFsVFBfVnBSUmE0U1VNWTJ4c3BrS3dzTDZWQUhwM3NfOTFMdjVuaHBqZVRTVFBYU2JEOWtpX2VoR1ZtUzZVcDlTN0tKVzVtczFhYThSSHpDTjJXSHV4U1Rqc0doRElpcW1WTGQwdmF6bE1VN3BpU2J4U3V1Rld3S25XNXZxWkVVNVlRZDAzLWpIVGFHWG9Bd2M?oc=5",
-      "source": "Reuters Top via Google News",
-      "category_key": "breaking",
-      "category_label": "突發重點",
-      "published_at": "2026-11-12T04:31:54+08:00",
-      "summary": "Russia and Ukraine say some progress made at talks, US cites a lack of trust Reuters",
+      "code": "/n36",
+      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+      "title_zh_hant": "據報Nvidia正準備解雇黃仁勳",
+      "link": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+      "source": "The Verge",
+      "category_key": "business_tech",
+      "category_label": "商業科技",
+      "published_at": "2026-11-12T06:44:36+08:00",
+      "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be...",
       "importance_score": 69,
       "importance_reasons": [
-        "source:reuters+22",
+        "source:the verge+10",
         "fresh:<=2h+25",
-        "category:breaking+8",
-        "geopolitical risk+14"
+        "category:business_tech+6",
+        "semiconductors / Taiwan supply chain+18",
+        "fatalities / disaster scale+10"
       ]
     },
     {
-      "code": "/n49",
+      "code": "/n37",
+      "title": "Brazil's central bank chief sees negative value in providing policy guidance - Reuters",
+      "title_zh_hant": "巴西央行總裁：提供政策指引具負面價值－路透",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQzBNTVJyNkhQZTRVWFA4aEdobHowbUxzM2pqX21sYS00cEtLWGJEbGFvVUVTenNOVWZZdlFKb05Ba1ZyNDZ4ZE5xbTFlbnFxSklkdlNMZi1yYWFQRlpSbXhwcVJDQ25DWGdCcUxVZDBfQWxoNklLSjYyQVZDM1FjSE16MzdhbUgxV2xmTkFZa2dQaDNoZVJWUUFfTEZCZWo4OXV3NGRrZEwtdVN4SlhWczY4QTVOelRlaDlGM3F2V2g?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-12T03:11:46+08:00",
+      "summary": "Brazil's central bank chief sees negative value in providing policy guidance Reuters",
+      "importance_score": 68,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=6h+18",
+        "category:markets+8",
+        "rates / central banks+20"
+      ]
+    },
+    {
+      "code": "/n38",
       "title": "Romanian intelligence agency says it identified Russian-linked cyber attack - Reuters",
-      "title_zh_hant": "羅馬尼亞情報機構稱已識別與俄羅斯有關的網攻",
+      "title_zh_hant": "羅馬尼亞情報機構稱已識別與俄羅斯有關的網攻－路透",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUEhsbG5vWkc1Nnh3YzQ2cDhNMXpKbk10YlNTeV9xSU03aExvWW9VX3BCUUFCdFM4RU5HU1FBdUhJX2lsOWRyQVdHLTlYSTdLT3dTNFJUcEc0aE9TNW50WGFBYXZPcVJCa0dUaWM0TGFRdkJrbHNoczVuYnBHSVRuSHFFVHhXVnVWMi0yYnplX05jcU01SEx4U0x0SzJwLS1OU09yOHdKYjhKSUhPSFNMUExjQ3BSRjVVVm1BY29XSQ?oc=5",
       "source": "Reuters Top via Google News",
       "category_key": "breaking",
@@ -929,9 +735,28 @@
       ]
     },
     {
-      "code": "/n50",
+      "code": "/n39",
+      "title": "US federal employees to work in Taiwan government offices under scheme to strengthen ties - Reuters",
+      "title_zh_hant": "美國聯邦雇員將依強化關係計畫進駐台灣政府辦公室－路透",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNN2NpOWxKOEdIcDkzeElRQWNmX2RJRWpCcGtETmFEZlZJRmlaZ1ZMQW9EMV9Sa0N1WWtVUkRaUVh2VkJKcWQ1QjhFRkt6NTlXa2ZnRGJrMTkySV9NMXBDZXNQOVM2R1VLTTRFZUNjTzFYMEZ5TnljMVlHY19fS0ZreXVMeXJPeEdWbVJpNDJQYWZjTGtCMFR1SExyenpLZnJOT3hWQkZmRWFsbWd1dzNTV2x2ak11di1aTVUzbmQ0QlpDUV9lWjBwQkJqWXM3dw?oc=5",
+      "source": "Reuters Top via Google News",
+      "category_key": "breaking",
+      "category_label": "突發重點",
+      "published_at": "2026-11-11T13:55:00+08:00",
+      "summary": "US federal employees to work in Taiwan government offices under scheme to strengthen ties Reuters",
+      "importance_score": 68,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=24h+4",
+        "category:breaking+8",
+        "semiconductors / Taiwan supply chain+18",
+        "policy / regulation+16"
+      ]
+    },
+    {
+      "code": "/n40",
       "title": "Gold falls as hot inflation figures, higher dollar weigh - Reuters",
-      "title_zh_hant": "通膨數據升溫與美元走強打壓，金價下跌",
+      "title_zh_hant": "通膨數據火熱且美元走強，金價下跌－路透",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUkZNV2RySHI5TXJ4YTBhNlNpTllnVXUyRk9CNzBrLXBLWFc3OTlOM0Y1MUVDcGRhS1pQU1oxR3hveVE5VWRfVGF1aTR4Z0lhcWJjbGV4Ym93cDdqb09JQlpFdC10cW9FUkVBX0NPVFFyOTdxSV81Z0RWUEx4UkdITjNwUnRHUmdDbmg5a0F5QmZXRzdjWGZzeXJsdUNUbDRKM3NvU0VGVGQ?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -948,52 +773,15 @@
       ]
     },
     {
-      "code": "/n51",
-      "title": "Ukraine's Zelenskiy says progress in peace talks hinges on US approach to Russia - Reuters",
-      "title_zh_hant": "澤倫斯基：和平談判進展取決於美國對俄立場",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLVVESEhzeFJHMmo1SUlBcWswbUctbUprbnVPc1pSRWx1ay00ci1hbmYyUjBqOE1JazB2c1l0dVE3cGtGbDc0QldyN3VqYkdGMUtQWlE1cG9FRnV3b2VkUENMbGxyMlJQdmg2MkJxTThvSENGVVVkR3IwcFlXMEJHWUJ5a0dTY0R2b1k2ZXpOUVdvcGkzWWtGcFc1VHl2MDR1UUxaWF9DdmdMY2JaNU5RM3g0UTBDdm1tUHIw?oc=5",
-      "source": "Reuters Business via Google News",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-11-12T04:59:58+08:00",
-      "summary": "Ukraine's Zelenskiy says progress in peace talks hinges on US approach to Russia Reuters",
-      "importance_score": 67,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=2h+25",
-        "category:business_tech+6",
-        "geopolitical risk+14"
-      ]
-    },
-    {
-      "code": "/n52",
-      "title": "OPEC+ oil output in October nears pre-Iran war rate, led by Saudi Arabia - Reuters",
-      "title_zh_hant": "OPEC+ 10 月原油產量在沙烏地阿拉伯領軍下，接近伊朗戰爭前水準",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSDZlTWwtdThPTnp0UjFXeXowU3I2SzZTbDA1Zk9BZUJER0dMV1o3S2oza0sxUmxlT2xhb2k4Ykx1TDlORm5zNVdJSk8wVzZBM2VRV2xFUlpJQTdiTTJJY1ZULXJNbjIyaWVudGx5UUNjZWlMaGRJcXZHVjBmUkUxVmVxZC1FUWk0SUFmZkFQZGhaeFVPdWtkV2xIQ0hRT1ZDWGYySlk3RHdRTDloMDlLdQ?oc=5",
-      "source": "Reuters Business via Google News",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-11-11T22:14:31+08:00",
-      "summary": "OPEC+ oil output in October nears pre-Iran war rate, led by Saudi Arabia Reuters",
-      "importance_score": 66,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=12h+10",
-        "category:business_tech+6",
-        "markets / macro+14",
-        "geopolitical risk+14"
-      ]
-    },
-    {
-      "code": "/n53",
-      "title": "Delta Finance says oil assets operated by Pacific Coast in Venezuela remain in dispute - Reuters",
-      "title_zh_hant": "Delta Finance 稱 Pacific Coast 在委內瑞拉營運的石油資產仍有爭議",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVkhIeFBWTWZpTkdjR1Y2aGZ6MVh4RnkwTGEtbFRmM2d4RUUtR28zWWE1TEdpR1V0MEZOUkpRVWtIQUR0d1RJMmd0YmY0LUFmQzJRVUFKZHBRTHIxaUpUZEpUZzhOYV9TV1V2WXZ0ZFZmcFpFN2ozWm5LVU5uNWI5NjdCN21sdlBDNHJkYk1TSWducnZpaDRKMXA3ci12WllwY0lVQkJpX3FrcWNBYnZScUZ3NWJsaWk1b1VGSHhucS1mekp2YmNhZmxnVDMxdw?oc=5",
+      "code": "/n41",
+      "title": "Muni bonds, infrastructure stocks offer shelter in volatile market, says expert - Reuters",
+      "title_zh_hant": "專家：市政債券與基建股在震盪市場中提供避風港－路透",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBYclZmdW9objFFdWZvNG05cFpfc0dwRUZsblRqNmpoS1lPb095VFVMVUo4eXJZTVRnVGw3cWM4TG56MmtzZFpfX2FDZE9iZHF0cWxzSWhQODZvLXRZcGU4MFZPN01GeDN0ekU3dnZLR1Vmck80OEoxakZB?oc=5",
       "source": "Reuters Taiwan Supply Chain via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-11-12T02:30:18+08:00",
-      "summary": "Delta Finance says oil assets operated by Pacific Coast in Venezuela remain in dispute Reuters",
+      "published_at": "2026-11-12T05:37:36+08:00",
+      "summary": "Muni bonds, infrastructure stocks offer shelter in volatile market, says expert Reuters",
       "importance_score": 64,
       "importance_reasons": [
         "source:reuters+22",
@@ -1003,15 +791,15 @@
       ]
     },
     {
-      "code": "/n54",
-      "title": "Alphabet eyes $3 billion Hong Kong, Singapore bond sale, sources say - Reuters",
-      "title_zh_hant": "消息人士：Alphabet 擬在香港、新加坡發行 30 億美元債券",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQekxJWlNsQXlpSG80TzJHMDNiREl6ZC0zWEQ0S0FWVWZPXzJpQk5maC1NTFhXQjIyRmk5QlU1QnFxZ2VHZUNkVUNjOWo4azhLVzlHelE3dFk1UUU3UHllNUdiVzVaODFKSHJEZHQ4Q1d2a0FrLUJiYjM3bUlwZ01wODltVlYyY2YyM3dZV1piYjFmTFRlaVZNcVp3V0RMSlM2SHdPbllBTnQzNllPbGw5YWRERQ?oc=5",
+      "code": "/n42",
+      "title": "Brazil's Petrobras to increase production capacity at another six oil platforms - Reuters",
+      "title_zh_hant": "巴西Petrobras將提高另外六座石油平台產能－路透",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRDl4VnR0aDVxaENCaTBHVXRYM29NLUgyMElqRU5ITEl5Nk83bjRoQm9XWXpiV1lUTGNVdXdzdlpNRy16ckQxckFRWGJYMnNsbFE2QnE3OHRXWHg2aGpIcEhLVk80dDFuTGQtb2FjS0FaZVkwcFJDRzV6ak9NX2FzcUFJUTBQTEQyWS1ZeGNraC1vb2YwbGFsRkJXeEs3VFA3eFFDUmlNRHllYWpiTnJZcWlUaFRKN2VzMU9YSHc2STFmZw?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-11-12T01:09:22+08:00",
-      "summary": "Alphabet eyes $3 billion Hong Kong, Singapore bond sale, sources say Reuters",
+      "published_at": "2026-11-12T02:48:52+08:00",
+      "summary": "Brazil's Petrobras to increase production capacity at another six oil platforms Reuters",
       "importance_score": 64,
       "importance_reasons": [
         "source:reuters+22",
@@ -1021,172 +809,81 @@
       ]
     },
     {
-      "code": "/n55",
-      "title": "CoreWeave provides silver lining for neoclouds as Nvidia storm swirls",
-      "title_zh_hant": "Nvidia 風暴延燒之際，CoreWeave 為新興雲端業者帶來一線曙光",
-      "link": "https://www.cnbc.com/2026/11/11/coreweave-provides-silver-lining-for-neoclouds-as-nvidia-storm-swirls.html",
-      "source": "CNBC Technology",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-11-11T19:56:11+08:00",
-      "summary": "Huang's close ties to the White House are in the firing line",
-      "importance_score": 64,
-      "importance_reasons": [
-        "source:cnbc+14",
-        "fresh:<=12h+10",
-        "category:business_tech+6",
-        "semiconductors / Taiwan supply chain+18",
-        "policy / regulation+16"
-      ]
-    },
-    {
-      "code": "/n56",
+      "code": "/n43",
       "title": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
-      "title_zh_hant": "CoreWeave 營收超預期並上調指引，緩解 AI 放緩疑慮",
+      "title_zh_hant": "CoreWeave營收超預期並上調財測，緩解AI放緩疑慮",
       "link": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
       "source": "CNBC Markets",
       "category_key": "markets",
       "category_label": "Markets",
       "published_at": "2026-11-12T05:13:41+08:00",
       "summary": "CoreWeave's stock has been hammered heading into the neocloud's Q3 earnings report.",
-      "importance_score": 63,
+      "importance_score": 56,
       "importance_reasons": [
         "source:cnbc+14",
-        "fresh:<=2h+25",
+        "fresh:<=6h+18",
         "category:markets+8",
         "market move+16"
       ]
     },
     {
-      "code": "/n57",
-      "title": "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings",
-      "title_zh_hant": "財報前夕黃仁勳面臨嚴格檢視，Nvidia 股價反彈",
-      "link": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
-      "source": "CNBC Technology",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-11-12T05:04:36+08:00",
-      "summary": "Investors are assessing whether CEO Jensen Huang's affair will have spillover effects on Nvidia's business.",
-      "importance_score": 63,
-      "importance_reasons": [
-        "source:cnbc+14",
-        "fresh:<=2h+25",
-        "category:business_tech+6",
-        "semiconductors / Taiwan supply chain+18"
-      ]
-    },
-    {
-      "code": "/n58",
-      "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-      "title_zh_hant": "數千人響應西班牙大罷工，巴塞隆納爆發衝突",
-      "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "category_key": "business_tech",
-      "category_label": "商業科技",
-      "published_at": "2026-11-12T06:07:37+08:00",
-      "summary": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
-      "importance_score": 61,
-      "importance_reasons": [
-        "source:bbc+16",
-        "fresh:<=2h+25",
-        "category:business_tech+6",
-        "geopolitical risk+14"
-      ]
-    },
-    {
-      "code": "/n59",
-      "title": "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem - Reuters",
-      "title_zh_hant": "評論：升息兩碼？Warsh 執掌的聯準會面臨溝通問題",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVmdEZENBbDFmNjBmQ1lkUUdxbTUwZlZCZDF0MUo5cXZCTzMxNmdORWpkWl9WX1RucHdsR0VuSWhLOXhSYjZTYUstRFl6WWJ6V3JYallmel9vc0xhS2VGa0EwVGRkdE95MEVlU3RLb3owb0cweERFQUxXaFRqNXJiYURqN2F0WEVWSVY1SzkxbzVqN2V1NlMyMUxXTG1SQ0VEZUZZQm43SUxlbWpRSG15TVhRdUJDdXF5Q1laUmV1MGg?oc=5",
+      "code": "/n44",
+      "title": "EXCLUSIVE: How a Vitol trader's ties to JD Vance helped land a prized Venezuela oil contract - Reuters",
+      "title_zh_hant": "獨家：Vitol交易員與JD范斯的關係如何助其拿下委內瑞拉重要石油合約－路透",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLXBjUHpKN20yZk5xM1RsTDlpZUtVZ2FwZ0J3RHBfQkNBZW41cS1hWHJKeGZUcEFuLTFrUFo0MndIV0lxb2pmb0I1VGUzU0J6R2JQTl9sTUs2UHNYMmhwNkpPZ1YzRVkzTExhMFhzc2ZpT01GbTU4UURERTBMYkdUbFg3NVR2NjB3TEJfbEtBdDRrcGNadW5JczBGZVE1cjQyYUJnYXJUb1hrVG9jLXBheGduWEoyUWRMbVRyVHhKYzNhVUE4?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-11-11T22:02:23+08:00",
-      "summary": "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem Reuters",
-      "importance_score": 60,
+      "published_at": "2026-11-12T02:26:12+08:00",
+      "summary": "EXCLUSIVE: How a Vitol trader's ties to JD Vance helped land a prized Venezuela oil contract Reuters",
+      "importance_score": 56,
       "importance_reasons": [
         "source:reuters+22",
         "fresh:<=12h+10",
         "category:markets+8",
-        "rates / central banks+20"
+        "market move+16"
       ]
     },
     {
-      "code": "/n60",
-      "title": "COMMENTARY: Morning Bid: Jumbo Fed hike hits radar - Reuters",
-      "title_zh_hant": "評論：晨間觀點：聯準會大幅升息進入雷達",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTTlFNjVidGtEa2NTMGcyZ0VaUnhIQ003dnFtaHFKZG80bVlpdk91dlZwN0I1VU84ZWF4RXNjY1YyMmE3cHhweUhsNmxkeVluOF9nR3BMcy1Ec2dHckN4aEJlT3kweGd3WEdFZmlhRzJqODlTY28xb1VtUVE1LXhlM0lzcU1RQUtZX3RWS0dVVVlFTEpmZ3hn?oc=5",
+      "code": "/n45",
+      "title": "FTSE 100 gains as oil, copper lift energy and miners - Reuters",
+      "title_zh_hant": "油價與銅價提振能源和礦業股，FTSE 100上漲－路透",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNa25IQkVOY1YtWUFRaV95Njh0YVVnVUFDd2VfWm5Td0dLSVgyM19RcnUtTWFESWxvQ0wzRFhxX25LN016Q1pFUVZJRF9EOVlIT2VOei1DODg2LXJWeDU5Y3BzZjBoUlVvZGhSRFh5RlBxMVhCbHVQbXprbVNYUWF4SmpmN3pHWllyd2c?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-11-11T19:42:18+08:00",
-      "summary": "COMMENTARY: Morning Bid: Jumbo Fed hike hits radar Reuters",
-      "importance_score": 60,
+      "published_at": "2026-11-12T02:00:58+08:00",
+      "summary": "FTSE 100 gains as oil, copper lift energy and miners Reuters",
+      "importance_score": 56,
       "importance_reasons": [
         "source:reuters+22",
         "fresh:<=12h+10",
         "category:markets+8",
-        "rates / central banks+20"
+        "market move+16"
       ]
     },
     {
-      "code": "/n61",
-      "title": "China's central bank vows to step up policy support for the economy - Reuters",
-      "title_zh_hant": "中國央行承諾加大政策支持經濟 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNncxU3NCdkhlZnJiY0psUGxYalpGa1FLS1BlNkpoYWpQSlg0T3A3VEFMN1RHbVBMaDROSUpSNFpoUktITUxBemhjSVNSR2dRWV9IamNIcHdfc3FxLTlQZnB4T3kzbTIxVnJpYUJWbnlKXzVSVGtJck92RDZHdlV0YnVreGlDWmI3OXU1RGo2LUdpZE9kd1kyVDdLQ0I0X3drN0V0UlFBbmxxbTBIY1JJ?oc=5",
+      "code": "/n46",
+      "title": "Alphabet eyes $3 billion Hong Kong, Singapore bond sale, sources say - Reuters",
+      "title_zh_hant": "消息人士：Alphabet考慮在香港、新加坡發行30億美元債券－路透",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQekxJWlNsQXlpSG80TzJHMDNiREl6ZC0zWEQ0S0FWVWZPXzJpQk5maC1NTFhXQjIyRmk5QlU1QnFxZ2VHZUNkVUNjOWo4azhLVzlHelE3dFk1UUU3UHllNUdiVzVaODFKSHJEZHQ4Q1d2a0FrLUJiYjM3bUlwZ01wODltVlYyY2YyM3dZV1piYjFmTFRlaVZNcVp3V0RMSlM2SHdPbllBTnQzNllPbGw5YWRERQ?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-11-11T19:27:44+08:00",
-      "summary": "China's central bank vows to step up policy support for the economy Reuters",
-      "importance_score": 60,
+      "published_at": "2026-11-12T01:09:22+08:00",
+      "summary": "Alphabet eyes $3 billion Hong Kong, Singapore bond sale, sources say Reuters",
+      "importance_score": 56,
       "importance_reasons": [
         "source:reuters+22",
         "fresh:<=12h+10",
         "category:markets+8",
-        "rates / central banks+20"
+        "market move+16"
       ]
     },
     {
-      "code": "/n62",
-      "title": "Concerns grow as military-linked Chinese university buys Nvidia chips - Reuters",
-      "title_zh_hant": "與軍方有關聯的中國大學採購 Nvidia 晶片引發憂慮 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UMXpQTGdfREtMZGZuWG9VdEpPSldtVWRaUzdDcE5xV29wdHZPcXU0Q0JScFpENDVSSlNyazBPQWVuS2RaSWNKU3A1QldLSUdLcktVZUtic25ZMlZ3NHREdWxBUUFZNE0?oc=5",
-      "source": "Reuters Taiwan Supply Chain via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-11T20:09:33+08:00",
-      "summary": "Concerns grow as military-linked Chinese university buys Nvidia chips Reuters",
-      "importance_score": 58,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=12h+10",
-        "category:markets+8",
-        "Taiwan supply chain+18"
-      ]
-    },
-    {
-      "code": "/n63",
-      "title": "Japan advisers urge focus on sustaining growth after inflation hits BOJ goal - Reuters",
-      "title_zh_hant": "日本通膨觸及 BOJ 目標 顧問籲聚焦維持成長 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWFpTTUNEWng3NnFaRDIzRnhobm96aUZCNjIzbzFrb0Jld2o2Q0poa1Z2bS1zNmJmUnJkYWNlQ1lVWkV5NFc0eTV2N2FpTFRjM3BaUzNaMzFzZUJ2dXY5bXZtcUZHUndCZVlBcXUyUGxWUkQ5MDBmdTA5NHdGT2NwRWxFUjR1NnVyV2xGN3UyTFlVMmJFT2pqb3RCbnlsWXVvZWxtc3lhd1N6aUxJUjhMUFpRQXJDU0hWNGdNZHBSdlNjdkNHOGxz?oc=5",
-      "source": "Reuters Markets via Google News",
-      "category_key": "markets",
-      "category_label": "Markets",
-      "published_at": "2026-11-11T19:41:04+08:00",
-      "summary": "Japan advisers urge focus on sustaining growth after inflation hits BOJ goal Reuters",
-      "importance_score": 58,
-      "importance_reasons": [
-        "source:reuters+22",
-        "fresh:<=12h+10",
-        "category:markets+8",
-        "macro data+18"
-      ]
-    },
-    {
-      "code": "/n64",
+      "code": "/n47",
       "title": "Libya's NOC discusses 2027 oil exploration with Repsol, TPAO and MOL - Reuters",
-      "title_zh_hant": "利比亞 NOC 與 Repsol、TPAO 及 MOL 討論 2027 年石油探勘 - 路透",
+      "title_zh_hant": "利比亞NOC與Repsol、TPAO和MOL討論2027年石油勘探－路透",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaVVwOXRmREhPelpZLVVHaURkREpFWVdsejA3dmJBTDNPS1BoZnJQbEZsRTg0SFRSVVo1akt2VkFscjlFSEdmM3Y4MUt1SWdVemx0TTJ2MnBneFVnTmlIRXpOZjk4Z3Y3UmFXS0xJUDZiVW9TOGtYV3lfWjl6R2V3ckZsZ1pVcEZ3azBjclpzc3U1TENBYVZmN0hFQXQ2MkFDZWNocnpyM09SOElLZXFlZjJaSEE?oc=5",
       "source": "Reuters Markets via Google News",
       "category_key": "markets",
@@ -1202,21 +899,72 @@
       ]
     },
     {
-      "code": "/n65",
-      "title": "Charts suggest AI selloff may not derail broader stock rally - Reuters",
-      "title_zh_hant": "圖表顯示 AI 拋售未必會破壞大盤漲勢 - 路透",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4ycm9TOTZQLUxxYmh4OTQwdzU4U1BmWEY4TFQ5V0I4cHBIcFJGS3VWYmVubnBqVjQyR3Nyc1lTc0tCTkFISXNQdGktNFgzR0QtZzdSNHBkYWNXSmYzOWtwRjJPRk9DalE?oc=5",
-      "source": "Reuters Taiwan Supply Chain via Google News",
+      "code": "/n48",
+      "title": "Asia buys up African, Brazilian oil as shipping costs fall - Reuters",
+      "title_zh_hant": "航運成本下降，亞洲大舉採購非洲與巴西石油－路透",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVVAxUUdfRXZEOWdvenVBWG5GY1JHcGsxVmxQUzQ2NkZMNUhrR1NLb0NZYXdCTnVPX2FsRy03VTdTWHhEOWlmckdvRFQ5R0MxLUtNN3ZvSnVwZjRkQ19oOEFIRDVLOXVUM1VKdmJsTlF3VTR0MEtEZHhMWEI1MXIxbVh1ZjJSbDRod0JfWnUyUnZxdnk0dlpZT1VFY1F4U2RNNUpyS3l3bFlvUQ?oc=5",
+      "source": "Reuters Markets via Google News",
       "category_key": "markets",
       "category_label": "Markets",
-      "published_at": "2026-11-11T19:09:17+08:00",
-      "summary": "Charts suggest AI selloff may not derail broader stock rally Reuters",
+      "published_at": "2026-11-11T21:30:33+08:00",
+      "summary": "Asia buys up African, Brazilian oil as shipping costs fall Reuters",
       "importance_score": 56,
       "importance_reasons": [
         "source:reuters+22",
         "fresh:<=12h+10",
         "category:markets+8",
         "market move+16"
+      ]
+    },
+    {
+      "code": "/n49",
+      "title": "Missed Hegseth vote disappointed Americans, Democratic leader says - Reuters",
+      "title_zh_hant": "民主黨領袖：錯過赫格塞斯表決令美國人失望－路透",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPY0pQNmNjYlhjeTZsSGRnZFUxeUVOb05pRGMzNWY1RTdrTU9OenNJVUZjRHJ5dGlGR2NlX0VHc3JyS0stdXk4bDZyTFJVTnF2QTctLTgtUnlQR0R5RlRLT1dYc21YVWhVSFhJYVQ0Ym1HejhZWHNtRnQ2VGZ4VzZrc2pSQmEtT1hNaGd3Q3cxTlpmMGFZZUp3VHQzeU44amxONXR0LXh4S1RmZE9lYmFWY2JzSUVBMGtXeWc?oc=5",
+      "source": "Reuters Taiwan Supply Chain via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-12T07:23:44+08:00",
+      "summary": "Missed Hegseth vote disappointed Americans, Democratic leader says Reuters",
+      "importance_score": 55,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=2h+25",
+        "category:markets+8"
+      ]
+    },
+    {
+      "code": "/n50",
+      "title": "Hegseth's group admonished by soldier at Arlington National Cemetery - Reuters",
+      "title_zh_hant": "赫格塞斯團隊在阿靈頓國家公墓遭士兵譴責－路透",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DOUVoSHptZmRBNjh2MUJmRXNBUjAyQW1UU0Nsc3dldy16ckhCM0ZqbXZHNFNLUDQ5bzZuUXRELWlVYWl6SjJPUWxySkVtUlp5X0lSSGY2WmpzVVNxZTJ5cWNXcWx1eVk?oc=5",
+      "source": "Reuters Taiwan Supply Chain via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-12T07:16:39+08:00",
+      "summary": "Hegseth's group admonished by soldier at Arlington National Cemetery Reuters",
+      "importance_score": 55,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=2h+25",
+        "category:markets+8"
+      ]
+    },
+    {
+      "code": "/n51",
+      "title": "MSCI to drop Strategy from global indexes, putting billions in fund inflows at risk - Reuters",
+      "title_zh_hant": "MSCI將把Strategy剔除全球指數，恐危及數十億美元資金流入－路透",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOXNEdkJxbUpzR0Z4UzBHczRMcHZPYTNGQ3VTV19jSjBkSkIwY0xQN3FCczV4U0hSb2JyTnJhUjNqZUFQSU15OUZoeW44T0dvd0hNTThsVlJLUmJUbFBSbVFuRF9YRVJBZXpsd2hsTmw0WExmNlBSakgwaVhQbGRkZ0lWZ29vOUZzMlgtSWFXTmJhbi1jeTh3Q013VmZZVHJCWDNKTVRKMDZjVXdGcGx4R3g0ZDZYdkVfaXd1M2JR?oc=5",
+      "source": "Reuters Markets via Google News",
+      "category_key": "markets",
+      "category_label": "Markets",
+      "published_at": "2026-11-12T07:06:43+08:00",
+      "summary": "MSCI to drop Strategy from global indexes, putting billions in fund inflows at risk Reuters",
+      "importance_score": 55,
+      "importance_reasons": [
+        "source:reuters+22",
+        "fresh:<=2h+25",
+        "category:markets+8"
       ]
     }
   ]
